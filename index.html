@@ -51,6 +51,7 @@ var EMBEDDED_PLAN = {
   why: "First session on the new pair. Adapts once you start reporting.",
   warmup: "Brisk walk 2 min · Halos 5/side · Body-pass 5/side · Goblet pry ×5 · Leg swings 10/leg · Shoulder dislocates ×10 · Ankle rocks 10/side · Priming swings ×12",
   kb: {
+    blockTitle: "STRENGTH",
     heading: "PRIMARY · DOUBLE SQUAT + PRESS + SWING",
     meta: "18–20 min · 2×40 lb + 16 kg",
     items: [
@@ -234,7 +235,7 @@ function renderWorkout() {
   var coolBody = '<div style="padding:0 15px 14px;font-size:13.5px;color:#B8B8BC;line-height:1.6;">'+esc(PLAN.cooldown)+'</div>';
   return '<div>' + banner
     + accordion('warmup', 'A', '#8A8A8E', 'WARM-UP', '5 min', warmBody, { hasBody: true })
-    + accordion('kb', 'B', '#D8FF3E', 'STRENGTH', esc(kb.meta), kbBody, { hasBody: true, emphasis: true, stripe: true })
+    + accordion('kb', 'B', '#D8FF3E', esc(kb.blockTitle || 'TRAINING'), esc(kb.meta), kbBody, { hasBody: true, emphasis: true, stripe: true })
     + accordion('run', 'C', '#8A8A8E', 'TREADMILL', esc(run.metaLabel), runBody, { hasBody: true })
     + accordion('cool', 'D', '#8A8A8E', 'COOLDOWN', '3 min', coolBody, { hasBody: true })
     + '</div>';

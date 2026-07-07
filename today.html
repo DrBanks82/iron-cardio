@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0A0B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Iron Cardio">
+<title>Iron Cardio — Today</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700;800&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; background: #0A0A0B; }
+  body { font-family: 'Barlow', system-ui, sans-serif; }
+  a { color: #D8FF3E; } a:hover { color: #E8FF6E; }
+  input, button, textarea { font-family: inherit; }
+  input::placeholder, textarea::placeholder { color: #55555A; }
+  button { -webkit-appearance: none; }
+  @keyframes kbpulse { 0%,100% { opacity: 1; } 50% { opacity: .45; } }
+</style>
+</head>
+<body>
+<div id="frame" style="max-width:440px;margin:0 auto;min-height:100vh;background:#0A0A0B;color:#F4F4F2;padding-bottom:60px;position:relative;">
+  <noscript><div style="padding:24px;color:#F4F4F2;font-family:sans-serif;">This app needs JavaScript. Open it in Safari or Chrome (not a file preview).</div></noscript>
+  <div id="topbarMount"></div>
+  <div style="padding:16px;">
+    <div id="viewMount"><div style="padding:48px 4px;color:#8A8A8E;font-family:'Barlow',system-ui,sans-serif;font-size:14px;">Loading Iron Cardio…</div></div>
+    <div id="timerMount"></div>
+    <div id="logMount"></div>
+  </div>
+</div>
+
+<script>
+"use strict";
+/*
+  Iron Cardio — Today screen.
+  Standalone implementation of Today.dc.html (imported from Claude Design project
+  2b118a78-f019-4dd4-a3d3-b8615a6a5dd5). No proprietary runtime: plain HTML/CSS/JS.
+  Behavior ported 1:1 from the DCLogic component (readiness -> light -> scaled
+  session, checklist, circuit/EMOM timer with haptics, logger, date-keyed persist).
+*/
+
+// ---- config (were Claude Design editor props) ----
+var EMOM_WORK_SECS = 25;   // seconds of "SWING" at the top of each EMOM minute
+var HAPTIC_CUE = true;     // vibrate at each new EMOM minute (where supported)
+
+// ---- persistence ----
+var DATE_KEY = new Date().toISOString().slice(0, 10);
+var STORE_KEY = 'kb-day1-' + DATE_KEY;
+
+var state = {
+  view: 'ready',                                   // ready | workout | recovery
+  scores: { sleep: null, soreness: null, energy: null },
+  joint: false,
+  done: {},                                        // section id -> bool
+  rounds: 0,
+  timer: { mode: 'circuit', running: false, startedAt: 0, acc: 0 },
+  log: { rounds: '', run: '', feel: '', notes: '' },
+  logged: false
+};
+
+(function load() {
+  try {
+    var raw = localStorage.getItem(STORE_KEY);
+    if (raw) {
+      var s = JSON.parse(raw);
+      for (var k in s) if (Object.prototype.hasOwnProperty.call(s, k)) state[k] = s[k];
+    }
+  } catch (e) {}
+})();
+
+function persist() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {}
+}
+function commit(mutator) { mutator(); persist(); renderAll(); }
+
+// ---- derived ----
+function elapsed() {
+  var t = state.timer;
+  return Math.max(0, Math.floor((t.acc + (t.running ? Date.now() - t.startedAt : 0)) / 1000));
+}
+function computeLight() {
+  var sc = state.scores;
+  if (sc.sleep == null || sc.soreness == null || sc.energy == null) return null;
+  if (state.joint) return 'red';
+  var t = sc.sleep + sc.soreness + sc.energy;
+  return t >= 5 ? 'green' : t >= 3 ? 'yellow' : 'red';
+}
+var LIGHT_MAP = {
+  green:  { hex: '#2FBF5F', wash: 'rgba(47,191,95,.10)',  label: 'GREEN',  sub: 'Full session. Chase the top of your targets.' },
+  yellow: { hex: '#FFC53D', wash: 'rgba(255,197,61,.10)', label: 'YELLOW', sub: 'Cut volume ~20%. Keep it moderate, run easy.' },
+  red:    { hex: '#FF4D4D', wash: 'rgba(255,77,77,.10)',  label: 'RED',    sub: 'Skip loaded work. Mobility + easy walk.' }
+};
+function liFor(light) { return light ? LIGHT_MAP[light] : { hex: '#3A3A3E', wash: '#141416', label: '—', sub: '' }; }
+function scaleFor(light) {
+  return light === 'yellow'
+    ? { rounds: '4–5', swings: '12–15', goblet: '8',  emom: '7',  emomTotal: '140', run: '12 min', runLabel: 'run/walk OK' }
+    : { rounds: '5–6', swings: '15–20', goblet: '10', emom: '10', emomTotal: '200', run: '15 min', runLabel: 'Zone 2 easy' };
+}
+
+// ---- html helpers ----
+function esc(v) { return String(v == null ? '' : v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function checkPip(on, onColor) {
+  onColor = onColor || '#D8FF3E';
+  return on
+    ? '<span style="width:26px;height:26px;border-radius:50%;background:'+onColor+';color:#0A0A0B;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;">✓</span>'
+    : '<span style="width:26px;height:26px;border-radius:50%;border:1.5px solid #3A3A3E;"></span>';
+}
+
+// ---- render: top bar ----
+function renderTopbar() {
+  var li = liFor(computeLight());
+  return ''
+  + '<div style="position:sticky;top:0;z-index:20;background:rgba(10,10,11,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid #1E1E22;">'
+  +   '<div style="height:6px;background-image:repeating-linear-gradient(45deg,#151517 0 10px,#0E0E10 10px 20px);"></div>'
+  +   '<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px 10px;">'
+  +     '<div>'
+  +       '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:12px;letter-spacing:.14em;color:#8A8A8E;">DAY 01 · TODAY</div>'
+  +       '<div style="font-family:\'Anton\';font-size:22px;letter-spacing:.01em;line-height:1;margin-top:3px;">HINGE + SWING</div>'
+  +     '</div>'
+  +     '<button data-action="reopen" style="display:flex;align-items:center;gap:7px;border:1px solid #2A2A2E;background:#141416;border-radius:999px;padding:7px 12px;cursor:pointer;">'
+  +       '<span style="width:11px;height:11px;border-radius:50%;background:'+li.hex+';box-shadow:0 0 10px '+li.hex+';"></span>'
+  +       '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:12px;letter-spacing:.1em;color:#F4F4F2;">'+li.label+'</span>'
+  +     '</button>'
+  +   '</div>'
+  + '</div>';
+}
+
+// ---- render: readiness view ----
+function renderReady() {
+  var s = state;
+  var light = computeLight();
+  var scored = s.scores.sleep != null && s.scores.soreness != null && s.scores.energy != null;
+  var total = scored ? (s.scores.sleep + s.scores.soreness + s.scores.energy) : '';
+  var li = liFor(light);
+
+  var defs = [
+    { key: 'sleep',    label: 'SLEEP', sub: 'last night', opts: [ {v:2,t:'7+ hrs, rested'}, {v:1,t:'5–7 / restless'}, {v:0,t:'under 5 / wrecked'} ] },
+    { key: 'soreness', label: 'BODY',  sub: 'soreness',   opts: [ {v:2,t:'fresh, no soreness'}, {v:1,t:'a little stiff'}, {v:0,t:'very sore / off'} ] },
+    { key: 'energy',   label: 'DRIVE', sub: 'energy',     opts: [ {v:2,t:'ready to go'}, {v:1,t:'meh, could be'}, {v:0,t:'running on empty'} ] }
+  ];
+
+  var qHtml = defs.map(function (q) {
+    var opts = q.opts.map(function (o) {
+      var sel = s.scores[q.key] === o.v;
+      var border = sel ? '#D8FF3E' : '#2A2A2E';
+      var bg = sel ? 'rgba(216,255,62,.10)' : '#161618';
+      var color = sel ? '#F4F4F2' : '#8A8A8E';
+      var numColor = sel ? '#D8FF3E' : '#55555A';
+      return '<button data-action="score" data-key="'+q.key+'" data-val="'+o.v+'" style="text-align:left;cursor:pointer;border-radius:12px;padding:11px 11px 12px;border:1.5px solid '+border+';background:'+bg+';color:'+color+';transition:all .12s;">'
+        + '<div style="font-family:\'Anton\';font-size:20px;line-height:1;color:'+numColor+';">'+o.v+'</div>'
+        + '<div style="font-size:11.5px;line-height:1.25;margin-top:6px;font-weight:500;">'+o.t+'</div>'
+        + '</button>';
+    }).join('');
+    return '<div style="margin-bottom:14px;">'
+      + '<div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px;">'
+      +   '<span style="font-family:\'Anton\';font-size:16px;letter-spacing:.02em;">'+q.label+'</span>'
+      +   '<span style="color:#6A6A6E;font-size:12px;">'+q.sub+'</span>'
+      + '</div>'
+      + '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">'+opts+'</div>'
+      + '</div>';
+  }).join('');
+
+  var jointBorder = s.joint ? '#FF4D4D' : '#2A2A2E';
+  var jointBg = s.joint ? 'rgba(255,77,77,.08)' : '#141416';
+  var jointBox = s.joint ? '#FF4D4D' : '#3A3A3E';
+  var jointFill = s.joint ? '#FF4D4D' : 'transparent';
+  var jointCheck = s.joint ? '✓' : '';
+
+  var jointHtml = '<button data-action="toggleJoint" style="display:flex;align-items:center;gap:10px;width:100%;cursor:pointer;border:1px solid '+jointBorder+';background:'+jointBg+';border-radius:12px;padding:12px 14px;margin-top:2px;text-align:left;">'
+    + '<span style="width:20px;height:20px;flex:0 0 20px;border-radius:6px;border:1.5px solid '+jointBox+';background:'+jointFill+';display:flex;align-items:center;justify-content:center;font-size:12px;color:#0A0A0B;font-weight:800;">'+jointCheck+'</span>'
+    + '<span style="font-size:13px;color:#C8C8CC;line-height:1.35;">A joint feels off (knee/shoulder) — not just muscle soreness. <span style="color:#FF4D4D;font-weight:600;">Forces RED.</span></span>'
+    + '</button>';
+
+  var resultHtml = '';
+  if (scored) {
+    var lockLabel = light === 'red' ? 'START RECOVERY' : 'START SESSION';
+    resultHtml = '<div style="margin-top:18px;border-radius:14px;overflow:hidden;border:1px solid #2A2A2E;">'
+      + '<div style="display:flex;align-items:center;gap:14px;padding:16px;background:'+li.wash+';">'
+      +   '<div style="font-family:\'Anton\';font-size:40px;line-height:.8;color:'+li.hex+';text-shadow:0 0 24px '+li.hex+';">'+total+'</div>'
+      +   '<div>'
+      +     '<div style="font-family:\'Anton\';font-size:22px;color:'+li.hex+';">'+li.label+'</div>'
+      +     '<div style="font-size:13px;color:#C8C8CC;line-height:1.35;margin-top:2px;">'+li.sub+'</div>'
+      +   '</div>'
+      + '</div>'
+      + '<button data-action="lock" style="width:100%;cursor:pointer;border:none;background:'+li.hex+';color:#0A0A0B;font-family:\'Anton\';font-size:18px;letter-spacing:.04em;padding:15px;">'+lockLabel+'</button>'
+      + '</div>';
+  }
+
+  return '<div>'
+    + '<div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">'
+    +   '<span style="font-family:\'Anton\';font-size:15px;color:#D8FF3E;">01</span>'
+    +   '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.12em;font-size:13px;color:#8A8A8E;">READINESS CHECK · 20 SEC</span>'
+    + '</div>'
+    + '<p style="margin:0 0 18px;color:#9A9A9E;font-size:14px;line-height:1.5;">Score each honestly. Your total sets today’s light — and scales the whole session.</p>'
+    + qHtml + jointHtml + resultHtml
+    + '</div>';
+}
+
+// ---- render: workout view ----
+function accordion(sec, letter, letterColor, title, meta, bodyHtml, opts) {
+  opts = opts || {};
+  var on = !!state.done[sec];
+  var border = opts.emphasis ? '1.5px solid #2A2A2E' : '1px solid #1E1E22';
+  var bg = opts.emphasis ? '#141416' : '#121214';
+  var top = opts.stripe ? '<div style="height:5px;background-image:repeating-linear-gradient(45deg,#D8FF3E 0 8px,#0A0A0B 8px 16px);opacity:.55;"></div>' : '';
+  var padBtm = opts.hasBody ? '8px' : '15px';
+  return '<div style="border:'+border+';border-radius:14px;background:'+bg+';margin-bottom:12px;overflow:hidden;">'
+    + top
+    + '<button data-action="done" data-sec="'+sec+'" style="width:100%;cursor:pointer;border:none;background:transparent;display:flex;align-items:center;justify-content:space-between;padding:14px 15px '+padBtm+';text-align:left;">'
+    +   '<div style="display:flex;align-items:baseline;gap:8px;">'
+    +     '<span style="font-family:\'Anton\';font-size:13px;color:'+letterColor+';">'+letter+'</span>'
+    +     '<span style="font-family:\'Anton\';font-size:18px;">'+title+'</span>'
+    +     '<span style="color:#6A6A6E;font-size:12px;">'+meta+'</span>'
+    +   '</div>'
+    +   checkPip(on)
+    + '</button>'
+    + bodyHtml
+    + '</div>';
+}
+
+function renderWorkout() {
+  var light = computeLight();
+  var li = liFor(light);
+  var scale = scaleFor(light);
+
+  var banner = '<div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;padding:12px 14px;border-radius:12px;background:'+li.wash+';border:1px solid '+li.hex+';">'
+    + '<span style="width:12px;height:12px;border-radius:50%;background:'+li.hex+';box-shadow:0 0 12px '+li.hex+';"></span>'
+    + '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:13px;letter-spacing:.06em;color:#F4F4F2;">'+li.label+' · '+li.sub+'</span>'
+    + '</div>';
+
+  var warmBody = '<div style="padding:0 15px 14px;font-size:13.5px;color:#B8B8BC;line-height:1.7;">Brisk walk 2 min · Halos 5/side · Body-pass 5/side · Goblet pry ×5 · Leg swings 10/leg · Shoulder dislocates ×10 · Ankle rocks 10/side · Priming swings ×12</div>';
+
+  var kbBody = '<div style="padding:0 15px 15px;">'
+    + '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.08em;font-size:12px;color:#D8FF3E;margin-bottom:8px;">PRIMARY · SWING + SQUAT CIRCUIT</div>'
+    + '<div style="display:flex;gap:10px;margin-bottom:6px;">'
+    +   '<div style="flex:1;border-radius:10px;background:#1A1A1D;padding:11px 12px;">'
+    +     '<div style="font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;">A1 · TWO-HAND SWING</div>'
+    +     '<div style="font-family:\'Anton\';font-size:26px;margin-top:2px;">'+scale.swings+' <span style="font-size:13px;color:#8A8A8E;">reps</span></div>'
+    +   '</div>'
+    +   '<div style="flex:1;border-radius:10px;background:#1A1A1D;padding:11px 12px;">'
+    +     '<div style="font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;">A2 · GOBLET SQUAT</div>'
+    +     '<div style="font-family:\'Anton\';font-size:26px;margin-top:2px;">'+scale.goblet+' <span style="font-size:13px;color:#8A8A8E;">reps</span></div>'
+    +   '</div>'
+    + '</div>'
+    + '<div style="font-size:13px;color:#B8B8BC;line-height:1.5;">Alternate the two, minimal rest. Target <b style="color:#F4F4F2;">'+scale.rounds+' rounds</b>. Stop swings when snap drops; goblets at 1–2 in reserve.</div>'
+    + '<div style="height:1px;background:#242428;margin:13px 0;"></div>'
+    + '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.08em;font-size:12px;color:#8A8A8E;margin-bottom:6px;">ALTERNATE · EMOM 20 MIN</div>'
+    + '<div style="font-size:13px;color:#B8B8BC;line-height:1.5;">Top of every minute: <b style="color:#F4F4F2;">'+scale.emom+' swings</b>, rest the remainder. '+scale.emomTotal+' swings in 20 min.</div>'
+    + '</div>';
+
+  var runBody = '<div style="padding:0 15px 15px;">'
+    + '<div style="font-family:\'Anton\';font-size:24px;margin-bottom:3px;">'+scale.run+'</div>'
+    + '<div style="font-size:13px;color:#B8B8BC;line-height:1.5;">RPE 5–6 · full sentences the whole way (~105–123 bpm). Time on feet, not speed.</div>'
+    + '</div>';
+
+  var coolBody = '<div style="padding:0 15px 14px;font-size:13.5px;color:#B8B8BC;line-height:1.6;">Walk it down 1–2 min · Stretch 20–30s each: hip flexors, hamstrings, chest/shoulders, spinal twist.</div>';
+
+  return '<div>'
+    + banner
+    + accordion('warmup', 'A', '#8A8A8E', 'WARM-UP', '5 min', warmBody, { hasBody: true })
+    + accordion('kb', 'B', '#D8FF3E', 'KETTLEBELL', '18–20 min · 16 kg', kbBody, { hasBody: true, emphasis: true, stripe: true })
+    + accordion('run', 'C', '#8A8A8E', 'TREADMILL', scale.runLabel, runBody, { hasBody: true })
+    + accordion('cool', 'D', '#8A8A8E', 'COOLDOWN', '3 min', coolBody, { hasBody: true })
+    + '</div>';
+}
+
+// ---- render: recovery (RED) view ----
+function renderRecovery() {
+  var s = state;
+  var recDefs = [
+    { key: 'r_hang', name: 'Passive hang / overhead reach', detail: '60 sec accumulated' },
+    { key: 'r_disl', name: 'Shoulder dislocates', detail: '1 × 10–12' },
+    { key: 'r_jeff', name: 'Jefferson curl', detail: '1 × 5, slow eccentric' },
+    { key: 'r_ham',  name: 'Single-leg good morning', detail: '1 × 10 / leg' },
+    { key: 'r_hip',  name: 'Active pigeon + horse stance', detail: '1 × 10 / leg' },
+    { key: 'r_wr',   name: 'Wrist rocks + palm peels', detail: '2 × 10 each' },
+    { key: 'r_walk', name: 'Incline walk', detail: '15–20 min easy' }
+  ];
+  var rows = recDefs.map(function (r) {
+    var on = !!s.done[r.key];
+    var border = on ? '#2FBF5F' : '#1E1E22';
+    var bg = on ? 'rgba(47,191,95,.08)' : '#121214';
+    var checkBorder = on ? '#2FBF5F' : '#3A3A3E';
+    var checkFill = on ? '#2FBF5F' : 'transparent';
+    return '<button data-action="done" data-sec="'+r.key+'" style="width:100%;cursor:pointer;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid '+border+';background:'+bg+';border-radius:12px;padding:12px 14px;margin-bottom:8px;">'
+      + '<div><div style="font-weight:700;font-size:14px;color:#F4F4F2;">'+r.name+'</div><div style="font-size:12px;color:#8A8A8E;margin-top:1px;">'+r.detail+'</div></div>'
+      + '<span style="width:24px;height:24px;flex:0 0 24px;border-radius:50%;border:1.5px solid '+checkBorder+';background:'+checkFill+';color:#0A0A0B;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;">'+(on?'✓':'')+'</span>'
+      + '</button>';
+  }).join('');
+
+  return '<div>'
+    + '<div style="border-radius:14px;overflow:hidden;border:1px solid #FF4D4D;margin-bottom:14px;">'
+    +   '<div style="display:flex;align-items:center;gap:12px;padding:15px;background:rgba(255,77,77,.10);">'
+    +     '<span style="font-family:\'Anton\';font-size:30px;color:#FF4D4D;text-shadow:0 0 18px #FF4D4D;">RED</span>'
+    +     '<span style="font-size:13px;color:#E8C8C8;line-height:1.4;">Skip the loaded work. This is how you train for years, not weeks.</span>'
+    +   '</div>'
+    + '</div>'
+    + '<div style="font-family:\'Anton\';font-size:19px;margin-bottom:4px;">RECOVER TODAY</div>'
+    + '<p style="margin:0 0 14px;color:#9A9A9E;font-size:13.5px;line-height:1.5;">Full mobility routine + an easy 15–20 min incline walk. Move slow and controlled.</p>'
+    + rows
+    + '</div>';
+}
+
+// ---- render: shared timer ----
+function renderTimer() {
+  if (state.view === 'ready') return '';
+  var s = state;
+  var li = liFor(computeLight());
+  var el = elapsed();
+  var mm = String(Math.floor(el / 60)).padStart(2, '0');
+  var ss = String(el % 60).padStart(2, '0');
+  var mode = s.timer.mode;
+  var isEmom = mode === 'emom';
+  var running = s.timer.running;
+
+  var emomDone = el >= 1200;
+  var inMin = el % 60;
+  var phaseLabel = emomDone ? 'DONE' : (inMin < EMOM_WORK_SECS ? 'SWING' : 'REST');
+  var phaseColor = emomDone ? '#8A8A8E' : (phaseLabel === 'SWING' ? '#2FBF5F' : '#6A6A6E');
+  var phaseWash = phaseLabel === 'SWING' ? 'rgba(47,191,95,.08)' : '#121214';
+  var minute = Math.min(Math.floor(el / 60) + 1, 20);
+
+  var circuitTabBg = !isEmom ? '#D8FF3E' : 'transparent';
+  var circuitTabColor = !isEmom ? '#0A0A0B' : '#8A8A8E';
+  var emomTabBg = isEmom ? '#D8FF3E' : 'transparent';
+  var emomTabColor = isEmom ? '#0A0A0B' : '#8A8A8E';
+
+  var phaseBand = isEmom
+    ? '<div style="display:flex;align-items:center;justify-content:space-between;background:'+phaseWash+';border:1px solid '+phaseColor+';border-radius:10px;padding:9px 13px;margin-bottom:12px;">'
+      + '<span style="font-family:\'Anton\';font-size:16px;color:'+phaseColor+';">'+phaseLabel+'</span>'
+      + '<span style="font-size:12.5px;color:#C8C8CC;">Min <b style="color:#F4F4F2;">'+minute+'</b>/20 · <b style="color:#F4F4F2;">'+scaleFor(computeLight()).emom+'</b> swings on the top</span>'
+      + '</div>'
+    : '';
+
+  var roundCounter = !isEmom
+    ? '<div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:14px;">'
+      + '<button data-action="subRound" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #2A2A2E;background:#141416;color:#F4F4F2;font-size:24px;line-height:1;">−</button>'
+      + '<div style="text-align:center;min-width:92px;">'
+      +   '<div style="font-family:\'Anton\';font-size:34px;line-height:1;">'+s.rounds+'</div>'
+      +   '<div style="font-size:11px;color:#6A6A6E;letter-spacing:.1em;">ROUNDS</div>'
+      + '</div>'
+      + '<button data-action="addRound" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #D8FF3E;background:rgba(216,255,62,.12);color:#D8FF3E;font-size:24px;line-height:1;">+</button>'
+      + '</div>'
+    : '';
+
+  var startLabel = running ? 'PAUSE' : 'START';
+  var startBg = running ? '#FFC53D' : '#D8FF3E';
+
+  return '<div style="border:1.5px solid #2A2A2E;border-radius:16px;background:linear-gradient(180deg,#161618,#101012);margin-top:16px;padding:16px;">'
+    + '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">'
+    +   '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.12em;font-size:12px;color:#8A8A8E;">TIMER</span>'
+    +   '<div style="display:flex;background:#0C0C0D;border:1px solid #242428;border-radius:999px;padding:3px;">'
+    +     '<button data-action="setMode" data-mode="circuit" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+circuitTabBg+';color:'+circuitTabColor+';">CIRCUIT</button>'
+    +     '<button data-action="setMode" data-mode="emom" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+emomTabBg+';color:'+emomTabColor+';">EMOM</button>'
+    +   '</div>'
+    + '</div>'
+    + phaseBand
+    + '<div style="text-align:center;padding:6px 0 14px;">'
+    +   '<div style="font-family:\'Anton\';font-size:76px;line-height:.9;letter-spacing:.02em;color:#F4F4F2;font-variant-numeric:tabular-nums;">'+mm+':'+ss+'</div>'
+    +   '<div style="font-size:12px;color:#6A6A6E;letter-spacing:.1em;margin-top:2px;">'+(isEmom ? 'ELAPSED · 20:00 TARGET' : 'ELAPSED · 18–20 MIN TARGET')+'</div>'
+    + '</div>'
+    + roundCounter
+    + '<div style="display:flex;gap:10px;">'
+    +   '<button data-action="toggleTimer" style="flex:1;cursor:pointer;border:none;border-radius:12px;padding:14px;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;background:'+startBg+';color:#0A0A0B;">'+startLabel+'</button>'
+    +   '<button data-action="resetTimer" style="cursor:pointer;border:1.5px solid #2A2A2E;border-radius:12px;padding:14px 18px;background:#141416;color:#9A9A9E;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;">RESET</button>'
+    + '</div>'
+    + '</div>';
+}
+
+// ---- render: shared log ----
+function renderLog() {
+  if (state.view === 'ready') return '';
+  var s = state;
+  var li = liFor(computeLight());
+
+  var head = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">'
+    + '<span style="font-family:\'Anton\';font-size:18px;">LOG IT</span>'
+    + '<span style="display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.1em;color:'+li.hex+';font-weight:700;"><span style="width:8px;height:8px;border-radius:50%;background:'+li.hex+';"></span>'+li.label+'</span>'
+    + '</div>';
+
+  var body;
+  if (!s.logged) {
+    var feelDefs = [ {v:'easy',label:'EASY'}, {v:'solid',label:'SOLID'}, {v:'brutal',label:'BRUTAL'} ];
+    var feelBtns = feelDefs.map(function (f) {
+      var sel = s.log.feel === f.v;
+      var border = sel ? '#D8FF3E' : '#2A2A2E';
+      var bg = sel ? 'rgba(216,255,62,.10)' : '#0C0C0D';
+      var color = sel ? '#D8FF3E' : '#8A8A8E';
+      return '<button data-action="feel" data-feel="'+f.v+'" style="flex:1;cursor:pointer;border-radius:10px;padding:10px 4px;font-size:12.5px;font-weight:600;border:1.5px solid '+border+';background:'+bg+';color:'+color+';">'+f.label+'</button>';
+    }).join('');
+
+    body = '<div>'
+      + '<div style="display:flex;gap:10px;margin-bottom:10px;">'
+      +   '<div style="flex:1;">'
+      +     '<label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">ROUNDS / SWINGS</label>'
+      +     '<input data-field="rounds" value="'+esc(s.log.rounds)+'" inputmode="text" placeholder="e.g. 6 rds" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;" />'
+      +   '</div>'
+      +   '<div style="flex:1;">'
+      +     '<label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">RUN</label>'
+      +     '<input data-field="run" value="'+esc(s.log.run)+'" inputmode="text" placeholder="e.g. 15 min" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;" />'
+      +   '</div>'
+      + '</div>'
+      + '<label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">HOW IT FELT</label>'
+      + '<div style="display:flex;gap:8px;margin-bottom:10px;">'+feelBtns+'</div>'
+      + '<textarea data-field="notes" placeholder="Notes — ‘swings felt easy at target’…" rows="2" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;resize:none;margin-bottom:12px;">'+esc(s.log.notes)+'</textarea>'
+      + '<button data-action="saveLog" style="width:100%;cursor:pointer;border:none;border-radius:12px;padding:14px;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;background:#D8FF3E;color:#0A0A0B;">SAVE SESSION</button>'
+      + '</div>';
+  } else {
+    var summary = [
+      s.log.rounds && ('KB: ' + s.log.rounds),
+      s.log.run && ('Run: ' + s.log.run),
+      s.log.feel && (s.log.feel.charAt(0).toUpperCase() + s.log.feel.slice(1))
+    ].filter(Boolean).join(' · ') || 'Nice work.';
+    body = '<div style="text-align:center;padding:10px 0 6px;">'
+      + '<div style="font-family:\'Anton\';font-size:40px;color:#D8FF3E;line-height:1;">✓</div>'
+      + '<div style="font-family:\'Anton\';font-size:19px;margin-top:8px;">SESSION LOGGED</div>'
+      + '<div style="font-size:13px;color:#9A9A9E;margin-top:6px;line-height:1.5;">'+esc(summary)+'</div>'
+      + '<button data-action="editLog" style="margin-top:14px;cursor:pointer;border:1px solid #2A2A2E;background:#141416;color:#9A9A9E;border-radius:999px;padding:9px 20px;font-size:13px;font-weight:600;">Edit</button>'
+      + '</div>';
+  }
+
+  return '<div style="border:1px solid #1E1E22;border-radius:16px;background:#121214;margin-top:14px;padding:16px;">' + head + body + '</div>';
+}
+
+// ---- mount ----
+function renderAll() {
+  document.getElementById('topbarMount').innerHTML = renderTopbar();
+  var view = state.view === 'ready' ? renderReady() : state.view === 'recovery' ? renderRecovery() : renderWorkout();
+  document.getElementById('viewMount').innerHTML = view;
+  document.getElementById('timerMount').innerHTML = renderTimer();
+  document.getElementById('logMount').innerHTML = renderLog();
+}
+
+// tick: only refresh the timer card so text inputs keep focus/value
+var _lastMin = -1;
+function tick() {
+  if (!state.timer.running) return;
+  if (state.timer.mode === 'emom') {
+    var m = Math.floor(elapsed() / 60);
+    if (m !== _lastMin) {
+      _lastMin = m;
+      if (HAPTIC_CUE && navigator.vibrate) { try { navigator.vibrate(120); } catch (e) {} }
+    }
+  }
+  document.getElementById('timerMount').innerHTML = renderTimer();
+}
+setInterval(tick, 500);
+
+// ---- events ----
+var frame = document.getElementById('frame');
+frame.addEventListener('click', function (e) {
+  var btn = e.target.closest('[data-action]');
+  if (!btn) return;
+  var a = btn.getAttribute('data-action');
+  switch (a) {
+    case 'reopen':      commit(function(){ state.view = 'ready'; }); break;
+    case 'score': {
+      var k = btn.getAttribute('data-key'); var v = parseInt(btn.getAttribute('data-val'), 10);
+      commit(function(){ state.scores[k] = v; }); break;
+    }
+    case 'toggleJoint': commit(function(){ state.joint = !state.joint; }); break;
+    case 'lock': {
+      var l = computeLight(); if (!l) break;
+      commit(function(){ state.view = (l === 'red') ? 'recovery' : 'workout'; }); break;
+    }
+    case 'done': {
+      var sec = btn.getAttribute('data-sec');
+      commit(function(){ state.done[sec] = !state.done[sec]; }); break;
+    }
+    case 'setMode': {
+      var mode = btn.getAttribute('data-mode'); _lastMin = -1;
+      commit(function(){ state.timer = { mode: mode, running: false, startedAt: 0, acc: 0 }; }); break;
+    }
+    case 'toggleTimer':
+      commit(function(){
+        var t = state.timer;
+        if (t.running) { t.acc = t.acc + (Date.now() - t.startedAt); t.running = false; }
+        else { t.startedAt = Date.now(); t.running = true; }
+      }); break;
+    case 'resetTimer': _lastMin = -1; commit(function(){ state.timer.running = false; state.timer.startedAt = 0; state.timer.acc = 0; }); break;
+    case 'addRound':   commit(function(){ state.rounds = state.rounds + 1; }); break;
+    case 'subRound':   commit(function(){ state.rounds = Math.max(0, state.rounds - 1); }); break;
+    case 'feel': {
+      var f = btn.getAttribute('data-feel');
+      commit(function(){ state.log.feel = f; }); break;
+    }
+    case 'saveLog':    commit(function(){ state.logged = true; }); break;
+    case 'editLog':    commit(function(){ state.logged = false; }); break;
+  }
+});
+// inputs commit on change (blur), matching the original onChange semantics
+frame.addEventListener('change', function (e) {
+  var el = e.target.closest('[data-field]');
+  if (!el) return;
+  var field = el.getAttribute('data-field');
+  var val = el.value;
+  commit(function(){ state.log[field] = val; });
+});
+
+renderAll();
+</script>
+</body>
+</html>

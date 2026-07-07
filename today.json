@@ -1,38 +1,64 @@
 {
   "date": "2026-07-08",
-  "dayLabel": "DAY 01 · TODAY",
-  "title": "DOUBLE STRENGTH + SWING",
-  "why": "First session on the new pair. Double front squat + press build strength, 16 kg swings bring the burn, easy Zone 2 to finish. Adapts once you start reporting.",
-  "warmup": "Brisk walk 2 min · Halos 5/side · Body-pass 5/side · Goblet pry ×5 · Leg swings 10/leg · Shoulder dislocates ×10 · Ankle rocks 10/side · Priming swings ×12",
-  "kb": {
-    "blockTitle": "STRENGTH",
-    "heading": "PRIMARY · DOUBLE SQUAT + PRESS + SWING",
-    "meta": "18–20 min · 2×40 lb + 16 kg",
-    "items": [
-      { "label": "A1 · DOUBLE FRONT SQUAT", "load": "2×40 lb", "green": "6", "yellow": "5", "unit": "reps" },
-      { "label": "A2 · DOUBLE PRESS", "load": "2×40 lb", "green": "5", "yellow": "4", "unit": "reps" },
-      { "label": "A3 · TWO-HAND SWING", "load": "16 kg", "green": "20", "yellow": "15", "unit": "reps" }
-    ],
-    "noteGreen": "Circuit the three, minimal rest. Target 5 rounds. Squats/presses at 1–2 in reserve; stop swings when snap drops.",
-    "noteYellow": "Target 4 rounds, keep 2–3 in reserve everywhere. No grinding.",
-    "altHeading": "ALTERNATE · SHORT ON TIME",
-    "altNote": "EMOM 16 min — odd minutes: 5 double front squats; even minutes: 15 swings (16 kg)."
-  },
-  "run": {
-    "metaLabel": "Zone 2 easy",
-    "green": "15 min",
-    "yellow": "12 min",
-    "desc": "RPE 5–6 · full sentences the whole way (~105–123 bpm). Time on feet, not speed."
-  },
-  "cooldown": "Walk it down 1–2 min · Stretch 20–30s each: hip flexors, hamstrings, chest/shoulders, spinal twist.",
-  "timer": { "emomUnit": "swings on the top", "emomGreen": "15", "emomYellow": "12" },
-  "recovery": [
-    { "name": "Passive hang / overhead reach", "detail": "60 sec accumulated" },
-    { "name": "Shoulder dislocates", "detail": "1 × 10–12" },
-    { "name": "Jefferson curl", "detail": "1 × 5, slow eccentric" },
-    { "name": "Single-leg good morning", "detail": "1 × 10 / leg" },
-    { "name": "Active pigeon + horse stance", "detail": "1 × 10 / leg" },
-    { "name": "Wrist rocks + palm peels", "detail": "2 × 10 each" },
-    { "name": "Incline walk", "detail": "15–20 min easy" }
-  ]
+  "weekday": "TODAY",
+  "title": "HYROX LADDER",
+  "vibe": "GREEN · HIGH INTENSITY",
+  "why": "You're fully recharged and want intensity, so today goes hard: a heavy double-bell couplet while you're fresh (longer rest for strength quality), then a HYROX-style descending ladder blended with treadmill runs for the engine, capped by a 40/20 swing finisher (2:1 work:rest, the sweet spot for fat-loss bursts). Uses every tool you own.",
+  "estMin": 45,
+  "blocks": [
+    {
+      "id": "warmup",
+      "kind": "warmup",
+      "title": "WARM-UP",
+      "meta": "5 min",
+      "text": "Brisk treadmill walk 2 min · Halos 5/side · Body-pass 5/side · Goblet pry ×5 · Leg swings 10/leg · Shoulder dislocates ×10 · Ankle rocks 10/side · 10 priming swings (16 kg)."
+    },
+    {
+      "id": "b1",
+      "kind": "strength",
+      "title": "HEAVY COUPLET",
+      "meta": "~10 min · 2×40 lb",
+      "format": "4 ROUNDS",
+      "workRest": "rest 75s between rounds",
+      "items": [
+        { "name": "Double Front Squat", "detail": "5 reps · 2×40 lb" },
+        { "name": "Double Push Press", "detail": "5 reps · 2×40 lb" }
+      ],
+      "text": "Do 5 front squats straight into 5 push press, no rest between the two. Then rest 75s. That's 1 round. Crisp reps, stop 1–2 short of failure. This is your strength hit while fresh."
+    },
+    {
+      "id": "b2",
+      "kind": "conditioning",
+      "title": "HYROX LADDER",
+      "meta": "~18 min · for time",
+      "format": "15-12-9 + RUN",
+      "workRest": "minimal rest, keep moving",
+      "items": [
+        { "name": "Single-arm Clean & Press", "detail": "15/12/9 total · 40 lb (split per side)" },
+        { "name": "Goblet Squat", "detail": "15/12/9 · 50 lb DB" },
+        { "name": "Treadmill run", "detail": "0.20 mi (or 90s) hard after each round" }
+      ],
+      "text": "Round 1: 15 clean & press + 15 goblet squats, then run 0.20 mi hard. Round 2: 12 + 12, then run. Round 3: 9 + 9, then run. Go for time, rest only as needed. This is the engine."
+    },
+    {
+      "id": "b3",
+      "kind": "finisher",
+      "title": "SWING FINISHER",
+      "meta": "~4 min",
+      "format": "40s / 20s × 4",
+      "workRest": "2:1 work:rest",
+      "items": [
+        { "name": "Two-hand Swing", "detail": "40s max reps · 16 kg" }
+      ],
+      "text": "4 rounds: 40 seconds of powerful swings, 20 seconds rest. Snap hard, stop the round if form softens. Empty the tank."
+    },
+    {
+      "id": "cool",
+      "kind": "cooldown",
+      "title": "COOLDOWN",
+      "meta": "3 min",
+      "text": "Walk it down 1–2 min · Stretch 20–30s each: hip flexors, hamstrings, chest/shoulders, spinal twist."
+    }
+  ],
+  "timer": { "emomUnit": "reps on the top" }
 }

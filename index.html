@@ -17,7 +17,6 @@
   * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
   html, body { margin: 0; padding: 0; background: #0A0A0B; }
   body { font-family: 'Barlow', system-ui, sans-serif; }
-  a { color: #D8FF3E; } a:hover { color: #E8FF6E; }
   input, button, textarea { font-family: inherit; }
   input::placeholder, textarea::placeholder { color: #55555A; }
   button { -webkit-appearance: none; }
@@ -28,7 +27,7 @@
   <noscript><div style="padding:24px;color:#F4F4F2;font-family:sans-serif;">This app needs JavaScript. Open it in Safari or Chrome (not a file preview).</div></noscript>
   <div id="topbarMount"></div>
   <div style="padding:16px;">
-    <div id="viewMount"><div style="padding:48px 4px;color:#8A8A8E;font-family:'Barlow',system-ui,sans-serif;font-size:14px;">Loading Iron Cardio…</div></div>
+    <div id="viewMount"><div style="padding:48px 4px;color:#8A8A8E;font-family:'Barlow',system-ui,sans-serif;font-size:14px;">Loading today’s session…</div></div>
     <div id="timerMount"></div>
     <div id="logMount"></div>
   </div>
@@ -37,230 +36,118 @@
 <script>
 "use strict";
 /*
-  Iron Cardio — data-driven Today screen.
-  Renders the session from today.json (fetched same-origin), scaled on-device by the
-  readiness check. Embedded fallback keeps it working offline / first load.
-  Report results in chat; Claude regenerates today.json and pushes it.
+  Iron Cardio — daily session renderer.
+  Claude generates today.json fresh each day (Firecrawl-informed, adapted to the
+  morning check-in) and pushes it. The app renders blocks[] of any shape, tracks
+  done + a log, and offers a timer. Report results in chat; a new plan gets pushed.
 */
 
-// ---- embedded fallback plan (mirrors today.json; used if fetch fails) ----
 var EMBEDDED_PLAN = {
-  date: "2026-07-08",
-  dayLabel: "DAY 01 · TODAY",
-  title: "DOUBLE STRENGTH + SWING",
-  why: "First session on the new pair. Adapts once you start reporting.",
-  warmup: "Brisk walk 2 min · Halos 5/side · Body-pass 5/side · Goblet pry ×5 · Leg swings 10/leg · Shoulder dislocates ×10 · Ankle rocks 10/side · Priming swings ×12",
-  kb: {
-    blockTitle: "STRENGTH",
-    heading: "PRIMARY · DOUBLE SQUAT + PRESS + SWING",
-    meta: "18–20 min · 2×40 lb + 16 kg",
-    items: [
-      { label: "A1 · DOUBLE FRONT SQUAT", load: "2×40 lb", green: "6", yellow: "5", unit: "reps" },
-      { label: "A2 · DOUBLE PRESS", load: "2×40 lb", green: "5", yellow: "4", unit: "reps" },
-      { label: "A3 · TWO-HAND SWING", load: "16 kg", green: "20", yellow: "15", unit: "reps" }
-    ],
-    noteGreen: "Circuit the three, minimal rest. Target 5 rounds. Squats/presses at 1–2 in reserve; stop swings when snap drops.",
-    noteYellow: "Target 4 rounds, keep 2–3 in reserve everywhere. No grinding.",
-    altHeading: "ALTERNATE · SHORT ON TIME",
-    altNote: "EMOM 16 min — odd: 5 double front squats; even: 15 swings (16 kg)."
-  },
-  run: { metaLabel: "Zone 2 easy", green: "15 min", yellow: "12 min", desc: "RPE 5–6 · full sentences the whole way (~105–123 bpm). Time on feet, not speed." },
-  cooldown: "Walk it down 1–2 min · Stretch 20–30s each: hip flexors, hamstrings, chest/shoulders, spinal twist.",
-  timer: { emomUnit: "swings on the top", emomGreen: "15", emomYellow: "12" },
-  recovery: [
-    { name: "Passive hang / overhead reach", detail: "60 sec accumulated" },
-    { name: "Shoulder dislocates", detail: "1 × 10–12" },
-    { name: "Jefferson curl", detail: "1 × 5, slow eccentric" },
-    { name: "Single-leg good morning", detail: "1 × 10 / leg" },
-    { name: "Active pigeon + horse stance", detail: "1 × 10 / leg" },
-    { name: "Wrist rocks + palm peels", detail: "2 × 10 each" },
-    { name: "Incline walk", detail: "15–20 min easy" }
-  ]
+  date: "2026-07-08", weekday: "TODAY", title: "HYROX LADDER", vibe: "GREEN · HIGH INTENSITY",
+  why: "Fresh start. Reopen once online to pull today’s generated session.",
+  estMin: 45,
+  blocks: [
+    { id: "warmup", kind: "warmup", title: "WARM-UP", meta: "5 min", text: "Brisk walk 2 min · Halos · Body-pass · Goblet pry · Leg swings · Dislocates · Ankle rocks · 10 priming swings." },
+    { id: "b1", kind: "strength", title: "HEAVY COUPLET", meta: "~10 min · 2×40 lb", format: "4 ROUNDS", workRest: "rest 75s", items: [ { name: "Double Front Squat", detail: "5 · 2×40 lb" }, { name: "Double Push Press", detail: "5 · 2×40 lb" } ], text: "5 + 5 back to back, rest 75s. 1–2 in reserve." },
+    { id: "b2", kind: "conditioning", title: "HYROX LADDER", meta: "~18 min · for time", format: "15-12-9 + RUN", workRest: "minimal rest", items: [ { name: "Clean & Press", detail: "15/12/9 · 40 lb" }, { name: "Goblet Squat", detail: "15/12/9 · 50 lb" }, { name: "Run", detail: "0.20 mi after each round" } ], text: "15+15 then run, 12+12 then run, 9+9 then run. For time." },
+    { id: "b3", kind: "finisher", title: "SWING FINISHER", meta: "~4 min", format: "40s / 20s × 4", workRest: "2:1", items: [ { name: "Two-hand Swing", detail: "40s max · 16 kg" } ], text: "4 rounds of 40s hard swings / 20s rest. Empty the tank." },
+    { id: "cool", kind: "cooldown", title: "COOLDOWN", meta: "3 min", text: "Walk down + stretch hips, hams, shoulders, spine." }
+  ],
+  timer: { emomUnit: "reps on the top" }
 };
 
 var PLAN_CACHE_KEY = 'ic-plan-cache';
-var PLAN = (function () {
-  try { var c = localStorage.getItem(PLAN_CACHE_KEY); if (c) return JSON.parse(c); } catch (e) {}
-  return EMBEDDED_PLAN;
-})();
+var PLAN = (function () { try { var c = localStorage.getItem(PLAN_CACHE_KEY); if (c) return JSON.parse(c); } catch (e) {} return EMBEDDED_PLAN; })();
 
-var EMOM_WORK_SECS = 25;
-var HAPTIC_CUE = true;
-
+var EMOM_WORK_SECS = 25, HAPTIC_CUE = true;
 var DATE_KEY = new Date().toISOString().slice(0, 10);
 var STORE_KEY = 'kb-today-' + DATE_KEY;
 
 var state = {
-  view: 'ready',
-  scores: { sleep: null, soreness: null, energy: null },
-  joint: false,
-  done: {},
-  rounds: 0,
+  done: {}, rounds: 0,
   timer: { mode: 'circuit', running: false, startedAt: 0, acc: 0 },
-  log: { rounds: '', run: '', feel: '', notes: '' },
-  logged: false
+  log: { result: '', run: '', feel: '', notes: '' }, logged: false
 };
-(function load() {
-  try { var raw = localStorage.getItem(STORE_KEY); if (raw) { var s = JSON.parse(raw); for (var k in s) if (Object.prototype.hasOwnProperty.call(s, k)) state[k] = s[k]; } } catch (e) {}
-})();
+(function load() { try { var raw = localStorage.getItem(STORE_KEY); if (raw) { var s = JSON.parse(raw); for (var k in s) if (Object.prototype.hasOwnProperty.call(s, k)) state[k] = s[k]; } } catch (e) {} })();
 function persist() { try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {} }
 function commit(m) { m(); persist(); renderAll(); }
-
 function elapsed() { var t = state.timer; return Math.max(0, Math.floor((t.acc + (t.running ? Date.now() - t.startedAt : 0)) / 1000)); }
-function computeLight() {
-  var sc = state.scores;
-  if (sc.sleep == null || sc.soreness == null || sc.energy == null) return null;
-  if (state.joint) return 'red';
-  var t = sc.sleep + sc.soreness + sc.energy;
-  return t >= 5 ? 'green' : t >= 3 ? 'yellow' : 'red';
-}
-var LIGHT_MAP = {
-  green:  { hex: '#2FBF5F', wash: 'rgba(47,191,95,.10)',  label: 'GREEN',  sub: 'Full session. Chase the top of your targets.' },
-  yellow: { hex: '#FFC53D', wash: 'rgba(255,197,61,.10)', label: 'YELLOW', sub: 'Cut volume ~20%. Keep it moderate, run easy.' },
-  red:    { hex: '#FF4D4D', wash: 'rgba(255,77,77,.10)',  label: 'RED',    sub: 'Skip loaded work. Mobility + easy walk.' }
-};
-function liFor(l) { return l ? LIGHT_MAP[l] : { hex: '#3A3A3E', wash: '#141416', label: '—', sub: '' }; }
-function isYellow() { return computeLight() === 'yellow'; }
-
 function esc(v) { return String(v == null ? '' : v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+function vibeColor() {
+  var v = (PLAN.vibe || '').toUpperCase();
+  if (v.indexOf('RED') === 0) return '#FF4D4D';
+  if (v.indexOf('YELLOW') === 0) return '#FFC53D';
+  if (v.indexOf('GREEN') === 0) return '#2FBF5F';
+  return '#D8FF3E';
+}
+var KIND = {
+  warmup:      { letter: '#8A8A8E', border: '1px solid #1E1E22',   bg: '#121214', stripe: false, chip: '#8A8A8E' },
+  strength:    { letter: '#D8FF3E', border: '1.5px solid #2A2A2E', bg: '#141416', stripe: '#D8FF3E', chip: '#D8FF3E' },
+  conditioning:{ letter: '#D8FF3E', border: '1.5px solid #2A2A2E', bg: '#141416', stripe: false, chip: '#D8FF3E' },
+  finisher:    { letter: '#FF6A2C', border: '1.5px solid #2A2A2E', bg: '#141416', stripe: '#FF6A2C', chip: '#FF6A2C' },
+  cooldown:    { letter: '#8A8A8E', border: '1px solid #1E1E22',   bg: '#121214', stripe: false, chip: '#8A8A8E' },
+  recovery:    { letter: '#2FBF5F', border: '1px solid #2FBF5F',   bg: '#121214', stripe: false, chip: '#2FBF5F' }
+};
+function kindOf(k) { return KIND[k] || KIND.conditioning; }
 function checkPip(on) {
   return on
-    ? '<span style="width:26px;height:26px;border-radius:50%;background:#D8FF3E;color:#0A0A0B;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;">✓</span>'
-    : '<span style="width:26px;height:26px;border-radius:50%;border:1.5px solid #3A3A3E;"></span>';
+    ? '<span style="width:26px;height:26px;flex:0 0 26px;border-radius:50%;background:#D8FF3E;color:#0A0A0B;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;">✓</span>'
+    : '<span style="width:26px;height:26px;flex:0 0 26px;border-radius:50%;border:1.5px solid #3A3A3E;"></span>';
 }
 
 function renderTopbar() {
-  var li = liFor(computeLight());
+  var vc = vibeColor();
   return '<div style="position:sticky;top:0;z-index:20;background:rgba(10,10,11,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid #1E1E22;">'
   + '<div style="height:6px;background-image:repeating-linear-gradient(45deg,#151517 0 10px,#0E0E10 10px 20px);"></div>'
-  + '<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px 10px;">'
-  +   '<div>'
-  +     '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:12px;letter-spacing:.14em;color:#8A8A8E;">'+esc(PLAN.dayLabel)+'</div>'
-  +     '<div style="font-family:\'Anton\';font-size:22px;letter-spacing:.01em;line-height:1;margin-top:3px;">'+esc(PLAN.title)+'</div>'
+  + '<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px 10px;gap:10px;">'
+  +   '<div style="min-width:0;">'
+  +     '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:12px;letter-spacing:.14em;color:#8A8A8E;">'+esc(PLAN.weekday || 'TODAY')+(PLAN.estMin ? ' · '+esc(PLAN.estMin)+' MIN' : '')+'</div>'
+  +     '<div style="font-family:\'Anton\';font-size:22px;letter-spacing:.01em;line-height:1.05;margin-top:3px;">'+esc(PLAN.title)+'</div>'
   +   '</div>'
-  +   '<button data-action="reopen" style="display:flex;align-items:center;gap:7px;border:1px solid #2A2A2E;background:#141416;border-radius:999px;padding:7px 12px;cursor:pointer;">'
-  +     '<span style="width:11px;height:11px;border-radius:50%;background:'+li.hex+';box-shadow:0 0 10px '+li.hex+';"></span>'
-  +     '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:12px;letter-spacing:.1em;color:#F4F4F2;">'+li.label+'</span>'
-  +   '</button>'
+  +   (PLAN.vibe ? '<span style="flex:0 0 auto;display:flex;align-items:center;gap:7px;border:1px solid #2A2A2E;background:#141416;border-radius:999px;padding:7px 12px;">'
+  +     '<span style="width:11px;height:11px;border-radius:50%;background:'+vc+';box-shadow:0 0 10px '+vc+';"></span>'
+  +     '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:11px;letter-spacing:.08em;color:#F4F4F2;">'+esc(PLAN.vibe)+'</span></span>' : '')
   + '</div></div>';
 }
 
-function renderReady() {
-  var s = state, light = computeLight();
-  var scored = s.scores.sleep != null && s.scores.soreness != null && s.scores.energy != null;
-  var total = scored ? (s.scores.sleep + s.scores.soreness + s.scores.energy) : '';
-  var li = liFor(light);
-  var defs = [
-    { key: 'sleep', label: 'SLEEP', sub: 'last night', opts: [ {v:2,t:'7+ hrs, rested'}, {v:1,t:'5–7 / restless'}, {v:0,t:'under 5 / wrecked'} ] },
-    { key: 'soreness', label: 'BODY', sub: 'soreness', opts: [ {v:2,t:'fresh, no soreness'}, {v:1,t:'a little stiff'}, {v:0,t:'very sore / off'} ] },
-    { key: 'energy', label: 'DRIVE', sub: 'energy', opts: [ {v:2,t:'ready to go'}, {v:1,t:'meh, could be'}, {v:0,t:'running on empty'} ] }
-  ];
-  var qHtml = defs.map(function (q) {
-    var opts = q.opts.map(function (o) {
-      var sel = s.scores[q.key] === o.v;
-      return '<button data-action="score" data-key="'+q.key+'" data-val="'+o.v+'" style="text-align:left;cursor:pointer;border-radius:12px;padding:11px 11px 12px;border:1.5px solid '+(sel?'#D8FF3E':'#2A2A2E')+';background:'+(sel?'rgba(216,255,62,.10)':'#161618')+';color:'+(sel?'#F4F4F2':'#8A8A8E')+';transition:all .12s;">'
-        + '<div style="font-family:\'Anton\';font-size:20px;line-height:1;color:'+(sel?'#D8FF3E':'#55555A')+';">'+o.v+'</div>'
-        + '<div style="font-size:11.5px;line-height:1.25;margin-top:6px;font-weight:500;">'+o.t+'</div></button>';
+function chip(text, color) {
+  return '<span style="display:inline-block;font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:11px;letter-spacing:.06em;color:'+color+';background:rgba(255,255,255,.04);border:1px solid #2A2A2E;border-radius:999px;padding:4px 10px;margin:0 6px 6px 0;">'+esc(text)+'</span>';
+}
+
+function renderBlocks() {
+  var why = PLAN.why ? '<div style="font-size:13px;color:#9A9A9E;line-height:1.5;margin-bottom:16px;padding:0 2px;">'+esc(PLAN.why)+'</div>' : '';
+  var cards = (PLAN.blocks || []).map(function (b, i) {
+    var k = kindOf(b.kind), on = !!state.done[b.id], letter = String.fromCharCode(65 + i);
+    var top = k.stripe ? '<div style="height:5px;background-image:repeating-linear-gradient(45deg,'+k.stripe+' 0 8px,#0A0A0B 8px 16px);opacity:.55;"></div>' : '';
+    var chips = '';
+    if (b.format) chips += chip(b.format, k.chip);
+    if (b.workRest) chips += chip(b.workRest, '#8A8A8E');
+    var items = (b.items || []).map(function (it) {
+      return '<div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline;padding:7px 0;border-top:1px solid #1E1E22;">'
+        + '<span style="font-weight:700;font-size:14px;color:#F4F4F2;">'+esc(it.name)+'</span>'
+        + '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:13px;color:'+k.chip+';text-align:right;">'+esc(it.detail)+'</span></div>';
     }).join('');
-    return '<div style="margin-bottom:14px;"><div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px;">'
-      + '<span style="font-family:\'Anton\';font-size:16px;letter-spacing:.02em;">'+q.label+'</span>'
-      + '<span style="color:#6A6A6E;font-size:12px;">'+q.sub+'</span></div>'
-      + '<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">'+opts+'</div></div>';
+    var body = '<div style="padding:'+(items||b.text?'2px 15px 15px':'0 15px 12px')+';">'
+      + (chips ? '<div style="margin-bottom:'+(items?'6px':'2px')+';">'+chips+'</div>' : '')
+      + (items ? '<div style="margin-bottom:'+(b.text?'10px':'0')+';">'+items+'</div>' : '')
+      + (b.text ? '<div style="font-size:13.5px;color:#B8B8BC;line-height:1.6;">'+esc(b.text)+'</div>' : '')
+      + '</div>';
+    return '<div style="border:'+k.border+';border-radius:14px;background:'+k.bg+';margin-bottom:12px;overflow:hidden;">'
+      + top
+      + '<button data-action="done" data-sec="'+esc(b.id)+'" style="width:100%;cursor:pointer;border:none;background:transparent;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:14px 15px 8px;text-align:left;">'
+      +   '<div style="display:flex;align-items:baseline;gap:8px;min-width:0;">'
+      +     '<span style="font-family:\'Anton\';font-size:13px;color:'+k.letter+';">'+letter+'</span>'
+      +     '<span style="font-family:\'Anton\';font-size:18px;">'+esc(b.title)+'</span>'
+      +     '<span style="color:#6A6A6E;font-size:12px;white-space:nowrap;">'+esc(b.meta || '')+'</span></div>'
+      +   checkPip(on)
+      + '</button>' + body + '</div>';
   }).join('');
-  var jB = s.joint ? '#FF4D4D' : '#2A2A2E', jBg = s.joint ? 'rgba(255,77,77,.08)' : '#141416', jBox = s.joint ? '#FF4D4D' : '#3A3A3E', jF = s.joint ? '#FF4D4D' : 'transparent';
-  var jointHtml = '<button data-action="toggleJoint" style="display:flex;align-items:center;gap:10px;width:100%;cursor:pointer;border:1px solid '+jB+';background:'+jBg+';border-radius:12px;padding:12px 14px;margin-top:2px;text-align:left;">'
-    + '<span style="width:20px;height:20px;flex:0 0 20px;border-radius:6px;border:1.5px solid '+jBox+';background:'+jF+';display:flex;align-items:center;justify-content:center;font-size:12px;color:#0A0A0B;font-weight:800;">'+(s.joint?'✓':'')+'</span>'
-    + '<span style="font-size:13px;color:#C8C8CC;line-height:1.35;">A joint feels off (knee/shoulder) — not just muscle soreness. <span style="color:#FF4D4D;font-weight:600;">Forces RED.</span></span></button>';
-  var resultHtml = '';
-  if (scored) {
-    var lockLabel = light === 'red' ? 'START RECOVERY' : 'START SESSION';
-    resultHtml = '<div style="margin-top:18px;border-radius:14px;overflow:hidden;border:1px solid #2A2A2E;">'
-      + '<div style="display:flex;align-items:center;gap:14px;padding:16px;background:'+li.wash+';">'
-      +   '<div style="font-family:\'Anton\';font-size:40px;line-height:.8;color:'+li.hex+';text-shadow:0 0 24px '+li.hex+';">'+total+'</div>'
-      +   '<div><div style="font-family:\'Anton\';font-size:22px;color:'+li.hex+';">'+li.label+'</div>'
-      +   '<div style="font-size:13px;color:#C8C8CC;line-height:1.35;margin-top:2px;">'+li.sub+'</div></div></div>'
-      + '<button data-action="lock" style="width:100%;cursor:pointer;border:none;background:'+li.hex+';color:#0A0A0B;font-family:\'Anton\';font-size:18px;letter-spacing:.04em;padding:15px;">'+lockLabel+'</button></div>';
-  }
-  return '<div><div style="display:flex;align-items:baseline;gap:8px;margin-bottom:4px;">'
-    + '<span style="font-family:\'Anton\';font-size:15px;color:#D8FF3E;">01</span>'
-    + '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.12em;font-size:13px;color:#8A8A8E;">READINESS CHECK · 20 SEC</span></div>'
-    + '<p style="margin:0 0 18px;color:#9A9A9E;font-size:14px;line-height:1.5;">Score each honestly. Your total sets today’s light — and scales the whole session.</p>'
-    + qHtml + jointHtml + resultHtml + '</div>';
-}
-
-function accordion(sec, letter, letterColor, title, meta, bodyHtml, opts) {
-  opts = opts || {};
-  var on = !!state.done[sec];
-  var border = opts.emphasis ? '1.5px solid #2A2A2E' : '1px solid #1E1E22';
-  var bg = opts.emphasis ? '#141416' : '#121214';
-  var top = opts.stripe ? '<div style="height:5px;background-image:repeating-linear-gradient(45deg,#D8FF3E 0 8px,#0A0A0B 8px 16px);opacity:.55;"></div>' : '';
-  return '<div style="border:'+border+';border-radius:14px;background:'+bg+';margin-bottom:12px;overflow:hidden;">'
-    + top
-    + '<button data-action="done" data-sec="'+sec+'" style="width:100%;cursor:pointer;border:none;background:transparent;display:flex;align-items:center;justify-content:space-between;padding:14px 15px '+(opts.hasBody?'8px':'15px')+';text-align:left;">'
-    +   '<div style="display:flex;align-items:baseline;gap:8px;">'
-    +     '<span style="font-family:\'Anton\';font-size:13px;color:'+letterColor+';">'+letter+'</span>'
-    +     '<span style="font-family:\'Anton\';font-size:18px;">'+title+'</span>'
-    +     '<span style="color:#6A6A6E;font-size:12px;">'+meta+'</span></div>'
-    +   checkPip(on)
-    + '</button>' + bodyHtml + '</div>';
-}
-function renderWorkout() {
-  var light = computeLight(), li = liFor(light), yellow = light === 'yellow';
-  var kb = PLAN.kb, run = PLAN.run;
-  var banner = '<div style="margin-bottom:14px;">'
-    + '<div style="display:flex;align-items:center;gap:10px;padding:12px 14px;border-radius:12px;background:'+li.wash+';border:1px solid '+li.hex+';">'
-    +   '<span style="width:12px;height:12px;border-radius:50%;background:'+li.hex+';box-shadow:0 0 12px '+li.hex+';"></span>'
-    +   '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;font-size:13px;letter-spacing:.06em;color:#F4F4F2;">'+li.label+' · '+li.sub+'</span></div>'
-    + (PLAN.why ? '<div style="font-size:12.5px;color:#8A8A8E;line-height:1.45;margin-top:8px;padding:0 2px;">'+esc(PLAN.why)+'</div>' : '')
-    + '</div>';
-  var warmBody = '<div style="padding:0 15px 14px;font-size:13.5px;color:#B8B8BC;line-height:1.7;">'+esc(PLAN.warmup)+'</div>';
-  var tiles = (kb.items || []).map(function (it) {
-    var rep = yellow ? it.yellow : it.green;
-    return '<div style="border-radius:10px;background:#1A1A1D;padding:11px 12px;">'
-      + '<div style="font-size:11px;letter-spacing:.06em;color:#8A8A8E;font-weight:600;">'+esc(it.label)+'</div>'
-      + '<div style="font-family:\'Anton\';font-size:24px;margin-top:3px;line-height:1;">'+esc(rep)+' <span style="font-size:12px;color:#8A8A8E;">'+esc(it.unit || 'reps')+'</span></div>'
-      + '<div style="font-size:11px;color:#D8FF3E;margin-top:4px;font-weight:600;">'+esc(it.load)+'</div></div>';
-  }).join('');
-  var kbBody = '<div style="padding:0 15px 15px;">'
-    + '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.08em;font-size:12px;color:#D8FF3E;margin-bottom:8px;">'+esc(kb.heading)+'</div>'
-    + '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(104px,1fr));gap:10px;margin-bottom:8px;">'+tiles+'</div>'
-    + '<div style="font-size:13px;color:#B8B8BC;line-height:1.5;">'+esc(yellow ? kb.noteYellow : kb.noteGreen)+'</div>'
-    + (kb.altHeading ? '<div style="height:1px;background:#242428;margin:13px 0;"></div>'
-        + '<div style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.08em;font-size:12px;color:#8A8A8E;margin-bottom:6px;">'+esc(kb.altHeading)+'</div>'
-        + '<div style="font-size:13px;color:#B8B8BC;line-height:1.5;">'+esc(kb.altNote)+'</div>' : '')
-    + '</div>';
-  var runBody = '<div style="padding:0 15px 15px;">'
-    + '<div style="font-family:\'Anton\';font-size:24px;margin-bottom:3px;">'+esc(yellow ? run.yellow : run.green)+'</div>'
-    + '<div style="font-size:13px;color:#B8B8BC;line-height:1.5;">'+esc(run.desc)+'</div></div>';
-  var coolBody = '<div style="padding:0 15px 14px;font-size:13.5px;color:#B8B8BC;line-height:1.6;">'+esc(PLAN.cooldown)+'</div>';
-  return '<div>' + banner
-    + accordion('warmup', 'A', '#8A8A8E', 'WARM-UP', '5 min', warmBody, { hasBody: true })
-    + accordion('kb', 'B', '#D8FF3E', esc(kb.blockTitle || 'TRAINING'), esc(kb.meta), kbBody, { hasBody: true, emphasis: true, stripe: true })
-    + accordion('run', 'C', '#8A8A8E', 'TREADMILL', esc(run.metaLabel), runBody, { hasBody: true })
-    + accordion('cool', 'D', '#8A8A8E', 'COOLDOWN', '3 min', coolBody, { hasBody: true })
-    + '</div>';
-}
-
-function renderRecovery() {
-  var s = state;
-  var rows = (PLAN.recovery || []).map(function (r, i) {
-    var key = 'r_' + i, on = !!s.done[key];
-    return '<button data-action="done" data-sec="'+key+'" style="width:100%;cursor:pointer;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:12px;border:1px solid '+(on?'#2FBF5F':'#1E1E22')+';background:'+(on?'rgba(47,191,95,.08)':'#121214')+';border-radius:12px;padding:12px 14px;margin-bottom:8px;">'
-      + '<div><div style="font-weight:700;font-size:14px;color:#F4F4F2;">'+esc(r.name)+'</div><div style="font-size:12px;color:#8A8A8E;margin-top:1px;">'+esc(r.detail)+'</div></div>'
-      + '<span style="width:24px;height:24px;flex:0 0 24px;border-radius:50%;border:1.5px solid '+(on?'#2FBF5F':'#3A3A3E')+';background:'+(on?'#2FBF5F':'transparent')+';color:#0A0A0B;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;">'+(on?'✓':'')+'</span></button>';
-  }).join('');
-  return '<div><div style="border-radius:14px;overflow:hidden;border:1px solid #FF4D4D;margin-bottom:14px;">'
-    + '<div style="display:flex;align-items:center;gap:12px;padding:15px;background:rgba(255,77,77,.10);">'
-    +   '<span style="font-family:\'Anton\';font-size:30px;color:#FF4D4D;text-shadow:0 0 18px #FF4D4D;">RED</span>'
-    +   '<span style="font-size:13px;color:#E8C8C8;line-height:1.4;">Skip the loaded work. This is how you train for years, not weeks.</span></div></div>'
-    + '<div style="font-family:\'Anton\';font-size:19px;margin-bottom:4px;">RECOVER TODAY</div>'
-    + '<p style="margin:0 0 14px;color:#9A9A9E;font-size:13.5px;line-height:1.5;">Full mobility routine + an easy 15–20 min incline walk. Move slow and controlled.</p>'
-    + rows + '</div>';
+  return why + cards;
 }
 
 function renderTimer() {
-  if (state.view === 'ready') return '';
-  var s = state, li = liFor(computeLight());
+  var s = state;
   var el = elapsed(), mm = String(Math.floor(el/60)).padStart(2,'0'), ss = String(el%60).padStart(2,'0');
   var isEmom = s.timer.mode === 'emom', running = s.timer.running;
   var emomDone = el >= 1200, inMin = el % 60;
@@ -268,12 +155,10 @@ function renderTimer() {
   var phaseColor = emomDone ? '#8A8A8E' : (phaseLabel === 'WORK' ? '#2FBF5F' : '#6A6A6E');
   var phaseWash = phaseLabel === 'WORK' ? 'rgba(47,191,95,.08)' : '#121214';
   var minute = Math.min(Math.floor(el/60)+1, 20);
-  var emomN = (isYellow() ? (PLAN.timer && PLAN.timer.emomYellow) : (PLAN.timer && PLAN.timer.emomGreen)) || '';
-  var emomUnit = (PLAN.timer && PLAN.timer.emomUnit) || 'reps on the top';
   var phaseBand = isEmom
     ? '<div style="display:flex;align-items:center;justify-content:space-between;background:'+phaseWash+';border:1px solid '+phaseColor+';border-radius:10px;padding:9px 13px;margin-bottom:12px;">'
       + '<span style="font-family:\'Anton\';font-size:16px;color:'+phaseColor+';">'+phaseLabel+'</span>'
-      + '<span style="font-size:12.5px;color:#C8C8CC;">Min <b style="color:#F4F4F2;">'+minute+'</b>/20 · <b style="color:#F4F4F2;">'+esc(emomN)+'</b> '+esc(emomUnit)+'</span></div>'
+      + '<span style="font-size:12.5px;color:#C8C8CC;">Min <b style="color:#F4F4F2;">'+minute+'</b>/20</span></div>'
     : '';
   var roundCounter = !isEmom
     ? '<div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:14px;">'
@@ -285,11 +170,11 @@ function renderTimer() {
     + '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">'
     +   '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.12em;font-size:12px;color:#8A8A8E;">TIMER</span>'
     +   '<div style="display:flex;background:#0C0C0D;border:1px solid #242428;border-radius:999px;padding:3px;">'
-    +     '<button data-action="setMode" data-mode="circuit" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+(!isEmom?'#D8FF3E':'transparent')+';color:'+(!isEmom?'#0A0A0B':'#8A8A8E')+';">CIRCUIT</button>'
+    +     '<button data-action="setMode" data-mode="circuit" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+(!isEmom?'#D8FF3E':'transparent')+';color:'+(!isEmom?'#0A0A0B':'#8A8A8E')+';">STOPWATCH</button>'
     +     '<button data-action="setMode" data-mode="emom" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+(isEmom?'#D8FF3E':'transparent')+';color:'+(isEmom?'#0A0A0B':'#8A8A8E')+';">EMOM</button></div></div>'
     + phaseBand
     + '<div style="text-align:center;padding:6px 0 14px;"><div style="font-family:\'Anton\';font-size:76px;line-height:.9;letter-spacing:.02em;color:#F4F4F2;font-variant-numeric:tabular-nums;">'+mm+':'+ss+'</div>'
-    +   '<div style="font-size:12px;color:#6A6A6E;letter-spacing:.1em;margin-top:2px;">'+(isEmom?'ELAPSED · 20:00 TARGET':'ELAPSED · 18–20 MIN TARGET')+'</div></div>'
+    +   '<div style="font-size:12px;color:#6A6A6E;letter-spacing:.1em;margin-top:2px;">ELAPSED</div></div>'
     + roundCounter
     + '<div style="display:flex;gap:10px;">'
     +   '<button data-action="toggleTimer" style="flex:1;cursor:pointer;border:none;border-radius:12px;padding:14px;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;background:'+(running?'#FFC53D':'#D8FF3E')+';color:#0A0A0B;">'+(running?'PAUSE':'START')+'</button>'
@@ -297,11 +182,10 @@ function renderTimer() {
 }
 
 function renderLog() {
-  if (state.view === 'ready') return '';
-  var s = state, li = liFor(computeLight());
+  var s = state;
   var head = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">'
     + '<span style="font-family:\'Anton\';font-size:18px;">LOG IT</span>'
-    + '<span style="display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.1em;color:'+li.hex+';font-weight:700;"><span style="width:8px;height:8px;border-radius:50%;background:'+li.hex+';"></span>'+li.label+'</span></div>';
+    + '<span style="font-size:11px;letter-spacing:.06em;color:#6A6A6E;">'+esc(PLAN.title || '')+'</span></div>';
   var body;
   if (!s.logged) {
     var feelDefs = [ {v:'easy',label:'EASY'}, {v:'solid',label:'SOLID'}, {v:'brutal',label:'BRUTAL'} ];
@@ -310,21 +194,21 @@ function renderLog() {
       return '<button data-action="feel" data-feel="'+f.v+'" style="flex:1;cursor:pointer;border-radius:10px;padding:10px 4px;font-size:12.5px;font-weight:600;border:1.5px solid '+(sel?'#D8FF3E':'#2A2A2E')+';background:'+(sel?'rgba(216,255,62,.10)':'#0C0C0D')+';color:'+(sel?'#D8FF3E':'#8A8A8E')+';">'+f.label+'</button>';
     }).join('');
     body = '<div><div style="display:flex;gap:10px;margin-bottom:10px;">'
-      + '<div style="flex:1;"><label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">ROUNDS / LOAD</label>'
-      +   '<input data-field="rounds" value="'+esc(s.log.rounds)+'" inputmode="text" placeholder="e.g. 5 rds @2×40" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;" /></div>'
+      + '<div style="flex:1;"><label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">RESULT</label>'
+      +   '<input data-field="result" value="'+esc(s.log.result)+'" inputmode="text" placeholder="rounds / time / loads" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;" /></div>'
       + '<div style="flex:1;"><label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">RUN</label>'
-      +   '<input data-field="run" value="'+esc(s.log.run)+'" inputmode="text" placeholder="e.g. 15 min" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;" /></div></div>'
+      +   '<input data-field="run" value="'+esc(s.log.run)+'" inputmode="text" placeholder="e.g. 3×0.2 mi" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;" /></div></div>'
       + '<label style="display:block;font-size:11px;letter-spacing:.08em;color:#8A8A8E;font-weight:600;margin-bottom:5px;">HOW IT FELT</label>'
       + '<div style="display:flex;gap:8px;margin-bottom:10px;">'+feelBtns+'</div>'
-      + '<textarea data-field="notes" placeholder="Notes — ‘double squats heavy but clean’…" rows="2" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;resize:none;margin-bottom:12px;">'+esc(s.log.notes)+'</textarea>'
+      + '<textarea data-field="notes" placeholder="Notes — what was hard, what felt easy…" rows="2" style="width:100%;border:1px solid #2A2A2E;background:#0C0C0D;color:#F4F4F2;border-radius:10px;padding:11px 12px;font-size:14px;outline:none;resize:none;margin-bottom:12px;">'+esc(s.log.notes)+'</textarea>'
       + '<button data-action="saveLog" style="width:100%;cursor:pointer;border:none;border-radius:12px;padding:14px;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;background:#D8FF3E;color:#0A0A0B;">SAVE SESSION</button></div>';
   } else {
-    var summary = [ s.log.rounds && ('KB: '+s.log.rounds), s.log.run && ('Run: '+s.log.run), s.log.feel && (s.log.feel.charAt(0).toUpperCase()+s.log.feel.slice(1)) ].filter(Boolean).join(' · ') || 'Nice work.';
+    var summary = [ s.log.result && ('Result: '+s.log.result), s.log.run && ('Run: '+s.log.run), s.log.feel && (s.log.feel.charAt(0).toUpperCase()+s.log.feel.slice(1)) ].filter(Boolean).join(' · ') || 'Nice work.';
     body = '<div style="text-align:center;padding:10px 0 6px;">'
       + '<div style="font-family:\'Anton\';font-size:40px;color:#D8FF3E;line-height:1;">✓</div>'
       + '<div style="font-family:\'Anton\';font-size:19px;margin-top:8px;">SESSION LOGGED</div>'
       + '<div style="font-size:13px;color:#9A9A9E;margin-top:6px;line-height:1.5;">'+esc(summary)+'</div>'
-      + '<div style="font-size:12px;color:#6A6A6E;margin-top:10px;line-height:1.5;">Tell Claude this in chat to shape tomorrow’s plan.</div>'
+      + '<div style="font-size:12px;color:#6A6A6E;margin-top:10px;line-height:1.5;">Send this to Claude in chat to shape tomorrow’s session.</div>'
       + '<button data-action="editLog" style="margin-top:12px;cursor:pointer;border:1px solid #2A2A2E;background:#141416;color:#9A9A9E;border-radius:999px;padding:9px 20px;font-size:13px;font-weight:600;">Edit</button></div>';
   }
   return '<div style="border:1px solid #1E1E22;border-radius:16px;background:#121214;margin-top:14px;padding:16px;">' + head + body + '</div>';
@@ -332,7 +216,7 @@ function renderLog() {
 
 function renderAll() {
   document.getElementById('topbarMount').innerHTML = renderTopbar();
-  document.getElementById('viewMount').innerHTML = state.view === 'ready' ? renderReady() : state.view === 'recovery' ? renderRecovery() : renderWorkout();
+  document.getElementById('viewMount').innerHTML = renderBlocks();
   document.getElementById('timerMount').innerHTML = renderTimer();
   document.getElementById('logMount').innerHTML = renderLog();
 }
@@ -350,10 +234,6 @@ var frame = document.getElementById('frame');
 frame.addEventListener('click', function (e) {
   var btn = e.target.closest('[data-action]'); if (!btn) return;
   switch (btn.getAttribute('data-action')) {
-    case 'reopen': commit(function(){ state.view = 'ready'; }); break;
-    case 'score': { var k = btn.getAttribute('data-key'), v = parseInt(btn.getAttribute('data-val'),10); commit(function(){ state.scores[k] = v; }); break; }
-    case 'toggleJoint': commit(function(){ state.joint = !state.joint; }); break;
-    case 'lock': { var l = computeLight(); if (!l) break; commit(function(){ state.view = (l === 'red') ? 'recovery' : 'workout'; }); break; }
     case 'done': { var sec = btn.getAttribute('data-sec'); commit(function(){ state.done[sec] = !state.done[sec]; }); break; }
     case 'setMode': { var mode = btn.getAttribute('data-mode'); _lastMin = -1; commit(function(){ state.timer = { mode: mode, running: false, startedAt: 0, acc: 0 }; }); break; }
     case 'toggleTimer': commit(function(){ var t = state.timer; if (t.running) { t.acc += Date.now() - t.startedAt; t.running = false; } else { t.startedAt = Date.now(); t.running = true; } }); break;
@@ -376,7 +256,7 @@ renderAll();
   try {
     fetch('today.json?cb=' + Date.now(), { cache: 'no-store' })
       .then(function (r) { if (!r.ok) throw new Error('http ' + r.status); return r.json(); })
-      .then(function (p) { if (p && p.kb) { PLAN = p; try { localStorage.setItem(PLAN_CACHE_KEY, JSON.stringify(p)); } catch (e) {} renderAll(); } })
+      .then(function (p) { if (p && p.blocks) { PLAN = p; try { localStorage.setItem(PLAN_CACHE_KEY, JSON.stringify(p)); } catch (e) {} renderAll(); } })
       .catch(function () {});
   } catch (e) {}
 })();

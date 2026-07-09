@@ -65,13 +65,24 @@ var STORE_KEY = 'kb-today-' + DATE_KEY;
 
 var state = {
   done: {}, rounds: 0,
-  timer: { mode: 'circuit', running: false, startedAt: 0, acc: 0 },
+  timer: { mode: 'stopwatch', running: false, startedAt: 0, acc: 0, target: 660 },
   log: { result: '', run: '', feel: '', notes: '' }, logged: false
 };
 (function load() { try { var raw = localStorage.getItem(STORE_KEY); if (raw) { var s = JSON.parse(raw); for (var k in s) if (Object.prototype.hasOwnProperty.call(s, k)) state[k] = s[k]; } } catch (e) {} })();
 function persist() { try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {} }
 function commit(m) { m(); persist(); renderAll(); }
 function elapsed() { var t = state.timer; return Math.max(0, Math.floor((t.acc + (t.running ? Date.now() - t.startedAt : 0)) / 1000)); }
+function fmt(sec) { sec = Math.max(0, sec | 0); return String(Math.floor(sec / 60)).padStart(2, '0') + ':' + String(sec % 60).padStart(2, '0'); }
+
+// ---- countdown alarm: audio beep + vibrate + screen wake lock ----
+var audioCtx = null, _alarmed = false, wakeLock = null;
+function ensureAudio() { try { if (!audioCtx) { var AC = window.AudioContext || window.webkitAudioContext; if (AC) audioCtx = new AC(); } if (audioCtx && audioCtx.state === 'suspended') audioCtx.resume(); } catch (e) {} }
+function beep() { try { ensureAudio(); if (!audioCtx) return; var n = audioCtx.currentTime; [0, 0.28, 0.56].forEach(function (off) { var o = audioCtx.createOscillator(), g = audioCtx.createGain(); o.type = 'sine'; o.frequency.value = 880; g.gain.setValueAtTime(0.0001, n + off); g.gain.exponentialRampToValueAtTime(0.5, n + off + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, n + off + 0.22); o.connect(g); g.connect(audioCtx.destination); o.start(n + off); o.stop(n + off + 0.24); }); } catch (e) {} }
+function alarm() { beep(); if (navigator.vibrate) { try { navigator.vibrate([250, 120, 250, 120, 500]); } catch (e) {} } }
+function requestWake() { try { if ('wakeLock' in navigator && navigator.wakeLock) { navigator.wakeLock.request('screen').then(function (w) { wakeLock = w; }).catch(function () {}); } } catch (e) {} }
+function releaseWake() { try { if (wakeLock) { wakeLock.release(); wakeLock = null; } } catch (e) {} }
+document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible' && state.timer.running) { requestWake(); ensureAudio(); } });
+
 function esc(v) { return String(v == null ? '' : v).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
 function vibeColor() {
@@ -147,37 +158,68 @@ function renderBlocks() {
 }
 
 function renderTimer() {
-  var s = state;
-  var el = elapsed(), mm = String(Math.floor(el/60)).padStart(2,'0'), ss = String(el%60).padStart(2,'0');
-  var isEmom = s.timer.mode === 'emom', running = s.timer.running;
-  var emomDone = el >= 1200, inMin = el % 60;
-  var phaseLabel = emomDone ? 'DONE' : (inMin < EMOM_WORK_SECS ? 'WORK' : 'REST');
-  var phaseColor = emomDone ? '#8A8A8E' : (phaseLabel === 'WORK' ? '#2FBF5F' : '#6A6A6E');
-  var phaseWash = phaseLabel === 'WORK' ? 'rgba(47,191,95,.08)' : '#121214';
-  var minute = Math.min(Math.floor(el/60)+1, 20);
-  var phaseBand = isEmom
-    ? '<div style="display:flex;align-items:center;justify-content:space-between;background:'+phaseWash+';border:1px solid '+phaseColor+';border-radius:10px;padding:9px 13px;margin-bottom:12px;">'
-      + '<span style="font-family:\'Anton\';font-size:16px;color:'+phaseColor+';">'+phaseLabel+'</span>'
-      + '<span style="font-size:12.5px;color:#C8C8CC;">Min <b style="color:#F4F4F2;">'+minute+'</b>/20</span></div>'
-    : '';
-  var roundCounter = !isEmom
-    ? '<div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:14px;">'
+  var s = state, t = s.timer, running = t.running, el = elapsed();
+  var isEmom = t.mode === 'emom', isCountdown = t.mode === 'countdown';
+  var isStopwatch = !isEmom && !isCountdown;
+  var target = t.target || 660;
+  var rem = Math.max(0, target - el), finished = isCountdown && el >= target;
+  var display = isCountdown ? fmt(rem) : fmt(el);
+  var dispColor = finished ? '#D8FF3E' : '#F4F4F2';
+  var sub = isCountdown ? (finished ? 'TIME’S UP' : 'COUNTDOWN') : (isEmom ? 'EMOM' : 'ELAPSED');
+  var subColor = finished ? '#D8FF3E' : '#6A6A6E';
+
+  function tab(mode, label, active) {
+    return '<button data-action="setMode" data-mode="'+mode+'" style="cursor:pointer;border:none;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:700;letter-spacing:.02em;background:'+(active?'#D8FF3E':'transparent')+';color:'+(active?'#0A0A0B':'#8A8A8E')+';">'+label+'</button>';
+  }
+  var tabs = '<div style="display:flex;background:#0C0C0D;border:1px solid #242428;border-radius:999px;padding:3px;">'
+    + tab('stopwatch', 'STOPWATCH', isStopwatch) + tab('countdown', 'COUNTDOWN', isCountdown) + tab('emom', 'EMOM', isEmom) + '</div>';
+
+  // top band (EMOM only)
+  var midTop = '';
+  if (isEmom) {
+    var emomDone = el >= 1200, inMin = el % 60;
+    var pl = emomDone ? 'DONE' : (inMin < EMOM_WORK_SECS ? 'WORK' : 'REST');
+    var pc = emomDone ? '#8A8A8E' : (pl === 'WORK' ? '#2FBF5F' : '#6A6A6E');
+    var pw = pl === 'WORK' ? 'rgba(47,191,95,.08)' : '#121214';
+    var minute = Math.min(Math.floor(el / 60) + 1, 20);
+    midTop = '<div style="display:flex;align-items:center;justify-content:space-between;background:'+pw+';border:1px solid '+pc+';border-radius:10px;padding:9px 13px;margin-bottom:12px;"><span style="font-family:\'Anton\';font-size:16px;color:'+pc+';">'+pl+'</span><span style="font-size:12.5px;color:#C8C8CC;">Min <b style="color:#F4F4F2;">'+minute+'</b>/20</span></div>';
+  }
+
+  // bottom controls
+  var midBottom = '';
+  if (isCountdown && finished) {
+    midBottom = '<div style="text-align:center;background:rgba(216,255,62,.12);border:1px solid #D8FF3E;border-radius:10px;padding:11px;margin-bottom:14px;font-family:\'Anton\';font-size:16px;color:#D8FF3E;letter-spacing:.06em;">⏱ TIME’S UP — RESET OR RESTART</div>';
+  } else if (isCountdown && !running) {
+    var presets = [3, 5, 8, 10, 11, 15, 20];
+    var chips = presets.map(function (m) {
+      var on = target === m * 60;
+      return '<button data-action="setTime" data-sec="'+(m*60)+'" style="cursor:pointer;border-radius:999px;padding:6px 11px;font-size:12px;font-weight:700;border:1.5px solid '+(on?'#D8FF3E':'#2A2A2E')+';background:'+(on?'rgba(216,255,62,.10)':'#0C0C0D')+';color:'+(on?'#D8FF3E':'#8A8A8E')+';">'+m+'m</button>';
+    }).join('');
+    midBottom = '<div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:12px;">'
+      + '<button data-action="subTime" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #2A2A2E;background:#141416;color:#F4F4F2;font-size:24px;line-height:1;">−</button>'
+      + '<span style="font-size:11px;color:#6A6A6E;letter-spacing:.1em;text-align:center;min-width:52px;">SET<br>±1 MIN</span>'
+      + '<button data-action="addTime" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #D8FF3E;background:rgba(216,255,62,.12);color:#D8FF3E;font-size:24px;line-height:1;">+</button></div>'
+      + '<div style="display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:14px;">'+chips+'</div>';
+  } else if (isStopwatch) {
+    midBottom = '<div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:14px;">'
       + '<button data-action="subRound" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #2A2A2E;background:#141416;color:#F4F4F2;font-size:24px;line-height:1;">−</button>'
       + '<div style="text-align:center;min-width:92px;"><div style="font-family:\'Anton\';font-size:34px;line-height:1;">'+s.rounds+'</div><div style="font-size:11px;color:#6A6A6E;letter-spacing:.1em;">ROUNDS</div></div>'
-      + '<button data-action="addRound" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #D8FF3E;background:rgba(216,255,62,.12);color:#D8FF3E;font-size:24px;line-height:1;">+</button></div>'
-    : '';
+      + '<button data-action="addRound" style="cursor:pointer;width:44px;height:44px;border-radius:50%;border:1.5px solid #D8FF3E;background:rgba(216,255,62,.12);color:#D8FF3E;font-size:24px;line-height:1;">+</button></div>';
+  }
+
+  var startLabel = running ? 'PAUSE' : (finished ? 'RESTART' : 'START');
+  var startBg = running ? '#FFC53D' : '#D8FF3E';
+
   return '<div style="border:1.5px solid #2A2A2E;border-radius:16px;background:linear-gradient(180deg,#161618,#101012);margin-top:16px;padding:16px;">'
-    + '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">'
+    + '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:8px;">'
     +   '<span style="font-family:\'Barlow Semi Condensed\';font-weight:700;letter-spacing:.12em;font-size:12px;color:#8A8A8E;">TIMER</span>'
-    +   '<div style="display:flex;background:#0C0C0D;border:1px solid #242428;border-radius:999px;padding:3px;">'
-    +     '<button data-action="setMode" data-mode="circuit" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+(!isEmom?'#D8FF3E':'transparent')+';color:'+(!isEmom?'#0A0A0B':'#8A8A8E')+';">STOPWATCH</button>'
-    +     '<button data-action="setMode" data-mode="emom" style="cursor:pointer;border:none;border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;letter-spacing:.04em;background:'+(isEmom?'#D8FF3E':'transparent')+';color:'+(isEmom?'#0A0A0B':'#8A8A8E')+';">EMOM</button></div></div>'
-    + phaseBand
-    + '<div style="text-align:center;padding:6px 0 14px;"><div style="font-family:\'Anton\';font-size:76px;line-height:.9;letter-spacing:.02em;color:#F4F4F2;font-variant-numeric:tabular-nums;">'+mm+':'+ss+'</div>'
-    +   '<div style="font-size:12px;color:#6A6A6E;letter-spacing:.1em;margin-top:2px;">ELAPSED</div></div>'
-    + roundCounter
+    +   tabs + '</div>'
+    + midTop
+    + '<div style="text-align:center;padding:6px 0 14px;"><div style="font-family:\'Anton\';font-size:76px;line-height:.9;letter-spacing:.02em;color:'+dispColor+';font-variant-numeric:tabular-nums;">'+display+'</div>'
+    +   '<div style="font-size:12px;color:'+subColor+';letter-spacing:.1em;margin-top:2px;">'+sub+'</div></div>'
+    + midBottom
     + '<div style="display:flex;gap:10px;">'
-    +   '<button data-action="toggleTimer" style="flex:1;cursor:pointer;border:none;border-radius:12px;padding:14px;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;background:'+(running?'#FFC53D':'#D8FF3E')+';color:#0A0A0B;">'+(running?'PAUSE':'START')+'</button>'
+    +   '<button data-action="toggleTimer" style="flex:1;cursor:pointer;border:none;border-radius:12px;padding:14px;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;background:'+startBg+';color:#0A0A0B;">'+startLabel+'</button>'
     +   '<button data-action="resetTimer" style="cursor:pointer;border:1.5px solid #2A2A2E;border-radius:12px;padding:14px 18px;background:#141416;color:#9A9A9E;font-family:\'Anton\';font-size:17px;letter-spacing:.04em;">RESET</button></div></div>';
 }
 
@@ -222,10 +264,17 @@ function renderAll() {
 }
 var _lastMin = -1;
 setInterval(function () {
-  if (!state.timer.running) return;
-  if (state.timer.mode === 'emom') {
-    var m = Math.floor(elapsed()/60);
+  var t = state.timer;
+  if (!t.running) return;
+  var el = elapsed();
+  if (t.mode === 'emom') {
+    var m = Math.floor(el / 60);
     if (m !== _lastMin) { _lastMin = m; if (HAPTIC_CUE && navigator.vibrate) { try { navigator.vibrate(120); } catch (e) {} } }
+  }
+  if (t.mode === 'countdown' && el >= (t.target || 660)) {
+    if (!_alarmed) { _alarmed = true; alarm(); }
+    state.timer.running = false; state.timer.acc = (t.target || 660) * 1000; state.timer.startedAt = 0;
+    releaseWake(); persist(); renderAll(); return;
   }
   document.getElementById('timerMount').innerHTML = renderTimer();
 }, 500);
@@ -233,11 +282,25 @@ setInterval(function () {
 var frame = document.getElementById('frame');
 frame.addEventListener('click', function (e) {
   var btn = e.target.closest('[data-action]'); if (!btn) return;
+  ensureAudio(); // unlock audio on any tap so the countdown alarm can sound
   switch (btn.getAttribute('data-action')) {
     case 'done': { var sec = btn.getAttribute('data-sec'); commit(function(){ state.done[sec] = !state.done[sec]; }); break; }
-    case 'setMode': { var mode = btn.getAttribute('data-mode'); _lastMin = -1; commit(function(){ state.timer = { mode: mode, running: false, startedAt: 0, acc: 0 }; }); break; }
-    case 'toggleTimer': commit(function(){ var t = state.timer; if (t.running) { t.acc += Date.now() - t.startedAt; t.running = false; } else { t.startedAt = Date.now(); t.running = true; } }); break;
-    case 'resetTimer': _lastMin = -1; commit(function(){ state.timer.running = false; state.timer.startedAt = 0; state.timer.acc = 0; }); break;
+    case 'setMode': { var mode = btn.getAttribute('data-mode'); _lastMin = -1; _alarmed = false; releaseWake(); var tgt = state.timer.target || 660; commit(function(){ state.timer = { mode: mode, running: false, startedAt: 0, acc: 0, target: tgt }; }); break; }
+    case 'setTime': { var sec2 = parseInt(btn.getAttribute('data-sec'), 10) || 660; _alarmed = false; commit(function(){ state.timer.target = sec2; state.timer.acc = 0; state.timer.running = false; state.timer.startedAt = 0; }); break; }
+    case 'addTime': { _alarmed = false; commit(function(){ state.timer.target = Math.min(3600, (state.timer.target || 660) + 60); state.timer.acc = 0; state.timer.running = false; state.timer.startedAt = 0; }); break; }
+    case 'subTime': { _alarmed = false; commit(function(){ state.timer.target = Math.max(60, (state.timer.target || 660) - 60); state.timer.acc = 0; state.timer.running = false; state.timer.startedAt = 0; }); break; }
+    case 'toggleTimer': {
+      var t = state.timer;
+      if (t.running) { commit(function(){ t.acc += Date.now() - t.startedAt; t.running = false; }); releaseWake(); }
+      else {
+        var restart = t.mode === 'countdown' && elapsed() >= (t.target || 660);
+        _alarmed = false;
+        commit(function(){ if (restart) { t.acc = 0; } t.startedAt = Date.now(); t.running = true; });
+        requestWake();
+      }
+      break;
+    }
+    case 'resetTimer': _lastMin = -1; _alarmed = false; releaseWake(); commit(function(){ state.timer.running = false; state.timer.startedAt = 0; state.timer.acc = 0; }); break;
     case 'addRound': commit(function(){ state.rounds += 1; }); break;
     case 'subRound': commit(function(){ state.rounds = Math.max(0, state.rounds - 1); }); break;
     case 'feel': { var f = btn.getAttribute('data-feel'); commit(function(){ state.log.feel = f; }); break; }

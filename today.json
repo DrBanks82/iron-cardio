@@ -1,75 +1,63 @@
 {
-  "date": "2026-07-09",
+  "date": "2026-07-10",
   "weekday": "TODAY",
-  "title": "PRESS + PULL",
-  "vibe": "PUSH HARD · UPPER FOCUS",
-  "why": "6h sleep and tired legs, but you want to push — so the intensity goes upper body and pulling (clean & press ladders, renegade rows, snatches) while your legs and joints get a low-impact incline walk instead of hard running. Cleans and snatches are hip-driven, so they spare the quads. You still go hard, just not where you're beat up.",
-  "estMin": 45,
+  "title": "LEG ENGINE",
+  "vibe": "GREEN · LEG DAY",
+  "why": "Fully recharged, legs recovered, upper body sore from yesterday, 60 minutes, and you want intensity — so today is a hard leg + running day while your pressing and pulling muscles recover. Heavy double front squats and RDLs on fresh legs, fast quarter-mile intervals (your strength), then a swing-lunge-squat chipper to empty the tank. No overhead pressing, no rows.",
+  "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP",
-      "meta": "5 min",
-      "text": "Brisk walk 2 min · Band/stick dislocates ×10 · Scap push-ups ×10 · Halos 5/side · T-spine rotations 5/side · 5 light single cleans/side · 10 easy swings (16 kg)."
+      "meta": "7 min",
+      "text": "3 min easy jog to prime the legs · Leg swings 10/leg · Ankle rocks 10/side · Deep goblet pry ×5 · Walking lunges 6/leg · 10 bodyweight squats · 10 easy swings (16 kg)."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "THE GIANT",
-      "meta": "~11 min · 2×40 lb",
-      "format": "LADDERS 1→5",
-      "workRest": "rest as needed, keep moving",
+      "title": "HEAVY LEGS",
+      "meta": "~14 min · 2×40 lb",
+      "format": "5 ROUNDS",
+      "workRest": "rest 90s between rounds",
       "items": [
-        { "name": "Double Clean + Press", "detail": "1,2,3,4,5 · 2×40 lb" }
+        { "name": "Double Front Squat", "detail": "6 · 2×40 lb" },
+        { "name": "Double RDL", "detail": "8 · 2×40 lb" }
       ],
-      "text": "One ladder = 1 clean+press, then 2, then 3, 4, 5 (rest as needed between rungs). Then start over at 1. As many ladders as you can in 11 min. Clean is the pull, press overhead; legs just stabilize. Heavy and crisp, 1–2 in reserve."
+      "text": "6 front squats straight into 8 Romanian deadlifts, then rest 90s. 1–2 in reserve. Elbows high on the squat, flat-back hinge on the RDL. All legs and hips, nothing on your sore pressing muscles. Use the COUNTDOWN timer set to 14:00 if you want a cap."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "PUSH / PULL CHAIN",
-      "meta": "~10 min",
-      "format": "4 ROUNDS",
-      "workRest": "minimal rest between moves",
+      "title": "RUN INTERVALS",
+      "meta": "~13 min",
+      "format": "5 × 0.25 mi",
+      "workRest": "0.25 mi hard / 90s walk",
       "items": [
-        { "name": "Renegade Row", "detail": "6 (3/side) · 2×40 lb" },
-        { "name": "Push-Up", "detail": "12" },
-        { "name": "Double Clean", "detail": "6 · 2×40 lb" },
-        { "name": "Push Press", "detail": "6 · 2×40 lb" }
+        { "name": "Treadmill", "detail": "0.25 mi hard, then walk 90s — ×5" }
       ],
-      "text": "Flow through all four back to back, minimal rest, then rest ~45s and repeat for 4 rounds. Brace hard on the rows so your hips don't rock. All upper + hip drive, no squatting."
+      "text": "Five hard quarter-miles with a 90-second walk between each. Legs are fresh and you're a strong runner, so attack these. Pace them so rep 5 is as fast as rep 1."
     },
     {
       "id": "b3",
       "kind": "finisher",
-      "title": "SNATCH LADDER",
-      "meta": "~6 min",
-      "format": "10-8-6-4-2 / side · for time",
-      "workRest": "go fast, rest only as needed",
+      "title": "LEG CHIPPER",
+      "meta": "~10 min",
+      "format": "3–4 ROUNDS",
+      "workRest": "minimal rest, ~60s between rounds",
       "items": [
-        { "name": "One-arm Snatch", "detail": "10-8-6-4-2 per side · 16 kg" }
+        { "name": "Two-hand Swing", "detail": "20 · 16 kg" },
+        { "name": "Reverse Lunge", "detail": "8/leg · 50 lb goblet" },
+        { "name": "Goblet Squat", "detail": "12 · 50 lb" }
       ],
-      "text": "Descending ladder, both sides each round: 10/side, then 8, 6, 4, 2. Hip snap, punch through, land soft. High output, minimal legs. Empty the tank."
-    },
-    {
-      "id": "run",
-      "kind": "cooldown",
-      "title": "FLUSH WALK",
-      "meta": "12 min · low impact",
-      "format": "INCLINE WALK",
-      "workRest": "steady, easy on the legs",
-      "items": [
-        { "name": "Treadmill", "detail": "12% incline · ~3 mph · 12 min" }
-      ],
-      "text": "Deliberate low-impact. Brisk incline walk to flush the legs and keep the calorie burn up without pounding tired quads. Breathe easy, you can hold a conversation."
+      "text": "Flow through all three, minimal rest, then rest ~60s and repeat. Target 4 rounds (3 if time's tight). Leave one clean rep in the tank on the final set. Empty the legs."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "3 min",
-      "text": "Stretch 20–30s each: chest/shoulders (doorway), lats, hip flexors, quads (gentle), spinal twist."
+      "meta": "5 min",
+      "text": "Walk it down 2 min · Stretch 30s each: quads, hamstrings, hip flexors, calves, glutes."
     }
   ],
   "timer": { "emomUnit": "reps on the top" }

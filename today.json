@@ -1,64 +1,66 @@
 {
-  "date": "2026-07-10",
+  "date": "2026-07-11",
   "weekday": "TODAY",
-  "title": "LEG ENGINE",
-  "vibe": "GREEN · LEG DAY",
-  "why": "Fully recharged, legs recovered, upper body sore from yesterday, 60 minutes, and you want intensity — so today is a hard leg + running day while your pressing and pulling muscles recover. Heavy double front squats and RDLs on fresh legs, fast quarter-mile intervals (your strength), then a swing-lunge-squat chipper to empty the tank. No overhead pressing, no rows.",
+  "title": "CORE ENGINE",
+  "vibe": "GREEN · CORE + ENGINE",
+  "why": "8 hours sleep and you want to push, but your legs are sore and you hammered them yesterday (heavy squats + hard intervals). So the push goes where you're fresh: a loaded core block and a redline anti-rotation finisher, plus steady Zone 2 running that doubles as active recovery for the legs. No heavy squats, no lunges, no high-impact intervals. This also fills your two biggest coverage gaps this week: core/midline and steady Zone 2.",
   "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP",
-      "meta": "7 min",
-      "text": "3 min easy jog to prime the legs · Leg swings 10/leg · Ankle rocks 10/side · Deep goblet pry ×5 · Walking lunges 6/leg · 10 bodyweight squats · 10 easy swings (16 kg)."
+      "meta": "6 min",
+      "text": "3 min easy walk-to-jog (4.5 mph, loosen the sore legs) · Cat-cow ×8 · Thoracic rotations 6/side · Hip flexor rock 8/side · Deadbug 6/side · Bird-dog 6/side · 5 slow halos each way (16 kg) to wake the core."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "HEAVY LEGS",
-      "meta": "~14 min · 2×40 lb",
-      "format": "5 ROUNDS",
-      "workRest": "rest 90s between rounds",
+      "title": "LOADED CORE",
+      "meta": "~18 min · get-up / windmill / carry",
+      "format": "3-4 ROUNDS",
+      "workRest": "rest 60s between rounds",
       "items": [
-        { "name": "Double Front Squat", "detail": "6 · 2×40 lb" },
-        { "name": "Double RDL", "detail": "8 · 2×40 lb" }
+        { "name": "Turkish Get-Up", "detail": "2/side · 40 lb (16 kg if grindy)" },
+        { "name": "Half-Kneeling Windmill", "detail": "4/side · 16 kg overhead" },
+        { "name": "Suitcase Carry", "detail": "40 yd/side · 50 lb DB" }
       ],
-      "text": "6 front squats straight into 8 Romanian deadlifts, then rest 90s. 1–2 in reserve. Elbows high on the squat, flat-back hinge on the RDL. All legs and hips, nothing on your sore pressing muscles. Use the COUNTDOWN timer set to 14:00 if you want a cap."
+      "text": "Slow and heavy. Get-ups own your whole midline and spare the sore legs; windmills load anti-side-bend with light overhead (easy on the mildly sore arms); suitcase carry is pure anti-lean core and grip. 3 rounds solid, 4 if you're moving well. Nail every rep, no rush."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "RUN INTERVALS",
-      "meta": "~13 min",
-      "format": "5 × 0.25 mi",
-      "workRest": "0.25 mi hard / 90s walk",
+      "title": "REDLINE CORE",
+      "meta": "~12 min",
+      "format": "12-MIN AMRAP",
+      "workRest": "count rounds, minimal rest",
       "items": [
-        { "name": "Treadmill", "detail": "0.25 mi hard, then walk 90s — ×5" }
+        { "name": "Renegade Row", "detail": "6 (3/side) · 2×40 lb" },
+        { "name": "Russian Twist", "detail": "20 (10/side) · 16 kg" },
+        { "name": "Hollow Rock", "detail": "15" },
+        { "name": "Swing", "detail": "15 · 16 kg, snappy" }
       ],
-      "text": "Five hard quarter-miles with a 90-second walk between each. Legs are fresh and you're a strong runner, so attack these. Pace them so rep 5 is as fast as rep 1."
+      "text": "This is your push. 12-minute AMRAP — flow through all four and keep score. Rows in a tight plank (anti-rotation, easy on the arms), twists and hollow rocks torch the midline, light swings keep the heart rate pinned and flush the legs. Redline it, but keep the plank honest — don't let the hips sag when you fatigue. Set the COUNTDOWN timer to 12:00."
     },
     {
       "id": "b3",
-      "kind": "finisher",
-      "title": "LEG CHIPPER",
-      "meta": "~10 min",
-      "format": "3–4 ROUNDS",
-      "workRest": "minimal rest, ~60s between rounds",
+      "kind": "conditioning",
+      "title": "STEADY ENGINE",
+      "meta": "~16 min · Zone 2",
+      "format": "STEADY",
+      "workRest": "one continuous effort",
       "items": [
-        { "name": "Two-hand Swing", "detail": "20 · 16 kg" },
-        { "name": "Reverse Lunge", "detail": "8/leg · 50 lb goblet" },
-        { "name": "Goblet Squat", "detail": "12 · 50 lb" }
+        { "name": "Treadmill", "detail": "16 min @ 6.5 mph (6.0 if legs are barking), 1-2% incline" }
       ],
-      "text": "Flow through all three, minimal rest, then rest ~60s and repeat. Target 4 rounds (3 if time's tight). Leave one clean rep in the tank on the final set. Empty the legs."
+      "text": "Deliberately steady, not intervals. Your legs are sore, so this is easy aerobic work that pumps blood through them and actually speeds recovery for tomorrow. Nose-breathing pace, could hold a conversation. This is the steady Zone 2 you've been missing all week. If the legs feel great, hold 6.5; if they're barking, drop to 6.0 and just keep it smooth."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
       "meta": "5 min",
-      "text": "Walk it down 2 min · Stretch 30s each: quads, hamstrings, hip flexors, calves, glutes."
+      "text": "Walk 2 min at 3 mph · Stretch 30s each: quads, hamstrings, hip flexors, glutes, calves (hit the sore legs) · Lat + thoracic opener · Child's pose 30s."
     }
   ],
-  "timer": { "emomUnit": "reps on the top" }
+  "timer": { "emomUnit": "rounds" }
 }

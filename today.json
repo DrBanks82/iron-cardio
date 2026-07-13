@@ -1,66 +1,63 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-13",
   "weekday": "TODAY",
-  "title": "CORE ENGINE",
-  "vibe": "GREEN · CORE + ENGINE",
-  "why": "8 hours sleep and you want to push, but your legs are sore and you hammered them yesterday (heavy squats + hard intervals). So the push goes where you're fresh: a loaded core block and a redline anti-rotation finisher, plus steady Zone 2 running that doubles as active recovery for the legs. No heavy squats, no lunges, no high-impact intervals. This also fills your two biggest coverage gaps this week: core/midline and steady Zone 2.",
-  "estMin": 60,
+  "title": "POWER LADDER",
+  "vibe": "GREEN · POWER + COMPLEX",
+  "why": "You took a real rest day yesterday (swim + walk, 8h sleep) and came back fresh, so today cashes that recovery in on the one quality we've skipped all week: raw power. Everything so far has been density and conditioning — no explosive, low-rep work. So today is a double-bell power complex (clean → press → front squat, laddered — a format you've never run), a snappy snatch EMOM for ballistic power, and a tempo run for run variety (you've done intervals and easy steady, not tempo). Legs and arms are only lightly sore, so we load both but keep the reps crisp and the rest full — this is power, not a redline grind.",
+  "estMin": 52,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP",
       "meta": "6 min",
-      "text": "3 min easy walk-to-jog (4.5 mph, loosen the sore legs) · Cat-cow ×8 · Thoracic rotations 6/side · Hip flexor rock 8/side · Deadbug 6/side · Bird-dog 6/side · 5 slow halos each way (16 kg) to wake the core."
+      "text": "3 min easy jog @ 5.5 mph to raise core temp · Leg swings 10/side · World's-greatest-stretch 4/side · Halos 5 each way (16 kg) · Prying goblet squat ×5 (16 kg) · 10 light two-hand swings (16 kg) to fire the hips before the complex."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "LOADED CORE",
-      "meta": "~18 min · get-up / windmill / carry",
-      "format": "3-4 ROUNDS",
-      "workRest": "rest 60s between rounds",
+      "title": "POWER COMPLEX",
+      "meta": "~18 min · double 40s · clean → press → front squat",
+      "format": "LADDER COMPLEX · 4 ROUNDS",
+      "workRest": "ladder 1-2-3 unbroken, rest 90s between rounds",
       "items": [
-        { "name": "Turkish Get-Up", "detail": "2/side · 40 lb (16 kg if grindy)" },
-        { "name": "Half-Kneeling Windmill", "detail": "4/side · 16 kg overhead" },
-        { "name": "Suitcase Carry", "detail": "40 yd/side · 50 lb DB" }
+        { "name": "Double Clean", "detail": "2×40 lb · explosive" },
+        { "name": "Double Press", "detail": "2×40 lb (single 40 if shoulders grind)" },
+        { "name": "Double Front Squat", "detail": "2×40 lb" }
       ],
-      "text": "Slow and heavy. Get-ups own your whole midline and spare the sore legs; windmills load anti-side-bend with light overhead (easy on the mildly sore arms); suitcase carry is pure anti-lean core and grip. 3 rounds solid, 4 if you're moving well. Nail every rep, no rush."
+      "text": "The complex: 1 clean + 1 press + 1 front squat, then 2 of each, then 3 of each — all unbroken, bells never set down (that's 6 cleans, 6 presses, 6 front squats per round). Rest a FULL 90s, repeat for 4 rounds. This is a power/strength piece, not a burner: drive every clean and press explosively, own the squats, stop each ladder with a rep or two in the tank. If the presses stall, drop to a single 40 for the press portion. New format for you — flow it like one movement."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "REDLINE CORE",
-      "meta": "~12 min",
-      "format": "12-MIN AMRAP",
-      "workRest": "count rounds, minimal rest",
+      "title": "SNATCH POWER",
+      "meta": "~10 min · 16 kg",
+      "format": "10-MIN EMOM",
+      "workRest": "10 reps on the top of each minute, rest the remainder",
       "items": [
-        { "name": "Renegade Row", "detail": "6 (3/side) · 2×40 lb" },
-        { "name": "Russian Twist", "detail": "20 (10/side) · 16 kg" },
-        { "name": "Hollow Rock", "detail": "15" },
-        { "name": "Swing", "detail": "15 · 16 kg, snappy" }
+        { "name": "One-Arm Snatch", "detail": "10/min (5/side) · 16 kg, snappy" }
       ],
-      "text": "This is your push. 12-minute AMRAP — flow through all four and keep score. Rows in a tight plank (anti-rotation, easy on the arms), twists and hollow rocks torch the midline, light swings keep the heart rate pinned and flush the legs. Redline it, but keep the plank honest — don't let the hips sag when you fatigue. Set the COUNTDOWN timer to 12:00."
+      "text": "Every minute on the minute for 10 minutes: 5 snatches per side (10 total), then rest whatever's left in the minute — should be 25-40s. This is pure ballistic power: snap the hips, punch through the top, float it back down. Keep the reps fast and crisp; if they start slowing, cut to 8/min. Set the EMOM/COUNTDOWN timer to 10 rounds of 1:00."
     },
     {
       "id": "b3",
       "kind": "conditioning",
-      "title": "STEADY ENGINE",
-      "meta": "~16 min · Zone 2",
-      "format": "STEADY",
+      "title": "TEMPO RUN",
+      "meta": "~12 min · comfortably hard",
+      "format": "TEMPO",
       "workRest": "one continuous effort",
       "items": [
-        { "name": "Treadmill", "detail": "16 min @ 6.5 mph (6.0 if legs are barking), 1-2% incline" }
+        { "name": "Treadmill", "detail": "12 min @ 7.0 mph (~8:34/mi), 1% incline" }
       ],
-      "text": "Deliberately steady, not intervals. Your legs are sore, so this is easy aerobic work that pumps blood through them and actually speeds recovery for tomorrow. Nose-breathing pace, could hold a conversation. This is the steady Zone 2 you've been missing all week. If the legs feel great, hold 6.5; if they're barking, drop to 6.0 and just keep it smooth."
+      "text": "Steady comfortably-hard tempo — the run gear you haven't touched this week (intervals and easy steady, yes; tempo, no). Hold 7.0 mph the whole way: breathing hard but controlled, not gasping. If the complex left your legs heavy, this is a green light to drop to 6.3 mph and just hold Zone 2 — don't turn it into a grind. Tall posture, quick feet, relaxed shoulders."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "5 min",
-      "text": "Walk 2 min at 3 mph · Stretch 30s each: quads, hamstrings, hip flexors, glutes, calves (hit the sore legs) · Lat + thoracic opener · Child's pose 30s."
+      "meta": "4 min",
+      "text": "Walk 2 min @ 3 mph · Stretch 30s each: shoulders/lats, thoracic opener, quads, hip flexors, hamstrings · 5 slow deep breaths to finish."
     }
   ],
-  "timer": { "emomUnit": "rounds" }
+  "timer": { "emomUnit": "reps/min" }
 }

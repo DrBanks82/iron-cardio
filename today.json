@@ -1,62 +1,64 @@
 {
-  "date": "2026-07-13",
+  "date": "2026-07-14",
   "weekday": "TODAY",
-  "title": "POWER LADDER",
-  "vibe": "GREEN · POWER + COMPLEX",
-  "why": "You took a real rest day yesterday (swim + walk, 8h sleep) and came back fresh, so today cashes that recovery in on the one quality we've skipped all week: raw power. Everything so far has been density and conditioning — no explosive, low-rep work. So today is a double-bell power complex (clean → press → front squat, laddered — a format you've never run), a snappy snatch EMOM for ballistic power, and a tempo run for run variety (you've done intervals and easy steady, not tempo). Legs and arms are only lightly sore, so we load both but keep the reps crisp and the rest full — this is power, not a redline grind.",
-  "estMin": 52,
+  "title": "SNAP + ENGINE",
+  "vibe": "GREEN · POWER + TEMPO + CORE",
+  "why": "Yesterday's power session got cut short — the complex landed (and you set a new 7:46 mile warm-up), but the snatch power and tempo run never happened, so today picks both of those up. It's also day one under your two new standing rules: a real mobility warm-up and a dedicated core block at the end. Your legs and back are stiff (limberness, not fatigue), so the main work stays off heavy legs and off the spine — a ballistic snatch + press EMOM and a tempo run — and the core finisher is all anti-rotation/anti-extension, which doubles as low-back insurance. Mobility opens it, core closes it, ~60 min.",
+  "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP",
-      "meta": "6 min",
-      "text": "3 min easy jog @ 5.5 mph to raise core temp · Leg swings 10/side · World's-greatest-stretch 4/side · Halos 5 each way (16 kg) · Prying goblet squat ×5 (16 kg) · 10 light two-hand swings (16 kg) to fire the hips before the complex."
+      "title": "MOBILITY WARM-UP",
+      "meta": "~10 min · standing rule · chase the stiff back + hips",
+      "text": "Easy jog 3 min @ 5.5 mph. Then Original Strength resets to un-stiffen the spine and hips: diaphragmatic breathing ×5 · head nods + slow rotations 5 each · quadruped rock-backs ×10 (segment the spine) · segmental rolling 3/side · baby-crawl or standing cross-crawl 30s. Then targeted mobility: cat-cow ×8 · thoracic open-book 5/side · 90/90 hip switches 6/side · world's-greatest-stretch 4/side · deep-squat pry ×5 (sit in it, pry the knees). Move slow, breathe into the stiff spots — this is now part of every session."
     },
     {
       "id": "b1",
-      "kind": "strength",
-      "title": "POWER COMPLEX",
-      "meta": "~18 min · double 40s · clean → press → front squat",
-      "format": "LADDER COMPLEX · 4 ROUNDS",
-      "workRest": "ladder 1-2-3 unbroken, rest 90s between rounds",
+      "kind": "conditioning",
+      "title": "SNATCH + PRESS POWER",
+      "meta": "~14 min · 16 kg + 40 lb · ballistic",
+      "format": "14-MIN EMOM · ALTERNATING",
+      "workRest": "odd min = snatch, even min = press, rest the remainder of each minute",
       "items": [
-        { "name": "Double Clean", "detail": "2×40 lb · explosive" },
-        { "name": "Double Press", "detail": "2×40 lb (single 40 if shoulders grind)" },
-        { "name": "Double Front Squat", "detail": "2×40 lb" }
+        { "name": "One-Arm Snatch (odd min)", "detail": "10/min (5/side) · 16 kg, snappy" },
+        { "name": "Push Press (even min)", "detail": "8/min · single 40 lb (switch hands at 4)" }
       ],
-      "text": "The complex: 1 clean + 1 press + 1 front squat, then 2 of each, then 3 of each — all unbroken, bells never set down (that's 6 cleans, 6 presses, 6 front squats per round). Rest a FULL 90s, repeat for 4 rounds. This is a power/strength piece, not a burner: drive every clean and press explosively, own the squats, stop each ladder with a rep or two in the tank. If the presses stall, drop to a single 40 for the press portion. New format for you — flow it like one movement."
+      "text": "The ballistic power that got cut yesterday, kept off your sore legs. Alternating EMOM for 14 min: ODD minutes = 5 snatches per side, explosive hip snap, punch through the top and float it down. EVEN minutes = 8 push presses with a single 40, quick dip-drive, lock out tall. Rest whatever's left in each minute. Keep both crisp — if the reps slow, cut snatches to 8 and presses to 6. Set the EMOM timer to 14 rounds of 1:00."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "SNATCH POWER",
-      "meta": "~10 min · 16 kg",
-      "format": "10-MIN EMOM",
-      "workRest": "10 reps on the top of each minute, rest the remainder",
-      "items": [
-        { "name": "One-Arm Snatch", "detail": "10/min (5/side) · 16 kg, snappy" }
-      ],
-      "text": "Every minute on the minute for 10 minutes: 5 snatches per side (10 total), then rest whatever's left in the minute — should be 25-40s. This is pure ballistic power: snap the hips, punch through the top, float it back down. Keep the reps fast and crisp; if they start slowing, cut to 8/min. Set the EMOM/COUNTDOWN timer to 10 rounds of 1:00."
-    },
-    {
-      "id": "b3",
-      "kind": "conditioning",
       "title": "TEMPO RUN",
-      "meta": "~12 min · comfortably hard",
+      "meta": "~14 min · comfortably hard",
       "format": "TEMPO",
       "workRest": "one continuous effort",
       "items": [
-        { "name": "Treadmill", "detail": "12 min @ 7.0 mph (~8:34/mi), 1% incline" }
+        { "name": "Treadmill", "detail": "14 min @ 7.0 mph (~8:34/mi), 1% incline" }
       ],
-      "text": "Steady comfortably-hard tempo — the run gear you haven't touched this week (intervals and easy steady, yes; tempo, no). Hold 7.0 mph the whole way: breathing hard but controlled, not gasping. If the complex left your legs heavy, this is a green light to drop to 6.3 mph and just hold Zone 2 — don't turn it into a grind. Tall posture, quick feet, relaxed shoulders."
+      "text": "The tempo gear you missed yesterday. Hold 7.0 mph continuous — breathing hard but controlled, not gasping. Tall posture protects the back; quick, light feet. If the back or legs feel heavy after the mobility, drop to 6.3 mph and hold easy Zone 2 instead — don't grind it. Your warm-up mile is already at 7:46, so this steady tempo should feel strong."
+    },
+    {
+      "id": "b3",
+      "kind": "strength",
+      "title": "CORE FINISHER",
+      "meta": "~10 min · anti-rotation / anti-extension · standing rule",
+      "format": "3-4 ROUNDS",
+      "workRest": "rest 45s between rounds",
+      "items": [
+        { "name": "Suitcase Carry", "detail": "30 yd/side · 50 lb DB (don't lean)" },
+        { "name": "Bird-Dog", "detail": "8/side · slow, hips square" },
+        { "name": "Side Plank", "detail": "30s/side" },
+        { "name": "Dead Bug", "detail": "8/side · low back pinned flat" }
+      ],
+      "text": "Your standing end-of-session core block — and it's low-back insurance. Anti-lateral (suitcase carry, stay stacked), anti-rotation (bird-dog, don't let the hips twist), anti-side-bend (side plank), anti-extension (dead bug, ribs down and low back glued to the floor). 3 rounds solid, 4 if you've got time. Brace hard, move slow — quality over speed. This is the piece that fixes the stiff back over the weeks."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "4 min",
-      "text": "Walk 2 min @ 3 mph · Stretch 30s each: shoulders/lats, thoracic opener, quads, hip flexors, hamstrings · 5 slow deep breaths to finish."
+      "meta": "~5 min",
+      "text": "Walk 2 min @ 3 mph. Then decompress the back: child's pose 45s · gentle prone press-up ×5 (easy back extension) · figure-4 glute stretch 30s/side · hamstring + hip-flexor stretch 30s each · 5 slow breaths. Revisit whatever was stiffest in the warm-up."
     }
   ],
   "timer": { "emomUnit": "reps/min" }

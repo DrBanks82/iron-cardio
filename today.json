@@ -1,65 +1,68 @@
 {
-  "date": "2026-07-14",
+  "date": "2026-07-15",
   "weekday": "TODAY",
-  "title": "SNAP + ENGINE",
-  "vibe": "GREEN · POWER + TEMPO + CORE",
-  "why": "Yesterday's power session got cut short — the complex landed (and you set a new 7:46 mile warm-up), but the snatch power and tempo run never happened, so today picks both of those up. It's also day one under your two new standing rules: a real mobility warm-up and a dedicated core block at the end. Your legs and back are stiff (limberness, not fatigue), so the main work stays off heavy legs and off the spine — a ballistic snatch + press EMOM and a tempo run — and the core finisher is all anti-rotation/anti-extension, which doubles as low-back insurance. Mobility opens it, core closes it, ~60 min.",
+  "title": "GROUND & CARRY",
+  "vibe": "GREEN · CARRY MEDLEY + LOCOMOTION (shoulder-sparing)",
+  "why": "Total pattern break. No station blocks, no EMOM clock, no treadmill run. Your shoulders and arms are sore from work but your legs are fresh, so today's engine is loaded carries and ground movement, not pressing and not running. You move weight through space for distance and by feel: farmer and suitcase carries, walking lunges, a little crawling. All of it is grip, legs, and midline, with the sore delts and arms kept out of the line of fire (nothing overhead, nothing pressed). The carries ARE the cardio today, so your heart rate climbs without pounding your legs, and the treadmill only shows up as an easy incline walk to flush at the very end. Mobility opens it with extra shoulder love, core closes it, about 60 minutes.",
   "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "MOBILITY WARM-UP",
-      "meta": "~10 min · standing rule · chase the stiff back + hips",
-      "text": "Easy jog 3 min @ 5.5 mph. Then Original Strength resets to un-stiffen the spine and hips: diaphragmatic breathing ×5 · head nods + slow rotations 5 each · quadruped rock-backs ×10 (segment the spine) · segmental rolling 3/side · baby-crawl or standing cross-crawl 30s. Then targeted mobility: cat-cow ×8 · thoracic open-book 5/side · 90/90 hip switches 6/side · world's-greatest-stretch 4/side · deep-squat pry ×5 (sit in it, pry the knees). Move slow, breathe into the stiff spots — this is now part of every session."
+      "meta": "~10 min · standing rule · biased to the sore shoulders + a ground-day prep",
+      "text": "No treadmill jog today. Start on the floor. Original Strength resets: diaphragmatic breathing x5 · head nods + slow rotations 5 each · quadruped rock-backs x10 (segment the spine) · segmental rolling 3/side · slow baby-crawl 30s (patterns the crawl coming later). Then spine + hips: cat-cow x8 · thoracic open-book 5/side · 90/90 hip switches 6/side · deep-squat pry x5. Then give the sore shoulders real attention: scapular CARs (slow shoulder circles) 5/side · wall slides x8 · thread-the-needle 5/side · cross-body + doorway pec opener 20s each. Move slow, breathe into the sore spots, wake the shoulders up without loading them."
     },
     {
       "id": "b1",
       "kind": "conditioning",
-      "title": "SNATCH + PRESS POWER",
-      "meta": "~14 min · 16 kg + 40 lb · ballistic",
-      "format": "14-MIN EMOM · ALTERNATING",
-      "workRest": "odd min = snatch, even min = press, rest the remainder of each minute",
+      "title": "THE CARRY MEDLEY",
+      "meta": "~24 min · 2x40 lb + 50 lb DB · the engine today",
+      "format": "FOR DISTANCE & FEEL · NO CLOCK",
+      "workRest": "flow through all four carries = 1 round · rest 60-90s · target 4-6 rounds · stop a round before grip or posture breaks",
       "items": [
-        { "name": "One-Arm Snatch (odd min)", "detail": "10/min (5/side) · 16 kg, snappy" },
-        { "name": "Push Press (even min)", "detail": "8/min · single 40 lb (switch hands at 4)" }
+        { "name": "A · Farmer Carry", "detail": "2x40 (80 lb) · ~40 yd · stand tall, crush the handles" },
+        { "name": "B · Suitcase Carry — Right", "detail": "50 lb DB · ~20 yd · do NOT lean, stay stacked" },
+        { "name": "C · Suitcase Carry — Left", "detail": "50 lb DB · ~20 yd · match the right side" },
+        { "name": "D · Goblet-Hold March", "detail": "50 lb DB at the chest · ~30 yd · ribs down, brace, march tall" }
       ],
-      "text": "The ballistic power that got cut yesterday, kept off your sore legs. Alternating EMOM for 14 min: ODD minutes = 5 snatches per side, explosive hip snap, punch through the top and float it down. EVEN minutes = 8 push presses with a single 40, quick dip-drive, lock out tall. Rest whatever's left in each minute. Keep both crisp — if the reps slow, cut snatches to 8 and presses to 6. Set the EMOM timer to 14 rounds of 1:00."
+      "text": "This is the whole cardio session, done as loaded locomotion instead of a run. One round = farmer carry, then a suitcase carry each side, then a goblet march, flowing one into the next. Rest 60-90s and go again. Chase 4 to 6 rounds by feel and total distance covered, not a clock. Every carry loads grip, traps, legs, and core and keeps your sore shoulders passive. If your grip is the limiter (it will be), set the bells down, shake it out 10s, and finish the yardage. If the 50 goblet bugs your arms, swap it for a double-KB front-load (2x40 held at the chest) or just do another farmer lap. Breathe steady the whole way, you should be working but able to talk in short bursts."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "TEMPO RUN",
-      "meta": "~14 min · comfortably hard",
-      "format": "TEMPO",
-      "workRest": "one continuous effort",
+      "title": "GROUND & LUNGE",
+      "meta": "~10 min · bodyweight + 50 lb DB · fresh-leg locomotion + the crawl wildcard",
+      "format": "3-4 ROUNDS · BY FEEL",
+      "workRest": "move through the round, rest ~60s",
       "items": [
-        { "name": "Treadmill", "detail": "14 min @ 7.0 mph (~8:34/mi), 1% incline" }
+        { "name": "Walking Reverse Lunges", "detail": "20 total (10/side) · bodyweight, drive through the heel" },
+        { "name": "Leopard Crawl", "detail": "~12 yd out + back · low, knees hover, slow and quiet (WILDCARD)" },
+        { "name": "Goblet Squat", "detail": "50 lb DB · 10 · full depth, elbows inside the knees" }
       ],
-      "text": "The tempo gear you missed yesterday. Hold 7.0 mph continuous — breathing hard but controlled, not gasping. Tall posture protects the back; quick, light feet. If the back or legs feel heavy after the mobility, drop to 6.3 mph and hold easy Zone 2 instead — don't grind it. Your warm-up mile is already at 7:46, so this steady tempo should feel strong."
+      "text": "Legs are fresh, so spend them here on the ground. Reverse lunges are easy on the knees and the back, drive tall out of each one. The leopard crawl is today's wildcard: hands and toes, knees hovering an inch off the floor, move slow and controlled for coordination and midline, not speed. It touches the shoulders lightly, so if the sore delts complain, skip it and do one more lunge lap instead, no ego. Finish each round with goblet squats, deep and controlled. 3 rounds, 4 if you feel good."
     },
     {
       "id": "b3",
       "kind": "strength",
       "title": "CORE FINISHER",
-      "meta": "~10 min · anti-rotation / anti-extension · standing rule",
-      "format": "3-4 ROUNDS",
-      "workRest": "rest 45s between rounds",
+      "meta": "~8 min · anti-rotation / anti-extension · standing rule · no pressing",
+      "format": "3 ROUNDS · rest 45s",
       "items": [
-        { "name": "Suitcase Carry", "detail": "30 yd/side · 50 lb DB (don't lean)" },
-        { "name": "Bird-Dog", "detail": "8/side · slow, hips square" },
-        { "name": "Side Plank", "detail": "30s/side" },
-        { "name": "Dead Bug", "detail": "8/side · low back pinned flat" }
+        { "name": "Suitcase Hold March", "detail": "50 lb DB one side · 30s/side · stay stacked, don't lean" },
+        { "name": "Dead Bug", "detail": "8/side · low back pinned flat to the floor" },
+        { "name": "Bird-Dog", "detail": "8/side · slow, hips square, no twist" },
+        { "name": "Hollow Hold", "detail": "30s · ribs down, low back glued down" }
       ],
-      "text": "Your standing end-of-session core block — and it's low-back insurance. Anti-lateral (suitcase carry, stay stacked), anti-rotation (bird-dog, don't let the hips twist), anti-side-bend (side plank), anti-extension (dead bug, ribs down and low back glued to the floor). 3 rounds solid, 4 if you've got time. Brace hard, move slow — quality over speed. This is the piece that fixes the stiff back over the weeks."
+      "text": "Your standing end-of-session midline block, kept completely off the sore shoulders. Suitcase hold is a static anti-lateral carry (grip and core, arm just hangs). Dead bug and hollow are anti-extension, bird-dog is anti-rotation. Brace hard, move slow, quality over reps. Carries already hit your core hard today, so 3 clean rounds is plenty."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~5 min",
-      "text": "Walk 2 min @ 3 mph. Then decompress the back: child's pose 45s · gentle prone press-up ×5 (easy back extension) · figure-4 glute stretch 30s/side · hamstring + hip-flexor stretch 30s each · 5 slow breaths. Revisit whatever was stiffest in the warm-up."
+      "meta": "~5 min · easy flush + shoulder decompression",
+      "text": "Now the only treadmill of the day: easy incline walk 3-4 min @ 3 mph, 8-10% incline. Low-impact, flushes the legs, keeps the aerobic base ticking without any pounding. Then open up the sore shoulders and thoracic: child's pose 45s · thread-the-needle 5/side · doorway pec stretch 30s/side · cross-body shoulder stretch 30s/side · slow neck rolls · 5 deep breaths. Spend the extra time on whatever shoulder position felt tightest."
     }
   ],
-  "timer": { "emomUnit": "reps/min" }
+  "timer": { "emomUnit": "no clock today — carries by distance & feel" }
 }

@@ -1,68 +1,77 @@
 {
-  "date": "2026-07-15",
+  "date": "2026-07-17",
   "weekday": "TODAY",
-  "title": "GROUND & CARRY",
-  "vibe": "GREEN · CARRY MEDLEY + LOCOMOTION (shoulder-sparing)",
-  "why": "Total pattern break. No station blocks, no EMOM clock, no treadmill run. Your shoulders and arms are sore from work but your legs are fresh, so today's engine is loaded carries and ground movement, not pressing and not running. You move weight through space for distance and by feel: farmer and suitcase carries, walking lunges, a little crawling. All of it is grip, legs, and midline, with the sore delts and arms kept out of the line of fire (nothing overhead, nothing pressed). The carries ARE the cardio today, so your heart rate climbs without pounding your legs, and the treadmill only shows up as an easy incline walk to flush at the very end. Mobility opens it with extra shoulder love, core closes it, about 60 minutes.",
+  "title": "PRESS · PULL · PUMP",
+  "vibe": "GREEN · HEAVY UPPER + PUMP (legs & run kept easy on purpose)",
+  "why": "You want to keep pushing, so we push, just not into the same beat-up system. Your legs and your running engine took a real hit this week (two 2-mile tempos back to back plus the carries), and your last actual upper-strength day was 07-09, over a week ago. So today the intensity goes to the top half: heavy double presses and heavy rows first, then a bodybuilding-style 6-12-25 pump finisher to torch the shoulders, back, and arms. Legs stay quiet on purpose so they recover while you still get to grind hard. Grip work is baked into the core block since you asked for more of it. If you run at all, it's easy Zone 2 only, no third tempo this week. Mobility opens it (shoulder-biased today), core closes it. Read as GREEN off your check-in; if you actually woke up beat up, cut the strength to 4 sets and skip the run.",
   "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "MOBILITY WARM-UP",
-      "meta": "~10 min · standing rule · biased to the sore shoulders + a ground-day prep",
-      "text": "No treadmill jog today. Start on the floor. Original Strength resets: diaphragmatic breathing x5 · head nods + slow rotations 5 each · quadruped rock-backs x10 (segment the spine) · segmental rolling 3/side · slow baby-crawl 30s (patterns the crawl coming later). Then spine + hips: cat-cow x8 · thoracic open-book 5/side · 90/90 hip switches 6/side · deep-squat pry x5. Then give the sore shoulders real attention: scapular CARs (slow shoulder circles) 5/side · wall slides x8 · thread-the-needle 5/side · cross-body + doorway pec opener 20s each. Move slow, breathe into the sore spots, wake the shoulders up without loading them."
+      "meta": "~10 min · standing rule · shoulder + thoracic biased for an upper day",
+      "text": "Pulse first: easy jog OR jumping jacks / arm swings 3 min. Then Original Strength resets: diaphragmatic breathing x5 · head nods + rotations 5 each · quadruped rock-backs x10 · segmental rolling 3/side. Then prep the pressing shoulders hard (they were sore 07-15, warm them properly): thoracic open-books 6/side · cat-cow x8 · scapular CARs 5/side · wall slides x10 · band-free face-pull motion x15 · deep lunge with a reach 4/side · a few light empty-hand press + row patterns. The shoulders do all the work today, so open them up fully before loading."
     },
     {
       "id": "b1",
-      "kind": "conditioning",
-      "title": "THE CARRY MEDLEY",
-      "meta": "~24 min · 2x40 lb + 50 lb DB · the engine today",
-      "format": "FOR DISTANCE & FEEL · NO CLOCK",
-      "workRest": "flow through all four carries = 1 round · rest 60-90s · target 4-6 rounds · stop a round before grip or posture breaks",
+      "kind": "strength",
+      "title": "HEAVY PRESS + PULL",
+      "meta": "~20 min · 2x40 lb + 50 lb DB · push the load",
+      "format": "STRAIGHT SETS · HEAVY · RPE 8-9",
+      "workRest": "5 rounds · alternate A1/A2 · rest 90-120s · leave 1 rep in the tank",
       "items": [
-        { "name": "A · Farmer Carry", "detail": "2x40 (80 lb) · ~40 yd · stand tall, crush the handles" },
-        { "name": "B · Suitcase Carry — Right", "detail": "50 lb DB · ~20 yd · do NOT lean, stay stacked" },
-        { "name": "C · Suitcase Carry — Left", "detail": "50 lb DB · ~20 yd · match the right side" },
-        { "name": "D · Goblet-Hold March", "detail": "50 lb DB at the chest · ~30 yd · ribs down, brace, march tall" }
+        { "name": "A1 · Double Military Press", "detail": "2x40 (80 lb) · 5 x 5 · strict, brace, own the lockout" },
+        { "name": "A2 · Heavy DB Row", "detail": "50 lb · 5 x 8/side · full stretch at the bottom, drive the elbow past the hip" }
       ],
-      "text": "This is the whole cardio session, done as loaded locomotion instead of a run. One round = farmer carry, then a suitcase carry each side, then a goblet march, flowing one into the next. Rest 60-90s and go again. Chase 4 to 6 rounds by feel and total distance covered, not a clock. Every carry loads grip, traps, legs, and core and keeps your sore shoulders passive. If your grip is the limiter (it will be), set the bells down, shake it out 10s, and finish the yardage. If the 50 goblet bugs your arms, swap it for a double-KB front-load (2x40 held at the chest) or just do another farmer lap. Breathe steady the whole way, you should be working but able to talk in short bursts."
+      "text": "This is the push. Strict double press has been sitting for over a week, so go get it: 5 sets of 5, heavy, grind the last reps but keep them clean. If 5 strict starts to fail, switch to a push press for the final 2 sets and keep the load on. Row heavy with the 50, full range, no yanking. Legs stay out of it today on purpose so all your intensity goes into the top half."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "GROUND & LUNGE",
-      "meta": "~10 min · bodyweight + 50 lb DB · fresh-leg locomotion + the crawl wildcard",
-      "format": "3-4 ROUNDS · BY FEEL",
-      "workRest": "move through the round, rest ~60s",
+      "title": "THE 6-12-25 PUMP",
+      "meta": "~12 min · giant set · bodybuilding density (WILDCARD)",
+      "format": "6-12-25 GIANT SET · 3 ROUNDS",
+      "workRest": "flow 6 → 12 → 25 with NO rest inside the set · rest 90s between rounds · chase the burn",
       "items": [
-        { "name": "Walking Reverse Lunges", "detail": "20 total (10/side) · bodyweight, drive through the heel" },
-        { "name": "Leopard Crawl", "detail": "~12 yd out + back · low, knees hover, slow and quiet (WILDCARD)" },
-        { "name": "Goblet Squat", "detail": "50 lb DB · 10 · full depth, elbows inside the knees" }
+        { "name": "6 · Double Push Press", "detail": "2x40 · heavy, explosive dip-drive" },
+        { "name": "12 · Single-Arm Push Press", "detail": "40 lb · 6/side · moderate, controlled" },
+        { "name": "25 · Push-Ups", "detail": "bodyweight · light, rep to near-failure" }
       ],
-      "text": "Legs are fresh, so spend them here on the ground. Reverse lunges are easy on the knees and the back, drive tall out of each one. The leopard crawl is today's wildcard: hands and toes, knees hovering an inch off the floor, move slow and controlled for coordination and midline, not speed. It touches the shoulders lightly, so if the sore delts complain, skip it and do one more lunge lap instead, no ego. Finish each round with goblet squats, deep and controlled. 3 rounds, 4 if you feel good."
+      "text": "The 6-12-25 method straight from the bodybuilding world: heavy six, moderate twelve, light twenty-five, back to back to back with no rest inside the giant set. One round nukes the shoulders, chest, and triceps. Three rounds total, 90s rest between. The last 5 push-ups each round should be an ugly fight, that is the point. If push-ups die, drop to your knees and finish the 25. This is your pump and your conditioning in one, no treadmill needed."
     },
     {
       "id": "b3",
+      "kind": "conditioning",
+      "title": "EASY ZONE 2 — OPTIONAL",
+      "meta": "~10-12 min · treadmill · KEEP IT EASY",
+      "format": "OPTIONAL · ZONE 2 ONLY",
+      "workRest": "one easy continuous effort — or skip it entirely",
+      "items": [
+        { "name": "Treadmill", "detail": "10-12 min @ 6.0-6.3 mph (~9:30-10:00/mi), flat or 1%" }
+      ],
+      "text": "You'll want to run, so here's the deal: if you run today it is EASY Zone 2 only, conversational pace, 6.0-6.3 mph, not a click faster. You already banked two hard 2-milers back to back this week and your legs need the break, so today's run is active recovery, NOT a third tempo. If you'd rather protect the recovery, skip it or just do a 5-min incline walk at 3 mph / 10%. Do not race this one. The push today already happened up top."
+    },
+    {
+      "id": "b4",
       "kind": "strength",
-      "title": "CORE FINISHER",
-      "meta": "~8 min · anti-rotation / anti-extension · standing rule · no pressing",
+      "title": "CORE + GRIP FINISHER",
+      "meta": "~8 min · anti-rotation + the grip work you wanted · standing rule",
       "format": "3 ROUNDS · rest 45s",
       "items": [
-        { "name": "Suitcase Hold March", "detail": "50 lb DB one side · 30s/side · stay stacked, don't lean" },
-        { "name": "Dead Bug", "detail": "8/side · low back pinned flat to the floor" },
-        { "name": "Bird-Dog", "detail": "8/side · slow, hips square, no twist" },
-        { "name": "Hollow Hold", "detail": "30s · ribs down, low back glued down" }
+        { "name": "Farmer Hold", "detail": "2x40 (80 lb) · 45s · crush the handles, stand tall" },
+        { "name": "Hollow Rock", "detail": "15 · ribs down, low back glued to the floor" },
+        { "name": "Plank Shoulder Taps", "detail": "20 total · hips dead still, no rock" }
       ],
-      "text": "Your standing end-of-session midline block, kept completely off the sore shoulders. Suitcase hold is a static anti-lateral carry (grip and core, arm just hangs). Dead bug and hollow are anti-extension, bird-dog is anti-rotation. Brace hard, move slow, quality over reps. Carries already hit your core hard today, so 3 clean rounds is plenty."
+      "text": "Your end-of-session midline block, with the grip work built in since you loved it on 07-15. The farmer hold hammers your forearms and grip while bracing the whole trunk. Hollow rocks are anti-extension, shoulder taps are anti-rotation. Brace hard, quality over speed, 3 solid rounds."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~5 min · easy flush + shoulder decompression",
-      "text": "Now the only treadmill of the day: easy incline walk 3-4 min @ 3 mph, 8-10% incline. Low-impact, flushes the legs, keeps the aerobic base ticking without any pounding. Then open up the sore shoulders and thoracic: child's pose 45s · thread-the-needle 5/side · doorway pec stretch 30s/side · cross-body shoulder stretch 30s/side · slow neck rolls · 5 deep breaths. Spend the extra time on whatever shoulder position felt tightest."
+      "meta": "~5 min · upper decompression",
+      "text": "Walk 2 min @ 3 mph. Then open the worked shoulders and chest: doorway pec stretch 30s/side · cross-body shoulder stretch 30s/side · overhead triceps stretch 30s/side · child's pose 45s · thread-the-needle 5/side · 5 slow breaths. Spend the time on whatever pressing muscle is most cooked."
     }
   ],
-  "timer": { "emomUnit": "no clock today — carries by distance & feel" }
+  "timer": { "emomUnit": "reps / load today — no metcon clock" }
 }

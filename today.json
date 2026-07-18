@@ -1,77 +1,77 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "weekday": "TODAY",
-  "title": "PRESS · PULL · PUMP",
-  "vibe": "GREEN · HEAVY UPPER + PUMP (legs & run kept easy on purpose)",
-  "why": "You want to keep pushing, so we push, just not into the same beat-up system. Your legs and your running engine took a real hit this week (two 2-mile tempos back to back plus the carries), and your last actual upper-strength day was 07-09, over a week ago. So today the intensity goes to the top half: heavy double presses and heavy rows first, then a bodybuilding-style 6-12-25 pump finisher to torch the shoulders, back, and arms. Legs stay quiet on purpose so they recover while you still get to grind hard. Grip work is baked into the core block since you asked for more of it. If you run at all, it's easy Zone 2 only, no third tempo this week. Mobility opens it (shoulder-biased today), core closes it. Read as GREEN off your check-in; if you actually woke up beat up, cut the strength to 4 sets and skip the run.",
-  "estMin": 60,
+  "title": "HEAVY LEGS · REDLINE",
+  "vibe": "GREEN · HEAVY SQUAT + POWER, THEN A FOR-TIME REDLINE (run kept optional & easy)",
+  "why": "You slept 8 hours, nothing is sore, and you want more intensity, so today we go get it, just not with a fourth run. Your legs have been getting pounded by running (three 2-mile efforts this week) but they have not been strength-loaded since 07-10, over a week ago, and your upper body just got hammered yesterday. So the intensity goes into heavy double front squats paired with explosive swings for power, then a short for-time redline to spike the engine. That is harder than another tempo and it spares the impact your legs have been taking. Mobility opens it (hips and ankles today), a core and grip block closes it. The run is optional and easy Zone 2 only, no third tempo, skip it if you are tight on the 50 minutes. Read as GREEN off your check-in; if you somehow wake up flat, drop the squat to 4 sets and cut the redline to two rounds.",
+  "estMin": 50,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "MOBILITY WARM-UP",
-      "meta": "~10 min · standing rule · shoulder + thoracic biased for an upper day",
-      "text": "Pulse first: easy jog OR jumping jacks / arm swings 3 min. Then Original Strength resets: diaphragmatic breathing x5 · head nods + rotations 5 each · quadruped rock-backs x10 · segmental rolling 3/side. Then prep the pressing shoulders hard (they were sore 07-15, warm them properly): thoracic open-books 6/side · cat-cow x8 · scapular CARs 5/side · wall slides x10 · band-free face-pull motion x15 · deep lunge with a reach 4/side · a few light empty-hand press + row patterns. The shoulders do all the work today, so open them up fully before loading."
+      "meta": "~8 min · standing rule · hip + ankle biased for squatting",
+      "text": "Pulse first: easy jog OR jumping jacks / arm swings 3 min. Original Strength resets: diaphragmatic breathing x5 · head nods + rotations 5 each · quadruped rock-backs x10 · cross-crawls 10/side. Then open the hips and ankles for squatting: deep-squat pry 60s · 90/90 hip switches 6/side · ankle rock-to-wall 8/side · world's-greatest-stretch 4/side · leg swings 10/side front and lateral · cat-cow x8. Finish with 2 sets of 5 empty-hand goblet squats to groove full depth. Legs do the work today, so get the hips and ankles fully open before you load the front rack."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "HEAVY PRESS + PULL",
-      "meta": "~20 min · 2x40 lb + 50 lb DB · push the load",
-      "format": "STRAIGHT SETS · HEAVY · RPE 8-9",
-      "workRest": "5 rounds · alternate A1/A2 · rest 90-120s · leave 1 rep in the tank",
+      "title": "HEAVY SQUAT + POWER",
+      "meta": "~16 min · 2x40 lb (80 lb) · contrast pair, push the load",
+      "format": "STRENGTH + POWER CONTRAST · RPE 8-9",
+      "workRest": "5 rounds · A1 heavy then A2 explosive · rest 90-120s between rounds",
       "items": [
-        { "name": "A1 · Double Military Press", "detail": "2x40 (80 lb) · 5 x 5 · strict, brace, own the lockout" },
-        { "name": "A2 · Heavy DB Row", "detail": "50 lb · 5 x 8/side · full stretch at the bottom, drive the elbow past the hip" }
+        { "name": "A1 · Double Front Squat", "detail": "2x40 (80 lb) · 5 x 5 · elbows high, brace hard, own full depth, grind the last rep clean" },
+        { "name": "A2 · Explosive Double Swing", "detail": "2x40 (80 lb) · 5 x 8 · snap the hips, float the bells, all power not grind" }
       ],
-      "text": "This is the push. Strict double press has been sitting for over a week, so go get it: 5 sets of 5, heavy, grind the last reps but keep them clean. If 5 strict starts to fail, switch to a push press for the final 2 sets and keep the load on. Row heavy with the 50, full range, no yanking. Legs stay out of it today on purpose so all your intensity goes into the top half."
+      "text": "Contrast training straight from the athletic-power world: a heavy strength lift followed by an explosive one primes the nervous system, so the squats feel strong and the swings feel snappy. Front squat has been sitting since 07-10, so go get it, 5 sets of 5, heavy but clean. If the front rack fatigues before the legs do, switch to a 50 lb goblet squat and keep the load on. The double swings are pure power, drive with the hips, do not muscle them up with the arms. This is where most of your intensity lives today."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "THE 6-12-25 PUMP",
-      "meta": "~12 min · giant set · bodybuilding density (WILDCARD)",
-      "format": "6-12-25 GIANT SET · 3 ROUNDS",
-      "workRest": "flow 6 → 12 → 25 with NO rest inside the set · rest 90s between rounds · chase the burn",
+      "title": "REDLINE CHIPPER",
+      "meta": "~9 min · 16 kg + bodyweight · for time (WILDCARD)",
+      "format": "15-12-9 · FOR TIME · one clock, straight through",
+      "workRest": "move continuously, rest only as needed, log your finish time",
       "items": [
-        { "name": "6 · Double Push Press", "detail": "2x40 · heavy, explosive dip-drive" },
-        { "name": "12 · Single-Arm Push Press", "detail": "40 lb · 6/side · moderate, controlled" },
-        { "name": "25 · Push-Ups", "detail": "bodyweight · light, rep to near-failure" }
+        { "name": "15-12-9 · KB Swing", "detail": "16 kg · hinge hard and fast, chest-height float" },
+        { "name": "15-12-9 · Goblet Squat", "detail": "16 kg · full depth, elbows inside the knees" },
+        { "name": "15-12-9 · Burpee", "detail": "bodyweight · chest to floor, jump at the top (step back if the knees complain)" }
       ],
-      "text": "The 6-12-25 method straight from the bodybuilding world: heavy six, moderate twelve, light twenty-five, back to back to back with no rest inside the giant set. One round nukes the shoulders, chest, and triceps. Three rounds total, 90s rest between. The last 5 push-ups each round should be an ugly fight, that is the point. If push-ups die, drop to your knees and finish the 25. This is your pump and your conditioning in one, no treadmill needed."
+      "text": "One descending ladder for time: 15 of each, then 12, then 9, straight through with the stopwatch running. This is your redline and your conditioning in one, no treadmill needed. Swings and goblet squats keep the legs moving under light load, the burpees spike the heart rate and are today's wildcard. Push the pace but keep the swings crisp. Target under 8 minutes. If you gas out, keep moving and just slow down, do not stop the clock. This is the extra intensity you asked for."
     },
     {
       "id": "b3",
       "kind": "conditioning",
       "title": "EASY ZONE 2 — OPTIONAL",
-      "meta": "~10-12 min · treadmill · KEEP IT EASY",
+      "meta": "~8-10 min · treadmill · easy only, or skip",
       "format": "OPTIONAL · ZONE 2 ONLY",
-      "workRest": "one easy continuous effort — or skip it entirely",
+      "workRest": "one easy continuous effort, or skip it to protect the 50 min",
       "items": [
-        { "name": "Treadmill", "detail": "10-12 min @ 6.0-6.3 mph (~9:30-10:00/mi), flat or 1%" }
+        { "name": "Treadmill", "detail": "8-10 min @ 6.0-6.3 mph (~9:30-10:00/mi), flat or 1%" }
       ],
-      "text": "You'll want to run, so here's the deal: if you run today it is EASY Zone 2 only, conversational pace, 6.0-6.3 mph, not a click faster. You already banked two hard 2-milers back to back this week and your legs need the break, so today's run is active recovery, NOT a third tempo. If you'd rather protect the recovery, skip it or just do a 5-min incline walk at 3 mph / 10%. Do not race this one. The push today already happened up top."
+      "text": "You have done three 2-mile efforts this week and your legs just took heavy squats plus a redline, so if you run at all today it is EASY Zone 2, conversational, 6.0 to 6.3 mph, not a step faster. Honestly, with 50 minutes and everything above, skipping this is the right call most days, or swap it for a 5-minute incline walk at 3 mph and 10 percent to flush the legs. Do not turn this into a fourth tempo."
     },
     {
       "id": "b4",
       "kind": "strength",
       "title": "CORE + GRIP FINISHER",
-      "meta": "~8 min · anti-rotation + the grip work you wanted · standing rule",
-      "format": "3 ROUNDS · rest 45s",
+      "meta": "~7 min · anti-rotation + the grip work you wanted · standing rule",
+      "format": "3 ROUNDS · rest 30-45s",
       "items": [
-        { "name": "Farmer Hold", "detail": "2x40 (80 lb) · 45s · crush the handles, stand tall" },
-        { "name": "Hollow Rock", "detail": "15 · ribs down, low back glued to the floor" },
-        { "name": "Plank Shoulder Taps", "detail": "20 total · hips dead still, no rock" }
+        { "name": "Suitcase Carry", "detail": "50 lb DB · 40 steps/side · stand tall, crush the handle, no side-lean" },
+        { "name": "Hollow Hold", "detail": "30s · ribs down, low back pressed flat to the floor" },
+        { "name": "Side Plank", "detail": "30s/side · stack the hips, reach the top arm tall" }
       ],
-      "text": "Your end-of-session midline block, with the grip work built in since you loved it on 07-15. The farmer hold hammers your forearms and grip while bracing the whole trunk. Hollow rocks are anti-extension, shoulder taps are anti-rotation. Brace hard, quality over speed, 3 solid rounds."
+      "text": "Your end-of-session midline block with grip baked in since you like it. The suitcase carry is anti-lateral-flexion and hammers grip and forearms, the hollow is anti-extension, the side plank is anti-rotation. Brace hard, move slow, three clean rounds. This is the core that keeps your back happy under all the squatting."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~5 min · upper decompression",
-      "text": "Walk 2 min @ 3 mph. Then open the worked shoulders and chest: doorway pec stretch 30s/side · cross-body shoulder stretch 30s/side · overhead triceps stretch 30s/side · child's pose 45s · thread-the-needle 5/side · 5 slow breaths. Spend the time on whatever pressing muscle is most cooked."
+      "meta": "~4 min · hips + legs decompression",
+      "text": "Walk 2 min @ 3 mph. Then decompress the legs and hips: couch stretch 45s/side · figure-4 or pigeon 45s/side · standing forward fold 45s · seated straddle 45s · child's pose 45s · 5 slow breaths. Spend the most time on whatever is tightest from the squats."
     }
   ],
-  "timer": { "emomUnit": "reps / load today — no metcon clock" }
+  "timer": { "emomUnit": "for-time redline · run the stopwatch on the 15-12-9" }
 }

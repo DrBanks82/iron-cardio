@@ -1,77 +1,64 @@
 {
-  "date": "2026-07-18",
+  "date": "2026-07-19",
   "weekday": "TODAY",
-  "title": "HEAVY LEGS · REDLINE",
-  "vibe": "GREEN · HEAVY SQUAT + POWER, THEN A FOR-TIME REDLINE (run kept optional & easy)",
-  "why": "You slept 8 hours, nothing is sore, and you want more intensity, so today we go get it, just not with a fourth run. Your legs have been getting pounded by running (three 2-mile efforts this week) but they have not been strength-loaded since 07-10, over a week ago, and your upper body just got hammered yesterday. So the intensity goes into heavy double front squats paired with explosive swings for power, then a short for-time redline to spike the engine. That is harder than another tempo and it spares the impact your legs have been taking. Mobility opens it (hips and ankles today), a core and grip block closes it. The run is optional and easy Zone 2 only, no third tempo, skip it if you are tight on the 50 minutes. Read as GREEN off your check-in; if you somehow wake up flat, drop the squat to 4 sets and cut the redline to two rounds.",
-  "estMin": 50,
+  "title": "THE GIANT · PRESS LADDER",
+  "vibe": "GREEN · UPPER STRENGTH LADDER + BALLISTIC REDLINE — no treadmill, legs get a break from the pounding",
+  "why": "You slept 7 hours, nothing is sore, and you want to bring it, so we bring it — just not into your legs or the treadmill. You have run a ~15:36 two-mile tempo in four of your last five sessions and yesterday you hammered your legs with heavy squats, a 40 lb chipper, and another 2-mile run. So today we finally break the running stack and give your legs, knees, and hips a real deload while your intensity goes UP top. The engine is a classic tactical press builder: 'The Giant' — single-arm clean and press climbed as a ladder — supersetted with heavy rows, so you push real strength on your shoulders and back (last real press day was 07-17, recovered now). Then a Tabata redline of snatches and swings for the glycolytic hit you're craving, all ballistic, almost no leg impact. It closes with get-ups — a pattern you have not trained since 07-11 — plus anti-rotation core. Mobility opens it, shoulders and spine today. Read as GREEN: climb the press ladders heavy, redline the Tabata. THERE IS NO RUN in this plan on purpose. If you truly cannot skip it, make it a genuine easy 1-mile shakeout at 6.0 mph — NOT a fifth tempo. That is the whole point of today.",
+  "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "MOBILITY WARM-UP",
-      "meta": "~8 min · standing rule · hip + ankle biased for squatting",
-      "text": "Pulse first: easy jog OR jumping jacks / arm swings 3 min. Original Strength resets: diaphragmatic breathing x5 · head nods + rotations 5 each · quadruped rock-backs x10 · cross-crawls 10/side. Then open the hips and ankles for squatting: deep-squat pry 60s · 90/90 hip switches 6/side · ankle rock-to-wall 8/side · world's-greatest-stretch 4/side · leg swings 10/side front and lateral · cat-cow x8. Finish with 2 sets of 5 empty-hand goblet squats to groove full depth. Legs do the work today, so get the hips and ankles fully open before you load the front rack."
+      "meta": "~10 min · standing rule · shoulders + spine biased (press day)",
+      "text": "Pulse first: easy jog OR jumping jacks / arm swings 3 min to warm up. Original Strength resets: diaphragmatic breathing x5 · head nods + rotations 5 each · quadruped rock-backs x10 · cross-crawls 10/side. Then open the shoulders and spine for pressing (Moves Method Day A): shoulder dislocates / band or towel pass-throughs x10 · thoracic rotations (quadruped or open-book) 6/side · scapular CARs 5/side · wall slides x10 · thread-the-needle 5/side · pec-opener doorway stretch 30s · wrist rocks 10. Finish with 2 rounds of 5 strict presses with the 16 kg per arm to groove the overhead lockout. Shoulders do the work today — get the overhead position fully open and the T-spine moving before you load the ladder."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "HEAVY SQUAT + POWER",
-      "meta": "~16 min · 2x40 lb (80 lb) · contrast pair, push the load",
-      "format": "STRENGTH + POWER CONTRAST · RPE 8-9",
-      "workRest": "5 rounds · A1 heavy then A2 explosive · rest 90-120s between rounds",
+      "title": "THE GIANT · CLEAN + PRESS LADDER",
+      "meta": "~18 min · 40 lb single + 50 lb DB · push the load, grind the reps",
+      "format": "ASCENDING LADDER 1-2-3-4-5 · superset with a heavy pull · RPE 8",
+      "workRest": "Climb one full ladder per arm, then a set of rows. Repeat for as many full ladders as you can in ~18 min (target 2-3). Rest as needed to keep the presses clean.",
       "items": [
-        { "name": "A1 · Double Front Squat", "detail": "2x40 (80 lb) · 5 x 5 · elbows high, brace hard, own full depth, grind the last rep clean" },
-        { "name": "A2 · Explosive Double Swing", "detail": "2x40 (80 lb) · 5 x 8 · snap the hips, float the bells, all power not grind" }
+        { "name": "A1 · 1-Arm Clean & Press (ladder)", "detail": "40 lb · climb 1→2→3→4→5 reps, LEFT arm, then the same 1→2→3→4→5 RIGHT arm = one full ladder. Re-clean every rep. Strict overhead lockout, no leg drive." },
+        { "name": "A2 · Bent-Over Row", "detail": "50 lb DB · 8-10 per side after each full press ladder · flat back, drive the elbow past the ribs, own the squeeze" }
       ],
-      "text": "Contrast training straight from the athletic-power world: a heavy strength lift followed by an explosive one primes the nervous system, so the squats feel strong and the swings feel snappy. Front squat has been sitting since 07-10, so go get it, 5 sets of 5, heavy but clean. If the front rack fatigues before the legs do, switch to a 50 lb goblet squat and keep the load on. The double swings are pure power, drive with the hips, do not muscle them up with the arms. This is where most of your intensity lives today."
+      "text": "'The Giant' is the tactical/military press builder — high-quality overhead volume climbed as a ladder so you accumulate real pressing strength without one crushing set. Clean the bell fresh for every rep. Use the zip-up brace on every press: grip the floor with your toes, flex the quads, squeeze the glutes, brace the abs like you're about to take a punch, tighten the lat to lock the armpit — then press strict, no bend or dip in the legs. That full-body tension is what makes a heavy press feel light. The rows between ladders balance all that pressing with heavy pulling so your shoulders stay healthy. This is where today's strength intensity lives — climb it heavy, and if 5 reps at the 40 gets grindy, that's the point; just keep the lockout honest. If your left is weaker, climb to whatever top rung it owns cleanly and match the right to it."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "REDLINE CHIPPER",
-      "meta": "~9 min · 16 kg + bodyweight · for time (WILDCARD)",
-      "format": "15-12-9 · FOR TIME · one clock, straight through",
-      "workRest": "move continuously, rest only as needed, log your finish time",
+      "title": "TABATA REDLINE",
+      "meta": "~10 min · 16 kg · 20s work / 10s rest × 8 (WILDCARD format)",
+      "format": "TWO TABATAS · ballistic · almost zero leg impact",
+      "workRest": "Tabata = 8 rounds of 20s all-out / 10s rest = 4 min each. Rest 2 min between the two. Count total reps if you want a score to beat next time.",
       "items": [
-        { "name": "15-12-9 · KB Swing", "detail": "16 kg · hinge hard and fast, chest-height float" },
-        { "name": "15-12-9 · Goblet Squat", "detail": "16 kg · full depth, elbows inside the knees" },
-        { "name": "15-12-9 · Burpee", "detail": "bodyweight · chest to floor, jump at the top (step back if the knees complain)" }
+        { "name": "TABATA 1 · Snatch", "detail": "16 kg · 8 × (20s on / 10s off) · switch arms each round (or at the halfway rep). Punch the bell overhead, snappy, all hips." },
+        { "name": "TABATA 2 · Two-Hand Swing", "detail": "16 kg · 8 × (20s on / 10s off) · float to chest height, hard hip snap, crisp lockout at the top" }
       ],
-      "text": "One descending ladder for time: 15 of each, then 12, then 9, straight through with the stopwatch running. This is your redline and your conditioning in one, no treadmill needed. Swings and goblet squats keep the legs moving under light load, the burpees spike the heart rate and are today's wildcard. Push the pace but keep the swings crisp. Target under 8 minutes. If you gas out, keep moving and just slow down, do not stop the clock. This is the extra intensity you asked for."
+      "text": "This is your redline — the hard glycolytic hit you wanted, delivered ballistically so your legs and knees stay out of the pounding. Snatches drive the shoulders and posterior chain and spike the heart rate fast; the swing Tabata keeps the engine pinned while sparing your already-fried pressing muscles. Go all-out in the 20s windows — that's where the fat-loss stimulus lives — and use the 10s to reset your grip and breath, not to quit. If your grip is the limiter on the snatch (likely after the ladder and rows), park the bell for a second rather than losing the overhead lockout. Two Tabatas, eight minutes of work, and you'll be smoked without a single running step."
     },
     {
       "id": "b3",
-      "kind": "conditioning",
-      "title": "EASY ZONE 2 — OPTIONAL",
-      "meta": "~8-10 min · treadmill · easy only, or skip",
-      "format": "OPTIONAL · ZONE 2 ONLY",
-      "workRest": "one easy continuous effort, or skip it to protect the 50 min",
-      "items": [
-        { "name": "Treadmill", "detail": "8-10 min @ 6.0-6.3 mph (~9:30-10:00/mi), flat or 1%" }
-      ],
-      "text": "You have done three 2-mile efforts this week and your legs just took heavy squats plus a redline, so if you run at all today it is EASY Zone 2, conversational, 6.0 to 6.3 mph, not a step faster. Honestly, with 50 minutes and everything above, skipping this is the right call most days, or swap it for a 5-minute incline walk at 3 mph and 10 percent to flush the legs. Do not turn this into a fourth tempo."
-    },
-    {
-      "id": "b4",
       "kind": "strength",
-      "title": "CORE + GRIP FINISHER",
-      "meta": "~7 min · anti-rotation + the grip work you wanted · standing rule",
-      "format": "3 ROUNDS · rest 30-45s",
+      "title": "GET-UP + CORE FINISHER",
+      "meta": "~10 min · get-up (neglected pattern) + anti-rotation · standing rule",
+      "format": "3 ROUNDS · slow and deliberate · rest 30-45s",
       "items": [
-        { "name": "Suitcase Carry", "detail": "50 lb DB · 40 steps/side · stand tall, crush the handle, no side-lean" },
-        { "name": "Hollow Hold", "detail": "30s · ribs down, low back pressed flat to the floor" },
-        { "name": "Side Plank", "detail": "30s/side · stack the hips, reach the top arm tall" }
+        { "name": "Turkish Get-Up", "detail": "16 kg · 1-2 per side · move slow, pause at each position, eyes on the bell — full-body midline under load" },
+        { "name": "Side Plank", "detail": "30s per side · stack the hips, reach the top arm tall, no sag — anti-rotation" },
+        { "name": "Hollow Hold", "detail": "30s · ribs down, low back pressed flat to the floor — anti-extension" }
       ],
-      "text": "Your end-of-session midline block with grip baked in since you like it. The suitcase carry is anti-lateral-flexion and hammers grip and forearms, the hollow is anti-extension, the side plank is anti-rotation. Brace hard, move slow, three clean rounds. This is the core that keeps your back happy under all the squatting."
+      "text": "Your end-of-session midline block, built around the get-up — a pattern you have not trained since 07-11, so it was overdue. The get-up is a full-body, shoulder-stabilizing grind that ties the whole session together and keeps your overhead pressing durable; go slow and own every transition. Side plank and hollow cover anti-rotation and anti-extension — the core work that keeps your back happy under all that overhead load. Three clean, deliberate rounds. If the 16 kg get-up feels easy, load it to the 40."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~4 min · hips + legs decompression",
-      "text": "Walk 2 min @ 3 mph. Then decompress the legs and hips: couch stretch 45s/side · figure-4 or pigeon 45s/side · standing forward fold 45s · seated straddle 45s · child's pose 45s · 5 slow breaths. Spend the most time on whatever is tightest from the squats."
+      "meta": "~5 min · shoulders + lats + T-spine decompression",
+      "text": "Walk 2 min to bring the heart rate down. Then decompress everything you pressed: overhead lat stretch (hang on a doorframe or reach-and-side-bend) 30s/side · cross-body shoulder stretch 30s/side · doorway pec stretch 30s/side · thread-the-needle 30s/side · child's pose with a side-reach 45s · 5 slow breaths. Reminder: today is a deliberate NO-RUN day to deload your legs — if you absolutely have to run, keep it an easy 1-mile shakeout at 6.0 mph, not a tempo."
     }
   ],
-  "timer": { "emomUnit": "for-time redline · run the stopwatch on the 15-12-9" }
+  "timer": { "emomUnit": "Tabata redline · 20s work / 10s rest × 8 · use the interval timer for both Tabatas" }
 }

@@ -1,67 +1,67 @@
 {
-  "date": "2026-07-21",
+  "date": "2026-07-23",
   "weekday": "TODAY",
-  "title": "OFF-HAND · UNILATERAL LEG DAY",
-  "vibe": "GREEN · THE SWITCH-UP YOU ASKED FOR — no clocks, no 2-mile tempo, no double-bell density. Today is single-side lifting with movements you've never run: cossack, curtsy, kickstand, front-rack lunge. Legs are the work; the treadmill drops to a low-impact walk.",
-  "why": "You slept 7.5, nothing's sore, and you told me the exercises still feel repetitive. You're right — five of your last six sessions were a KB density/ladder/Tabata block, then a 2-mile treadmill tempo, then a core circuit. Same skeleton, same movement pool: swings, cleans, presses, rows, carries, planks. So today I threw the whole skeleton out. This is a UNILATERAL day: everything single-side, measured by quality reps and controlled tempo instead of a clock, built from the one movement library we've never touched — cossack squats, curtsy lunges, kickstand RDLs, front-rack reverse lunges, single-leg RDLs. Your brain and your hips will feel every one of these because they're new. Two other deliberate switches: (1) it's a LEG day — you haven't done leg strength since 07-18, and loaded single-leg work is the lowest-impact way to hammer your legs, which matters because (2) the 2-mile tempo is OUT. You've run it 5 of 6 sessions — it IS the most repetitive thing you do, and you've now trained four straight days with a tempo each time, so a true impact deload is overdue. Your cardio today is a low-impact incline walk to close, which banks the connective-tissue recovery you're due without a rest day. If you truly can't help yourself, keep the treadmill to an easy 8-10 min — but the single-leg work IS today's leg burn, so let it be.",
+  "title": "SINGLE-SIDE LEGS · REDLINE",
+  "vibe": "GREEN · THE SESSION YOU WERE WAITING FOR — the unilateral leg day you missed, loaded up and capped with a single-leg redline finisher. Two days off means fresh legs and a full send. No treadmill tempo today; your legs earn their burn from the iron.",
+  "why": "You took 07-21 and 07-22 fully off — and that's exactly the true rest day the log had flagged as overdue after your 07-17 through 07-20 run block (four straight days with a 2-mile tempo each). So you don't come in beat up, you come in RECOVERED, which is precisely when we send it. You slept 6 (a touch short, so we keep the movements clean, not sloppy), nothing's sore, and you told me two things: get the unilateral work in, and get after it. Both, then. Session 1 is the single-side leg work you were looking forward to — kickstand RDL, front-rack reverse lunge, cossack, single-leg RDL — loaded to a real RPE 8 this time, not just a tempo groove. Your legs haven't had strength work since 07-18 (five days), so this fills a genuine gap on fresh legs. Then the get-after-it part: a for-time SINGLE-LEG REDLINE — Bulgarian split squats paired with heavy one-arm swings, pushed hard, minimal rest, heart rate through the roof. That IS your cardio today, which is why there's no 2-mile tempo: you've had zero pounding for two days, your legs are about to do serious strength AND a redline, and stacking a threshold run on top would just be junk impact. If you get the itch, an easy short jog to finish is your call — but the honest work is the iron. Cossack squat is your wildcard: you've literally never done it, and your adductors are about to find out.",
   "estMin": 50,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "MOBILITY WARM-UP",
-      "meta": "~7 min · Moves Method Day B (ankles / knees / hips) · prime the single-leg work",
-      "text": "Leg day, so we open the hips, ankles and knees and wake up your balance. Original Strength resets: diaphragmatic breathing x5 · rock-backs x10 · cross-crawls 10/side. Then Day B: deep-squat ankle rocks 10/side · toe-squat to heel-squat 8 · 90/90 hip switches 6/side · single-leg balance 20s/side (eyes down, then eyes closed if steady) · leg swings front-back + lateral 10/side · bodyweight cossack squat rehearsal 5/side to open the groin before you load it. Take an extra minute here today — half of these lifts are new to your joints, so grease the pattern before you add weight."
+      "meta": "~6 min · Moves Method Day B (ankles / knees / hips) · prime single-leg + open the groin",
+      "text": "Leg day on fresh legs — open the hips, ankles and knees and wake your balance. OS resets: diaphragmatic breathing x5 · rock-backs x10 · cross-crawls 10/side. Then Day B: deep-squat ankle rocks 10/side · toe-squat to heel-squat 8 · 90/90 hip switches 6/side · single-leg balance 20s/side · leg swings front-back + lateral 10/side · bodyweight cossack squat rehearsal 5/side to open the groin before you load it. Half of Session 1 is new to your joints — grease the pattern before you add weight, and your cossacks and single-leg RDLs will feel far more stable."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "SESSION 1 · UNILATERAL LOWER (the switch-up)",
-      "meta": "~24 min · 50 lb DB / 40 lb bell / 16 kg · single-side · quality reps, no clock",
-      "format": "TEMPO HYPERTROPHY · 2 superset pairs, 3 rounds each · RPE 7-8 · 3-sec lowers, pause in the stretch · rest ~60-75s",
-      "workRest": "This is NOT a race — there's no timer today on purpose. Move slow and own each rep: 3 seconds down, a real pause at the bottom/stretch, drive up. Do all reps on one side, then switch. If your balance breaks or form gets sloppy, that set's done — quality over count.",
+      "title": "SESSION 1 · UNILATERAL LOWER (the work you wanted)",
+      "meta": "~20 min · 50 lb DB / 40 lb bell / 16 kg · single-side · RPE 8, controlled but pushed",
+      "format": "TEMPO STRENGTH · 2 superset pairs, 3 rounds each · RPE 8 · 3-sec lowers, pause in the stretch · rest ~60s",
+      "workRest": "Own each rep — 3 seconds down, real pause at the stretch, drive up — but load it and PUSH this time. Last set of each move: chase an extra rep or two past the target if form holds. All reps one side, then switch. Balance breaks or form breaks = that set's done.",
       "items": [
-        { "name": "A1 · Kickstand (B-Stance) RDL", "detail": "50 lb DB · 10/side · working leg flat, back toe just kissing the floor for balance only (~20% of the load). Push hips BACK, feel the hamstring lengthen, pause, drive up. Nearly all the work is on the front leg — a single-leg RDL you can actually load heavy. NEW pattern." },
-        { "name": "A2 · Front-Rack Reverse Lunge", "detail": "40 lb bell in the front rack (one side) · 8/side · step BACK, tall chest, knee to the floor, drive through the front heel. Front-rack loading lights up the quad and forces your midline to stay stacked — a lunge you've never trained this way." },
-        { "name": "B1 · Cossack Squat (WILDCARD)", "detail": "16 kg goblet · 8/side · wide stance, sink into ONE hip keeping the other leg straight, foot flexed. Sit deep, chest up, drive back to center. Brutal on the adductors and hip mobility — a movement you have never done. Go bodyweight the first round if the depth fights you." },
-        { "name": "B2 · Single-Leg RDL", "detail": "16 kg (same-side hand) · 8/side · slight bend in the standing knee, hinge and reach the bell toward the floor, back leg extending behind you like a seesaw. Slow and controlled, feel the hamstring, no rounding. Balance IS the exercise here." },
-        { "name": "FINISHER (if time) · Curtsy Lunge", "detail": "16 kg goblet or bodyweight · 12/side · step the working leg BEHIND and across, hips square, sink and stand. Hits glute med and adductors the straight-line lunges miss. Skip if you're at the 40-min mark." }
+        { "name": "A1 · Kickstand (B-Stance) RDL", "detail": "50 lb DB · 10/side · working leg flat, back toe just kissing the floor for balance only (~20% of load). Hips BACK, feel the hamstring lengthen, pause, drive up. A single-leg RDL you can actually load heavy — go for it today." },
+        { "name": "A2 · Front-Rack Reverse Lunge", "detail": "40 lb bell in the front rack (one side) · 8/side · step BACK, tall chest, knee to the floor, drive through the front heel. Front-rack loading lights the quad and forces the midline to stay stacked. Swap the rack side each set." },
+        { "name": "B1 · Cossack Squat (WILDCARD)", "detail": "16 kg goblet · 8/side · wide stance, sink into ONE hip, other leg straight, foot flexed. Sit deep, chest up, drive back to center. Brutal on adductors + hip mobility — a movement you've NEVER done. Bodyweight the first round if depth fights you, then load it." },
+        { "name": "B2 · Single-Leg RDL", "detail": "16 kg (same-side hand) · 8/side · slight bend in the standing knee, hinge and reach the bell down, back leg extends behind like a seesaw. Slow, feel the hamstring, no rounding. Balance IS the exercise." }
       ],
-      "text": "The whole point of today. Every lift is single-side and every lift is one you don't have grooved, so it'll feel foreign and that's exactly the variety you asked for. Superset A (kickstand RDL + front-rack reverse lunge) is your loaded strength pair — hinge then squat pattern, heavy-ish, 3 rounds. Superset B (cossack + single-leg RDL) is the mobility-strength pair that attacks your frontal plane and your balance, the two things a year of swings and presses never touched. Cossack squat is today's wildcard — nobody trains the sideways plane and yours will be sore in places you forgot you had. No clock anywhere: the discipline today is slow tempo and honest reps, not beating a timer. This is real leg work, so your legs get their burn from strength, not from pounding the treadmill."
+      "text": "The session you've been waiting for — every lift single-side, every lift new to your body, which is exactly the variety you asked for two days ago. Superset A (kickstand RDL + front-rack reverse lunge) is your loaded strength pair: hinge then squat, heavy, 3 rounds, ~60s rest. Superset B (cossack + single-leg RDL) attacks your frontal plane and your balance — the two qualities a year of swings and presses never touched. Difference from the tempo version I first wrote: you're rested now, so LOAD it and push to RPE 8, not just groove it. Cossack is the wildcard — sideways-plane strength nobody trains; expect soreness in new places. This is real leg work, and it sets up the redline to come."
     },
     {
       "id": "b2",
       "kind": "strength",
       "title": "SESSION 2 · LOADED ROTATION CORE (your daily core)",
-      "meta": "~8 min · 16 kg / 50 lb DB · fresh midline — no planks, no hollows, no deadbugs",
+      "meta": "~7 min · 16 kg / 50 lb DB · dynamic midline — no planks, no hollows, no deadbugs",
       "format": "3 ROUNDS · slow + controlled · rest 30s",
-      "workRest": "3 unhurried rounds. Different from yesterday's anti-rotation on purpose — today the midline works through loaded bending and rotation, not stillness. Control the weight, don't let it control you.",
+      "workRest": "3 unhurried rounds before the redline. Today the midline works through loaded BENDING and rotation, not stillness — different from your last core day. Control the weight, don't let it control you.",
       "items": [
-        { "name": "Kettlebell Windmill", "detail": "16 kg overhead (locked out) · 5/side · eyes on the bell, push the same-side hip out, hinge and reach the free hand down your leg toward the floor, stand tall. Loaded lateral flexion + thoracic rotation + hip mobility in one — a core move you haven't done in weeks." },
-        { "name": "Half-Kneeling Halo", "detail": "16 kg · 5 each direction/side · half-kneeling (one knee down), circle the bell tightly around your head. The half-kneel makes your core fight to keep you from tipping while the load orbits — anti-rotation you've never trained. Switch the down-knee each round." },
-        { "name": "Suitcase Deadlift-to-Stand + Hold", "detail": "50 lb DB one side · 6 reps, then a 20s tall hold · deadlift the bell from the floor on ONE side, stand fully, resist getting pulled sideways, then hold tall and don't lean. Anti-lateral-flexion under a real load. Switch sides each round." }
+        { "name": "Kettlebell Windmill", "detail": "16 kg overhead (locked out) · 5/side · eyes on the bell, push the same-side hip out, hinge and reach the free hand down your leg, stand tall. Loaded lateral flexion + thoracic rotation + hip mobility in one." },
+        { "name": "Half-Kneeling Halo", "detail": "16 kg · 5 each direction/side · half-kneeling, circle the bell tightly around your head. The half-kneel makes your core fight to keep you from tipping while the load orbits. Switch the down-knee each round." },
+        { "name": "Suitcase Deadlift-to-Stand + Hold", "detail": "50 lb DB one side · 6 reps then a 20s tall hold · deadlift from the floor on ONE side, stand fully, resist getting pulled sideways, then hold tall. Anti-lateral-flexion under real load. Switch sides each round." }
       ],
-      "text": "Your dedicated daily core block, and I deliberately steered it away from yesterday's anti-rotation planks. Today the midline works dynamically — the windmill bends and rotates you under a locked-out bell (and doubles as hip and shoulder mobility), the half-kneeling halo makes your trunk resist tipping while the weight moves, and the suitcase deadlift-hold trains your obliques to keep you upright against an offset load. All three are single-side, so they ride the same unilateral theme as the leg block. Slow and deliberate — the core adapts to control, not speed."
+      "text": "Your dedicated daily core, done BEFORE the redline while you can still control the load. Steered away from your last core day's anti-rotation planks: today the windmill bends and rotates you under a locked-out bell, the half-kneeling halo makes your trunk resist tipping while the weight moves, and the suitcase deadlift-hold builds obliques that keep you upright against an offset load. All single-side — same theme as the leg block. Slow and deliberate; the core adapts to control, not speed."
     },
     {
       "id": "b3",
       "kind": "conditioning",
-      "title": "CARDIO · LOW-IMPACT INCLINE WALK",
-      "meta": "~8 min · treadmill · fat-loss walk, NOT a run — this is the deliberate impact deload",
-      "format": "STEADY INCLINE WALK · no intervals, no tempo",
-      "workRest": "Set it and walk. Nasal-breathing pace — you should be able to hold a conversation. This is the recovery your legs and connective tissue are due after four straight tempo days.",
+      "title": "GET-AFTER-IT FINISHER · SINGLE-LEG REDLINE",
+      "meta": "~9 min · 16 kg + 40 lb · FOR TIME · this is your cardio — push the pace",
+      "format": "3 ROUNDS FOR TIME · RPE 9 · minimal rest · target under ~9 min",
+      "workRest": "Move fast, rest only when your form demands it. This is the get-after-it you asked for — the swings spike your heart rate, the split squats bury your legs. Start the STOPWATCH and chase the clock.",
       "items": [
-        { "name": "Incline Walk", "detail": "3.0-3.2 mph @ 10-12% incline · ~8 min · tall posture, drive off the toes, don't hold the rails. Burns fat, spikes almost zero joint impact. If you flat-out need to run today, cap it at an EASY 8-10 min Zone 2 (~6 mph / 9:30-10:00 pace) instead — but the honest move is the walk, because the legs already did their work." }
+        { "name": "Bulgarian Split Squat", "detail": "16 kg goblet (or bodyweight if legs are cooked) · 8/side · rear foot on a couch/bench, drop straight down, front knee tracks the toe, drive up. Rear-foot-elevated = your hardest single-leg quad burn, and after Session 1 your legs will already be screaming." },
+        { "name": "One-Arm Swing", "detail": "40 lb · 12/side · explosive hip snap, bell to chest height, hand crushed on the handle. Heavy ballistic hinge — this is what drives your heart rate to the ceiling. Switch hands at 12." }
       ],
-      "text": "Here's the real switch: the 2-mile tempo is out today. You've run it five of your last six sessions — it's the single most repetitive thing you do, and you've now stacked a threshold 2-miler four days running with HR drifting to 90% max. Your engine is a strength, not the problem; cumulative leg IMPACT is the only real risk, and the one thing that's ever deloaded it is backing off the pounding. So today's cardio is a low-impact incline walk that still drives fat loss but gives your knees, hips and Achilles a genuine break, without costing you a full rest day. Own the deload the same way you own the run."
+      "text": "The redline. A quad-dominant single-leg burn paired with a heavy explosive hinge, for time, three rounds, minimal rest — heart rate pinned, legs on fire. THIS is your cardio and your intensity today, which is exactly why there's no 2-mile tempo: you've had two days with zero pounding, and between heavy Session 1 and this redline your legs get everything they need without a single junk-impact mile. If you finish and genuinely need to run, keep it to an easy 8-10 min jog (~6 mph) — but you won't have much left, and that's the point. Get after it."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~3 min · open the hips, groin and hamstrings you just hammered",
-      "text": "Walk 60s to settle. Then: deep half-kneeling hip-flexor stretch 30s/side · straddle / frog groin stretch 45s (you loaded the adductors hard with the cossacks) · standing or seated hamstring reach 30s/side · figure-4 glute stretch 30s/side · 5 slow nasal breaths. Report back: which single-leg moves torched you, how the cossacks felt, your RPE, and whether the no-clock / no-tempo format was the variety you wanted — that tells me how far to keep pushing the switch-ups."
+      "meta": "~3 min · open the hips, groin and hamstrings you just torched",
+      "text": "Walk 60s to drop the heart rate. Then: deep half-kneeling hip-flexor stretch 30s/side · straddle / frog groin stretch 45s (the cossacks earned this) · standing or seated hamstring reach 30s/side · figure-4 glute stretch 30s/side · 5 slow nasal breaths. Report back: how the new single-side movements felt (especially the cossacks), your RPE on Session 1, your redline time, and whether the loaded-and-hard version delivered the get-after-it you wanted — that sets the intensity dial for next time."
     }
   ],
-  "timer": { "emomUnit": "NO CLOCK TODAY — Session 1 is tempo reps by feel (3-sec lowers, ~60-75s rest). Use the STOPWATCH only if you want to keep the incline walk honest at ~8 min." }
+  "timer": { "emomUnit": "Session 1 = tempo reps by feel (3-sec lowers, ~60s rest). Finisher = STOPWATCH, 3 rounds for time, chase sub-9:00." }
 }

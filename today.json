@@ -1,67 +1,79 @@
 {
-  "date": "2026-07-23",
+  "date": "2026-07-25",
   "weekday": "TODAY",
-  "title": "SINGLE-SIDE LEGS · REDLINE",
-  "vibe": "GREEN · THE SESSION YOU WERE WAITING FOR — the unilateral leg day you missed, loaded up and capped with a single-leg redline finisher. Two days off means fresh legs and a full send. No treadmill tempo today; your legs earn their burn from the iron.",
-  "why": "You took 07-21 and 07-22 fully off — and that's exactly the true rest day the log had flagged as overdue after your 07-17 through 07-20 run block (four straight days with a 2-mile tempo each). So you don't come in beat up, you come in RECOVERED, which is precisely when we send it. You slept 6 (a touch short, so we keep the movements clean, not sloppy), nothing's sore, and you told me two things: get the unilateral work in, and get after it. Both, then. Session 1 is the single-side leg work you were looking forward to — kickstand RDL, front-rack reverse lunge, cossack, single-leg RDL — loaded to a real RPE 8 this time, not just a tempo groove. Your legs haven't had strength work since 07-18 (five days), so this fills a genuine gap on fresh legs. Then the get-after-it part: a for-time SINGLE-LEG REDLINE — Bulgarian split squats paired with heavy one-arm swings, pushed hard, minimal rest, heart rate through the roof. That IS your cardio today, which is why there's no 2-mile tempo: you've had zero pounding for two days, your legs are about to do serious strength AND a redline, and stacking a threshold run on top would just be junk impact. If you get the itch, an easy short jog to finish is your call — but the honest work is the iron. Cossack squat is your wildcard: you've literally never done it, and your adductors are about to find out.",
-  "estMin": 50,
+  "title": "ISOLATION PUMP · ARMS & DELTS",
+  "vibe": "GREEN · You asked for isolation — here's a pure hypertrophy day. No compound grinds, no ballistics, no treadmill: just direct arm, shoulder, chest and back work taken near failure with partials and drop sets. Legs got hammered Thursday, so today they rest while your sleeves do the work. Push it — the point today is to chase a real pump, not to move heavy iron.",
+  "why": "You did the SINGLE-SIDE LEGS · REDLINE session Thursday (07-23) — heavy unilateral strength plus a single-leg redline — and your legs are still a touch sore two days out, so hammering them again would be junk work. You told me two things: push it, and give you MORE ISOLATION. Both point the same direction. Your log is almost all compound density, ballistics, carries and unilateral strength — direct isolation and hypertrophy-pump work is the single biggest gap in it (only your 07-17 6-12-25 finisher scratched it). So today is a dedicated bodybuilding day, upper-body only: it spares the sore legs, fills that gap, and is exactly what you asked for. You're GREEN (7h sleep, only mild leg DOMS), so this isn't a light day — you push every isolation move to near failure using the techniques the research lens surfaced: 21s and lengthened partials for constant tension, and drop-set burnouts to chase true fatigue. Your cardio today comes from the pump density itself — short rests and burnout rounds spike the heart rate without a single junk-impact mile (you've run enough; steady easy Zone 2 stays your open gap for a lighter day if you want an easy jog later, but it's optional). Wildcard = 21s curls: bottom-half, top-half, full-range — a bodybuilding isolation staple you've literally never done in this log.",
+  "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "MOBILITY WARM-UP",
-      "meta": "~6 min · Moves Method Day B (ankles / knees / hips) · prime single-leg + open the groin",
-      "text": "Leg day on fresh legs — open the hips, ankles and knees and wake your balance. OS resets: diaphragmatic breathing x5 · rock-backs x10 · cross-crawls 10/side. Then Day B: deep-squat ankle rocks 10/side · toe-squat to heel-squat 8 · 90/90 hip switches 6/side · single-leg balance 20s/side · leg swings front-back + lateral 10/side · bodyweight cossack squat rehearsal 5/side to open the groin before you load it. Half of Session 1 is new to your joints — grease the pattern before you add weight, and your cossacks and single-leg RDLs will feel far more stable."
+      "meta": "~6 min · Moves Method Day A (shoulders / spine / elbows / wrists) · prime the joints you're about to isolate",
+      "text": "Upper-isolation day, so open the shoulders and bulletproof the elbows and wrists before you load them with high-rep curls, extensions and raises. OS resets: diaphragmatic breathing x5 · cross-crawls 10/side. Then Day A: arm circles 10 each way · shoulder dislocates (broomstick/towel) x10 · band or bodyweight scap wall-slides x10 · thoracic rotations 8/side (open the T-spine) · wrist rocks + wrist circles 15 each (elbow/wrist insurance for all the curl volume) · light 16 kg pump-up: 8 curls + 8 presses just to feed blood in. Get a light pump before the working sets — warm joints and pre-fed muscle = more reps near failure and less elbow cranking."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "SESSION 1 · UNILATERAL LOWER (the work you wanted)",
-      "meta": "~20 min · 50 lb DB / 40 lb bell / 16 kg · single-side · RPE 8, controlled but pushed",
-      "format": "TEMPO STRENGTH · 2 superset pairs, 3 rounds each · RPE 8 · 3-sec lowers, pause in the stretch · rest ~60s",
-      "workRest": "Own each rep — 3 seconds down, real pause at the stretch, drive up — but load it and PUSH this time. Last set of each move: chase an extra rep or two past the target if form holds. All reps one side, then switch. Balance breaks or form breaks = that set's done.",
+      "title": "BLOCK 1 · ARM ISOLATION (antagonist superset)",
+      "meta": "~13 min · 16 kg (or 50 lb DB for triceps) · biceps + triceps back-to-back · RPE 8–9, near failure",
+      "format": "ANTAGONIST SUPERSET · 4 rounds · A1 then A2 back-to-back · rest ~45s after each pair · final round = drop-set / partial burnout to failure",
+      "workRest": "Curl and extension alternate with no rest between them (one pumps while the other recovers), then rest ~45s and go again. Strict elbows — the elbow does NOT drift; only the forearm moves. Pre-engage the muscle before each rep, squeeze hard at the top, and fight the weight down for 2–3 seconds. Rounds 1–3 are clean strict reps; on round 4 you take BOTH moves past failure with the burnout cue in each.",
       "items": [
-        { "name": "A1 · Kickstand (B-Stance) RDL", "detail": "50 lb DB · 10/side · working leg flat, back toe just kissing the floor for balance only (~20% of load). Hips BACK, feel the hamstring lengthen, pause, drive up. A single-leg RDL you can actually load heavy — go for it today." },
-        { "name": "A2 · Front-Rack Reverse Lunge", "detail": "40 lb bell in the front rack (one side) · 8/side · step BACK, tall chest, knee to the floor, drive through the front heel. Front-rack loading lights the quad and forces the midline to stay stacked. Swap the rack side each set." },
-        { "name": "B1 · Cossack Squat (WILDCARD)", "detail": "16 kg goblet · 8/side · wide stance, sink into ONE hip, other leg straight, foot flexed. Sit deep, chest up, drive back to center. Brutal on adductors + hip mobility — a movement you've NEVER done. Bodyweight the first round if depth fights you, then load it." },
-        { "name": "B2 · Single-Leg RDL", "detail": "16 kg (same-side hand) · 8/side · slight bend in the standing knee, hinge and reach the bell down, back leg extends behind like a seesaw. Slow, feel the hamstring, no rounding. Balance IS the exercise." }
+        { "name": "A1 · 21s Curl (WILDCARD)", "detail": "16 kg by the horns, ~35 lb bilateral (or single-arm 21s each side if two-hand feels awkward) · 7 bottom-half reps (full stretch to mid) + 7 top-half reps (mid to peak squeeze) + 7 full-range = 21 total. Elbows pinned to your ribs, palms supinated, no shoulder swing. Round 4: after the 21, keep curling slow full reps until you can't — drop-set to true failure." },
+        { "name": "A2 · Overhead Triceps Extension", "detail": "16 kg in both hands overhead (or 50 lb DB) · 12–15 reps · elbows tight and pointing at the ceiling, lower behind the head for a deep stretch, drive to a locked-out squeeze. Only the forearms move. Round 4: when full reps stop, keep pulsing bottom-third lengthened partials (deep stretch position) until failure." }
       ],
-      "text": "The session you've been waiting for — every lift single-side, every lift new to your body, which is exactly the variety you asked for two days ago. Superset A (kickstand RDL + front-rack reverse lunge) is your loaded strength pair: hinge then squat, heavy, 3 rounds, ~60s rest. Superset B (cossack + single-leg RDL) attacks your frontal plane and your balance — the two qualities a year of swings and presses never touched. Difference from the tempo version I first wrote: you're rested now, so LOAD it and push to RPE 8, not just groove it. Cossack is the wildcard — sideways-plane strength nobody trains; expect soreness in new places. This is real leg work, and it sets up the redline to come."
+      "text": "Straight-up arm day. Supersetting biceps and triceps lets each recover while the other works, so you get more quality volume in less time and a huge pump — perfect for the 45-min cap. The 21s are your wildcard and your headline: seven bottom-half, seven top-half, seven full — the research today was explicit that partial ranges plus near-failure drop sets drive bicep growth better than chasing load, and strict elbow position is everything. Triceps get the same treatment: deep stretch, hard lockout, then lengthened partials to finish. Push these — clean reps for three rounds, then bury both on round four."
     },
     {
       "id": "b2",
       "kind": "strength",
-      "title": "SESSION 2 · LOADED ROTATION CORE (your daily core)",
-      "meta": "~7 min · 16 kg / 50 lb DB · dynamic midline — no planks, no hollows, no deadbugs",
-      "format": "3 ROUNDS · slow + controlled · rest 30s",
-      "workRest": "3 unhurried rounds before the redline. Today the midline works through loaded BENDING and rotation, not stillness — different from your last core day. Control the weight, don't let it control you.",
+      "title": "BLOCK 2 · DELT ISOLATION (3-way giant set)",
+      "meta": "~11 min · 16 kg · all three delt heads · RPE 8, partials to burn",
+      "format": "GIANT SET · 3 rounds · B1 → B2 → B3 with no rest inside the round · rest ~60s between rounds",
+      "workRest": "One bell, three delt heads, straight through — side, rear, front — then rest a minute and repeat. Shoulders love volume and constant tension, so lead with the elbow, control every descent, and when strict reps run out, keep pumping partials in the stretch. Lighten your grip and slow down if the elbows complain — this is a burn, not a grind.",
       "items": [
-        { "name": "Kettlebell Windmill", "detail": "16 kg overhead (locked out) · 5/side · eyes on the bell, push the same-side hip out, hinge and reach the free hand down your leg, stand tall. Loaded lateral flexion + thoracic rotation + hip mobility in one." },
-        { "name": "Half-Kneeling Halo", "detail": "16 kg · 5 each direction/side · half-kneeling, circle the bell tightly around your head. The half-kneel makes your core fight to keep you from tipping while the load orbits. Switch the down-knee each round." },
-        { "name": "Suitcase Deadlift-to-Stand + Hold", "detail": "50 lb DB one side · 6 reps then a 20s tall hold · deadlift from the floor on ONE side, stand fully, resist getting pulled sideways, then hold tall. Anti-lateral-flexion under real load. Switch sides each round." }
+        { "name": "B1 · Lateral Raise (lengthened partials)", "detail": "16 kg single-arm, alternate arms · 10–12/side · lead with the elbow, raise to shoulder height, control the descent for 2s. When strict reps stop, keep pumping bottom-third partials (the lengthened position where the side delt works hardest) until it burns out. 16 kg is heavy for a lateral — a slight lean and partials are expected and correct here." },
+        { "name": "B2 · Bent-Over Rear-Delt Row-Raise", "detail": "16 kg single-arm (or 50 lb DB) · 12–15/side · hinge to ~45°, high elbow, pull/raise out to the side and squeeze the rear delt at the top — no traps, no yank. The row bias lets you handle the 16 kg through a full range." },
+        { "name": "B3 · Front Raise / Press-Out", "detail": "16 kg both hands · 10–12 · raise to eye level with straight-ish arms (or press slightly out and up), control down. Front-delt finisher to round out all three heads." }
       ],
-      "text": "Your dedicated daily core, done BEFORE the redline while you can still control the load. Steered away from your last core day's anti-rotation planks: today the windmill bends and rotates you under a locked-out bell, the half-kneeling halo makes your trunk resist tipping while the weight moves, and the suitcase deadlift-hold builds obliques that keep you upright against an offset load. All single-side — same theme as the leg block. Slow and deliberate; the core adapts to control, not speed."
+      "text": "Capped delts are what make arms look built, and they never get direct work in your log — it's all presses and swings. So all three heads in one giant set: side (with lengthened partials, the highest-tension position), rear (row-biased so you can load it), and front. It'll burn fast and drive blood into the shoulder. The 16 kg is genuinely heavy for lateral raises — don't ego it into a full clean rep; partials in the stretch are the point and they grow the delt just as well."
     },
     {
       "id": "b3",
       "kind": "conditioning",
-      "title": "GET-AFTER-IT FINISHER · SINGLE-LEG REDLINE",
-      "meta": "~9 min · 16 kg + 40 lb · FOR TIME · this is your cardio — push the pace",
-      "format": "3 ROUNDS FOR TIME · RPE 9 · minimal rest · target under ~9 min",
-      "workRest": "Move fast, rest only when your form demands it. This is the get-after-it you asked for — the swings spike your heart rate, the split squats bury your legs. Start the STOPWATCH and chase the clock.",
+      "title": "BLOCK 3 · CHEST + BACK PUMP (superset + burnout)",
+      "meta": "~8 min · 16 kg + 50 lb DB · squeeze-tension isolation · this is your cardio — keep rests short",
+      "format": "SUPERSET · 3 rounds · C1 + C2 back-to-back · rest ~40s · ROUND 3 = double burnout to failure",
+      "workRest": "Short rests here on purpose — the pump density is your conditioning today, so keep moving and let your heart rate climb. Constant tension is the whole game: crush the bell the entire chest set, and keep the arms long on the pullover. Round 3 is the burnout — take both moves to failure, pause 10s, squeeze out 5 more of each.",
       "items": [
-        { "name": "Bulgarian Split Squat", "detail": "16 kg goblet (or bodyweight if legs are cooked) · 8/side · rear foot on a couch/bench, drop straight down, front knee tracks the toe, drive up. Rear-foot-elevated = your hardest single-leg quad burn, and after Session 1 your legs will already be screaming." },
-        { "name": "One-Arm Swing", "detail": "40 lb · 12/side · explosive hip snap, bell to chest height, hand crushed on the handle. Heavy ballistic hinge — this is what drives your heart rate to the ceiling. Switch hands at 12." }
+        { "name": "C1 · KB Crush-Grip Squeeze Press", "detail": "16 kg, standing or on the floor · 12–15 · crush the bell hard between both palms the ENTIRE set and press it out and up, squeezing your chest together at lockout. The crush keeps constant adduction tension on the pecs — that squeeze IS the exercise. Hold nothing back on the top squeeze." },
+        { "name": "C2 · Straight-Arm Pullover", "detail": "50 lb DB (or 16 kg) lying on the floor · 12–15 · arms nearly straight, lower the weight overhead for a big lat + serratus stretch, then pull it back over your chest with the lats — don't bend the elbows. Feel the stretch, own the squeeze." }
       ],
-      "text": "The redline. A quad-dominant single-leg burn paired with a heavy explosive hinge, for time, three rounds, minimal rest — heart rate pinned, legs on fire. THIS is your cardio and your intensity today, which is exactly why there's no 2-mile tempo: you've had two days with zero pounding, and between heavy Session 1 and this redline your legs get everything they need without a single junk-impact mile. If you finish and genuinely need to run, keep it to an easy 8-10 min jog (~6 mph) — but you won't have much left, and that's the point. Get after it."
+      "text": "Chest and back get isolation-flavored work to finish the upper body: the crush-grip press hammers the pecs through pure squeeze tension (no heavy pressing, easy on the shoulders), and the straight-arm pullover stretches and pumps the lats and serratus. Keep the rests short — this block doubles as your conditioning, and the round-3 burnouts will have you breathing. That's your intensity and your heart rate today; no treadmill needed after two run-free days and a leg session."
+    },
+    {
+      "id": "core",
+      "kind": "strength",
+      "title": "CORE · DIRECT AB ISOLATION",
+      "meta": "~5 min · 16 kg · rectus-focused — a change from your recent anti-rotation core",
+      "format": "3 ROUNDS · minimal rest · slow and squeezed",
+      "workRest": "Your last few core days were anti-rotation and loaded rotation — today matches the isolation theme and works the abs directly through flexion. Exhale hard and crunch the rib cage to the pelvis on every rep; make the muscle do it, not momentum.",
+      "items": [
+        { "name": "Weighted KB Crunch", "detail": "16 kg held on the chest · 15 · slow, exhale and curl the shoulders up, squeeze the abs at the top, control down. Loaded rectus work." },
+        { "name": "Lying Leg Raise", "detail": "bodyweight · 12–15 · low back pinned to the floor, legs straight, lower under control and stop just above the floor. Lower-ab focus." },
+        { "name": "Toe-Touch Crunch (V-reach)", "detail": "bodyweight · 15 · legs up, reach both hands toward your toes, crunch the upper abs and squeeze. Bail to a standard crunch if the hip flexors take over." }
+      ],
+      "text": "Direct ab isolation to match the day and to rotate off your recent anti-rotation/carry core work. Loaded crunch for the upper abs, leg raises for the lower, toe-touches to finish — all flexion, all squeeze. Five minutes, three rounds, done."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~3 min · open the hips, groin and hamstrings you just torched",
-      "text": "Walk 60s to drop the heart rate. Then: deep half-kneeling hip-flexor stretch 30s/side · straddle / frog groin stretch 45s (the cossacks earned this) · standing or seated hamstring reach 30s/side · figure-4 glute stretch 30s/side · 5 slow nasal breaths. Report back: how the new single-side movements felt (especially the cossacks), your RPE on Session 1, your redline time, and whether the loaded-and-hard version delivered the get-after-it you wanted — that sets the intensity dial for next time."
+      "meta": "~3 min · flush the pump, open the front of the shoulders and the elbows you just torched",
+      "text": "Walk or shake the arms out 30s to move blood. Then: doorway / floor pec stretch 30s/side · overhead triceps stretch 30s/side · cross-body rear-delt stretch 30s/side · wrist flexor + extensor stretch 20s each (you earned it after all that curl volume) · 5 slow nasal breaths. Report back: how the 21s felt, your near-failure RPE on the arm and delt work, and how much of a pump you got — that tells me whether to make isolation a recurring slot and how to load the delts next time. Legs get another day to recover before the next real leg session."
     }
   ],
-  "timer": { "emomUnit": "Session 1 = tempo reps by feel (3-sec lowers, ~60s rest). Finisher = STOPWATCH, 3 rounds for time, chase sub-9:00." }
+  "timer": { "emomUnit": "No EMOM today — Block 1 = 4 supersets by feel (~45s rest, final round to failure). Block 2 = 3 giant-set rounds (~60s rest). Block 3 = 3 supersets, short ~40s rest, round 3 burnout. Use the STOPWATCH only to keep rests honest and short." }
 }

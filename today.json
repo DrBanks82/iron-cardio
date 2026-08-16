@@ -1,104 +1,100 @@
 {
-  "date": "2026-08-07",
-  "weekday": "FRIDAY · TODAY",
-  "title": "THE LONG WAY UP · GET-UPS, REPEATS & CRAWLS",
-  "vibe": "GREEN · 7 hours of good sleep, nothing sore, a full rest day in the bank, and you want to go hard. So today goes to the floor. Two blocks are governed by your BREATH, not a clock — if you have to open your mouth, you rest. One block in the middle is where you empty the tank. Nothing today is counted the way anything was counted this week.",
-  "why": "Three things built today. First, the hole. Go down the coverage list — squat, hinge, push, pull, carry, core, GET-UP, run — and the get-up is the only pattern that has never once led a session. It has shown up as a station in a gauntlet, as a half rep in a core block, never as the thing itself. Today it is the thing itself: ten unbroken minutes, forty pounds, one rep a side, and the only rule is that you keep breathing through your nose. That single rule turns a skill drill into a grind, because a get-up at 250 pounds will absolutely make you want to gasp, and you are not allowed to. Second, the run. On Tuesday you took a prescribed 1.5-mile speed ladder and ran three continuous miles instead — 7:36, 7:33, 7:22, descending the whole way, and you called it really good. That is the second time in a week you have voluntarily added distance when pace was not the target, so consider the duration lever proven and put away. Today goes the exact opposite direction: two miles total instead of three, both of them faster than anything you have sustained for a mile in this log, with a float in between. Mile repeats. First ones on your plan, and the obvious workout to give a man who ran collegiately and never got them. Third, the way effort gets measured. Look at this week — Saturday counted pounds and rest, Tuesday counted rungs and quarter-miles. Today counts breath and it counts ground covered. You will finish the session crawling backwards across your own floor under nothing but your bodyweight, and that will be the part that surprises you. The jerk question from Tuesday is still open and I am deliberately parking it — it needs a fresh session with fresh shoulders, not a footnote after two hard miles.",
-  "estMin": 50,
+  "date": "2026-08-17",
+  "weekday": "MONDAY · TODAY",
+  "title": "THE SINGAPORE OPENER · HYBRID STRENGTH",
+  "vibe": "RE-ENTRY · Eleven days since the last logged session, twelve time zones crossed, and a hotel gym you have never trained in. This is not the day to prove anything. It is the day to start the block clean. One kettlebell, a pair of dumbbells, a treadmill that reads in kilometres, and forty-five minutes. The new thing today is not a movement, it is the SHAPE: the run is woven through the lifting instead of parked at the end, which is the first time this program has ever built a session that way.",
+  "why": "Three things are different about today and all three are deliberate. First, the source. Every seeded session in this log has come from the same two books — Neupert's 102 and the single-bell muscle-building manual — and nine of the twelve seeded days came from Neupert alone. That is why the sessions started converging: the shapes rotate, but they rotate inside one tradition. Today's structure comes from somewhere genuinely new: Ladder's Project Alpha, Coach Sam Tooley's hybrid strength split, whose equipment list is literally dumbbells and a treadmill and whose signature is fusing the lift and the run into one continuous piece rather than running them as separate blocks. Second, the arc. Look at the last month — mobility warm-up, kettlebell block, treadmill, core finisher, cooldown, in that order, almost every time. The format labels changed; the skeleton never did. Today the treadmill is not a block, it is the connective tissue of Block 2, and you will step on and off it six times. Third, the units. Your entire profile is written in mph because the Bowflex console reads in mph. This machine reads in km/h, so every number below is converted, and the ~5% low calibration you learned on your own treadmill does not transfer to a machine you have never run on. Trust the belt's distance readout and your own legs, not a remembered offset. On the loading: single 20 kg bell because you asked to keep it simple, and 20 kg is 44 lb — you press a pair of 40s at home, so a single bell overhead is well inside your range, not a concession. The run in Block 2 totals fifteen minutes at your easy pace, which is roughly your habitual two miles. That is on purpose. Your daily run is a fixed input, not a slot to fill, so today it lives inside the session instead of getting stacked on top of it.",
+  "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "MOBILITY WARM-UP · THE FLOW",
-      "meta": "~6 min · Moves Method Day C · rotated off Day A on Tuesday and Day B on Saturday · everything today happens on the ground, so warm up on the ground",
-      "text": "No stations, no counting, no stopping. This is one continuous moving sequence and it is the same vocabulary the session is written in — you are rehearsing the finisher, not preparing for it. Start on your back: segmental rolls, roll from your back to your stomach leading with one arm only, no momentum, 3 each direction · dead bug cross-crawls, opposite hand to opposite knee, 20 slow taps · then roll to all fours. Rock backs, sit your hips toward your heels and come forward, 15 of them, and let your head lead the movement · cross-crawls on all fours, reaching one hand and the opposite knee off the floor, 20 total · then take the knees off the floor into a bear-crawl hold and just breathe there for 20 seconds, hips low, back flat enough to balance a glass on. Then crawl forward 3 lengths of whatever floor you have and backward 3 lengths. Finish standing: 10 arm circles each direction, then 10 slow bodyweight get-up sit-ups (no bell, just come from flat on your back up to the elbow and back down) so the first loaded rep is not the first rep of the day."
+      "title": "WARM-UP · MOVEMENT PREP, NOT A RITUAL",
+      "meta": "~6 min · treadmill + floor · continuous, no stopping · borrowed wholesale from how Ladder opens a session",
+      "text": "This is a departure from the mobility ritual that has opened every session in this log, and it is worth naming why. Ladder does not run a standalone mobility segment — they fold dynamic prep straight into the front of the workout, each piece on its own short clock, and it flows directly into the first working set. That is what this is. Nothing here is held, nothing is counted in sets. Start on the belt: three minutes, walk at 5.5 km/h and climb to an easy jog around 9 km/h by the end, incline 2%. Step off and go straight into the floor work with no break. Good Morning, hands behind your head, hinge and stand, 30 seconds. Knee Hug to Lunge, walking, pull the knee to your chest then step straight into a long lunge, 40 seconds. Chest Opener, big arm sweeps with a slight rotation each way, 30 seconds — do these properly, you have been on a plane. Skip in place building speed, 30 seconds. Then pick up the bell. If anything feels genuinely locked up from the flight, spend an extra minute on the chest opener and the lunge, and take it out of nowhere else."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "BLOCK 1 · NON-STOP GET-UPS",
-      "meta": "10 min continuous · 40 lb · alternate one rep per side · NASAL BREATHING IS THE GOVERNOR · count total reps",
-      "format": "CONTINUOUS DENSITY · no sets, no rest intervals, no rep target on the clock · the only stop signal is your breath",
-      "workRest": "Set the countdown for 10 minutes and go. One get-up left, one get-up right, back to left, and keep going for the full ten. There is no prescribed rest — you rest exactly as much as you need to KEEP BREATHING THROUGH YOUR NOSE, and not one second more. The moment your mouth opens, you have gone too fast: put the bell down, stand there, get your nose back, pick it up and continue. That is the whole method. GREEN target is 12 total reps (6 per side). YELLOW is 8. A get-up is not a rep you rush — every one of these should look like the first one.",
+      "title": "BLOCK 1 · SINGLE-BELL STRENGTH",
+      "meta": "~14 min · one 20 kg kettlebell · 4 rounds · straight sets, real rest · alternate A1 and A2, rest 60-75s after each pair",
+      "format": "STRAIGHT-SET STRENGTH · no clock on the work, only on the rest · rotated off the density and circuit formats that dominated late July and early August",
+      "workRest": "Four rounds. Front squat, rest about thirty seconds, press, rest sixty to seventy-five seconds, repeat. This is the block where you are allowed to be patient — nothing here is for time and there is no round target to chase. You are eleven days off and the point of this block is to remind your body what a loaded squat and a loaded press feel like, at a weight that is honest but not a test. If round four feels strong, that is information for the rest of the week, not a reason to add a fifth.",
       "items": [
         {
-          "name": "TURKISH GET-UP · alternating 1 rep per side, 10 min",
-          "detail": "40 lb. Full formal get-up, floor to standing and back to the floor, every step: roll to press, punch the bell up, post on your elbow, up to your hand, sweep the leg through, hips high, knee down, windshield-wiper to a lunge, stand. Then reverse all of it. Eyes on the bell the whole way up and the whole way down. This is the strength load, not the skill load — 40 pounds should feel meaningful overhead by rep 8, and your shoulder should be doing real work holding it in the socket. Slow is the point. The clock is not a target, it is a container."
+          "name": "A1 · KB FRONT SQUAT · 8 reps",
+          "detail": "20 kg in the rack position, one bell, elbow tucked inside the knee at the bottom. Alternate which side the bell sits on each round — right, left, right, left — so both sides get two rounds of asymmetric loading. That off-centre load is doing quiet anti-lateral-flexion work on every single rep, which is why this block does not need a separate core piece bolted onto it. Sit down between your heels, knees tracking out, chest tall. Eight clean reps, and the last one should look like the first."
         },
         {
-          "name": "THE BREATH RULE (this is the training effect)",
-          "detail": "Nose in, nose out, the entire ten minutes, including while you are moving under the bell. This is the Original Strength governor and it is the first time this program has measured effort with anything other than a clock, a rep count, or a speed. It does three things at once: it caps your pace so the reps stay clean, it forces your diaphragm to work while your midline is loaded overhead, and it tells you exactly when you are actually recovered instead of guessing. Ten minutes of this at 40 pounds is deceptively hard. If you get to minute seven and you are still nasal-breathing comfortably, that is when you speed up the transitions."
+          "name": "A2 · KB STRICT PRESS · 6 reps per side",
+          "detail": "20 kg, strict, no leg drive, no push press. Six on the right, six on the left, that is one round. Twenty kilos is forty-four pounds and you press a matched pair of 40 lb bells at home, so a single bell overhead is well within you — but you have been off for eleven days and you just spent a long time in a seat, so if the first round grinds or the lockout wanders, take the 16 kg and finish all four rounds there. Dropping the load to keep the reps clean is the correct call; grinding a sloppy press on day one of a ten-day block is not. Ribs down, glutes tight, punch straight up past your ear."
         },
         {
-          "name": "THE QUESTION FOR TODAY",
-          "detail": "Which step of the get-up is the one where your breath breaks? For most people it is the hip bridge or the moment you sweep the leg through. Whichever step makes you want to open your mouth is the step that is costing you the most, and that is what I want reported back — that plus your total rep count."
+          "name": "THE CHOICE TO MAKE",
+          "detail": "The gym has 12, 16 and 20. Today is written at 20 for both movements. Report back which one you actually pressed, because that single data point sets the loading for the whole Singapore block — if 20 is a comfortable strict six per side, the rest of the trip gets programmed heavier than anything in your log, and if it is not, we know that too."
         }
       ],
-      "text": "The get-up is the one movement pattern in the coverage list that has never headlined a day in this program. It has been a station inside the BIG 6 gauntlet on the 1st and a half rep in a core block on the 27th, and that is it. It is also the single best answer to the thing your log keeps circling: shoulder stability under load, midline control, and grip — grip being what failed you first in the Olympic chain, not lungs. Ten minutes of loaded get-ups charges all three, and it costs your legs nothing, which matters because your legs have two hard miles coming."
+      "text": "Straight sets with full rest is the format your log has seen least in the last three weeks. Late July and early August were dominated by density work — gauntlets, EMOMs, circuits, a Total Body Smoker, a chipper. The last true heavy-slow day was the 2nd. Coming off eleven days of nothing, the right re-entry is unhurried strength at a moderate load, not a metabolic session that punishes you for being detrained. The metabolic work is in Block 2 where it belongs."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "BLOCK 2 · MILE REPEATS",
-      "meta": "~17 min · treadmill · 0% incline · 2 × 1 mile with a float · THIS is where the session gets hard · breathe however you need to",
-      "format": "MILE REPEATS · 2 × 1 mile, negative split, 2-min float between · the first mile repeats in this log",
-      "workRest": "Two miles of work, one float. Forget nasal breathing here — that rule belongs to the blocks on either side of this one. This block is the opposite: you are supposed to be breathing hard and you are supposed to want the float. Watch the DISTANCE readout for the miles and the clock only for the float. Cadence 168 to 172, short quick steps, especially on the second one when you get tired and start reaching. Both repeats are faster than any sustained mile in your log — Tuesday's fastest mile was the third of three at 7:22, so mile one today starts just past that and mile two goes somewhere you have not been.",
+      "title": "BLOCK 2 · HYBRID INTERVALS",
+      "meta": "~18 min · treadmill + dumbbells · 3 rounds · step off the belt straight into the weights · transitions are the only rest",
+      "format": "HYBRID STRENGTH · run and lift interleaved in one continuous piece · the Project Alpha signature and a shape this program has never run",
+      "workRest": "Three rounds, and a round is: four minutes running, then straight off the belt to the dumbbells, then straight back on. There is no programmed rest — the walk from the treadmill to the rack and back is the rest. Set the belt speed once and leave it; you should be stepping on at the same speed in round three as in round one. This is the piece that makes today different from every other session in this log. Your run has always been a block with a start and an end, usually near the end of the session. Here it is the spine of the workout and the lifting hangs off it. Expect the third run to feel harder than the first at identical speed, and expect that to be the interesting part.",
       "items": [
         {
-          "name": "REPEAT 1 · 1.0 mi @ 7.9 console",
-          "detail": "Target split ~7:15 on your watch. Set it and settle — do not go out over the top for the first quarter, this is the controlled one. It should feel like a hard tempo, not a race: breathing heavy, form intact, and you should finish it thinking you could have gone faster. That thought is correct and it is the entire setup for repeat two."
+          "name": "RUN · 4:00 @ 12.2 to 12.9 km/h",
+          "detail": "That converts to roughly 4:55 to 4:40 per kilometre, or 7:55 to 7:30 per mile — your own easy aerobic band, straight off your watch history, not a slowed-down version of it. Nothing here asks you to hold back and nothing here is a tempo either. Pick a number in that band on the first round and hold the same number all three times. Zero incline. Cadence quick, around 168 to 172, short steps. IMPORTANT: this is not your Bowflex. You learned that your home console reads about 5% low; you have no idea what this machine does, so do not carry that correction over. Watch the distance readout — three rounds should put roughly 3.1 to 3.3 km on the belt, plus the warm-up jog."
         },
         {
-          "name": "FLOAT · 2:00 @ 6.0 console",
-          "detail": "Two minutes, keep running, do not walk and do not step off the belt. A float is not a rest — it is the part of a repeat workout that actually builds the engine, because you are asking your heart rate to come down while your legs are still turning over. Get your breathing organized on a rhythm. When the two minutes are up you go straight into the second mile with no pause."
+          "name": "DB ROMANIAN DEADLIFT · 12 reps",
+          "detail": "Both dumbbells, hinge at the hip, soft knees, weights tracking down the front of your thighs, chest over the bar path. Stop when your hamstrings tell you the range is done, not when the weights hit the floor. Pick a load that leaves two solid reps in the tank on the third round — you will not know what that is on round one, so err lighter and let round two tell you. This is the hinge for the day and it is the pattern most likely to be stiff after a flight, so the first set is a feeling-out set on purpose."
         },
         {
-          "name": "REPEAT 2 · 1.0 mi @ 8.1 console",
-          "detail": "Target split ~7:05 on your watch. Faster than the first, off a float instead of off fresh legs. This is a negative split under fatigue, which is the harder version of the thing you already do naturally in every run in this log. Stay tall through the third quarter when it starts to bite. THE HOOK: if you come through the 3/4 mark still in control, bump the belt to 8.3 and finish the last quarter there. That call is yours to make in the moment and I want to know whether you took it."
+          "name": "DB SINGLE-ARM ROW · 10 reps per side",
+          "detail": "One hand braced on a bench or a rack upright, one dumbbell, ten a side. Pull to the hip, not to the armpit. This is the only true pull in the session and it is deliberately unilateral — Ladder programs every single-side movement as its own separate timed line item rather than a footnote, and that structural habit is worth copying, because it is exactly where your log has been thinnest. Then straight back onto the belt."
         },
         {
-          "name": "WALK DOWN · 90 sec @ 3.0",
-          "detail": "Stay on the belt and walk it out for a full minute and a half before you go back to the floor. You have a crawling block next and going straight from 8.1 to hands-and-knees with your heart rate still at the ceiling will make the finisher worse than it needs to be. Use the ninety seconds."
+          "name": "IF ROUND 2 IS A WALL",
+          "detail": "Stop at two rounds and go to Block 3. Eleven days off plus twelve time zones is a real thing and calling it at two rounds is a legitimate first session, not a failure. What is NOT the right adjustment is slowing the run down to survive a third round — the run speed is the one number in this session that stays fixed. Cut rounds, never cut pace."
         }
       ],
-      "text": "Every run you have been given lately has been counted in minutes or in fractions of a mile: a fartlek on the 28th, an 18-minute aerobic block on the 1st that you stretched to 21, a climb on the 2nd, a descending distance ladder on the 5th that you ignored in favor of running three straight miles. So distance is proven and duration is proven. What has never been on your plan is the oldest workout in distance running — repeat the same distance twice, faster than you would race it in a continuous run, with a float between. You ran collegiately; you have done hundreds of these. This program had never given you one."
+      "text": "This shape came out of studying how Ladder builds. Their Project Alpha program, Coach Sam Tooley, is described as hybrid strength training — blending strength and endurance work, dumbbells and a treadmill, three of its six days built exactly like this. It is the closest thing in their catalogue to what you already are, a runner who lifts, and the equipment list matches this hotel gym precisely. Every run in your log to date has been a discrete block. This is the first time the running and the lifting are the same piece of work."
     },
     {
       "id": "b3",
       "kind": "finisher",
-      "title": "BLOCK 3 · THE CRAWL & CARRY GAUNTLET",
-      "meta": "10 min · bodyweight + 2×40 lb + 50 lb DB · measured in LENGTHS OF FLOOR, not reps · nasal breathing is back on · this is the core block",
-      "format": "LOADED LOCOMOTION · 4-station cycle, repeat continuously for 10 min · count total lengths",
-      "workRest": "One length equals whatever your longest clear run of floor is — call it 10 to 20 steps and use the same distance every time so the count means something. Cycle the four stations in order and keep repeating for ten minutes. NASAL BREATHING IS BACK ON: rest between lengths as much as you need to keep your mouth shut, but keep the feet moving when you can. This is your dedicated core block for the day and it does not look like one, which is the point — crawling is anti-rotation with your whole body, and a loaded carry is anti-lateral-flexion you cannot cheat. Rotating off the last four core blocks: renegade rows and dead bugs on Tuesday, a carry ladder on Saturday, figure-8s and hollow holds on the 1st, chops and lateral walks on the 28th. GREEN target is 8 total lengths (2 full cycles). YELLOW is 4.",
+      "title": "BLOCK 3 · CARRY & MIDLINE",
+      "meta": "~7 min · 20 kg bell + bodyweight · the dedicated core block · short on purpose",
+      "format": "LOADED CARRY + STATIC MIDLINE · rotated off the crawl-and-carry gauntlet that closed the last session",
+      "workRest": "Straight through, minimal rest, roughly seven minutes total. This is the end of the session and it is intentionally the shortest block on the page. You have already done anti-lateral-flexion work all through Block 1 with the offset front squat rack; this just finishes the job and gets you off the floor.",
       "items": [
         {
-          "name": "1 · BACKWARD LEOPARD CRAWL · 1 length (WILDCARD)",
-          "detail": "Bodyweight. NEW — has never been in your log in either direction, and backward is the harder one by a wide margin. Hands and toes, knees hovering an inch off the floor, hips low, and you travel FEET FIRST. Opposite hand and opposite foot move together, same as crawling forward, just reversed. Your knees never touch down. At 250 pounds this is a full-body isometric that happens to move, and going backward loads your triceps and shoulders in a way nothing else in this program does. Walk back to the start."
+          "name": "SUITCASE CARRY · 40 m per side, 2 rounds",
+          "detail": "20 kg in one hand, walk forty metres or whatever the longest clear stretch of that gym is, then switch hands and walk back. Two full down-and-backs. Level shoulders, no lean toward the weight, no hitch in the hip — walk like your hand is empty. Every step is a rep of not bending sideways, and this is the piece that most directly protects the low back that keeps showing up stiff in your check-ins."
         },
         {
-          "name": "2 · FARMER CARRY · 1 length down and back",
-          "detail": "2×40 lb, 80 pounds total — about 32% of your bodyweight, right in the band Original Strength programs carries at. Bells hanging at your sides, shoulders packed down and back, ribs down, walk tall and quick. Do not lean. Grip is the currency you are always short on and this is the direct deposit. Set them down at the far end, turn around, pick them up, walk back."
+          "name": "SIDE PLANK · 0:30 per side, 2 rounds",
+          "detail": "On the elbow, hips stacked and driven up, body in one line from ear to ankle. Thirty seconds a side, twice. If thirty is easy, do not add time — lift the top leg instead."
         },
         {
-          "name": "3 · CRAB CRAWL · 1 length (WILDCARD)",
-          "detail": "Bodyweight, and also new. Sit down, hands behind you with fingers pointing toward your feet, feet flat, lift your hips so you are a table facing the ceiling, and travel. Keep the hips UP the entire length — the second they sag, the exercise stops working. This is the direct counter to everything else in the session: ten minutes of get-ups and two miles of running both put you in flexion, and this is the only thing on the plan that drives your chest open and your hips forward under load. It is also, per the people who program it, brutal. Expect your wrists and shoulders to complain and go anyway."
-        },
-        {
-          "name": "4 · SUITCASE CARRY · 1 length each hand",
-          "detail": "50 lb DB, one hand. Down in the right, back in the left. Walk like nothing is in your hand — level shoulders, no lean toward the weight, no hitch in the hip. Every step is a rep of not bending sideways, and this is the piece that most directly protects the low back that keeps showing up stiff in your check-ins. Then straight back to station 1 and go again."
+          "name": "HOLLOW HOLD · 0:30, 2 rounds",
+          "detail": "Flat on your back, low back pressed into the floor, shoulder blades and legs both off the ground. Thirty seconds, twice. The moment your low back peels off the floor the set is over — bend the knees or bring the arms to your sides and keep holding rather than losing the position."
         }
       ],
-      "text": "Tim Anderson's rule for this is 'pick one, then carry or crawl' — get-ups on their own, then ten minutes of ground work, all of it under nasal breathing. That is the whole shape of today. The reason it belongs at the end rather than the start is that crawling under fatigue is where it actually teaches you something: your shoulders are cooked from get-ups, your legs are cooked from two hard miles, and you are going to find out that moving your own bodyweight across a floor is not the easy part of the session."
+      "text": "Standing rule: every session ends with a dedicated midline block. It stays. But it is seven minutes today rather than ten, because Block 1's offset kettlebell rack and Block 2's unilateral rows already loaded the midline asymmetrically for half an hour, and because this is a re-entry session that should leave you wanting tomorrow rather than wrecked."
     },
     {
       "id": "cool",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~4 min · wrists and shoulders from the crawling, hip flexors from the get-ups, calves from the repeats",
-      "text": "Wrist flexor and extensor stretch, 30s each direction — palms down on the floor then flip them over, you just spent ten minutes on your hands · child's pose with the hands walked out and to each side, 45s per side, to open the lats after all that overhead work · couch stretch or a half-kneeling hip flexor stretch, 45s per side — get-ups load the hip flexor hard on every sweep-through · calf stretch against a wall, 45s per side, straight knee then bent knee, after two miles at 7:15 and 7:05 · finish flat on your back with your legs up the wall for 60 seconds, and breathe through your nose one more time, slow, until your heart rate is genuinely down. Report back: total get-ups, which step broke your breath, both mile splits off the watch, whether you took the 8.3 at the end, and how many lengths of the gauntlet you got."
+      "meta": "~4 min · hips and hamstrings from the RDLs, shoulders from the presses, calves from the run · plus a flight to undo",
+      "text": "Half-kneeling hip flexor stretch, 45s per side — you sat for a very long time to get here and this is the one that pays. Standing or seated hamstring stretch, 45s per side, after twelve RDLs. Doorway or wall chest stretch, 45s per side, to open the front of the shoulder after the presses. Calf stretch against a wall, 30s per side, straight knee then bent knee. Finish with two minutes flat on your back, legs up against the wall, breathing slow through your nose — that one is as much for the jet lag as the training. Report back: which bell you pressed in Block 1, how many rounds of Block 2 you finished and at what belt speed, total distance the treadmill showed, and how the body actually felt, because that sets the loading for the next nine days."
     }
   ],
   "timer": {
-    "emomUnit": "No EMOM today. Use the COUNTDOWN twice, both set to 10 minutes: once for Non-Stop Get-Ups and once for the Crawl & Carry Gauntlet. The mile repeats run off the treadmill's DISTANCE readout — the only clock in that block is the 2-minute float and the 90-second walk down. Nothing in this session is measured in reps on a minute."
+    "emomUnit": "No EMOM and no AMRAP today. Block 1 is untimed straight sets — use the timer only for the 60-75s rest between pairs. Block 2 runs off a 4:00 countdown for each run segment, three times, with no clock at all on the dumbbell work. Block 3 is by distance and a 30-second hold timer. The treadmill's own distance readout is the number that matters most today."
   }
 }

@@ -1,132 +1,136 @@
 {
-  "date": "2026-08-19",
-  "weekday": "WEDNESDAY · TODAY",
-  "title": "THE SPARK · A+A SNATCH REPEATS + THE FURNACE",
-  "vibe": "green · hard · 45 minutes · power measured in how fast you recover, not in how wrecked you get",
-  "why": "Seven hours, nothing sore, legs tired, and you want to go hard. Read that carefully, because it points somewhere specific. Tired legs plus a hard day is not a contradiction, it is a request for the effort to come from somewhere other than your quads and your feet. Yesterday was twenty-four get-ups and three rounds of carries and crawls, all of it slow, all of it grinding, none of it fast. Scroll further back and the gap is glaring: there has been no ballistic work, no snatch, no explosive hip in this log since 08-01. Power is the single most neglected quality you own right now, and power is exactly the quality that does not care that your legs are tired, because it is produced in about six seconds and paid for by resting. So today is a power day, and it borrows an organizing principle this program has never once used. StrongFirst calls it A plus A, alactic plus aerobic. The idea is the inverse of everything you have run so far. Instead of stacking fatigue inside a density block until the reps get ugly, you fire off a short, genuinely explosive set, then you rest until your breathing comes back, then you do it again, and again, fifteen times. Every single set is fast. None of them is a survival set. What gets trained is the alactic power system on top of the aerobic system that clears it, and the entire adaptation lives in how quickly you are ready to go again. That is why the recovery, not the set, is the measurement today. Then the treadmill takes the other half of hard. You are on tired legs, so the run goes vertical instead of fast: a grade ladder, low impact, high output, which is still the single best trade this program has found. Incline has not appeared since 08-02.",
+  "date": "2026-08-20",
+  "weekday": "THURSDAY · TODAY",
+  "title": "THE TOWER · DESCENDING PULL & PRESS + THE FARTLEK",
+  "vibe": "green · hard · 45 minutes · one list, top to bottom, and the clock only tells you when you finished",
+  "why": "Seven hours, nothing sore, and you want hard again. But you told me something specific twice now: the legs feel jet lagged. Not sore, not beat up, jet lagged. That is the second session running where the legs have been the reported limiter while the engine reported fine, and it points at an obvious answer that also happens to be the biggest hole in your log. Look at what has actually been trained since you landed. Fused run and lift on the 17th. Get-ups, carries and crawls on the 18th. A hundred snatches and a grade ladder yesterday. Every one of those is hips, legs and feet. Meanwhile horizontal pulling has barely appeared since the 17th and pressing volume has been thin since the 5th. Your back and your chest are the neglected muscles in this program, and they do not care what time zone your legs think it is. So today the effort moves entirely above the waist and the shape changes completely. No sets, no rounds, no EMOM, no recovery-driven repeats. One list. Six movements, descending reps, top to bottom, straight through, for time. This is the chipper, and it is the one shape this program has not run in weeks. You do not manage the pacing with a clock, you manage it by choosing where you break, and the only number that matters at the end is where the second hand was when you finished the last press. Then the run drops the grade entirely, because the grade ladder was yesterday, and goes flat and playful instead: a fartlek, by feel, surge and float, which is a running style that has never once appeared in this log. Jet-lagged legs get to choose their own surges. That is the point of fartlek.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · DAY B · ANKLES, KNEES, HIPS",
-      "meta": "~6 min · Moves Method Day B · matched to tired legs and a grade ladder",
+      "title": "WARM-UP · DAY A · SHOULDERS AND SPINE",
+      "meta": "~6 min · Moves Method Day A · matched to a day that is almost entirely upper body",
       "items": [
         {
-          "name": "SHOULDER PROTOCOL · 2 x 20",
-          "detail": "Arm circles or dislocates with a towel, twenty forward and twenty back, twice. The snatch puts a bell overhead at speed a hundred and forty times today. This is the price of admission for that."
+          "name": "SHOULDER CIRCLES AND DISLOCATES · 2 x 20",
+          "detail": "Twenty forward, twenty back, twice through, with a towel if you have one. You are about to ask the shoulder for roughly eighty pressing reps and eighty pulling reps. Open it first."
         },
         {
-          "name": "TOE SQUATS · 60 sec",
-          "detail": "Kneel with the toes tucked under, sit back onto the heels, hold and breathe. Sixty seconds. If it is brutal, rock in and out of it instead of holding. This is straight at the plantar fascia and calves, which is what a twelve percent grade is going to ask for in half an hour."
+          "name": "THORACIC OPENERS · 8 per side",
+          "detail": "Side-lying windmill: lie on your side, knees stacked and bent, arms straight out in front, then peel the top arm open across your body until the shoulder blade touches the floor, and follow it with your eyes. Eight a side, slow. Rows are only as good as the thoracic spine underneath them."
         },
         {
-          "name": "ANKLE ROLLS IN A DEEP SQUAT · 45 sec",
-          "detail": "Sit into the bottom of a squat, heels down if they will go, and drive each knee forward over the toes in turn, then circle the ankles. Forty-five seconds. Uphill running lives entirely in ankle dorsiflexion."
+          "name": "SCAPULAR PUSH-UPS AND WALL SLIDES · 12 each",
+          "detail": "Twelve scapular push-ups in a high plank, no elbow bend, just let the shoulder blades pinch and spread. Then twelve wall slides, low back and forearms on the wall, slide the arms up without letting the ribs flare. This wakes up the serratus, which is what will keep your shoulder honest deep into the push-ups."
         },
         {
-          "name": "KNEE DRIVES AND SIDE STEP-UPS · 45 sec",
-          "detail": "Standing knee drives, twenty a side, quick. Then lateral step-ups onto a bench or box, ten a side. Wakes the hip flexors and the frontal-plane hip up before you ask them to climb."
+          "name": "HALOS · 8 per direction · 12 or 16 kg",
+          "detail": "Bell upside down by the horns, circle it around your head, tight to the skull, slow. Eight each way. Straight from the mobility playbook this program keeps not using, and it is the single best pre-press drill you own."
         },
         {
-          "name": "BELL PRIMER · 15 SWINGS + 5/5 HIGH PULL · 16 kg",
-          "detail": "Fifteen two-hand swings with the light bell, then five high pulls per side. This is the rehearsal for the snatch, not a warm-up set. Feel the hips throw the bell and the arm do nothing but steer. If the high pull is floating to your chest by itself, the snatch will be easy."
+          "name": "PRIMER · 10 ROWS + 10 PUSH-UPS · 16 kg",
+          "detail": "One easy pass at both patterns, no fatigue, just rehearsal. Feel the row start from the shoulder blade and the push-up start from the ribs, not the arms."
         }
       ],
-      "text": "Day B off the Moves Method menu because the day ends on a grade ladder and your legs came in tired. Day A ran on 08-17, Day C ran yesterday. Six minutes, not ten, because the budget is forty-five today and the main block is where it needs to go."
+      "text": "Day A off the Moves Method menu, because today is a press and pull day. Day A last ran on 08-17, Day B ran yesterday, Day C on 08-18. Six minutes and no leg mobility today on purpose. The legs get a break from being the main character."
     },
     {
       "id": "b1",
       "kind": "strength",
-      "title": "BLOCK 1 · A+A SNATCH REPEATS",
-      "meta": "~18 min · 20 kg bell · sets of 10 per arm · rest is prescribed by your breathing, not by a clock",
-      "format": "alactic + aerobic repeats (StrongFirst A+A) — short powerful sets, full recovery between, many of them",
-      "workRest": "Work is roughly 20 to 25 seconds. Rest is however long it takes your breathing to come back to conversational — usually 45 to 75 seconds. If it is taking longer than 90 seconds, you are going too hard or the sets are too long. Cut to sets of 8.",
+      "title": "BLOCK 1 · THE TOWER · SIX FLOORS, DESCENDING, FOR TIME",
+      "meta": "~18 min cap · 20 kg bell, 16 kg bell, heaviest dumbbell you have · 142 reps, one pass",
+      "format": "chipper — a single descending list, straight through, no rounds, no clock intervals. You finish a floor completely before you move to the next one.",
+      "workRest": "Rest whenever you want, wherever you want. Rest is not scheduled, it is a decision, and the decisions ARE the workout. Start the countdown at 18 minutes as a cap. Wherever you are when it goes off is the honest number and we log it as your baseline.",
       "items": [
         {
-          "name": "ONE-ARM SNATCH · 10 reps, one arm per set · 20 kg",
-          "detail": "One set is ten snatches on one arm. Next set is the other arm. Alternate all the way through. The 20 kg is your proven working bell now, and it has never been snatched in this log. Hip snap hard, punch the hand through at the top so the bell lands quiet on the forearm, then throw it back down into the next rep. Every rep of every set is fast. There is no such thing as a slow snatch today."
+          "name": "FLOOR 1 · 40 SINGLE-ARM BENT ROW · 20 / 20 · 20 kg",
+          "detail": "Hinge to about forty-five degrees, free hand braced on a bench or your knee, back flat. Twenty per side. Pull the elbow past the ribs and squeeze for a beat at the top. This is the heaviest pulling volume in this program since you landed, and it is the whole reason the day exists. Do not let the torso wind up and rotate to help."
         },
         {
-          "name": "TARGET · 14 SETS · floor 10, stretch 16",
-          "detail": "Fourteen sets is 140 reps, seven per arm. That is a serious snatch day. If eighteen minutes runs out at ten sets, that is the honest number and we log it. If you are at fourteen with time left and the bell still feels light, take sixteen. Do not chase the number by shortening rest — the rest IS the training."
+          "name": "FLOOR 2 · 30 PUSH-UPS",
+          "detail": "Chest to the floor, full lockout, body rigid. Break them however you like, five sets of six is fine. Push-ups have appeared exactly once in this entire log, on 08-05, which is absurd for a program with fat loss and muscle retention as the goal. Thirty of them today."
         },
         {
-          "name": "THE ONE RULE · NEVER LET A SET GET SLOW",
-          "detail": "This is the entire discipline of A+A and it is the opposite of every density block you have run. The moment a set feels like grinding rather than throwing, you rested too little. Stop, take another thirty seconds, then go. You are training the power system and the aerobic engine that refuels it. You are deliberately NOT training the burn. Fifteen crisp sets beats twenty ugly ones by a mile."
+          "name": "FLOOR 3 · 24 CLEAN AND STRICT PRESS · 12 / 12 · 16 kg",
+          "detail": "Single bell, clean it to the rack, then press it strict, no leg drive at all, and lower under control. Twelve per side. The 16 and not the 20 here, deliberately, because floor 3 of 6 is not where you want the wheels to come off. The clean is free volume, the press is the point."
         },
         {
-          "name": "COUNT ONE THING FOR ME",
-          "detail": "Somewhere in the middle, after a set, count how many seconds until your breathing is back. Then do it again on the last set. If the two numbers are close, your aerobic recovery is strong. If the last one is double the first, that is the single most useful data point this block can produce and it sets where we start next time."
+          "name": "FLOOR 4 · 20 DEAD-STOP GORILLA ROW · 10 / 10 · 20 kg",
+          "detail": "Bell on the floor between your feet, hinge down and stay down, and row it from a dead stop to the hip, one side at a time, setting it down fully between every rep. Ten a side. The dead stop kills all the momentum you have been quietly using on floor 1, and this will feel much harder than the number suggests."
+        },
+        {
+          "name": "FLOOR 5 · 16 SINGLE-ARM FLOOR PRESS · 8 / 8 · heaviest DB",
+          "detail": "On your back on the floor, one dumbbell, press it straight up, elbow lightly touching down between reps. Eight a side. Grab the heaviest bell or dumbbell in that gym you can honestly control for eight, because your chest and triceps are cooked from floor 2 and this is supposed to be a fight. Squeeze the opposite glute hard to keep the ribs down."
+        },
+        {
+          "name": "FLOOR 6 · 12 BOTTOMS-UP PRESS · 6 / 6 · 12 or 16 kg",
+          "detail": "Bell upside down, gripping the handle like you are trying to crush it, pressed strictly overhead without it tipping. Six per side. This is the sting in the tail and it is a skill test, not a strength test: after a hundred and thirty reps your grip and your shoulder stability are the first things to go, and a bottoms-up press tells you that instantly. If it tips, that is information. Use the 12 if the 16 wobbles."
         }
       ],
-      "text": "Neupert's #6, King-Sized Killer 2.0, is snatches in sets of five for twenty minutes, and it is a density block. This takes his movement and his bell and reorganizes it around the A+A principle instead: bigger sets, real recovery, quality defended over volume. Same exercise, completely different physiology, and a structure that has never appeared in this program."
+      "text": "Seeded off Neupert's Total Body Smoker 4 to 6 and Upper Body Blast, both of which pair a bell with pull-ups, with dumbbell and gorilla rows subbed in since there is no bar in that gym, and rebuilt as a descending chipper. Report the finish time or where the cap caught you, and which floor was the one that actually hurt. That decides whether the next tower gets heavier or longer."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "BLOCK 2 · THE FURNACE · GRADE LADDER",
-      "meta": "10 min · treadmill · this is the hard run and it goes uphill, not fast",
-      "format": "incline ladder — 5 climbs, 60 sec on, 60 sec walk recovery",
-      "workRest": "60 sec climbing, 60 sec walking at 5.5 to 6.0 km/h and 1 percent. Five times through. Do not sit down between, keep walking.",
+      "title": "BLOCK 2 · THE FARTLEK · SURGE AND FLOAT",
+      "meta": "14 min · treadmill, flat at 1 percent · km/h · no grade today, no target split, run it by feel",
+      "format": "fartlek — Swedish for speed play. Alternating surges and floats, continuous, never stopping the belt.",
+      "workRest": "Never stop running. The float IS the rest.",
       "items": [
         {
-          "name": "CLIMB 1 · 60 sec @ 6% grade @ 8.0 km/h",
-          "detail": "8.0 km/h is 7:30 per kilometre, a shade over 12 minutes per mile flat, which is deliberately slow on the flat and will not feel slow at six percent. Set the grade first, then the speed, and run tall with a short quick step."
+          "name": "MIN 0 TO 3 · EASY · 12.2 km/h",
+          "detail": "12.2 km/h is right at the bottom of your own easy band, roughly a 7:55 mile. This is the on-ramp, not a Zone 2 lecture, and you are on jet-lagged legs so let the first three minutes tell you what you have."
         },
         {
-          "name": "CLIMB 2 · 60 sec @ 8% grade @ 8.0 km/h",
-          "detail": "Same speed, more grade. This is the axis that actually works on you. Every version of a hard run this program has found that you respected came from grade, not from the speed dial."
+          "name": "MIN 3 TO 13 · FIVE SURGES · 1 min at 14.0 to 14.5 km/h, 1 min float at 12.2",
+          "detail": "Five times through. 14.0 to 14.5 is roughly a 6:45 to 7:00 mile, genuinely quick but nowhere near your ceiling, and one minute is short on purpose. The rule of fartlek is that YOU pick the surge speed each time based on how the last float went. If surge three felt great, take surge four to 15.0. If your legs are still on Singapore time, hold 14.0 the whole way and that is a completed workout, not a compromise."
         },
         {
-          "name": "CLIMB 3 · 60 sec @ 10% grade @ 8.0 km/h",
-          "detail": "This one starts to bite. Lean from the ankles, not the waist. Do not grab the rails — if you need the rails, drop the grade two points and keep running honest."
+          "name": "MIN 13 TO 14 · EASY DOWN · 12.2 km/h",
+          "detail": "One minute back at easy to finish, belt still moving."
         },
         {
-          "name": "CLIMB 4 · 60 sec @ 12% grade @ 8.0 km/h",
-          "detail": "The top of the ladder. Twelve percent at 250 lb is a real load through the calves and the Achilles, and yesterday was already a lot of time on your feet. Sixty seconds is the whole reason this is safe. If the machine will not go past ten, hold ten and add half a km/h instead."
-        },
-        {
-          "name": "CLIMB 5 · 60 sec @ 10% grade, all-out effort",
-          "detail": "Last one. Ten percent, and you pick the speed — whatever you can genuinely hold for sixty seconds and nothing left over. This is the only all-out piece in the session and it is at the very end on purpose. Note the speed you chose. It becomes the benchmark."
+          "name": "TELL ME THE DISTANCE",
+          "detail": "Read the belt distance off the console when you stop, and the highest surge speed you took. That treadmill still has zero calibration on file and two data points will fix it."
         }
       ],
-      "text": "You ran 12 minutes continuous yesterday at your easy band, so today the run changes axis completely. Incline was the biggest single discovery in this whole log — a genuinely hard run at a fraction of the foot impact, and one you actually enjoy — and it has not been programmed since 08-02. On tired legs, on a day you asked to go hard, it is the obvious call. Tell me the belt distance and the Climb 5 speed; this machine still has no calibration on file."
+      "text": "The grade ladder was yesterday and the legs are jet lagged, so today goes flat and the difficulty moves back into speed, but in short bursts you control instead of a continuous tempo you have to hold. Fartlek has never appeared once in this log. It is also the format that most respects legs that are not quite themselves, because the athlete decides the surge, not the plan."
     },
     {
       "id": "b3",
       "kind": "finisher",
-      "title": "BLOCK 3 · HAND-TO-HAND + MIDLINE",
-      "meta": "~8 min · 16 kg · the wildcard and the standing core block, run together",
-      "format": "3 rounds, minimal rest",
+      "title": "BLOCK 3 · MIDLINE · ANTI-ROTATION UNDER A PRESS",
+      "meta": "~6 min · 12 kg · 2 rounds, minimal rest · the standing core block",
+      "format": "2 rounds, straight through",
       "items": [
         {
-          "name": "HAND-TO-HAND SWING · 20 reps  ·  WILDCARD",
-          "detail": "One-arm swing, and at the top of the arc, when the bell is weightless for a beat, let go and catch it with the other hand. Twenty total. This has never appeared anywhere in this program. It punishes a lazy hip snap immediately, because the float only exists if the hips actually threw it, and it turns a swing into a grip and timing problem. Start slow, one switch at a time. Use the 16, not the 20."
+          "name": "PLANK ROTATIONAL PRESS · 6 per side · 12 kg  ·  WILDCARD",
+          "detail": "High plank with one hand on a light bell or dumbbell. Row it up, then rotate the whole body open into a side plank and press it toward the ceiling, then reverse the whole thing back down. Six a side. This has never appeared anywhere in this program. It is a row, an anti-rotation hold and a press stacked into one rep, which is exactly the right closer for a day built on rows and presses."
         },
         {
-          "name": "PLANK DRAG-THROUGH · 10 per side · 20 kg",
-          "detail": "High plank, feet wide, bell parked outside one hand. Reach under with the opposite hand and drag it across to the other side. Ten each way. The hips must not rotate — that is the whole exercise. Anti-rotation under load, with the shoulders already tired from a hundred and forty snatches."
+          "name": "SIDE PLANK · 30 sec per side",
+          "detail": "Elbow under the shoulder, hips stacked and driven high, straight line from ear to ankle. Thirty seconds a side. Anti-lateral flexion, and it costs your legs nothing."
         },
         {
-          "name": "HOLLOW ROCKS · 20 reps",
-          "detail": "On your back, low back glued flat, arms and legs long, and rock as one rigid piece. Twenty. If the low back lifts, tuck the knees in and shorten the lever. Anti-extension, and it is nothing like anything you did yesterday."
+          "name": "DEAD BUG · 10 per side",
+          "detail": "On your back, low back pressed flat into the floor and kept there, opposite arm and leg extending long and slow. Ten a side. If the back arches off the floor, shorten the reach. Slow is the whole exercise."
         }
       ],
-      "text": "Three rounds. The midline block is standing policy and it stays, but it is eight minutes today rather than ten, and the wildcard rides inside it rather than getting its own slot. Forty-five minutes is a real constraint and the snatches are where the day's money went."
+      "text": "Two rounds, six minutes. The midline block is standing policy and it never gets dropped, but today it is deliberately anti-rotation rather than anti-extension, and it is built out of the same pull and press patterns the tower used, so it reads as the last floor rather than a separate chore."
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~3 min · calves and forearms, which is where this session will show up tomorrow",
+      "meta": "~3 min · chest, lats and forearms, which is where the tower will show up tomorrow",
       "items": [],
-      "text": "Wall calf stretch, 45 seconds per side, straight leg then a soft knee to catch the soleus. That is the tax on the grade ladder and it is worth paying now. Forearm and wrist extensor stretch, 30 seconds per side, palm down, gently pull the fingers back — a hundred and forty snatches plus hand-to-hand swings is a lot of grip. Half-kneeling hip flexor, 45 seconds a side. Then a minute of slow nasal breathing, longer out than in, standing or lying, and you are done."
+      "text": "Doorway or corner pec stretch, 45 seconds per side, forearm on the frame at shoulder height, step through and turn away. Then a lat stretch, 45 seconds per side, hand high on a doorframe, sit the hips back and away. Then forearm and wrist extensor stretch, 30 seconds per side, palm down, gently pull the fingers back, because a hundred and forty reps of grip is why the bottoms-up press wobbled. Finish with a minute of slow nasal breathing, longer out than in."
     }
   ],
   "timer": {
-    "emomUnit": "No EMOM today. Block 1 is deliberately NOT on a clock — start the countdown for 18 minutes as a container, but each set starts when your breathing comes back, not when the second hand says so. Use the countdown properly for Block 2: 60 seconds on, 60 seconds off, ten minutes total.",
-    "emomGreen": "14 sets",
-    "emomYellow": "10 sets"
+    "emomUnit": "No EMOM today. Block 1 is a for-time chipper, so run the countdown at 18 minutes purely as a cap and note where you were when it went off. Block 2 is 1 minute on, 1 minute off, five times through, inside a 14-minute container.",
+    "emomGreen": "all 6 floors",
+    "emomYellow": "floors 1 through 4"
   }
 }

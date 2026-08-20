@@ -1,136 +1,97 @@
 {
-  "date": "2026-08-20",
-  "weekday": "THURSDAY · TODAY",
-  "title": "THE TOWER · DESCENDING PULL & PRESS + THE FARTLEK",
-  "vibe": "green · hard · 45 minutes · one list, top to bottom, and the clock only tells you when you finished",
-  "why": "Seven hours, nothing sore, and you want hard again. But you told me something specific twice now: the legs feel jet lagged. Not sore, not beat up, jet lagged. That is the second session running where the legs have been the reported limiter while the engine reported fine, and it points at an obvious answer that also happens to be the biggest hole in your log. Look at what has actually been trained since you landed. Fused run and lift on the 17th. Get-ups, carries and crawls on the 18th. A hundred snatches and a grade ladder yesterday. Every one of those is hips, legs and feet. Meanwhile horizontal pulling has barely appeared since the 17th and pressing volume has been thin since the 5th. Your back and your chest are the neglected muscles in this program, and they do not care what time zone your legs think it is. So today the effort moves entirely above the waist and the shape changes completely. No sets, no rounds, no EMOM, no recovery-driven repeats. One list. Six movements, descending reps, top to bottom, straight through, for time. This is the chipper, and it is the one shape this program has not run in weeks. You do not manage the pacing with a clock, you manage it by choosing where you break, and the only number that matters at the end is where the second hand was when you finished the last press. Then the run drops the grade entirely, because the grade ladder was yesterday, and goes flat and playful instead: a fartlek, by feel, surge and float, which is a running style that has never once appeared in this log. Jet-lagged legs get to choose their own surges. That is the point of fartlek.",
-  "estMin": 45,
+  "date": "2026-08-21",
+  "weekday": "FRIDAY · TODAY",
+  "title": "THE SHORT CHAIN · 20 MINUTES, OR NOTHING AT ALL",
+  "vibe": "yellow · compressed · 20 minutes · a practice, not a beating — and skipping it is a real option, not a failure",
+  "why": "Six hours of sleep and light soreness after four hundred and twenty-six reps of pull and press. That is a yellow day by the numbers, and you already said you are short on time and may not train at all. So this is deliberately built to be small. Twenty minutes, one bell, one chain, no clock pressure, and it is written so that stopping after two rounds is a completed workout rather than a partial one. If the window never opens, take the rest day. You trained hard four days running through jet lag and the last one was triple the written volume, so a day off is banked value, not lost ground. If the window does open, here is what fits it. Your shoulders, lats and chest took everything yesterday, so today touches them as little as possible. Your legs have now had two full days out of the lead role and the jet lag has had a day to fade, so the load goes back to the hips and the legs where there is something available. And the shape changes again: this is a flow, one continuous chain where the bell never touches the floor until the round is done. No stations, no descending list, no rest intervals. You count rounds and you judge them by whether they looked good, not by how wrecked you feel. That is the point of a flow on a yellow day: it is the one shape that produces real work while giving you a quality standard instead of an intensity standard to chase.",
+  "estMin": 20,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · DAY A · SHOULDERS AND SPINE",
-      "meta": "~6 min · Moves Method Day A · matched to a day that is almost entirely upper body",
+      "title": "WARM-UP · DAY C · THE FLOW",
+      "meta": "~4 min · Moves Method Day C · one continuous moving sequence, no reps to count",
       "items": [
         {
-          "name": "SHOULDER CIRCLES AND DISLOCATES · 2 x 20",
-          "detail": "Twenty forward, twenty back, twice through, with a towel if you have one. You are about to ask the shoulder for roughly eighty pressing reps and eighty pulling reps. Open it first."
+          "name": "ROCK-BACKS · 45 sec",
+          "detail": "On hands and knees, rock the hips back toward the heels and forward again, easy and rhythmic. Let the low back and hips unlock. Do not count, just move for forty-five seconds."
         },
         {
-          "name": "THORACIC OPENERS · 8 per side",
-          "detail": "Side-lying windmill: lie on your side, knees stacked and bent, arms straight out in front, then peel the top arm open across your body until the shoulder blade touches the floor, and follow it with your eyes. Eight a side, slow. Rows are only as good as the thoracic spine underneath them."
+          "name": "CROSS-CRAWL AND ROLLING · 60 sec",
+          "detail": "Standing cross-crawls, opposite elbow to opposite knee, thirty seconds. Then lie down and roll from your back to your stomach and back again, led by one arm, then the other. Contralateral wiring, and it costs nothing."
         },
         {
-          "name": "SCAPULAR PUSH-UPS AND WALL SLIDES · 12 each",
-          "detail": "Twelve scapular push-ups in a high plank, no elbow bend, just let the shoulder blades pinch and spread. Then twelve wall slides, low back and forearms on the wall, slide the arms up without letting the ribs flare. This wakes up the serratus, which is what will keep your shoulder honest deep into the push-ups."
+          "name": "DEEP SQUAT SIT · 60 sec",
+          "detail": "Sit into the bottom of a squat and stay there, elbows inside the knees, and gently rock side to side and forward and back. A full minute. Today the legs are the main event, so this is the one that matters."
         },
         {
-          "name": "HALOS · 8 per direction · 12 or 16 kg",
-          "detail": "Bell upside down by the horns, circle it around your head, tight to the skull, slow. Eight each way. Straight from the mobility playbook this program keeps not using, and it is the single best pre-press drill you own."
-        },
-        {
-          "name": "PRIMER · 10 ROWS + 10 PUSH-UPS · 16 kg",
-          "detail": "One easy pass at both patterns, no fatigue, just rehearsal. Feel the row start from the shoulder blade and the push-up start from the ribs, not the arms."
+          "name": "PRIMER · 10 SWINGS + 5 GOBLET SQUATS · 16 kg",
+          "detail": "One easy pass, light bell, just to find the hinge and the squat before the chain starts."
         }
       ],
-      "text": "Day A off the Moves Method menu, because today is a press and pull day. Day A last ran on 08-17, Day B ran yesterday, Day C on 08-18. Six minutes and no leg mobility today on purpose. The legs get a break from being the main character."
+      "text": "Day C off the Moves Method menu — the flow day, matched to a flow session. Day A ran 08-20, Day B ran 08-19, Day C last ran 08-18. Four minutes, because the whole session is twenty."
     },
     {
       "id": "b1",
-      "kind": "strength",
-      "title": "BLOCK 1 · THE TOWER · SIX FLOORS, DESCENDING, FOR TIME",
-      "meta": "~18 min cap · 20 kg bell, 16 kg bell, heaviest dumbbell you have · 142 reps, one pass",
-      "format": "chipper — a single descending list, straight through, no rounds, no clock intervals. You finish a floor completely before you move to the next one.",
-      "workRest": "Rest whenever you want, wherever you want. Rest is not scheduled, it is a decision, and the decisions ARE the workout. Start the countdown at 18 minutes as a cap. Wherever you are when it goes off is the honest number and we log it as your baseline.",
+      "kind": "conditioning",
+      "title": "BLOCK 1 · THE CHAIN · 3 ROUNDS PER SIDE",
+      "meta": "~10 min · ONE 16 kg or 20 kg bell · 3 ROUNDS PER SIDE (6 total passes) · floor 2 rounds per side, stretch 4",
+      "format": "single-bell flow — one continuous chain, five movements, the bell does NOT touch the floor until the round is finished. Then switch hands.",
+      "workRest": "One round is the five movements below, straight through, same hand. Set the bell down, shake out, take 45 to 60 seconds, then run it on the other hand. That pair is one round per side. THREE ROUNDS PER SIDE is the target. Two is a completed session on a yellow day.",
       "items": [
         {
-          "name": "FLOOR 1 · 40 SINGLE-ARM BENT ROW · 20 / 20 · 20 kg",
-          "detail": "Hinge to about forty-five degrees, free hand braced on a bench or your knee, back flat. Twenty per side. Pull the elbow past the ribs and squeeze for a beat at the top. This is the heaviest pulling volume in this program since you landed, and it is the whole reason the day exists. Do not let the torso wind up and rotate to help."
+          "name": "1 · SWING x 8",
+          "detail": "One-arm swing to chest height. Snap the hips, let the arm be a rope. This sets the rhythm for everything that follows."
         },
         {
-          "name": "FLOOR 2 · 30 PUSH-UPS",
-          "detail": "Chest to the floor, full lockout, body rigid. Break them however you like, five sets of six is fine. Push-ups have appeared exactly once in this entire log, on 08-05, which is absurd for a program with fat loss and muscle retention as the goal. Thirty of them today."
+          "name": "2 · CLEAN x 5",
+          "detail": "From the last swing, tame the arc and land the bell quietly in the rack. Five. If it bangs your forearm, you are muscling it up instead of guiding it in."
         },
         {
-          "name": "FLOOR 3 · 24 CLEAN AND STRICT PRESS · 12 / 12 · 16 kg",
-          "detail": "Single bell, clean it to the rack, then press it strict, no leg drive at all, and lower under control. Twelve per side. The 16 and not the 20 here, deliberately, because floor 3 of 6 is not where you want the wheels to come off. The clean is free volume, the press is the point."
+          "name": "3 · FRONT SQUAT x 5",
+          "detail": "Bell stays racked. Sit down between your hips, elbow tight to the ribs, chest tall. Five. This is the reason the day exists — your legs are the only fresh thing you own right now."
         },
         {
-          "name": "FLOOR 4 · 20 DEAD-STOP GORILLA ROW · 10 / 10 · 20 kg",
-          "detail": "Bell on the floor between your feet, hinge down and stay down, and row it from a dead stop to the hip, one side at a time, setting it down fully between every rep. Ten a side. The dead stop kills all the momentum you have been quietly using on floor 1, and this will feel much harder than the number suggests."
+          "name": "4 · REVERSE LUNGE x 5",
+          "detail": "Still racked, same side. Step back, knee to just off the floor, drive through the front heel. Five on the same leg. Loaded on one side makes this a midline exercise as much as a leg one, which is how the core block gets paid today."
         },
         {
-          "name": "FLOOR 5 · 16 SINGLE-ARM FLOOR PRESS · 8 / 8 · heaviest DB",
-          "detail": "On your back on the floor, one dumbbell, press it straight up, elbow lightly touching down between reps. Eight a side. Grab the heaviest bell or dumbbell in that gym you can honestly control for eight, because your chest and triceps are cooked from floor 2 and this is supposed to be a fight. Squeeze the opposite glute hard to keep the ribs down."
+          "name": "5 · HALO x 5, then set it down",
+          "detail": "Bell by the horns, circle it around your head, five times, slow. This is the release valve — it opens the shoulder you hammered yesterday instead of loading it. Then the bell touches the floor for the first time in the round."
         },
         {
-          "name": "FLOOR 6 · 12 BOTTOMS-UP PRESS · 6 / 6 · 12 or 16 kg",
-          "detail": "Bell upside down, gripping the handle like you are trying to crush it, pressed strictly overhead without it tipping. Six per side. This is the sting in the tail and it is a skill test, not a strength test: after a hundred and thirty reps your grip and your shoulder stability are the first things to go, and a bottoms-up press tells you that instantly. If it tips, that is information. Use the 12 if the 16 wobbles."
+          "name": "THE STANDARD · QUALITY, NOT SURVIVAL",
+          "detail": "This is a yellow day and a flow, so the rule is simple: every round should look like the one before it. The moment a clean gets sloppy or a squat gets short, that round was the last good one and you are done. Stopping at four passes because they were clean beats grinding out six ugly ones. Use the 16 if the 20 makes the lunges wobble."
         }
       ],
-      "text": "Seeded off Neupert's Total Body Smoker 4 to 6 and Upper Body Blast, both of which pair a bell with pull-ups, with dumbbell and gorilla rows subbed in since there is no bar in that gym, and rebuilt as a descending chipper. Report the finish time or where the cap caught you, and which floor was the one that actually hurt. That decides whether the next tower gets heavier or longer."
+      "text": "Seeded off Neupert's Half Olympic Light, the clean-front-squat chain, opened out into a continuous single-bell flow with the press swapped for a halo so your shoulders get mobility instead of more volume. The flow shape has not run since 07-27."
     },
     {
       "id": "b2",
       "kind": "conditioning",
-      "title": "BLOCK 2 · THE FARTLEK · SURGE AND FLOAT",
-      "meta": "14 min · treadmill, flat at 1 percent · km/h · no grade today, no target split, run it by feel",
-      "format": "fartlek — Swedish for speed play. Alternating surges and floats, continuous, never stopping the belt.",
-      "workRest": "Never stop running. The float IS the rest.",
+      "title": "BLOCK 2 · EASY RUN · 6 MIN",
+      "meta": "6 min · flat at 1 percent · 12.2 to 12.9 km/h · your own easy band, nothing clever",
+      "format": "continuous, one speed, no surges and no grade",
       "items": [
         {
-          "name": "MIN 0 TO 3 · EASY · 12.2 km/h",
-          "detail": "12.2 km/h is right at the bottom of your own easy band, roughly a 7:55 mile. This is the on-ramp, not a Zone 2 lecture, and you are on jet-lagged legs so let the first three minutes tell you what you have."
-        },
-        {
-          "name": "MIN 3 TO 13 · FIVE SURGES · 1 min at 14.0 to 14.5 km/h, 1 min float at 12.2",
-          "detail": "Five times through. 14.0 to 14.5 is roughly a 6:45 to 7:00 mile, genuinely quick but nowhere near your ceiling, and one minute is short on purpose. The rule of fartlek is that YOU pick the surge speed each time based on how the last float went. If surge three felt great, take surge four to 15.0. If your legs are still on Singapore time, hold 14.0 the whole way and that is a completed workout, not a compromise."
-        },
-        {
-          "name": "MIN 13 TO 14 · EASY DOWN · 12.2 km/h",
-          "detail": "One minute back at easy to finish, belt still moving."
-        },
-        {
-          "name": "TELL ME THE DISTANCE",
-          "detail": "Read the belt distance off the console when you stop, and the highest surge speed you took. That treadmill still has zero calibration on file and two data points will fix it."
+          "name": "6 MIN CONTINUOUS · 12.2 to 12.9 km/h",
+          "detail": "Your easy band, roughly 7:30 to 7:55 a mile. Pick where in the band it feels right in the first minute and then leave the dial alone. No grade because yesterday and Wednesday both had one, no surges because it is a yellow day, and no distance target because six minutes is the whole point. If the twenty minutes has to become twelve, this is the block to cut."
         }
       ],
-      "text": "The grade ladder was yesterday and the legs are jet lagged, so today goes flat and the difficulty moves back into speed, but in short bursts you control instead of a continuous tempo you have to hold. Fartlek has never appeared once in this log. It is also the format that most respects legs that are not quite themselves, because the athlete decides the surge, not the plan."
-    },
-    {
-      "id": "b3",
-      "kind": "finisher",
-      "title": "BLOCK 3 · MIDLINE · ANTI-ROTATION UNDER A PRESS",
-      "meta": "~6 min · 12 kg · 2 rounds, minimal rest · the standing core block",
-      "format": "2 rounds, straight through",
-      "items": [
-        {
-          "name": "PLANK ROTATIONAL PRESS · 6 per side · 12 kg  ·  WILDCARD",
-          "detail": "High plank with one hand on a light bell or dumbbell. Row it up, then rotate the whole body open into a side plank and press it toward the ceiling, then reverse the whole thing back down. Six a side. This has never appeared anywhere in this program. It is a row, an anti-rotation hold and a press stacked into one rep, which is exactly the right closer for a day built on rows and presses."
-        },
-        {
-          "name": "SIDE PLANK · 30 sec per side",
-          "detail": "Elbow under the shoulder, hips stacked and driven high, straight line from ear to ankle. Thirty seconds a side. Anti-lateral flexion, and it costs your legs nothing."
-        },
-        {
-          "name": "DEAD BUG · 10 per side",
-          "detail": "On your back, low back pressed flat into the floor and kept there, opposite arm and leg extending long and slow. Ten a side. If the back arches off the floor, shorten the reach. Slow is the whole exercise."
-        }
-      ],
-      "text": "Two rounds, six minutes. The midline block is standing policy and it never gets dropped, but today it is deliberately anti-rotation rather than anti-extension, and it is built out of the same pull and press patterns the tower used, so it reads as the last floor rather than a separate chore."
+      "text": "Short and flat. The run is the constant, so it stays in even on a compressed day, but today it is the smallest version of itself rather than the place the work happens."
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
       "title": "COOLDOWN",
-      "meta": "~3 min · chest, lats and forearms, which is where the tower will show up tomorrow",
+      "meta": "~2 min",
       "items": [],
-      "text": "Doorway or corner pec stretch, 45 seconds per side, forearm on the frame at shoulder height, step through and turn away. Then a lat stretch, 45 seconds per side, hand high on a doorframe, sit the hips back and away. Then forearm and wrist extensor stretch, 30 seconds per side, palm down, gently pull the fingers back, because a hundred and forty reps of grip is why the bottoms-up press wobbled. Finish with a minute of slow nasal breathing, longer out than in."
+      "text": "Half-kneeling hip flexor stretch, 45 seconds a side, back glute squeezed. Then a doorway pec stretch, 30 seconds a side, because yesterday is still in there. Then a minute of slow nasal breathing, longer out than in. Done."
     }
   ],
   "timer": {
-    "emomUnit": "No EMOM today. Block 1 is a for-time chipper, so run the countdown at 18 minutes purely as a cap and note where you were when it went off. Block 2 is 1 minute on, 1 minute off, five times through, inside a 14-minute container.",
-    "emomGreen": "all 6 floors",
-    "emomYellow": "floors 1 through 4"
+    "emomUnit": "No clock on this one. Block 1 is 3 ROUNDS PER SIDE counted by hand, judged on quality — not a timed block. Use the countdown only for the 6-minute run.",
+    "emomGreen": "3 rounds per side",
+    "emomYellow": "2 rounds per side"
   }
 }

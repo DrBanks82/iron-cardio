@@ -1,147 +1,159 @@
 {
-  "date": "2026-08-22",
-  "weekday": "SATURDAY · TODAY",
-  "title": "THE ANVIL · MILE REPEATS + THE SQUAT ENGINE",
-  "vibe": "green · hard on purpose · 60 minutes · the biggest day of the Singapore block",
-  "why": "Twelve hours of sleep, no soreness, a full rest day behind you, an hour available, and you said HARD. That is the best readiness reading in the log since you got on the plane, and it does not come around often enough to spend carefully. So this is the day the program cashes it in. Two things have gone stale while you were doing other work well: loaded LEG work has not been the main event since the 17th, and you have never once run mile repeats in this program. Today is both, in that order. The run goes FIRST while the legs are fresh, because repeats are a quality session and they deserve your best legs, not your leftovers. Then the squat engine gets what is left. Your shoulders, lats and chest ate four hundred and twenty-six reps on the 20th, so they stay out of the lead entirely today: nothing overhead, nothing pressing. The finisher is a strongman carry medley, which is grip and midline and legs all at once and is the shape of work you have told me twice you like best. Volume is written high because you asked for high and because the last time a session was billed as hard you ran it three times through and it was fine.",
-  "estMin": 60,
+  "date": "2026-08-23",
+  "weekday": "SUNDAY · TODAY",
+  "title": "THE TOWER II · FIVE FLOORS + THE BASEMENT",
+  "vibe": "green · hard on purpose · ~70 minutes · you asked for the Tower and you asked for abs, so the abs are built into the Tower",
+  "why": "Ten hours of sleep, nothing sore, the whole day open, and you asked for hard with the Tower and the midline in front. That is a specific request and it gets a specific answer. The Tower is the highest rated session in this log and the shape you asked to see again, so the ARC comes back exactly as you liked it: one long descending list, one clock, worked straight through, no stations and no rest intervals, big horizontal pull and pressing volume, finished by finishing the list. What changes is everything inside it. Every movement is new against the 20th, the floors are five instead of six, and the abs are not a finisher this time. There is an ABS RUNG on every single floor, so the midline is loaded five separate times before you ever get to the dedicated core block. Written volume is roughly two hundred and seventy reps against the one hundred forty two written on the 20th. That is deliberate. You ran that list three times through and reported it as fine, so the number went up. Legs did mile repeats and loaded front squats yesterday, so nothing today squats, hinges heavy, or asks the legs for speed. The run is the longest continuous piece of the Singapore block, five kilometres at your own easy pace, because time on feet is the thing your aerobic file is actually missing, not a slower number.",
+  "estMin": 70,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · DAY B · ANKLES, KNEES, HIPS",
-      "meta": "~8 min · Moves Method Day B · matched to a leg day · move, do not grind",
+      "title": "WARM-UP · DAY A · SHOULDERS, SPINE, WRISTS",
+      "meta": "~8 min · Moves Method Day A · matched to an upper-body day · ONE PASS",
       "items": [
         {
-          "name": "TOE SQUAT + ANKLE ROLLS IN THE SQUAT · 90 sec",
-          "detail": "Kneel and sit back on tucked toes for thirty seconds to open the feet and calves. Then drop into a deep squat and roll each ankle through its full circle, driving the knee forward over the toes. You are about to do mile repeats at two hundred and fifty pounds. The ankles get first claim on this warm-up."
+          "name": "PASSIVE HANG or OVERHEAD SQUAT REACH-OUT · 60 sec",
+          "detail": "If there is a bar in the gym, hang and let the shoulders decompress for a full minute. If there is not, sit in a deep squat, press both palms overhead and reach long, alternating a slow side bend each way. You are about to press and row for twenty two minutes. Open the shoulders first."
         },
         {
-          "name": "SINGLE-LEG BALANCE + KNEE DRIVES · 90 sec",
-          "detail": "Thirty seconds of balance on each foot, then fifteen driving knee raises per side, tall and controlled. This is the gait wiring and it costs nothing."
+          "name": "SHOULDER DISLOCATES · 2 × 15",
+          "detail": "Towel or band, hands wide, sweep from front to back and return. Slow. Narrow the grip a couple of inches on the second set if the first felt easy."
         },
         {
-          "name": "SIDE STEP-UPS + HORSE-STANCE SQUATS · 2 min",
-          "detail": "Ten side step-ups per leg onto a bench or box, then thirty seconds sitting in a wide horse stance, hips low, elbows pushing the knees out. Wakes up the hips laterally, which the squats will want later."
+          "name": "JEFFERSON CURL · 8 slow reps",
+          "detail": "Empty hands or the 12 kg. Roll down one vertebra at a time, hang at the bottom for a breath, then stack back up from the bottom. This is the low back insurance and it is the reason the stiffness stopped showing up in your check-ins."
         },
         {
-          "name": "SINGLE-LEG GOOD MORNING · 8 per side",
-          "detail": "Hands behind the head, hinge on one leg until you feel the hamstring, stand tall. Slow. This is the hinge rehearsal for the swings."
+          "name": "THORACIC ROTATIONS · 10 per side",
+          "detail": "Side-lying windmill or quadruped thread-the-needle. Full rotation, eyes follow the hand. The cross-body row and the teaser both want this."
         },
         {
-          "name": "TREADMILL PRIMER · 3 min",
-          "detail": "Walk 60 seconds at 6 km/h, then jog 2 minutes building from 9 to 12 km/h. Roll straight from the last minute of this into the first repeat. Do not stop the belt and start over."
+          "name": "WRIST ROCKS + HALOS · 90 sec",
+          "detail": "Palms down then palms up on the floor, rocking gently through the wrists for thirty seconds. Then ten halos each direction with the 12 kg. Wrists carry the rack position for two hundred and seventy reps today."
         }
       ],
-      "text": "Day B off the Moves Method menu, which is the ankles-knees-hips day and the correct match for a leg session. Different warm-up from the last three days on purpose."
-    },
-    {
-      "id": "run",
-      "kind": "conditioning",
-      "title": "BLOCK 1 · MILE REPEATS · FIRST TIME IN THIS PROGRAM",
-      "meta": "~18 min · 2 REPEATS of 1.6 km · 3 min walk between · 13.3 to 13.8 km/h",
-      "format": "interval repeats at distance, run FRESH, before the weights",
-      "workRest": "1.6 km hard · 3 min walk at 5.5 km/h · repeat",
-      "items": [
-        {
-          "name": "REPEAT 1 · 1.6 km @ 13.3 km/h",
-          "detail": "Set the belt at 13.3 and hold it for the full 1.6 km. That is roughly a 7:15 mile. It should feel like your two-mile effort but arriving sooner. Expect about 7 minutes 10 seconds. Cadence quick and short, around 168 to 172 steps a minute, which cuts the impact per step without costing you any pace."
-        },
-        {
-          "name": "WALK · 3 min @ 5.5 km/h",
-          "detail": "Full three minutes, walking, belt still moving. Do not cut it short because you feel fine. The recovery is what makes the second repeat mean something."
-        },
-        {
-          "name": "REPEAT 2 · 1.6 km @ 13.6 to 13.8 km/h",
-          "detail": "Go UP, not down. 13.6 minimum, 13.8 if the first one came easy. That is roughly 7:05 down to 6:58 a mile. A negative split is the whole point of the session and you have run three of them in a row on the two-mile, so this is well inside what you already do."
-        },
-        {
-          "name": "IF THE FIRST TWO WERE TOO EASY · REPEAT 3",
-          "detail": "Only if you genuinely have the clock and the legs: take one more 1.6 km at 13.8 or faster after another 3 minute walk. It will cost you the cooldown. Worth it if the day is there."
-        }
-      ],
-      "text": "You have run fartlek, tempo, incline ladders, a one-way climb and a continuous three-miler in this program. You have never run repeats. This is the missing run shape, and it belongs on a fully-rested day at the front of the session where you can actually run it fast. This treadmill reads in km/h and has not been calibrated against your watch yet, so tell me the watch splits afterward and I will pin the conversion."
+      "text": "Day A off the Moves Method menu, which is the shoulders and spine day and the correct match for a pull and press session. Different from the last two days on purpose."
     },
     {
       "id": "main",
       "kind": "strength",
-      "title": "BLOCK 2 · THE SQUAT ENGINE · GRIND PLUS BALLISTIC",
-      "meta": "20 min running clock · TARGET 8 ROUNDS · stretch 10 · heavy pair of dumbbells + the 20 kg bell",
-      "format": "grind + ballistic superset, max quality rounds in 20 minutes",
-      "workRest": "5 front squats, then 15 swings, then rest only as long as you need to keep the squats clean",
+      "title": "BLOCK 1 · THE TOWER II · FIVE FLOORS, DESCENDING, FOR TIME",
+      "meta": "~22 min · 5 FLOORS · ~270 written reps · ONE CLOCK, START IT AND DO NOT STOP IT · 2×22 kg DB pair · 20 kg KB · 2×16 kg",
+      "format": "chipper · one descending list worked straight through · no stations, no prescribed rest, finish the list",
+      "workRest": "Rest only when you have to and only long enough to pick the weight back up. The clock never stops. Rung order inside a floor is fixed. Finish a floor completely before you climb to the next one.",
       "items": [
         {
-          "name": "A1 · DOUBLE DUMBBELL FRONT SQUAT · 5 reps",
-          "detail": "A pair of dumbbells, roughly 22 to 25 kg each, racked on the shoulders. Pick the heaviest pair you can front squat for five honest reps with the chest up. Sit BETWEEN the ankles, not back. Five reps every round, no more, and they must look the same in round eight as in round one. If they get ugly, drop a size rather than dropping the round count."
+          "name": "HOW THE TOWER IS BUILT",
+          "detail": "Five floors. The floor number sets the rep count for that whole floor: FLOOR 1 = 20, FLOOR 2 = 16, FLOOR 3 = 12, FLOOR 4 = 8, FLOOR 5 = 4. Every floor has the same five rungs in the same order. The PRESS runs at HALF the floor number because it is the heaviest rung. The last rung on every floor is an ABS RUNG and it changes every floor. Read the five rungs once now so you are not reading mid-chipper."
         },
         {
-          "name": "A2 · TWO-HAND SWING · 15 reps · 20 kg",
-          "detail": "Straight off the squats, no set-down break. Fifteen hard swings, hips snapping, bell floating to chest height. The 20 kg is your strength bell now, so these should be sharp and fast, not a grind. Breathe out on every snap."
+          "name": "RUNG 1 · DOUBLE DEAD-START CLEAN · 2×22 kg",
+          "detail": "20 / 16 / 12 / 8 / 4. Both dumbbells go back to the floor and come to a dead stop between every rep. No bouncing, no touch-and-go. Hinge, snap the hips, catch clean in the rack. Sixty total reps across the Tower. This is the pull engine of the day and it is why the legs stay out of everything else."
         },
         {
-          "name": "THE COUNT",
-          "detail": "EIGHT ROUNDS is the target on the 20 minute clock. That is 40 front squats and 120 swings. TEN ROUNDS is the stretch and would be 50 and 150. Write down what you hit. It sets the load for the rest of the Singapore block."
+          "name": "RUNG 2 · DOUBLE STRICT PRESS · 2×22 kg · HALF THE FLOOR",
+          "detail": "10 / 8 / 6 / 4 / 2. Strict. No leg drive, no dip. Straight out of the rack position you just cleaned into, which is the whole point of the order. Thirty total across the Tower at the heaviest double-implement load in your log. If floor 1 or 2 grinds to a stop, finish the set with the 2×16 kg and go back up to the 22s on the next floor. Do not skip reps."
+        },
+        {
+          "name": "RUNG 3 · SINGLE-ARM CROSS-BODY ROW · 22 kg DB · ALTERNATING",
+          "detail": "20 / 16 / 12 / 8 / 4, alternating hands, so half the count each side. Split stance, free hand on a bench or your knee, and row the dumbbell across your body toward the opposite hip rather than straight back. That diagonal path is the difference from the rows on the 20th and it hits the lat where the plain row does not. Sixty total."
+        },
+        {
+          "name": "RUNG 4 · UPRIGHT ROW · 2×16 kg",
+          "detail": "20 / 16 / 12 / 8 / 4. Dumbbells in front, pull the elbows high and wide until the hands reach mid-chest, then control them down. Light on purpose. Sixty total. This rung is the upper back and rear delt volume that the Tower on the 20th never touched."
+        },
+        {
+          "name": "RUNG 5 · THE ABS RUNG · CHANGES EVERY FLOOR",
+          "detail": "FLOOR 1 · 20 HOLLOW ROCKS — low back pinned to the floor, rock from the shoulders, do not break the shape. FLOOR 2 · 16 OVERHEAD DEAD BUGS holding the 16 kg locked out over your chest, alternating, count each limb pair as one. FLOOR 3 · 12 PILATES TEASERS — WILDCARD, first appearance in this program: lie flat, arms overhead, then roll up and lift the legs at the same time into a V, balanced on the tailbone, and roll back down one vertebra at a time under control. Slow is harder than fast here. FLOOR 4 · 8 V-UPS, hands and feet meeting over the middle. FLOOR 5 · 4 TURKISH GET-UPS at 20 kg, two per side, and they are the capstone of the whole Tower. Sixty total abs reps inside the Tower before the dedicated core block has even started."
+      }
+      ],
+      "noteGreen": "The written number is two hundred and seventy and it was written at the top of the range on purpose. If you top out the list and the clock says you have more in you, the correct move is a second climb of FLOORS 3, 4 and 5 only, not a full second Tower, because the get-ups are the limiter and eight of them is plenty. Tell me which way it went and the next Tower gets built off that answer.",
+      "text": "Seeded from Neupert #66 G&B 3 (double press paired with double clean) and #11 The Giant (clean and press ladder), rebuilt as a five-floor descending chipper, with the cross-body row, the upright row and the abs rungs pulled from the muscle-building split W_D4. Nothing here appeared on the 20th."
+    },
+    {
+      "id": "run",
+      "kind": "conditioning",
+      "title": "BLOCK 2 · THE LONG ONE · 5 KM CONTINUOUS",
+      "meta": "~24 min · 5 KM UNBROKEN · 12.5 to 12.9 km/h · the longest single run of the Singapore block",
+      "format": "steady continuous aerobic at YOUR easy pace · one belt speed, one distance, no intervals",
+      "workRest": "5 km straight through. No walk breaks, no speed changes. Then 2 min walk at 5.5 km/h before the basement.",
+      "items": [
+        {
+          "name": "5 KM @ 12.5 to 12.9 km/h",
+          "detail": "Set the belt at 12.7 and leave it there. That is your own easy band, roughly a 7:40 mile, and it is not a corrective pace and not a restraint exercise. The variable today is DISTANCE, not speed. Your file says you are a comfortable three to four mile runner who has been choosing two miles for time reasons, and today you have the whole day, so this is five kilometres unbroken. Expect somewhere around twenty three and a half minutes."
+        },
+        {
+          "name": "CADENCE CUE · 168 TO 172",
+          "detail": "Quick and short rather than long and reaching. It costs you nothing in pace and it takes real load off the calves and knees over twenty four minutes at two hundred fifty pounds. Count your right foot for fifteen seconds a few times through and you want forty two to forty three."
+        },
+        {
+          "name": "REPORT BACK",
+          "detail": "Belt distance readout at the end and how the last kilometre felt compared to the first. This treadmill still is not calibrated and the readout is the only data we have on it."
         }
       ],
-      "noteGreen": "Eight rounds minimum. If you finish eight with more than three minutes on the clock, keep going and take ten.",
-      "text": "Neupert's Grind and Ballistic pairing, squat plus hinge, which is the exact combination that has been missing since the 17th. Nothing goes overhead in this block. Your pressing muscles are still paying off the 20th and they are not invited."
+      "text": "Run style rotated off yesterday's mile repeats and off the incline ladders of the 19th and the 2nd. This is the duration piece, which is the one genuine hole in the running file."
     },
     {
       "id": "core",
       "kind": "finisher",
-      "title": "BLOCK 3 · THE MEDLEY · CARRY IT OR PUT IT DOWN",
-      "meta": "~9 min · 3 LAPS · about 20 metres per station · no set-down inside a lap",
-      "format": "strongman medley, measured in distance through space, not in reps",
-      "workRest": "one continuous lap through all three carries, then rest 60 to 90 sec, three laps total",
+      "title": "BLOCK 3 · THE BASEMENT · DEDICATED MIDLINE",
+      "meta": "~12 min · 3 ROUNDS · 22 kg DB · 16 kg KB · rest 45 sec between rounds",
+      "format": "circuit · anti-extension, anti-rotation and anti-lateral-flexion, one of each, plus endurance holds",
+      "workRest": "Move rung to rung inside a round, 45 sec rest between rounds. 3 ROUNDS.",
       "items": [
         {
-          "name": "STATION 1 · SUITCASE CARRY · 20 m per side",
-          "detail": "One heavy dumbbell, the heaviest you can hold, hanging at one side. Twenty metres out, switch hands, twenty metres back. Shoulders square, do not lean away from it. This is anti-lateral-flexion core disguised as a walk."
+          "name": "McGILL CURL-UP · 5 HOLDS OF 8 SEC PER SIDE",
+          "detail": "One knee bent, one leg straight, hands under the small of your back to keep the lumbar arch, lift only the head and shoulders an inch off the floor and hold eight seconds. Five holds, then switch which leg is bent. This is an endurance exercise, not a rep exercise, and the arch under your hands is the whole point."
         },
         {
-          "name": "STATION 2 · ZERCHER CARRY · 20 m · WILDCARD",
-          "detail": "New to this program. Hook a heavy dumbbell or the 20 kg bell into the crooks of both elbows, hugged against the chest, elbows high. Walk twenty metres. The load is out in front of you so your whole midline has to fight to keep you upright, and your upper back has to hold the position. It is uncomfortable and that is the entire point. Straight from the strongman side of the house."
+          "name": "SIDE PLANK WITH TOP-LEG RAISE · 40 SEC PER SIDE",
+          "detail": "Forearm side plank, hips stacked and high, then lift and lower the top leg slowly the whole time. Anti-lateral-flexion plus glute medius. Do not let the hip sag between reps."
         },
         {
-          "name": "STATION 3 · FRONT-RACK MARCH · 20 m · 20 kg",
-          "detail": "The 20 kg bell racked on one shoulder, and you march the twenty metres with a deliberate high knee on every step. Switch shoulders for the next lap. Ribs down, do not let the low back arch."
+          "name": "BIRD DOG · 10 PER SIDE, SLOW",
+          "detail": "Opposite arm and leg, reach long rather than high, pause a beat at full extension, and do not let the hips rotate. If a glass of water on your low back would spill, you are rotating."
         },
         {
-          "name": "THE RULE",
-          "detail": "Inside a lap the weight never touches the floor. Grip is the limiter here and grip is supposed to be the limiter. If it goes down, that lap is over, rest, and start the next one."
+          "name": "SUITCASE LATERAL WALK · 22 kg · 15 m PER SIDE",
+          "detail": "One dumbbell in one hand, walk SIDEWAYS fifteen metres, then back the other direction with the same hand loaded, then switch hands. Sideways is the variation you have not done. Stand tall, do not let the loaded side collapse, and do not lean away to counterbalance."
+        },
+        {
+          "name": "OFFSET OVERHEAD HOLD MARCH · 16 kg · 30 SEC PER SIDE",
+          "detail": "One bell locked out overhead, elbow straight, march in place with a high knee. The overhead load forces the whole trunk to resist a side bend it desperately wants to make. Last rung of the day."
         }
       ],
-      "text": "Three laps. The strongman medley principle: two or more loaded movements back to back, moving weight through space, effort counted in distance instead of reps. Carries and grip work are a confirmed favourite of yours from back on the 15th of July and they have not headlined a finisher since. This also covers the midline requirement without a single crunch."
+      "text": "The core work today is deliberately doubled: sixty reps inside the Tower plus this block. Research lens is core and Pilates and anti-rotation, which had not been used since 20 July, and it seeded the McGill endurance holds, the dead bug progression and the teaser."
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
       "title": "COOLDOWN · 5 MIN",
-      "meta": "walk it off, then get on the floor",
+      "meta": "~5 min · ONE PASS · unhurried",
       "items": [
         {
-          "name": "TREADMILL WALK · 2 min @ 5 km/h",
-          "detail": "Flat, easy, nose breathing. Let the heart rate come down before you lie down."
+          "name": "WALK · 3 min @ 5 km/h",
+          "detail": "Let the heart rate come down on its feet rather than sitting down."
         },
         {
-          "name": "COUCH STRETCH · 60 sec per side",
-          "detail": "Rear foot elevated, hips square and pushed forward. The quads did the work today and they will be the sore ones tomorrow."
+          "name": "CHILD'S POSE WITH SIDE REACH · 45 sec per side",
+          "detail": "Reach both hands over to one side and breathe into the opposite ribs. Everything you did today shortened the front of the shoulders."
         },
         {
-          "name": "CALF AND ACHILLES HANG · 45 sec per side",
-          "detail": "Heel dropped off a step. You just ran two hard miles at 250 pounds. Pay the calves back."
+          "name": "DOORWAY OR FLOOR CHEST OPENER · 45 sec per side",
+          "detail": "Arm at ninety degrees against a frame, turn away slowly. Two hundred seventy reps of pulling and pressing earned this."
         },
         {
-          "name": "SEATED FORWARD FOLD · 60 sec",
-          "detail": "Legs long, breathe into the hamstrings and low back. Long exhales."
+          "name": "SUPINE TWIST · 45 sec per side",
+          "detail": "Knees over to one side, opposite shoulder stays down, breathe. The teasers and the twisting rows will thank you tomorrow."
         }
       ],
-      "text": "Five minutes. Do not skip the calves today of all days."
+      "text": "Short and honest. Do not skip it on a two hundred seventy rep upper day."
     }
   ],
   "timer": {
-    "emomUnit": "rounds in the 20-minute Block 2",
-    "emomGreen": "8",
-    "emomYellow": "6"
+    "emomUnit": "floors of the Tower completed",
+    "emomGreen": "5",
+    "emomYellow": "4"
   }
 }

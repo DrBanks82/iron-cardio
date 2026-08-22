@@ -1,97 +1,147 @@
 {
-  "date": "2026-08-21",
-  "weekday": "FRIDAY · TODAY",
-  "title": "THE SHORT CHAIN · 20 MINUTES, OR NOTHING AT ALL",
-  "vibe": "yellow · compressed · 20 minutes · a practice, not a beating — and skipping it is a real option, not a failure",
-  "why": "Six hours of sleep and light soreness after four hundred and twenty-six reps of pull and press. That is a yellow day by the numbers, and you already said you are short on time and may not train at all. So this is deliberately built to be small. Twenty minutes, one bell, one chain, no clock pressure, and it is written so that stopping after two rounds is a completed workout rather than a partial one. If the window never opens, take the rest day. You trained hard four days running through jet lag and the last one was triple the written volume, so a day off is banked value, not lost ground. If the window does open, here is what fits it. Your shoulders, lats and chest took everything yesterday, so today touches them as little as possible. Your legs have now had two full days out of the lead role and the jet lag has had a day to fade, so the load goes back to the hips and the legs where there is something available. And the shape changes again: this is a flow, one continuous chain where the bell never touches the floor until the round is done. No stations, no descending list, no rest intervals. You count rounds and you judge them by whether they looked good, not by how wrecked you feel. That is the point of a flow on a yellow day: it is the one shape that produces real work while giving you a quality standard instead of an intensity standard to chase.",
-  "estMin": 20,
+  "date": "2026-08-22",
+  "weekday": "SATURDAY · TODAY",
+  "title": "THE ANVIL · MILE REPEATS + THE SQUAT ENGINE",
+  "vibe": "green · hard on purpose · 60 minutes · the biggest day of the Singapore block",
+  "why": "Twelve hours of sleep, no soreness, a full rest day behind you, an hour available, and you said HARD. That is the best readiness reading in the log since you got on the plane, and it does not come around often enough to spend carefully. So this is the day the program cashes it in. Two things have gone stale while you were doing other work well: loaded LEG work has not been the main event since the 17th, and you have never once run mile repeats in this program. Today is both, in that order. The run goes FIRST while the legs are fresh, because repeats are a quality session and they deserve your best legs, not your leftovers. Then the squat engine gets what is left. Your shoulders, lats and chest ate four hundred and twenty-six reps on the 20th, so they stay out of the lead entirely today: nothing overhead, nothing pressing. The finisher is a strongman carry medley, which is grip and midline and legs all at once and is the shape of work you have told me twice you like best. Volume is written high because you asked for high and because the last time a session was billed as hard you ran it three times through and it was fine.",
+  "estMin": 60,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · DAY C · THE FLOW",
-      "meta": "~4 min · Moves Method Day C · one continuous moving sequence, no reps to count",
+      "title": "WARM-UP · DAY B · ANKLES, KNEES, HIPS",
+      "meta": "~8 min · Moves Method Day B · matched to a leg day · move, do not grind",
       "items": [
         {
-          "name": "ROCK-BACKS · 45 sec",
-          "detail": "On hands and knees, rock the hips back toward the heels and forward again, easy and rhythmic. Let the low back and hips unlock. Do not count, just move for forty-five seconds."
+          "name": "TOE SQUAT + ANKLE ROLLS IN THE SQUAT · 90 sec",
+          "detail": "Kneel and sit back on tucked toes for thirty seconds to open the feet and calves. Then drop into a deep squat and roll each ankle through its full circle, driving the knee forward over the toes. You are about to do mile repeats at two hundred and fifty pounds. The ankles get first claim on this warm-up."
         },
         {
-          "name": "CROSS-CRAWL AND ROLLING · 60 sec",
-          "detail": "Standing cross-crawls, opposite elbow to opposite knee, thirty seconds. Then lie down and roll from your back to your stomach and back again, led by one arm, then the other. Contralateral wiring, and it costs nothing."
+          "name": "SINGLE-LEG BALANCE + KNEE DRIVES · 90 sec",
+          "detail": "Thirty seconds of balance on each foot, then fifteen driving knee raises per side, tall and controlled. This is the gait wiring and it costs nothing."
         },
         {
-          "name": "DEEP SQUAT SIT · 60 sec",
-          "detail": "Sit into the bottom of a squat and stay there, elbows inside the knees, and gently rock side to side and forward and back. A full minute. Today the legs are the main event, so this is the one that matters."
+          "name": "SIDE STEP-UPS + HORSE-STANCE SQUATS · 2 min",
+          "detail": "Ten side step-ups per leg onto a bench or box, then thirty seconds sitting in a wide horse stance, hips low, elbows pushing the knees out. Wakes up the hips laterally, which the squats will want later."
         },
         {
-          "name": "PRIMER · 10 SWINGS + 5 GOBLET SQUATS · 16 kg",
-          "detail": "One easy pass, light bell, just to find the hinge and the squat before the chain starts."
+          "name": "SINGLE-LEG GOOD MORNING · 8 per side",
+          "detail": "Hands behind the head, hinge on one leg until you feel the hamstring, stand tall. Slow. This is the hinge rehearsal for the swings."
+        },
+        {
+          "name": "TREADMILL PRIMER · 3 min",
+          "detail": "Walk 60 seconds at 6 km/h, then jog 2 minutes building from 9 to 12 km/h. Roll straight from the last minute of this into the first repeat. Do not stop the belt and start over."
         }
       ],
-      "text": "Day C off the Moves Method menu — the flow day, matched to a flow session. Day A ran 08-20, Day B ran 08-19, Day C last ran 08-18. Four minutes, because the whole session is twenty."
+      "text": "Day B off the Moves Method menu, which is the ankles-knees-hips day and the correct match for a leg session. Different warm-up from the last three days on purpose."
     },
     {
-      "id": "b1",
+      "id": "run",
       "kind": "conditioning",
-      "title": "BLOCK 1 · THE CHAIN · 3 ROUNDS PER SIDE",
-      "meta": "~10 min · ONE 16 kg or 20 kg bell · 3 ROUNDS PER SIDE (6 total passes) · floor 2 rounds per side, stretch 4",
-      "format": "single-bell flow — one continuous chain, five movements, the bell does NOT touch the floor until the round is finished. Then switch hands.",
-      "workRest": "One round is the five movements below, straight through, same hand. Set the bell down, shake out, take 45 to 60 seconds, then run it on the other hand. That pair is one round per side. THREE ROUNDS PER SIDE is the target. Two is a completed session on a yellow day.",
+      "title": "BLOCK 1 · MILE REPEATS · FIRST TIME IN THIS PROGRAM",
+      "meta": "~18 min · 2 REPEATS of 1.6 km · 3 min walk between · 13.3 to 13.8 km/h",
+      "format": "interval repeats at distance, run FRESH, before the weights",
+      "workRest": "1.6 km hard · 3 min walk at 5.5 km/h · repeat",
       "items": [
         {
-          "name": "1 · SWING x 8",
-          "detail": "One-arm swing to chest height. Snap the hips, let the arm be a rope. This sets the rhythm for everything that follows."
+          "name": "REPEAT 1 · 1.6 km @ 13.3 km/h",
+          "detail": "Set the belt at 13.3 and hold it for the full 1.6 km. That is roughly a 7:15 mile. It should feel like your two-mile effort but arriving sooner. Expect about 7 minutes 10 seconds. Cadence quick and short, around 168 to 172 steps a minute, which cuts the impact per step without costing you any pace."
         },
         {
-          "name": "2 · CLEAN x 5",
-          "detail": "From the last swing, tame the arc and land the bell quietly in the rack. Five. If it bangs your forearm, you are muscling it up instead of guiding it in."
+          "name": "WALK · 3 min @ 5.5 km/h",
+          "detail": "Full three minutes, walking, belt still moving. Do not cut it short because you feel fine. The recovery is what makes the second repeat mean something."
         },
         {
-          "name": "3 · FRONT SQUAT x 5",
-          "detail": "Bell stays racked. Sit down between your hips, elbow tight to the ribs, chest tall. Five. This is the reason the day exists — your legs are the only fresh thing you own right now."
+          "name": "REPEAT 2 · 1.6 km @ 13.6 to 13.8 km/h",
+          "detail": "Go UP, not down. 13.6 minimum, 13.8 if the first one came easy. That is roughly 7:05 down to 6:58 a mile. A negative split is the whole point of the session and you have run three of them in a row on the two-mile, so this is well inside what you already do."
         },
         {
-          "name": "4 · REVERSE LUNGE x 5",
-          "detail": "Still racked, same side. Step back, knee to just off the floor, drive through the front heel. Five on the same leg. Loaded on one side makes this a midline exercise as much as a leg one, which is how the core block gets paid today."
-        },
-        {
-          "name": "5 · HALO x 5, then set it down",
-          "detail": "Bell by the horns, circle it around your head, five times, slow. This is the release valve — it opens the shoulder you hammered yesterday instead of loading it. Then the bell touches the floor for the first time in the round."
-        },
-        {
-          "name": "THE STANDARD · QUALITY, NOT SURVIVAL",
-          "detail": "This is a yellow day and a flow, so the rule is simple: every round should look like the one before it. The moment a clean gets sloppy or a squat gets short, that round was the last good one and you are done. Stopping at four passes because they were clean beats grinding out six ugly ones. Use the 16 if the 20 makes the lunges wobble."
+          "name": "IF THE FIRST TWO WERE TOO EASY · REPEAT 3",
+          "detail": "Only if you genuinely have the clock and the legs: take one more 1.6 km at 13.8 or faster after another 3 minute walk. It will cost you the cooldown. Worth it if the day is there."
         }
       ],
-      "text": "Seeded off Neupert's Half Olympic Light, the clean-front-squat chain, opened out into a continuous single-bell flow with the press swapped for a halo so your shoulders get mobility instead of more volume. The flow shape has not run since 07-27."
+      "text": "You have run fartlek, tempo, incline ladders, a one-way climb and a continuous three-miler in this program. You have never run repeats. This is the missing run shape, and it belongs on a fully-rested day at the front of the session where you can actually run it fast. This treadmill reads in km/h and has not been calibrated against your watch yet, so tell me the watch splits afterward and I will pin the conversion."
     },
     {
-      "id": "b2",
-      "kind": "conditioning",
-      "title": "BLOCK 2 · EASY RUN · 6 MIN",
-      "meta": "6 min · flat at 1 percent · 12.2 to 12.9 km/h · your own easy band, nothing clever",
-      "format": "continuous, one speed, no surges and no grade",
+      "id": "main",
+      "kind": "strength",
+      "title": "BLOCK 2 · THE SQUAT ENGINE · GRIND PLUS BALLISTIC",
+      "meta": "20 min running clock · TARGET 8 ROUNDS · stretch 10 · heavy pair of dumbbells + the 20 kg bell",
+      "format": "grind + ballistic superset, max quality rounds in 20 minutes",
+      "workRest": "5 front squats, then 15 swings, then rest only as long as you need to keep the squats clean",
       "items": [
         {
-          "name": "6 MIN CONTINUOUS · 12.2 to 12.9 km/h",
-          "detail": "Your easy band, roughly 7:30 to 7:55 a mile. Pick where in the band it feels right in the first minute and then leave the dial alone. No grade because yesterday and Wednesday both had one, no surges because it is a yellow day, and no distance target because six minutes is the whole point. If the twenty minutes has to become twelve, this is the block to cut."
+          "name": "A1 · DOUBLE DUMBBELL FRONT SQUAT · 5 reps",
+          "detail": "A pair of dumbbells, roughly 22 to 25 kg each, racked on the shoulders. Pick the heaviest pair you can front squat for five honest reps with the chest up. Sit BETWEEN the ankles, not back. Five reps every round, no more, and they must look the same in round eight as in round one. If they get ugly, drop a size rather than dropping the round count."
+        },
+        {
+          "name": "A2 · TWO-HAND SWING · 15 reps · 20 kg",
+          "detail": "Straight off the squats, no set-down break. Fifteen hard swings, hips snapping, bell floating to chest height. The 20 kg is your strength bell now, so these should be sharp and fast, not a grind. Breathe out on every snap."
+        },
+        {
+          "name": "THE COUNT",
+          "detail": "EIGHT ROUNDS is the target on the 20 minute clock. That is 40 front squats and 120 swings. TEN ROUNDS is the stretch and would be 50 and 150. Write down what you hit. It sets the load for the rest of the Singapore block."
         }
       ],
-      "text": "Short and flat. The run is the constant, so it stays in even on a compressed day, but today it is the smallest version of itself rather than the place the work happens."
+      "noteGreen": "Eight rounds minimum. If you finish eight with more than three minutes on the clock, keep going and take ten.",
+      "text": "Neupert's Grind and Ballistic pairing, squat plus hinge, which is the exact combination that has been missing since the 17th. Nothing goes overhead in this block. Your pressing muscles are still paying off the 20th and they are not invited."
+    },
+    {
+      "id": "core",
+      "kind": "finisher",
+      "title": "BLOCK 3 · THE MEDLEY · CARRY IT OR PUT IT DOWN",
+      "meta": "~9 min · 3 LAPS · about 20 metres per station · no set-down inside a lap",
+      "format": "strongman medley, measured in distance through space, not in reps",
+      "workRest": "one continuous lap through all three carries, then rest 60 to 90 sec, three laps total",
+      "items": [
+        {
+          "name": "STATION 1 · SUITCASE CARRY · 20 m per side",
+          "detail": "One heavy dumbbell, the heaviest you can hold, hanging at one side. Twenty metres out, switch hands, twenty metres back. Shoulders square, do not lean away from it. This is anti-lateral-flexion core disguised as a walk."
+        },
+        {
+          "name": "STATION 2 · ZERCHER CARRY · 20 m · WILDCARD",
+          "detail": "New to this program. Hook a heavy dumbbell or the 20 kg bell into the crooks of both elbows, hugged against the chest, elbows high. Walk twenty metres. The load is out in front of you so your whole midline has to fight to keep you upright, and your upper back has to hold the position. It is uncomfortable and that is the entire point. Straight from the strongman side of the house."
+        },
+        {
+          "name": "STATION 3 · FRONT-RACK MARCH · 20 m · 20 kg",
+          "detail": "The 20 kg bell racked on one shoulder, and you march the twenty metres with a deliberate high knee on every step. Switch shoulders for the next lap. Ribs down, do not let the low back arch."
+        },
+        {
+          "name": "THE RULE",
+          "detail": "Inside a lap the weight never touches the floor. Grip is the limiter here and grip is supposed to be the limiter. If it goes down, that lap is over, rest, and start the next one."
+        }
+      ],
+      "text": "Three laps. The strongman medley principle: two or more loaded movements back to back, moving weight through space, effort counted in distance instead of reps. Carries and grip work are a confirmed favourite of yours from back on the 15th of July and they have not headlined a finisher since. This also covers the midline requirement without a single crunch."
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
-      "title": "COOLDOWN",
-      "meta": "~2 min",
-      "items": [],
-      "text": "Half-kneeling hip flexor stretch, 45 seconds a side, back glute squeezed. Then a doorway pec stretch, 30 seconds a side, because yesterday is still in there. Then a minute of slow nasal breathing, longer out than in. Done."
+      "title": "COOLDOWN · 5 MIN",
+      "meta": "walk it off, then get on the floor",
+      "items": [
+        {
+          "name": "TREADMILL WALK · 2 min @ 5 km/h",
+          "detail": "Flat, easy, nose breathing. Let the heart rate come down before you lie down."
+        },
+        {
+          "name": "COUCH STRETCH · 60 sec per side",
+          "detail": "Rear foot elevated, hips square and pushed forward. The quads did the work today and they will be the sore ones tomorrow."
+        },
+        {
+          "name": "CALF AND ACHILLES HANG · 45 sec per side",
+          "detail": "Heel dropped off a step. You just ran two hard miles at 250 pounds. Pay the calves back."
+        },
+        {
+          "name": "SEATED FORWARD FOLD · 60 sec",
+          "detail": "Legs long, breathe into the hamstrings and low back. Long exhales."
+        }
+      ],
+      "text": "Five minutes. Do not skip the calves today of all days."
     }
   ],
   "timer": {
-    "emomUnit": "No clock on this one. Block 1 is 3 ROUNDS PER SIDE counted by hand, judged on quality — not a timed block. Use the countdown only for the 6-minute run.",
-    "emomGreen": "3 rounds per side",
-    "emomYellow": "2 rounds per side"
+    "emomUnit": "rounds in the 20-minute Block 2",
+    "emomGreen": "8",
+    "emomYellow": "6"
   }
 }

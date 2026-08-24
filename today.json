@@ -1,152 +1,129 @@
 {
- "date": "2026-08-24",
- "weekday": "MONDAY · TODAY",
- "title": "THE ONE-BELL RITE · LADDERS OF CLEAN, PRESS & SQUAT",
- "vibe": "green · hard on purpose · 45 minutes flat · one bell, one hand at a time, never set down inside a rung",
- "why": "Eight hours, nothing sore, forty five minutes, and you want hard. So this is dense, not long. The Tower ran twice in four days and you called it aggressive and welcome, which is the right answer and also the reason the shape now gets parked: two chippers in four days is how a shape goes stale. Today jumps as far away as the library allows. One bell. One hand at a time. A continuous chain that never touches the floor inside a rung, counted in LADDER RUNGS instead of a clock or a rep list, so even the way effort is measured is different. The research today came from the hardstyle side of the house and it changed the design: with a single bell the press is always the limiter and the legs get short-changed, so the fix is to stagger TWO front squats for every ONE press. That is exactly what this needs after yesterday, because your shoulders did roughly two hundred and seventy reps of pull and press and your legs have not squatted since Friday. Same chain, but the legs carry the volume and the shoulders carry the intent. The run is twelve minutes of PROGRESSION, stepping up every three minutes and finishing faster than it started, which is a run shape this program has never written. And a bent press shows up at the top of every ladder, which is the first one anywhere in this log.",
+ "date": "2026-08-25",
+ "weekday": "TUESDAY · TODAY",
+ "title": "THE GAUNTLET · COMPROMISED RUNNING",
+ "vibe": "green · hard on purpose · 45 minutes flat · you never stop moving, and every station hands you straight to the belt",
+ "why": "Five hours of sleep, nothing sore, forty five minutes, and you want hard. Green. Yesterday your legs did sixty front squats a side and your shoulders did thirty presses a side, so today deliberately does not headline the squat or the overhead press. It headlines the two things that have gone quietest: the SWING and the HORIZONTAL PULL. The shape jumps as far from the last three days as the library allows. Monday was a ladder chain counted in rungs. Sunday was a descending chipper counted in a list. Friday was a running block bolted onto a density block. Today the run is not a block at all. It is the connective tissue: you run four hundred meters, you hit a station, you run four hundred meters, you hit the next one, and the clock never stops. The research came from the hybrid racing side of the house, a tradition this program has not touched since July seventh, and the idea it gave up is COMPROMISED RUNNING. Running clean is a cardiovascular workout. Running with flooded legs and disrupted breathing right off a station is a different skill entirely, and it is a skill you have never been asked for here, despite being the best runner in your own log by a wide margin. And you told me the single bell ladders came in under target on Monday. Noted. The volume today is written at the top of the range, not the middle.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · DAY C · THE FLOW",
-   "meta": "~6 min · Moves Method Day C · ONE CONTINUOUS PASS · no reps to count",
-   "format": "flow · one moving sequence, no stations, no counting",
+   "title": "WARM-UP · DAY A · SHOULDERS & SPINE & HAMSTRINGS",
+   "meta": "~6 min · Moves Method Day A · ONE PASS · unhurried, then one belt primer",
+   "format": "mobility · one pass through the list, no rounds",
    "items": [
     {
-     "name": "THE FLOW · run it straight through twice",
-     "detail": "Nose breathing, no pauses between pieces. Rock-backs on hands and knees ×10 · head nods and side-to-side ×10 each · segmental rolls, upper body leading, 3 each way · dead-bug cross-crawls ×20 total · leopard crawl forward 10 steps, backward 10 steps · deep squat sit, elbows inside knees, rock side to side 30 sec. Then run the whole thing again."
+     "name": "SPINE AND SHOULDERS · one pass",
+     "detail": "Shoulder dislocates with a towel or belt ×15 · thoracic rotations on all fours, 8 per side, eyes following the hand · overhead reach-out in a deep squat, 6 slow · wrist rocks 30 sec. Your shoulders did thirty presses a side yesterday and today asks them for rows and a devil's press, so open the front of them first."
     },
     {
-     "name": "BELL PRIMER · 12 kg · halos and arm bars",
-     "detail": "10 halos each direction, then an ARM BAR 45 sec per side: lie on your side, bell pressed straight up, roll onto your back and let the bottom shoulder open under the load. This is the single best thing you can do before a chain built on pressing, and it is why the shoulders will hold for thirty presses a side."
+     "name": "HAMSTRINGS AND HIPS · one pass",
+     "detail": "Jefferson curl, unloaded or 12 kg, 5 slow reps rolling down one vertebra at a time · single-leg goodmorning 8 per side · hamstring walkouts ×8 · active pigeon 30 sec per side. Everything today hinges. Load the hinge pattern with the hips already long."
     },
     {
-     "name": "TWO PRACTICE RUNGS · 16 kg",
-     "detail": "Before you touch the 20, run one full rung of the chain with the 16 on each side: 2 clean+press, 4 front squats. This is a rehearsal, not a set. Learn the transitions with the light bell so the heavy ladder is not the first time you find them."
+     "name": "BELT PRIMER · 3 min",
+     "detail": "Walk 60 sec at 6 km/h, then jog 2 min at 11 km/h. Cadence high and light, around 170 steps a minute, shorter stride. You are about to run five separate legs on tired legs, so set the mechanics now while they are still fresh."
     }
    ],
-   "text": "Day C flow off the Moves Method menu, which has not been used since 08-18. Full-body chain day gets the full-body flow, not the shoulder day and not the ankle day."
+   "text": "Day A off the Moves Method menu, last used 08-20 and the furthest back in the rotation. Day C ran yesterday, Day B ran Friday."
   },
   {
    "id": "main",
-   "kind": "strength",
-   "title": "BLOCK 1 · THE RITE · ASCENDING LADDERS 1 → 5",
-   "meta": "~18 min · TARGET 2 FULL LADDERS (240 reps) · STRETCH 3 LADDERS (360 reps) · 20 kg KB · 16 kg for the bent press",
-   "format": "single-bell continuous chain · ascending ROP ladder · effort counted in RUNGS COMPLETED, not by a clock and not by a rep list",
-   "workRest": "The bell does not touch the floor inside a rung. Your rest is the other arm working. Finish a rung on the right, switch straight to the same rung on the left, then climb. Rest 45 to 60 seconds only between full ladders, not between rungs.",
-   "items": [
-    {
-     "name": "HOW A RUNG IS BUILT · read this once now",
-     "detail": "A rung is a number N. You do N clean+press, then 2N front squats, all on the SAME arm, bell never grounded. Then the same rung on the other arm. Then you climb to N+1. Ladder = rungs 1, 2, 3, 4, 5, then reset to 1. The squats run at DOUBLE the presses on purpose: with one bell the press quits long before the legs do, so the legs take the volume."
-    },
-    {
-     "name": "RUNG 1 · 20 kg",
-     "detail": "1 clean + 1 press, then 2 front squats. Right arm. Then left arm. Climb."
-    },
-    {
-     "name": "RUNG 2 · 20 kg",
-     "detail": "2 clean+press, then 4 front squats. Right, then left. Climb."
-    },
-    {
-     "name": "RUNG 3 · 20 kg",
-     "detail": "3 clean+press, then 6 front squats. Right, then left. Climb."
-    },
-    {
-     "name": "RUNG 4 · 20 kg",
-     "detail": "4 clean+press, then 8 front squats. Right, then left. Climb. This is where the rack position starts talking. Breathe at the top of the squat, not at the top of the press."
-    },
-    {
-     "name": "RUNG 5 · 20 kg · the top of the ladder",
-     "detail": "5 clean+press, then 10 front squats. Right, then left. Every clean is a fresh clean off the hip, not a curl. Every press is strict. If a press stalls, finish the rung as a push press and tell me which rung it happened on."
-    },
-    {
-     "name": "★ WILDCARD · BENT PRESS ×2 PER SIDE · 16 kg · top of every ladder",
-     "detail": "First bent press anywhere in this log, and it is the whole reason the 16 is on the floor. Bell in the rack, feet turned about 45 degrees away from the loaded side. Push the hip out UNDER the bell and side-bend away while the arm locks and stays locked. The arm never presses. You are lowering your body away from a locked-out bell, then standing back up under it. Slow, two per side, then rest and start the next ladder. If it feels foreign the first ladder, that is correct, it is a skill lift."
-    },
-    {
-     "name": "THE MATH, so you know what you signed up for",
-     "detail": "One full ladder = 15 clean+press and 30 front squats PER SIDE = 120 reps, plus 4 bent presses. TARGET IS TWO FULL LADDERS = 240 reps. If you get there inside eighteen minutes, climb a third."
-    }
-   ],
-   "noteGreen": "The target is written at two ladders and the stretch at three because you have taken the top of the range every time it has been offered. Thirty presses a side at 20 kg the day after two hundred and seventy reps of pull and press is a real ask. Take the third ladder if the presses are still strict; stop at two if they are turning into push presses, and tell me which, because that answer decides whether the next single-bell day goes heavier or longer.",
-   "text": "Seeded from Neupert #34-38 'The [Half] Olympic (+ Ladder)' — single-bell clean + front squat + press chain, zero rest — restructured into a StrongFirst ROP-style ascending ladder. The 2:1 squat-to-press ratio comes straight from today's hardstyle research: with a single bell the press is the limiter and the lower body gets under-loaded, so the squats get staggered against the presses. Wildcard is the bent press, first appearance."
-  },
-  {
-   "id": "run",
    "kind": "conditioning",
-   "title": "BLOCK 2 · THE PROGRESSION · 12 MIN, FOUR STEPS UP",
-   "meta": "~12 min · 4 STEPS × 3 MIN · every step faster than the last · km/h on the Singapore belt",
-   "format": "progression run · continuous, no walk breaks, speed steps UP every 3 minutes and never comes back down",
-   "workRest": "No rest and no walk breaks. Hit the up-arrow at 3:00, 6:00 and 9:00 and do not touch it again in between.",
+   "title": "BLOCK 1 · THE GAUNTLET · 5 STATIONS, 5 RUN LEGS, ONE CLOCK",
+   "meta": "~25 min · 5 LAPS TARGET · STRETCH 6 LAPS · 2.0 km of running inside it · 20 kg KB · 16 kg KB · 2 × 22 kg DB",
+   "format": "gauntlet circuit FOR TIME · one running clock · a 400 m run leg sits between every station · effort measured by laps finished, not by rounds of anything",
+   "workRest": "There is no rest. The run leg IS the rest and it is not restful, that is the entire point. Start the clock at the first run leg and do not stop it until the carry finale is done. Transitions count as work.",
    "items": [
     {
-     "name": "MIN 0–3 · 12.9 km/h",
-     "detail": "Your own easy. Not slow, just the bottom of your band. Cadence high and light, shorter stride, around 170 steps a minute. Legs just did sixty front squats a side, so let the first three minutes find them."
+     "name": "THE LAP · read this once, then never look again",
+     "detail": "ONE LAP = 400 m on the belt at 12.5 km/h, then straight to the station, then straight back to the belt. Five laps, five different stations, in this order. If the belt has no distance readout you trust, run 1:55 instead of 400 m. Do not pause the belt between laps, just step off and step back on."
     },
     {
-     "name": "MIN 3–6 · 13.8 km/h",
-     "detail": "One step up. Should still feel conversational-ish. This is the step where you decide whether the top end today is realistic."
+     "name": "LAP 1 · run 400 m → TWO-HAND SWING · 20 kg × 40",
+     "detail": "The ski erg slot. Forty unbroken if you can, two sets of twenty if you cannot. Hips snap, arms are rope, bell floats to chest height and no higher. This is the biggest hinge volume in a week and it is the pattern that has gone quietest since Friday."
     },
     {
-     "name": "MIN 6–9 · 14.7 km/h",
-     "detail": "Comfortably hard. Breathing has a rhythm now. Hold the cadence, do not reach with the stride."
+     "name": "LAP 2 · run 400 m → BENT-OVER ROW · 2 × 22 kg DB × 20",
+     "detail": "The sled pull slot. Hinge to about forty five degrees, back flat, both dumbbells to the hip pockets, elbows tight, a real pause at the top of every rep. Twenty reps with the pair. Horizontal pull is the other quality that has gone quiet, and it is the one you consistently rate highest."
     },
     {
-     "name": "MIN 9–12 · 15.8 km/h or higher",
-     "detail": "The fast three. Finish faster than you started. If yesterday's 4 km readout was honest, this belt lets you take this step to 16.5 and still hold it for three minutes, so take it there if the ninth minute feels controlled."
+     "name": "LAP 3 · run 400 m → ★ WILDCARD · DEVIL'S PRESS · 2 × 16 kg × 14",
+     "detail": "First devil's press anywhere in this log. Both bells on the floor, hands on the handles, drop to a push-up, feet back in, then in ONE movement swing both bells between your legs and throw them straight overhead to lockout. That is one rep. Fourteen of them. It is a burpee, a hinge and a press stitched together and it will spike your heart rate harder than anything else in the session. Then you go run. That is the joke and that is the training effect."
     },
     {
-     "name": "📋 ONE ASK · give me a watch split",
-     "detail": "Yesterday's belt read 4 km in 14:59 and I logged it exactly as you reported it. That machine has never been checked against your watch, and your home Bowflex reads about five percent low, so I do not know this one's offset. Start the watch on this run and tell me the distance and the average pace it shows. One data point fixes every Singapore run for the rest of the trip."
+     "name": "LAP 4 · run 400 m → RENEGADE ROW · 2 × 16 kg × 12 per side",
+     "detail": "The rower slot, converted to pull plus midline. Plank on the bells, feet wide, row one bell to the hip WITHOUT letting the hips rotate a degree. Twelve per side, twenty four total. Your midline pays for this one, which is why the finisher later goes anti-rotation too."
+    },
+    {
+     "name": "LAP 5 · run 400 m → THRUSTER · 16 kg × 30",
+     "detail": "The wall ball slot, and the only squatting in the session. Bell in the goblet rack, full squat, drive out of the hole and let the momentum press it overhead. Thirty reps. Light bell on purpose, because yesterday's legs and shoulders already paid, and this is a lung station, not a strength station."
+    },
+    {
+     "name": "FINALE · FARMER CARRY · 2 × 22 kg · 100 m UNBROKEN",
+     "detail": "No run before this one, it comes straight off the thrusters. Pick both up, walk 100 m, and do not set them down. Not once. Grip work is a confirmed favorite and this is where the clock stops. Note your total time."
+    },
+    {
+     "name": "IF THE CLOCK ALLOWS · LAP 6",
+     "detail": "If you finish the carry with more than four minutes left, run one more 400 m and repeat the swings at 20 kg × 40. You told me Monday's ladders came in easier than the target said they would, so the ceiling here is deliberately not capped. Tell me whether you took lap 6."
+    },
+    {
+     "name": "📋 STILL OWED · a watch split",
+     "detail": "This belt is still uncalibrated. Start the watch for the whole gauntlet and give me the total running distance and the average pace it shows. Five separate 400 m legs against a watch total is actually a better calibration than one clean run, because it averages out the starts and stops."
     }
    ],
-   "text": "Progression is a run shape this program has never written. The rotation needed it: incline ladder on the 19th, fartlek on the 20th, mile repeats on the 22nd, a long continuous on the 23rd. Twelve minutes because forty five is the whole budget and the ladders come first."
+   "noteGreen": "Seeded from Neupert #29-30 'The BIG 6' six-station single-bell circuit, restructured so the stations are separated by running instead of by rest. Volume is written at the top of the range on purpose. Take lap 6 if it is there.",
+   "text": "The whole design rests on one idea from today's research: running clean and running off a station are different skills, and only one of them is in your log. Every lap here makes you find your stride again with your legs already flooded."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "BLOCK 3 · THE SIDE DOOR · LOADED LATERAL MIDLINE",
-   "meta": "~7 min · 2 ROUNDS · 16 kg KB · rest 30 sec between rounds",
-   "format": "anti-lateral-flexion and anti-extension circuit · rounds, not a clock",
-   "workRest": "Straight through the three moves, rest 30 seconds, repeat once. TWO ROUNDS.",
+   "title": "BLOCK 2 · THE HOLD · ANTI-ROTATION MIDLINE",
+   "meta": "~7 min · 2 ROUNDS · 2 × 16 kg KB · rest 30 sec between rounds",
+   "format": "anti-rotation and anti-extension circuit · 2 ROUNDS, straight through",
+   "workRest": "Straight through all three, rest 30 seconds, run it once more. TWO ROUNDS.",
    "items": [
     {
-     "name": "KETTLEBELL WINDMILL · 5 per side · 16 kg",
-     "detail": "Bell locked out overhead, eyes on it the whole way. Push the hip out, slide the free hand down the inside of the front leg toward the floor, keep the top arm vertical. Same lateral chain the bent press just taught you, now with the load overhead instead of racked. First windmill since July."
+     "name": "PLANK DRAG-THROUGH · 2 × 16 kg · 12 per side",
+     "detail": "High plank with a bell outside each hand, feet wide. Reach under your chest with the opposite hand and drag the far bell across to the other side. Hips do not rotate and do not lift. Twelve per side, twenty four drags."
     },
     {
-     "name": "SIDE PLANK WITH REACH-THROUGH · 12 per side",
-     "detail": "Forearm side plank, top hand reaching to the ceiling. Thread it under your ribs and rotate, then open back up. Hips stay high the entire set. Anti-rotation under a moving arm."
+     "name": "WEIGHTED DEAD BUG · 16 kg overhead · 14 total",
+     "detail": "On your back, bell pressed straight up in one hand, low back pinned flat. Extend the OPPOSITE arm and leg long, then return. Seven per side. The overhead load is what turns a dead bug into real anti-extension work."
     },
     {
-     "name": "HOLLOW ROCK · 20 reps",
-     "detail": "Low back pinned flat to the floor, ribs down, arms and legs long. Rock from the mid-back, not from the hips. If the low back lifts, shorten the levers by bending the knees and keep rocking."
+     "name": "COPENHAGEN PLANK · 25 sec per side",
+     "detail": "Top leg on a bench or chair, forearm down, lift the hips and hold. Adductors and lateral chain. Shorten it by using the knee instead of the foot if twenty five seconds is not there."
     }
    ],
-   "text": "Loaded lateral flexion is the one midline quality that never gets touched, because everything in this log is anti-rotation or anti-extension. The windmill and the bent press are the same skill from two positions, so the wildcard in Block 1 and the finisher here teach each other."
+   "text": "Yesterday's midline block was loaded LATERAL flexion, windmills and side planks. Today swings back to anti-rotation and anti-extension so the two halves of the midline alternate instead of stacking."
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
-   "title": "COOLDOWN · 2 MIN",
-   "meta": "~2 min · ONE PASS · short on purpose, the budget was 45",
+   "title": "COOLDOWN · 3 MIN",
+   "meta": "~3 min · ONE PASS",
    "items": [
     {
      "name": "WALK IT DOWN · 90 sec",
-     "detail": "Belt at 5 km/h. Nose breathing. Let the heart rate come down before you step off."
+     "detail": "Belt at 5 km/h. Nose breathing only. Let the heart rate come off the gauntlet before you step away."
     },
     {
-     "name": "OVERHEAD REACH + LAT HANG · 30 sec each side",
-     "detail": "Reach one arm overhead, side bend away, breathe into the ribs. Both shoulders just did a lot of rack and lockout work."
+     "name": "HAMSTRING AND CALF · 45 sec per side",
+     "detail": "Standing hamstring reach, then a wall calf stretch. Two kilometers in five broken pieces plus forty swings is a lot of posterior chain."
+    },
+    {
+     "name": "DOORWAY PEC + LAT REACH · 30 sec per side",
+     "detail": "Everything today pulled. Open the front back up."
     }
    ],
-   "text": "Two minutes. The forty five minute budget is real and it all went into the ladders."
+   "text": "Three minutes. The forty five went into the gauntlet, which is where you asked for it."
   }
  ],
  "timer": {
-  "emomUnit": "full ladders completed (rungs 1 through 5, both arms)",
-  "emomGreen": "2",
-  "emomYellow": "1"
+  "emomUnit": "gauntlet laps completed (400 m run + its station)",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

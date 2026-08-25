@@ -1,129 +1,115 @@
 {
- "date": "2026-08-25",
- "weekday": "TUESDAY · TODAY",
- "title": "THE GAUNTLET · COMPROMISED RUNNING",
- "vibe": "green · hard on purpose · 45 minutes flat · you never stop moving, and every station hands you straight to the belt",
- "why": "Five hours of sleep, nothing sore, forty five minutes, and you want hard. Green. Yesterday your legs did sixty front squats a side and your shoulders did thirty presses a side, so today deliberately does not headline the squat or the overhead press. It headlines the two things that have gone quietest: the SWING and the HORIZONTAL PULL. The shape jumps as far from the last three days as the library allows. Monday was a ladder chain counted in rungs. Sunday was a descending chipper counted in a list. Friday was a running block bolted onto a density block. Today the run is not a block at all. It is the connective tissue: you run four hundred meters, you hit a station, you run four hundred meters, you hit the next one, and the clock never stops. The research came from the hybrid racing side of the house, a tradition this program has not touched since July seventh, and the idea it gave up is COMPROMISED RUNNING. Running clean is a cardiovascular workout. Running with flooded legs and disrupted breathing right off a station is a different skill entirely, and it is a skill you have never been asked for here, despite being the best runner in your own log by a wide margin. And you told me the single bell ladders came in under target on Monday. Noted. The volume today is written at the top of the range, not the middle.",
- "estMin": 45,
+ "date": "2026-08-26",
+ "weekday": "WEDNESDAY · TODAY",
+ "title": "FINAL FORMATION · SINGAPORE SEND-OFF",
+ "vibe": "green · 30 minutes flat · a smoke session · last workout before the long haul home",
+ "why": "Seven hours of sleep, nothing sore, thirty minutes, and you want it intense. Green, and this is the last session Singapore gets. The shape rotates hard: Sunday was a chipper, Monday a chain of ladders, yesterday the gauntlet — so today is the one clock this program has never actually run as the headline, a straight EMOM, and the tradition behind it is one this log has never once drawn from: military PT. The organizing idea is the smoke session — lots of reps, low rest, the clock owns you. Eighteen minutes, three stations on rotation, and the minute never cares how you feel. It headlines the two qualities that have gone quietest: the heavy front squat, untouched since the Anvil four days ago, and the snatch, silent for a week — and every snatch today starts DEAD from the floor, no backswing, which has never appeared in this log. Push-ups sit in the middle because no send-off in Army clothing goes home without them. Then 800 meters hard for the last run on this belt, and the program's first-ever Tabata to close. Thirty minutes. Every one of them works.",
+ "estMin": 30,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · DAY A · SHOULDERS & SPINE & HAMSTRINGS",
-   "meta": "~6 min · Moves Method Day A · ONE PASS · unhurried, then one belt primer",
-   "format": "mobility · one pass through the list, no rounds",
+   "title": "WARM-UP · DAY B · ANKLES, KNEES, SHOULDERS",
+   "meta": "~4 min · Moves Method Day B · ONE PASS · brisk, this is a 30-minute day",
+   "format": "mobility · one pass, no rounds",
    "items": [
     {
-     "name": "SPINE AND SHOULDERS · one pass",
-     "detail": "Shoulder dislocates with a towel or belt ×15 · thoracic rotations on all fours, 8 per side, eyes following the hand · overhead reach-out in a deep squat, 6 slow · wrist rocks 30 sec. Your shoulders did thirty presses a side yesterday and today asks them for rows and a devil's press, so open the front of them first."
+     "name": "KNEES AND ANKLES · one pass",
+     "detail": "Toe squats 30 sec · ankle rolls in a deep squat, 8 per direction · knee drives 8 per side · single-leg squat to a bench or bed edge, 5 per side. The heavy front squats come first on the clock, so the knees and ankles open first."
     },
     {
-     "name": "HAMSTRINGS AND HIPS · one pass",
-     "detail": "Jefferson curl, unloaded or 12 kg, 5 slow reps rolling down one vertebra at a time · single-leg goodmorning 8 per side · hamstring walkouts ×8 · active pigeon 30 sec per side. Everything today hinges. Load the hinge pattern with the hips already long."
-    },
-    {
-     "name": "BELT PRIMER · 3 min",
-     "detail": "Walk 60 sec at 6 km/h, then jog 2 min at 11 km/h. Cadence high and light, around 170 steps a minute, shorter stride. You are about to run five separate legs on tired legs, so set the mechanics now while they are still fresh."
+     "name": "SHOULDERS · one pass",
+     "detail": "Shoulder dislocates with a towel ×12 · shoulder extensions behind the back 30 sec · 10 scap push-ups from the knees. Ninety push-ups and seventy-two overhead snatches are coming. Prime the scaps, don't stretch them to sleep."
     }
    ],
-   "text": "Day A off the Moves Method menu, last used 08-20 and the furthest back in the rotation. Day C ran yesterday, Day B ran Friday."
+   "text": "Day B off the Moves Method menu — Day A ran yesterday, Day C on Monday. Compressed to four minutes because the thirty belongs to the clock."
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "BLOCK 1 · THE GAUNTLET · 5 STATIONS, 5 RUN LEGS, ONE CLOCK",
-   "meta": "~25 min · 5 LAPS TARGET · STRETCH 6 LAPS · 2.0 km of running inside it · 20 kg KB · 16 kg KB · 2 × 22 kg DB",
-   "format": "gauntlet circuit FOR TIME · one running clock · a 400 m run leg sits between every station · effort measured by laps finished, not by rounds of anything",
-   "workRest": "There is no rest. The run leg IS the rest and it is not restful, that is the entire point. Start the clock at the first run leg and do not stop it until the carry finale is done. Transitions count as work.",
+   "title": "BLOCK 1 · THE SMOKE SESSION · 18-MIN EMOM",
+   "meta": "18 MINUTES · 6 CYCLES of 3 stations · 2 × 22 kg DB · 20 kg KB · bodyweight",
+   "format": "EMOM · every minute on the minute, 3 stations rotating · effort measured in minutes HELD, not rounds chosen",
+   "workRest": "On each top-of-minute, do the work; whatever is left of the minute is your rest. Miss the reps inside the minute and you don't stop — you just inherit a shorter rest. 18 minutes, no pause button.",
    "items": [
     {
-     "name": "THE LAP · read this once, then never look again",
-     "detail": "ONE LAP = 400 m on the belt at 12.5 km/h, then straight to the station, then straight back to the belt. Five laps, five different stations, in this order. If the belt has no distance readout you trust, run 1:55 instead of 400 m. Do not pause the belt between laps, just step off and step back on."
+     "name": "MINUTE 1 · DOUBLE FRONT SQUAT · 2 × 22 kg DB × 6",
+     "detail": "Both dumbbells in the rack, full-depth squat, stand all the way up. Six reps. This is the heaviest double-implement load in your log and the squat has been quiet since the Anvil — six clean reps should take ~25 seconds and leave you ~35 to breathe."
     },
     {
-     "name": "LAP 1 · run 400 m → TWO-HAND SWING · 20 kg × 40",
-     "detail": "The ski erg slot. Forty unbroken if you can, two sets of twenty if you cannot. Hips snap, arms are rope, bell floats to chest height and no higher. This is the biggest hinge volume in a week and it is the pattern that has gone quietest since Friday."
+     "name": "MINUTE 2 · PUSH-UPS × 15",
+     "detail": "Chest to the deck, full lockout, body a plank the whole way. Fifteen unbroken if they're there, 10+5 if not. The Army staple, in an Army-shaped session, on your last day overseas. 90 total across the six cycles."
     },
     {
-     "name": "LAP 2 · run 400 m → BENT-OVER ROW · 2 × 22 kg DB × 20",
-     "detail": "The sled pull slot. Hinge to about forty five degrees, back flat, both dumbbells to the hip pockets, elbows tight, a real pause at the top of every rep. Twenty reps with the pair. Horizontal pull is the other quality that has gone quiet, and it is the one you consistently rate highest."
+     "name": "MINUTE 3 · ★ WILDCARD · DEAD-START SNATCH · 20 kg × 6 PER SIDE",
+     "detail": "First dead-start snatch anywhere in this log. The bell starts DEAD on the floor every single rep — no backswing, no rebound. Grip, hike nothing: pull it from stillness straight to overhead lockout in one movement, park it, repeat. Six per side, twelve per minute. Killing the stretch reflex makes every rep a pure hip-and-lat produce-force-from-zero problem, and 72 of them is the biggest snatch volume in three weeks."
     },
     {
-     "name": "LAP 3 · run 400 m → ★ WILDCARD · DEVIL'S PRESS · 2 × 16 kg × 14",
-     "detail": "First devil's press anywhere in this log. Both bells on the floor, hands on the handles, drop to a push-up, feet back in, then in ONE movement swing both bells between your legs and throw them straight overhead to lockout. That is one rep. Fourteen of them. It is a burpee, a hinge and a press stitched together and it will spike your heart rate harder than anything else in the session. Then you go run. That is the joke and that is the training effect."
-    },
+     "name": "THE STANDARD · 6 FULL CYCLES = 18 MINUTES",
+     "detail": "GREEN target: all 18 minutes at full written reps — 36 heavy front squats, 90 push-ups, 72 dead snatches, 198 reps. If every minute is landing with 20+ seconds of slack by cycle 3, the ceiling is open: take the last cycle at 7 squats / 18 push-ups / 7 per side. Tell me which version you ran."
+    }
+   ],
+   "noteGreen": "Seeded from Neupert's double-grind pairings (#69 '2G 1' family) restructured onto a 3-station rotating EMOM — the smoke-session clock is the day's engine. Written at the top of the range on purpose.",
+   "text": "The EMOM is the one dominant format this program has somehow never headlined. The military-PT idea it carries: high reps, short rest, and the clock — not your preference — decides when you work."
+  },
+  {
+   "id": "run",
+   "kind": "conditioning",
+   "title": "BLOCK 2 · THE LAST SINGAPORE RUN · 800 m HARD",
+   "meta": "~4 min · ONE EFFORT · 13.5–14.0 km/h on this belt",
+   "format": "single hard run effort · straight off the EMOM, compromised legs",
+   "items": [
     {
-     "name": "LAP 4 · run 400 m → RENEGADE ROW · 2 × 16 kg × 12 per side",
-     "detail": "The rower slot, converted to pull plus midline. Plank on the bells, feet wide, row one bell to the hip WITHOUT letting the hips rotate a degree. Twelve per side, twenty four total. Your midline pays for this one, which is why the finisher later goes anti-rotation too."
-    },
-    {
-     "name": "LAP 5 · run 400 m → THRUSTER · 16 kg × 30",
-     "detail": "The wall ball slot, and the only squatting in the session. Bell in the goblet rack, full squat, drive out of the hole and let the momentum press it overhead. Thirty reps. Light bell on purpose, because yesterday's legs and shoulders already paid, and this is a lung station, not a strength station."
-    },
-    {
-     "name": "FINALE · FARMER CARRY · 2 × 22 kg · 100 m UNBROKEN",
-     "detail": "No run before this one, it comes straight off the thrusters. Pick both up, walk 100 m, and do not set them down. Not once. Grip work is a confirmed favorite and this is where the clock stops. Note your total time."
-    },
-    {
-     "name": "IF THE CLOCK ALLOWS · LAP 6",
-     "detail": "If you finish the carry with more than four minutes left, run one more 400 m and repeat the swings at 20 kg × 40. You told me Monday's ladders came in easier than the target said they would, so the ceiling here is deliberately not capped. Tell me whether you took lap 6."
+     "name": "800 m · 13.5–14.0 km/h · one piece",
+     "detail": "Step on within two minutes of the last snatch — this is a gauntlet-style compromised leg, deliberately. On this belt anything ≥13 is hard, so 13.5–14 for 800 m is a real closing effort, roughly 3:30 of work. Cadence high and light, ~170 steps a minute. This machine has been sandbagging its numbers at you for two weeks; leave it with your hardest 800 of the block."
     },
     {
      "name": "📋 STILL OWED · a watch split",
-     "detail": "This belt is still uncalibrated. Start the watch for the whole gauntlet and give me the total running distance and the average pace it shows. Five separate 400 m legs against a watch total is actually a better calibration than one clean run, because it averages out the starts and stops."
+     "detail": "If the watch is on, give me distance + average pace for this 800. The Singapore belt leaves the log uncalibrated unless today closes it out."
     }
    ],
-   "noteGreen": "Seeded from Neupert #29-30 'The BIG 6' six-station single-bell circuit, restructured so the stations are separated by running instead of by rest. Volume is written at the top of the range on purpose. Take lap 6 if it is there.",
-   "text": "The whole design rests on one idea from today's research: running clean and running off a station are different skills, and only one of them is in your log. Every lap here makes you find your stride again with your legs already flooded."
+   "text": "Your own two-miler is always yours — if the day has room outside these thirty minutes, run it. Inside the thirty, this 800 is the run."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "BLOCK 2 · THE HOLD · ANTI-ROTATION MIDLINE",
-   "meta": "~7 min · 2 ROUNDS · 2 × 16 kg KB · rest 30 sec between rounds",
-   "format": "anti-rotation and anti-extension circuit · 2 ROUNDS, straight through",
-   "workRest": "Straight through all three, rest 30 seconds, run it once more. TWO ROUNDS.",
+   "title": "BLOCK 3 · TABATA MIDLINE · FIRST TABATA IN THE PROGRAM",
+   "meta": "4 MINUTES · 8 ROUNDS of 20 sec work / 10 sec rest · bodyweight",
+   "format": "Tabata · 8 × 20/10 · alternating two movements · ★ first use of this format anywhere in the log",
+   "workRest": "20 seconds on, 10 seconds off, 8 rounds, done. Alternate the two movements: odd rounds hollow rocks, even rounds plank shoulder taps.",
    "items": [
     {
-     "name": "PLANK DRAG-THROUGH · 2 × 16 kg · 12 per side",
-     "detail": "High plank with a bell outside each hand, feet wide. Reach under your chest with the opposite hand and drag the far bell across to the other side. Hips do not rotate and do not lift. Twelve per side, twenty four drags."
+     "name": "ODD ROUNDS · HOLLOW ROCKS · 20 sec",
+     "detail": "Low back pressed into the floor, arms by ears, rock small and tight. If the low back peels up, bend the knees — position beats amplitude. Anti-extension, the one midline quality not touched this week."
     },
     {
-     "name": "WEIGHTED DEAD BUG · 16 kg overhead · 14 total",
-     "detail": "On your back, bell pressed straight up in one hand, low back pinned flat. Extend the OPPOSITE arm and leg long, then return. Seven per side. The overhead load is what turns a dead bug into real anti-extension work."
-    },
-    {
-     "name": "COPENHAGEN PLANK · 25 sec per side",
-     "detail": "Top leg on a bench or chair, forearm down, lift the hips and hold. Adductors and lateral chain. Shorten it by using the knee instead of the foot if twenty five seconds is not there."
+     "name": "EVEN ROUNDS · PLANK SHOULDER TAPS · 20 sec",
+     "detail": "High plank, feet wide, tap the opposite shoulder without the hips swaying a degree. Anti-rotation under fatigue, right after the hollow has cooked the front line."
     }
    ],
-   "text": "Yesterday's midline block was loaded LATERAL flexion, windmills and side planks. Today swings back to anti-rotation and anti-extension so the two halves of the midline alternate instead of stacking."
+   "text": "Monday's midline was loaded lateral flexion, yesterday's was loaded anti-rotation — today closes anti-extension, on the one clock format the program has never used. Four minutes, honest ones."
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
-   "title": "COOLDOWN · 3 MIN",
-   "meta": "~3 min · ONE PASS",
+   "title": "COOLDOWN · 2 MIN",
+   "meta": "~2 min · ONE PASS",
    "items": [
     {
-     "name": "WALK IT DOWN · 90 sec",
-     "detail": "Belt at 5 km/h. Nose breathing only. Let the heart rate come off the gauntlet before you step away."
+     "name": "WALK + BREATHE · 90 sec",
+     "detail": "Belt at 5 km/h or just pace the floor. Nose breathing, long exhales. You have a long-haul flight ahead — start the downshift now."
     },
     {
-     "name": "HAMSTRING AND CALF · 45 sec per side",
-     "detail": "Standing hamstring reach, then a wall calf stretch. Two kilometers in five broken pieces plus forty swings is a lot of posterior chain."
-    },
-    {
-     "name": "DOORWAY PEC + LAT REACH · 30 sec per side",
-     "detail": "Everything today pulled. Open the front back up."
+     "name": "DOORWAY PEC + DEEP SQUAT HOLD · 30 sec",
+     "detail": "Open the chest after 90 push-ups, sit the hips into a deep squat after 36 heavy ones. Hips and chest are what the airplane seat will attack — leave them long."
     }
    ],
-   "text": "Three minutes. The forty five went into the gauntlet, which is where you asked for it."
+   "text": "That's Singapore. See you on the Bowflex."
   }
  ],
  "timer": {
-  "emomUnit": "gauntlet laps completed (400 m run + its station)",
-  "emomGreen": "5",
-  "emomYellow": "4"
+  "emomUnit": "EMOM minutes held at full reps",
+  "emomGreen": "18",
+  "emomYellow": "15"
  }
 }

@@ -1,115 +1,155 @@
 {
- "date": "2026-08-26",
- "weekday": "WEDNESDAY · TODAY",
- "title": "FINAL FORMATION · SINGAPORE SEND-OFF",
- "vibe": "green · 30 minutes flat · a smoke session · last workout before the long haul home",
- "why": "Seven hours of sleep, nothing sore, thirty minutes, and you want it intense. Green, and this is the last session Singapore gets. The shape rotates hard: Sunday was a chipper, Monday a chain of ladders, yesterday the gauntlet — so today is the one clock this program has never actually run as the headline, a straight EMOM, and the tradition behind it is one this log has never once drawn from: military PT. The organizing idea is the smoke session — lots of reps, low rest, the clock owns you. Eighteen minutes, three stations on rotation, and the minute never cares how you feel. It headlines the two qualities that have gone quietest: the heavy front squat, untouched since the Anvil four days ago, and the snatch, silent for a week — and every snatch today starts DEAD from the floor, no backswing, which has never appeared in this log. Push-ups sit in the middle because no send-off in Army clothing goes home without them. Then 800 meters hard for the last run on this belt, and the program's first-ever Tabata to close. Thirty minutes. Every one of them works.",
- "estMin": 30,
+ "date": "2026-08-28",
+ "weekday": "FRIDAY · TODAY",
+ "title": "THE FIGHT CARD · TEN ROUNDS, TEN WEAPONS",
+ "vibe": "yellow-plus · 45 minutes · day one back on home iron · no treadmill, by design",
+ "why": "You said two things and both of them shaped this. First: you'll trade tempo miles for this kind of work. Taken — every prescribed training day since July 29th has carried a run block, and today has none. Zero treadmill. Your legs flew twenty hours yesterday and they get to sit this one out. Second, and louder: the kettlebell exercises have gone stale. That's a fair hit. Pull the log and the same seven movements keep showing up — clean, press, swing, snatch, row, squat, carry. So today is built as a boxing card: ten rounds, and every round is a different weapon. EIGHT of the ten have never appeared anywhere in this program. Not a new arrangement of the old ones — genuinely new movements. The clock is new too: no EMOM, no ladder, no lap count. Fighter's rounds, 2:30 of work and 30 seconds in the corner, and effort is counted in REPS BANKED across the whole card. The tradition behind it is one this log has never drawn from — Ross Enamait's fight-camp work capacity, whose whole thesis is that variety IS the training stimulus. And one more thing from Singapore: you pressed a 20 kg bell and front squatted a 22 kg pair over there. Your home 40s are 18.1 kg. Every tool in this house is now lighter than what you just handled, so the rep counts are written high on purpose.",
+ "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · DAY B · ANKLES, KNEES, SHOULDERS",
-   "meta": "~4 min · Moves Method Day B · ONE PASS · brisk, this is a 30-minute day",
+   "title": "WARM-UP · DAY A · SPINE, SHOULDERS, TRAVEL DECOMPRESSION",
+   "meta": "~6 min · Moves Method Day A · ONE PASS · biased to twenty hours in a seat",
    "format": "mobility · one pass, no rounds",
    "items": [
     {
-     "name": "KNEES AND ANKLES · one pass",
-     "detail": "Toe squats 30 sec · ankle rolls in a deep squat, 8 per direction · knee drives 8 per side · single-leg squat to a bench or bed edge, 5 per side. The heavy front squats come first on the clock, so the knees and ankles open first."
+     "name": "DECOMPRESS THE SPINE · one pass",
+     "detail": "Jefferson curl, slow, 5 reps — roll down one vertebra at a time, roll up the same way · thoracic rotations on all fours, 8 per side · cat-cow ×10. Yesterday was a plane seat. Flexion and rotation first, before anything gets loaded overhead."
     },
     {
      "name": "SHOULDERS · one pass",
-     "detail": "Shoulder dislocates with a towel ×12 · shoulder extensions behind the back 30 sec · 10 scap push-ups from the knees. Ninety push-ups and seventy-two overhead snatches are coming. Prime the scaps, don't stretch them to sleep."
+     "detail": "Towel dislocates ×15 · shoulder extensions behind the back, 30 sec · scap push-ups ×10 · wrist rocks 30 sec each direction. This card is almost entirely shoulders, elbows and grip — three of today's ten rounds put a bell over your head from a dead stop, and one of them does it sitting on the floor. Open the shoulders properly."
+    },
+    {
+     "name": "HIPS · quick",
+     "detail": "Half-kneeling hip flexor stretch 30 sec per side · 10 slow bodyweight hinges. No squatting today, but the hip flexors have been folded up since yesterday morning. Unfold them."
     }
    ],
-   "text": "Day B off the Moves Method menu — Day A ran yesterday, Day C on Monday. Compressed to four minutes because the thirty belongs to the clock."
+   "text": "Day A off the Moves Method menu — an upper-body card gets the shoulder-and-spine day. Day B ran Wednesday, Day C Monday."
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "BLOCK 1 · THE SMOKE SESSION · 18-MIN EMOM",
-   "meta": "18 MINUTES · 6 CYCLES of 3 stations · 2 × 22 kg DB · 20 kg KB · bodyweight",
-   "format": "EMOM · every minute on the minute, 3 stations rotating · effort measured in minutes HELD, not rounds chosen",
-   "workRest": "On each top-of-minute, do the work; whatever is left of the minute is your rest. Miss the reps inside the minute and you don't stop — you just inherit a shorter rest. 18 minutes, no pause button.",
+   "title": "THE CARD · 10 ROUNDS · 2:30 WORK / :30 REST",
+   "meta": "30 MINUTES · 10 ROUNDS · one weapon per round · 2×40 lb pair · 16 kg · 50 lb DB",
+   "format": "round-based fight card · 2:30 on, :30 in the corner · effort counted in TOTAL REPS BANKED, not rounds chosen or minutes held",
+   "workRest": "Set a repeating interval: 2:30 work, 0:30 rest, 10 times through. One movement per round, worked for the whole 2:30 — break it up however you need to inside the round, but the bell doesn't leave your hand for long. Each round has a rep target. Hit it, write it down, move to the next weapon. Nothing repeats.",
    "items": [
     {
-     "name": "MINUTE 1 · DOUBLE FRONT SQUAT · 2 × 22 kg DB × 6",
-     "detail": "Both dumbbells in the rack, full-depth squat, stand all the way up. Six reps. This is the heaviest double-implement load in your log and the squat has been quiet since the Anvil — six clean reps should take ~25 seconds and leave you ~35 to breathe."
+     "name": "R1 · DOUBLE HIGH PULL · 2×40 lb · TARGET 45",
+     "detail": "Both bells between the legs, hinge hard, and pull them to chest height with the elbows leading high and wide — a swing that keeps climbing. Explosive hips, no arm curl. Last seen in this log on July 28th. Sets of 8-10, this is the round that gets your heart rate up."
     },
     {
-     "name": "MINUTE 2 · PUSH-UPS × 15",
-     "detail": "Chest to the deck, full lockout, body a plank the whole way. Fifteen unbroken if they're there, 10+5 if not. The Army staple, in an Army-shaped session, on your last day overseas. 90 total across the six cycles."
+     "name": "R2 · ★ SEE-SAW PRESS · 2×40 lb · TARGET 36 (18/side)",
+     "detail": "NEW — never in this log. Both bells racked. Press the right overhead while the left stays racked; as the right comes down the left goes up. They pass each other. One is ALWAYS in the rack, which means your torso never gets a break from the offset load. Strict, no leg drive, no dip. Alternate continuously."
     },
     {
-     "name": "MINUTE 3 · ★ WILDCARD · DEAD-START SNATCH · 20 kg × 6 PER SIDE",
-     "detail": "First dead-start snatch anywhere in this log. The bell starts DEAD on the floor every single rep — no backswing, no rebound. Grip, hike nothing: pull it from stillness straight to overhead lockout in one movement, park it, repeat. Six per side, twelve per minute. Killing the stretch reflex makes every rep a pure hip-and-lat produce-force-from-zero problem, and 72 of them is the biggest snatch volume in three weeks."
+     "name": "R3 · ★ BATWING ROW · 2×40 lb · TARGET 30",
+     "detail": "NEW — never in this log. Hinge to a flat back, row BOTH bells to your ribs, and HOLD for a two-count with the shoulder blades crushed together before lowering. The hold is the exercise. Dan John's rule: if you can't pin the blades for two full seconds, the weight is moving you. Slow, mean reps."
     },
     {
-     "name": "THE STANDARD · 6 FULL CYCLES = 18 MINUTES",
-     "detail": "GREEN target: all 18 minutes at full written reps — 36 heavy front squats, 90 push-ups, 72 dead snatches, 198 reps. If every minute is landing with 20+ seconds of slack by cycle 3, the ceiling is open: take the last cycle at 7 squats / 18 push-ups / 7 per side. Tell me which version you ran."
+     "name": "R4 · ★ DEAD-STOP ALTERNATING SWING · 16 kg · TARGET 60",
+     "detail": "NEW variant. The bell parks on the floor between EVERY rep — no backswing, no rebound, no chain of momentum. Hike it once, one swing to chest height, park it, switch hands, again. Killing the stretch reflex turns each rep into a pure standing-start hip snap. Sixty of them. This is your only hinge volume today and it costs your legs almost nothing."
+    },
+    {
+     "name": "R5 · ★ Z PRESS · 16 kg · TARGET 30 (15/side)",
+     "detail": "NEW — never in this log. Sit on the floor, legs straight out in front, feet together, torso vertical with no support of any kind. Clean the bell to the rack and strict press it. With the legs taken out of the equation there is nowhere to cheat from — every ounce of stability comes from your midline and hips. This will feel harder at 16 kg than a 20 kg standing press did in Singapore. That is the point."
+    },
+    {
+     "name": "R6 · ★ BOTTOMS-UP CLEAN · 16 kg · TARGET 40 (20/side)",
+     "detail": "NEW — never in this log. Clean the bell and catch it UPSIDE DOWN, handle in a crushing grip, bell balanced above your fist. Any wobble and it folds over. Pure grip, forearm and shoulder-packing work — your confirmed favorite family, in a form you've never done. Park it, reset, go again. Switch hands every 5."
+    },
+    {
+     "name": "R7 · ★ SKULLCRUSHER → CLOSE FLOOR PRESS · 50 lb DB · TARGET 36",
+     "detail": "NEW — the skullcrusher has never appeared here. On your back, DB in both hands over the chest. Six reps bending ONLY at the elbows, lowering the head of the bell toward your forehead. Then six close-grip floor presses, elbows tucked to the ribs. Alternate 6 and 6 for the round. Direct triceps work, which this program has essentially never given you."
+    },
+    {
+     "name": "R8 · ★ DOUBLE UPRIGHT ROW · 2×40 lb · TARGET 45",
+     "detail": "NEW — never in this log. Standing, bells in front of the thighs, pull them straight up the body to collarbone height with the elbows above the wrists the whole way. Slow on the way down. Delts and traps, direct and unglamorous. If the shoulders pinch, stop the pull at sternum height and keep going."
+    },
+    {
+     "name": "R9 · ★ DEFICIT PUSH-UP ON THE BELLS · bodyweight · TARGET 50",
+     "detail": "NEW here. Hands on the two 40s, handles parallel, and drop your CHEST BELOW the handles on every rep. The extra four inches of range is what makes it different from anything you did in Singapore. Fifty of them, in whatever chunks the round allows. Keep the ribs down — the bells will punish a sagging plank."
+    },
+    {
+     "name": "R10 · ★ THE GRIP ROUND · 2×40 lb + 50 lb DB · 5 × 0:30 HOLDS",
+     "detail": "NEW — the bear hug has never appeared here. Last round, no reps, just hold on. Alternate every 30 seconds: FARMER HOLD, both 40s at your sides, shoulders packed, standing tall — then BEAR-HUG HOLD, the 50 crushed against your chest with both forearms, squeezing it so hard it can't slide. Five holds, 2:30 total, hands screaming. Fitting way to end a card."
+    },
+    {
+     "name": "THE STANDARD · 372 REPS BANKED",
+     "detail": "GREEN: all ten rounds at the written targets = 372 reps plus the grip round. YELLOW: run all ten rounds and take roughly 80% on each target — 36/28/24/48/24/32/28/36/40 — never drop a round. Tell me the number you actually banked and which round broke you; that's what sets the next card."
     }
    ],
-   "noteGreen": "Seeded from Neupert's double-grind pairings (#69 '2G 1' family) restructured onto a 3-station rotating EMOM — the smoke-session clock is the day's engine. Written at the top of the range on purpose.",
-   "text": "The EMOM is the one dominant format this program has somehow never headlined. The military-PT idea it carries: high reps, short rest, and the clock — not your preference — decides when you work."
+   "noteGreen": "Eight of these ten movements have never appeared in this program. That is deliberate and it is the whole point of today. Written at the top of the range because your home 40s are now lighter than the Singapore tools you handled — the load isn't the challenge here, the clock and the novelty are.",
+   "text": "Ross Enamait's fight-camp thesis, verbatim in spirit: 'We are not looking to adapt to a particular routine or training style. It is important to incorporate variety to prevent staleness.' Ten rounds, ten weapons, nothing repeated."
   },
   {
    "id": "run",
    "kind": "conditioning",
-   "title": "BLOCK 2 · THE LAST SINGAPORE RUN · 800 m HARD",
-   "meta": "~4 min · ONE EFFORT · 13.5–14.0 km/h on this belt",
-   "format": "single hard run effort · straight off the EMOM, compromised legs",
+   "title": "NO TREADMILL TODAY · ON PURPOSE",
+   "meta": "0 min prescribed · first training day since JULY 29 with no run block",
+   "format": "deliberate omission",
    "items": [
     {
-     "name": "800 m · 13.5–14.0 km/h · one piece",
-     "detail": "Step on within two minutes of the last snatch — this is a gauntlet-style compromised leg, deliberately. On this belt anything ≥13 is hard, so 13.5–14 for 800 m is a real closing effort, roughly 3:30 of work. Cadence high and light, ~170 steps a minute. This machine has been sandbagging its numbers at you for two weeks; leave it with your hardest 800 of the block."
+     "name": "THE TRADE, HONORED",
+     "detail": "You offered to scale back the tempo running in exchange for this kind of session. Deal. Every single prescribed training day from July 29 through Wednesday carried a run — tempo, fartlek, mile repeats, incline, gauntlet legs, hard 800s. Today carries none. Your legs sat in a metal tube for twenty hours yesterday and every one of the ten rounds above is built to leave them alone."
     },
     {
-     "name": "📋 STILL OWED · a watch split",
-     "detail": "If the watch is on, give me distance + average pace for this 800. The Singapore belt leaves the log uncalibrated unless today closes it out."
+     "name": "AND YET · your miles are still yours",
+     "detail": "If you get on the belt today anyway, that has always been your baseline, never a deviation. Just keep it easy — 7.3 to 7.6 on the console — and do it AFTER the card, not before. Nothing in these 45 minutes needs it."
     }
    ],
-   "text": "Your own two-miler is always yours — if the day has room outside these thirty minutes, run it. Inside the thirty, this 800 is the run."
+   "text": "Running comes back tomorrow, in shape rather than in miles."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "BLOCK 3 · TABATA MIDLINE · FIRST TABATA IN THE PROGRAM",
-   "meta": "4 MINUTES · 8 ROUNDS of 20 sec work / 10 sec rest · bodyweight",
-   "format": "Tabata · 8 × 20/10 · alternating two movements · ★ first use of this format anywhere in the log",
-   "workRest": "20 seconds on, 10 seconds off, 8 rounds, done. Alternate the two movements: odd rounds hollow rocks, even rounds plank shoulder taps.",
+   "title": "THE CHAMPIONSHIP ROUNDS · 2 × 2:30",
+   "meta": "6 MINUTES · 2 ROUNDS of 2:30 work / :30 rest · 16 kg + bodyweight",
+   "format": "round-based midline · same clock as the card · three new movements, cycled continuously inside each round",
+   "workRest": "Two more rounds on the same interval. Cycle the three movements continuously for the full 2:30, then 30 seconds down, then round two.",
    "items": [
     {
-     "name": "ODD ROUNDS · HOLLOW ROCKS · 20 sec",
-     "detail": "Low back pressed into the floor, arms by ears, rock small and tight. If the low back peels up, bend the knees — position beats amplitude. Anti-extension, the one midline quality not touched this week."
+     "name": "★ TURKISH SIT-UP · 16 kg · 6 per side",
+     "detail": "NEW. The first half of a get-up and nothing else. Flat on your back, bell locked out over the shoulder, opposite knee bent — sit up to the elbow, then to the tall hand, then reverse it under control. Eyes on the bell the whole time. All the get-up's midline work in a fraction of the time."
     },
     {
-     "name": "EVEN ROUNDS · PLANK SHOULDER TAPS · 20 sec",
-     "detail": "High plank, feet wide, tap the opposite shoulder without the hips swaying a degree. Anti-rotation under fatigue, right after the hollow has cooked the front line."
+     "name": "★ BODY SAW · bodyweight · 10 reps",
+     "detail": "NEW. Forearm plank on a smooth floor with socks, or feet on a towel. Push back through the forearms so your whole body slides four to six inches toward your feet, then pull back to start. The plank never breaks — you're just making it longer and harder. Anti-extension under a moving lever arm."
+    },
+    {
+     "name": "★ WINDSHIELD WIPER · bodyweight · 8 per side",
+     "detail": "NEW. On your back, arms wide on the floor for anchor, legs up at 90 degrees, knees bent to start. Lower both legs slowly to the right without letting the opposite shoulder peel off the floor, then to the left. Rotation control — the one midline quality this program has trained the least."
     }
    ],
-   "text": "Monday's midline was loaded lateral flexion, yesterday's was loaded anti-rotation — today closes anti-extension, on the one clock format the program has never used. Four minutes, honest ones."
+   "text": "Anti-extension and rotation control, on the same round clock as the card. Three movements, all three new."
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
-   "title": "COOLDOWN · 2 MIN",
-   "meta": "~2 min · ONE PASS",
+   "title": "COOLDOWN · 3 MIN",
+   "meta": "~3 min · ONE PASS",
    "items": [
     {
-     "name": "WALK + BREATHE · 90 sec",
-     "detail": "Belt at 5 km/h or just pace the floor. Nose breathing, long exhales. You have a long-haul flight ahead — start the downshift now."
+     "name": "FOREARMS + ELBOWS · 60 sec",
+     "detail": "Kneel, palms flat on the floor with fingers pointing back at your knees, sit back gently. Then flip to the backs of the hands. Bottoms-up cleans, batwing holds and a grip round earned this."
     },
     {
-     "name": "DOORWAY PEC + DEEP SQUAT HOLD · 30 sec",
-     "detail": "Open the chest after 90 push-ups, sit the hips into a deep squat after 36 heavy ones. Hips and chest are what the airplane seat will attack — leave them long."
+     "name": "DOORWAY PEC + OVERHEAD REACH · 60 sec",
+     "detail": "30 seconds per side in the doorway after fifty deficit push-ups, then kneel and reach both arms long overhead onto a couch or bed, chest sinking. Undo the pressing."
+    },
+    {
+     "name": "BREATHE · 60 sec",
+     "detail": "Flat on your back, knees bent, hand on your belly. Long slow nasal exhales. Day one back on home iron, and you spent every minute of it working. Welcome home."
     }
    ],
-   "text": "That's Singapore. See you on the Bowflex."
+   "text": "No belt, no miles, no squats. Just ten rounds and ten new things."
   }
  ],
  "timer": {
-  "emomUnit": "EMOM minutes held at full reps",
-  "emomGreen": "18",
-  "emomYellow": "15"
+  "emomUnit": "rounds of the card completed at full reps",
+  "emomGreen": "10",
+  "emomYellow": "10"
  }
 }

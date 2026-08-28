@@ -3,7 +3,7 @@
  "weekday": "FRIDAY · TODAY",
  "title": "THE FIGHT CARD · TEN ROUNDS, TEN WEAPONS",
  "vibe": "yellow-plus · 45 minutes · day one back on home iron · no treadmill, by design",
- "why": "You said two things and both of them shaped this. First: you'll trade tempo miles for this kind of work. Taken — every prescribed training day since July 29th has carried a run block, and today has none. Zero treadmill. Your legs flew twenty hours yesterday and they get to sit this one out. Second, and louder: the kettlebell exercises have gone stale. That's a fair hit. Pull the log and the same seven movements keep showing up — clean, press, swing, snatch, row, squat, carry. So today is built as a boxing card: ten rounds, and every round is a different weapon. EIGHT of the ten have never appeared anywhere in this program. Not a new arrangement of the old ones — genuinely new movements. The clock is new too: no EMOM, no ladder, no lap count. Fighter's rounds, 2:30 of work and 30 seconds in the corner, and effort is counted in REPS BANKED across the whole card. The tradition behind it is one this log has never drawn from — Ross Enamait's fight-camp work capacity, whose whole thesis is that variety IS the training stimulus. And one more thing from Singapore: you pressed a 20 kg bell and front squatted a 22 kg pair over there. Your home 40s are 18.1 kg. Every tool in this house is now lighter than what you just handled, so the rep counts are written high on purpose.",
+ "why": "You said two things and both of them shaped this. First: you'll trade tempo miles for this kind of work. Taken — every prescribed training day since July 29th has carried a run block, and today has none. Zero treadmill. Your legs flew twenty hours yesterday and they get to sit this one out. Second, and louder: the kettlebell exercises have gone stale. That's a fair hit. Pull the log and the same seven movements keep showing up — clean, press, swing, snatch, row, squat, carry. So today is built as a boxing card: ten rounds, and every round is a different weapon. EIGHT of the ten have never appeared anywhere in this program. Not a new arrangement of the old ones — genuinely new movements. The clock is new too: no EMOM, no ladder, no lap count. Fighter's rounds, 2:30 of work and 30 seconds in the corner, and effort is counted in REPS BANKED across the whole card. The tradition behind it is one this log has never drawn from — Ross Enamait's fight-camp work capacity, whose whole thesis is that variety IS the training stimulus. And one more thing from Singapore: you pressed a 44 lb bell and front squatted a 97 lb pair over there. Your home pair is 80 lb and your light bell is 35. Every tool in this house is now lighter than what you just handled, so the rep counts are written high on purpose.",
  "estMin": 45,
  "blocks": [
   {
@@ -32,7 +32,7 @@
    "id": "main",
    "kind": "conditioning",
    "title": "THE CARD · 10 ROUNDS · 2:30 WORK / :30 REST",
-   "meta": "30 MINUTES · 10 ROUNDS · one weapon per round · 2×40 lb pair · 16 kg · 50 lb DB",
+   "meta": "30 MINUTES · 10 ROUNDS · one weapon per round · 2×40 lb pair · 35 lb · 50 lb DB",
    "format": "round-based fight card · 2:30 on, :30 in the corner · effort counted in TOTAL REPS BANKED, not rounds chosen or minutes held",
    "workRest": "Set a repeating interval: 2:30 work, 0:30 rest, 10 times through. One movement per round, worked for the whole 2:30 — break it up however you need to inside the round, but the bell doesn't leave your hand for long. Each round has a rep target. Hit it, write it down, move to the next weapon. Nothing repeats.",
    "items": [
@@ -49,15 +49,15 @@
      "detail": "NEW — never in this log. Hinge to a flat back, row BOTH bells to your ribs, and HOLD for a two-count with the shoulder blades crushed together before lowering. The hold is the exercise. Dan John's rule: if you can't pin the blades for two full seconds, the weight is moving you. Slow, mean reps."
     },
     {
-     "name": "R4 · ★ DEAD-STOP ALTERNATING SWING · 16 kg · TARGET 60",
+     "name": "R4 · ★ DEAD-STOP ALTERNATING SWING · 35 lb · TARGET 60",
      "detail": "NEW variant. The bell parks on the floor between EVERY rep — no backswing, no rebound, no chain of momentum. Hike it once, one swing to chest height, park it, switch hands, again. Killing the stretch reflex turns each rep into a pure standing-start hip snap. Sixty of them. This is your only hinge volume today and it costs your legs almost nothing."
     },
     {
-     "name": "R5 · ★ Z PRESS · 16 kg · TARGET 30 (15/side)",
-     "detail": "NEW — never in this log. Sit on the floor, legs straight out in front, feet together, torso vertical with no support of any kind. Clean the bell to the rack and strict press it. With the legs taken out of the equation there is nowhere to cheat from — every ounce of stability comes from your midline and hips. This will feel harder at 16 kg than a 20 kg standing press did in Singapore. That is the point."
+     "name": "R5 · ★ Z PRESS · 35 lb · TARGET 30 (15/side)",
+     "detail": "NEW — never in this log. Sit on the floor, legs straight out in front, feet together, torso vertical with no support of any kind. Clean the bell to the rack and strict press it. With the legs taken out of the equation there is nowhere to cheat from — every ounce of stability comes from your midline and hips. This will feel harder at 35 lb than a 44 lb standing press did in Singapore. That is the point."
     },
     {
-     "name": "R6 · ★ BOTTOMS-UP CLEAN · 16 kg · TARGET 40 (20/side)",
+     "name": "R6 · ★ BOTTOMS-UP CLEAN · 35 lb · TARGET 40 (20/side)",
      "detail": "NEW — never in this log. Clean the bell and catch it UPSIDE DOWN, handle in a crushing grip, bell balanced above your fist. Any wobble and it folds over. Pure grip, forearm and shoulder-packing work — your confirmed favorite family, in a form you've never done. Park it, reset, go again. Switch hands every 5."
     },
     {
@@ -106,12 +106,12 @@
    "id": "core",
    "kind": "finisher",
    "title": "THE CHAMPIONSHIP ROUNDS · 2 × 2:30",
-   "meta": "6 MINUTES · 2 ROUNDS of 2:30 work / :30 rest · 16 kg + bodyweight",
+   "meta": "6 MINUTES · 2 ROUNDS of 2:30 work / :30 rest · 35 lb + bodyweight",
    "format": "round-based midline · same clock as the card · three new movements, cycled continuously inside each round",
    "workRest": "Two more rounds on the same interval. Cycle the three movements continuously for the full 2:30, then 30 seconds down, then round two.",
    "items": [
     {
-     "name": "★ TURKISH SIT-UP · 16 kg · 6 per side",
+     "name": "★ TURKISH SIT-UP · 35 lb · 6 per side",
      "detail": "NEW. The first half of a get-up and nothing else. Flat on your back, bell locked out over the shoulder, opposite knee bent — sit up to the elbow, then to the tall hand, then reverse it under control. Eyes on the bell the whole time. All the get-up's midline work in a fraction of the time."
     },
     {

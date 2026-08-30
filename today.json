@@ -2,129 +2,119 @@
  "date": "2026-08-30",
  "weekday": "SUNDAY · TODAY",
  "title": "THE TOWER III · THE FIRE ESCAPE",
- "vibe": "45 minutes · four days off the floor · upper-body volume up top, grade under your feet",
- "why": "Three things built this. First, you're rested — the last real session was Wednesday in Singapore, and Thursday, Friday and Saturday all went by without one. Four days off. Whatever Friday's abort was, it is not carrying forward. Second: your legs are tired from travel, so the treadmill gets GRADE instead of speed today. Steep walking and jogging recruits glutes, hamstrings and calves harder than flat running does at the same belt speed, and it does it with one foot on the deck the whole time — a hard leg stimulus at a fraction of the pounding. Third, and this is the one that matters: you said the kettlebell movements had gone stale, and the card built to answer that never got run. So its best pieces get harvested here. THE THREE HEADLINE MOVEMENTS HAVE NEVER APPEARED IN THIS PROGRAM. Three, not ten — new movements inside a shape you already know cold, rather than ten new things at once. And the shape is The Tower: one descending list, one clock, worked straight through, big pull and press volume. You've rated it the best session in this log twice. Last one was a week ago; it's due. The new part is the exit. Every floor drops you onto the belt, and the fire escape gets SHORTER and STEEPER as the rep counts come down — 4% at the top, 12% at the bottom. The list shrinks; the hill grows. Written to finish inside 45 minutes.",
+ "vibe": "45 min · 4 days rested · upper volume + grade",
+ "why": "Legs are travel-tired, so the belt buys intensity with grade, not speed. Three brand-new movements inside the Tower shape you already know.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · DAY A · SHOULDERS, SPINE, POSTERIOR CHAIN",
-   "meta": "~7 min · Moves Method Day A · ONE PASS · biased to a week of travel and four days still",
-   "format": "mobility · ONE PASS, no rounds",
+   "title": "WARM-UP · 7 MIN · ONE PASS",
+   "meta": "Moves Method Day A",
+   "format": "one pass",
    "items": [
     {
-     "name": "SPINE + SHOULDERS · one pass",
-     "detail": "Towel or band dislocates ×15 · shoulder extensions behind the back, 30 sec · thoracic rotations on all fours, 8 per side · scap push-ups ×10 · wrist rocks 30 sec each direction. Today is rows and presses for 112 reps. Open the shoulder and the mid-back first."
+     "name": "Dislocates ×15 · shoulder extensions 30s",
+     "detail": ""
     },
     {
-     "name": "HAMSTRINGS + CALVES · one pass",
-     "detail": "Jefferson curl, slow, ×5 · single-leg goodmorning 8 per side · standing calf raises ×15, slow down · ankle rocks in a deep squat, 30 sec. The fire escape tops out at 12% grade, which loads calves and Achilles hard. Warm them properly before the first climb, not after it."
+     "name": "Thoracic rotations 8/side · scap push-ups ×10",
+     "detail": ""
     },
     {
-     "name": "HIPS · quick",
-     "detail": "Half-kneeling hip flexor stretch 30 sec per side · 10 slow bodyweight hinges. Four days of sitting still after a long flight. Unfold the front of the hip before the swings."
+     "name": "Jefferson curl ×5 · single-leg goodmorning 8/side",
+     "detail": ""
+    },
+    {
+     "name": "Calf raises ×15 · ankle rocks 30s",
+     "detail": "Belt ends at 12%. Do these."
+    },
+    {
+     "name": "Hip flexor 30s/side · 10 hinges",
+     "detail": ""
     }
    ],
-   "text": "Day A off the Moves Method menu — an upper-volume day gets the shoulder-and-spine day, with the calf and hamstring work added for the grade. Day B ran Wednesday."
+   "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE TOWER III · 4 FLOORS · FOR TIME",
-   "meta": "~26 MINUTES · 4 FLOORS · 196 REPS + 9:00 ON THE BELT · 2×40 lb pair · 35 lb",
-   "format": "descending chipper · ONE CLOCK, start it and don't stop it · effort counted by REACHING THE GROUND FLOOR · each floor exits down a shorter, steeper fire escape",
-   "workRest": "Start one clock and run it the whole way. Work top floor to ground floor in order. Finish all three lifts on a floor, then go straight to the treadmill for that floor's fire escape leg — belt speed 6.0 mph the whole session, only the GRADE changes. Off the belt, straight into the next floor. Rest is whatever you take inside a floor; there is no scheduled rest.",
+   "title": "THE TOWER · 4 FLOORS · FOR TIME",
+   "meta": "~26 MIN · 196 REPS · 2×40 lb · 35 lb",
+   "format": "ONE CLOCK · descending list · top floor to ground",
+   "workRest": "One clock, never stopped. All 3 lifts on a floor, then straight to the belt for that floor's run. 6.0 mph all session — only the grade changes.",
    "items": [
     {
-     "name": "FLOOR 4 · THE TOP · 20 / 20 / 30",
-     "detail": "★ BATWING ROW ×20 · 2×40 lb — hinge to about 45°, back flat, pull both bells to the bottom of the ribs with the elbows tight to your sides, and HOLD the top for a full 2-count with the shoulder blades pinned together before lowering. The hold is the movement. · ★ SEE-SAW PRESS ×20 (10/side) · 2×40 lb — both bells racked, press one overhead while the other stays racked at the shoulder, lower it, press the other. Never put them down mid-set. · ★ DEAD-STOP ALTERNATING SWING ×30 · 35 lb — bell parked on the floor, hike it back, swing to chest height, and park it again on every single rep. Switch hands each rep. No momentum from the last swing; every rep starts from zero. → FIRE ESCAPE: 3:00 @ 6.0 mph, 4% grade."
+     "name": "FLOOR 4",
+     "detail": "Batwing row ×20 · See-saw press ×20 · Dead-stop swing ×30 → RUN 3:00 @ 6.0 / 4%"
     },
     {
-     "name": "FLOOR 3 · 16 / 16 / 24",
-     "detail": "Batwing row ×16 · See-saw press ×16 (8/side) · Dead-stop alternating swing ×24. → FIRE ESCAPE: 2:30 @ 6.0 mph, 7% grade. Same speed as the last one. The number on the belt hasn't moved; the hill has."
+     "name": "FLOOR 3",
+     "detail": "Row ×16 · Press ×16 · Swing ×24 → RUN 2:30 @ 6.0 / 7%"
     },
     {
-     "name": "FLOOR 2 · 12 / 12 / 18",
-     "detail": "Batwing row ×12 · See-saw press ×12 (6/side) · Dead-stop alternating swing ×18. → FIRE ESCAPE: 2:00 @ 6.0 mph, 10% grade. This is where grade work starts telling the truth. Stay tall, don't lean into the console, let the glutes do it."
+     "name": "FLOOR 2",
+     "detail": "Row ×12 · Press ×12 · Swing ×18 → RUN 2:00 @ 6.0 / 10%"
     },
     {
-     "name": "FLOOR 1 · THE GROUND · 8 / 8 / 12",
-     "detail": "Batwing row ×8 · See-saw press ×8 (4/side) · Dead-stop alternating swing ×12. → FIRE ESCAPE: 1:30 @ 6.0 mph, 12% grade. Shortest leg, steepest wall, everything already spent. Ninety seconds. Stop the clock at the top of it."
+     "name": "FLOOR 1",
+     "detail": "Row ×8 · Press ×8 · Swing ×12 → RUN 1:30 @ 6.0 / 12%"
     },
     {
-     "name": "THE STANDARD · 196 REPS + 9:00 OF GRADE",
-     "detail": "56 rows · 56 presses · 84 swings · four climbs from 4% to 12%. Reaching the ground floor inside the 26 minutes IS the session. Write down your finish time — this shape comes back and that number is what it gets measured against."
+     "name": "BASEMENT · optional",
+     "detail": "Row ×6 · Press ×6 · Swing ×10 → RUN 1:00 @ 6.0 / 15%"
     }
    ],
-   "noteGreen": "THE BASEMENT — if you hit the ground floor with time on the clock and want more, there's one more floor below it: 6 rows / 6 presses (3 per side) / 10 swings, then 1:00 @ 6.0 mph at 15%, the top of the machine. Take it if you want it.",
-   "text": "Batwing row, see-saw press and dead-stop alternating swing are all first appearances in this program — pulled out of the ten-round card that never got run. The Tower arc is unchanged: one list, one clock, straight through, pull and press up top."
-  },
-  {
-   "id": "run",
-   "kind": "conditioning",
-   "title": "THE RUN IS INSIDE THE TOWER",
-   "meta": "9:00 total on the belt · 6.0 mph fixed · 4% → 7% → 10% → 12%",
-   "format": "ascending-grade fire escape legs, woven between floors · no separate run block",
-   "items": [
-    {
-     "name": "ONE SPEED, FOUR GRADES",
-     "detail": "6.0 mph does not change all session. Only the incline moves, and it only moves up: 4, 7, 10, 12. Legs came off a plane, so the belt buys intensity with grade instead of impact — steep work loads the whole posterior chain hard while keeping a foot on the deck. Hill prescriptions live in the 5–10% band for strength-and-speed work and go past 10% for pure strength; this ladder walks through both."
-    },
-    {
-     "name": "IF YOU WANT MILES AFTER",
-     "detail": "Anything you add on top is yours, as always. But the nine minutes of grade inside the Tower are the prescribed run — don't trade them for a flat two."
-    }
-   ],
-   "text": "Fixed speed, rising grade, shrinking duration. The inverse of the rep list it's attached to."
+   "noteGreen": "Log your finish time.",
+   "text": "★ BATWING ROW — hinge 45°, both bells to the ribs, hold 2 counts at the top. ★ SEE-SAW PRESS — both racked, press one at a time, never set down. ★ DEAD-STOP SWING — park the bell every rep, switch hands, hike from zero."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE BASEMENT · ANTI-ROTATION + GET-UP · 2 ROUNDS",
-   "meta": "~7 MINUTES · 2 ROUNDS · 35 lb + bodyweight · straight through, minimal rest",
-   "format": "triplet · 2 ROUNDS · quality over speed",
+   "title": "CORE · 7 MIN · 2 ROUNDS",
+   "meta": "35 lb + bodyweight",
+   "format": "2 rounds, straight through",
    "items": [
     {
-     "name": "HALF GET-UP · 35 lb · 5 per side",
-     "detail": "Bell locked out overhead, roll to the elbow, press to the hand, lower back down with control. Stop there — no bridge, no lunge. The get-up hasn't appeared in this log in over a month and it's the cleanest shoulder-and-midline pairing you own."
+     "name": "Half get-up · 35 lb · 5/side",
+     "detail": ""
     },
     {
-     "name": "RENEGADE DRAG · 35 lb · 10 total",
-     "detail": "High plank, feet wide, one bell outside your hand. Reach under your chest with the free hand and drag it to the other side without letting the hips rotate an inch. Alternate. All the work is in NOT twisting."
+     "name": "Renegade drag · 35 lb · 10 total",
+     "detail": "Hips don't rotate."
     },
     {
-     "name": "SIDE PLANK REACH-THROUGH · bodyweight · 8 per side",
-     "detail": "Side plank on the forearm, top arm reaching to the ceiling, then thread it under your ribs and rotate, then back up. Controlled rotation on top of a locked-down hip."
+     "name": "Side plank reach-through · 8/side",
+     "detail": ""
     }
    ],
-   "text": "Anti-rotation to close, plus the get-up pattern back after five weeks away. Two rounds, no rush."
+   "text": ""
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
    "title": "COOLDOWN · 4 MIN",
-   "meta": "~4 min · ONE PASS",
+   "meta": "one pass",
    "items": [
     {
-     "name": "CALVES + ACHILLES · 90 sec",
-     "detail": "Straight-leg and bent-knee calf stretch, 45 sec each side. Twelve percent grade earns this one."
+     "name": "Calves + Achilles · 90s",
+     "detail": ""
     },
     {
-     "name": "LATS + DOORWAY PEC · 90 sec",
-     "detail": "Overhead lat reach against a doorframe, then a doorway pec stretch. 112 rows and presses."
+     "name": "Lats + doorway pec · 90s",
+     "detail": ""
     },
     {
-     "name": "BREATHE · 60 sec",
-     "detail": "Flat on your back, feet up a wall if you want, nasal breathing. Long exhale."
+     "name": "Breathe · 60s",
+     "detail": ""
     }
    ],
-   "text": "Four floors, four climbs, three movements you've never done. Log your finish time and how the 12% felt."
+   "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "floors of The Tower, top to ground",
-  "emomGreen": "4 + the basement",
+  "emomUnit": "floors, top to ground",
+  "emomGreen": "4 + basement",
   "emomYellow": "4"
  }
 }

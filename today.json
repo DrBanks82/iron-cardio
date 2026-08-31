@@ -1,92 +1,55 @@
 {
- "date": "2026-08-30",
- "weekday": "SUNDAY · TODAY",
- "title": "THE TOWER III · THE FIRE ESCAPE",
- "vibe": "45 min · 4 days rested · upper volume + grade",
- "why": "Legs are travel-tired, so the belt buys intensity with grade, not speed. Three brand-new movements inside the Tower shape you already know.",
+ "date": "2026-08-31",
+ "weekday": "MONDAY · TODAY",
+ "title": "THE GAUNTLET II · SIX LAPS",
+ "vibe": "45 min · green · legs + bodyweight + flat running",
+ "why": "Tower III was all upper body and all grade. Today is legs, bodyweight and flat running — one clock, a run leg out of every station.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 7 MIN · ONE PASS",
-   "meta": "Moves Method Day A",
+   "meta": "Moves Method Day B",
    "format": "one pass",
    "items": [
-    {
-     "name": "Dislocates ×15 · shoulder extensions 30s",
-     "detail": ""
-    },
-    {
-     "name": "Thoracic rotations 8/side · scap push-ups ×10",
-     "detail": ""
-    },
-    {
-     "name": "Jefferson curl ×5 · single-leg goodmorning 8/side",
-     "detail": ""
-    },
-    {
-     "name": "Calf raises ×15 · ankle rocks 30s",
-     "detail": "Belt ends at 12%. Do these."
-    },
-    {
-     "name": "Hip flexor 30s/side · 10 hinges",
-     "detail": ""
-    }
+    { "name": "Shoulder protocol 2×20 · shoulder extensions 30s", "detail": "" },
+    { "name": "Toe squats 30s · ankle rolls in a squat 30s", "detail": "" },
+    { "name": "Single-leg balance 30s/side · knee drives 10/side", "detail": "" },
+    { "name": "Side step-ups 10/side · 10 bodyweight squats", "detail": "" },
+    { "name": "Belt walk 3.5 mph · 2 min", "detail": "" }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE TOWER · 4 FLOORS · FOR TIME",
-   "meta": "~26 MIN · 196 REPS · 2×40 lb · 35 lb",
-   "format": "ONE CLOCK · descending list · top floor to ground",
-   "workRest": "One clock, never stopped. All 3 lifts on a floor, then straight to the belt for that floor's run. 6.0 mph all session — only the grade changes.",
+   "title": "THE GAUNTLET · 6 LAPS · FOR TIME",
+   "meta": "~27 MIN · 177 REPS + 1.5 MI · 2×40 lb · 50 lb · 35 lb",
+   "format": "ONE CLOCK · 6 LAPS · station then run, every lap",
+   "workRest": "One clock, never stopped. Finish the station, straight onto the belt. Count laps finished.",
    "items": [
-    {
-     "name": "FLOOR 4",
-     "detail": "Batwing row ×20 · See-saw press ×20 · Dead-stop swing ×30 → RUN 3:00 @ 6.0 / 4%"
-    },
-    {
-     "name": "FLOOR 3",
-     "detail": "Row ×16 · Press ×16 · Swing ×24 → RUN 2:30 @ 6.0 / 7%"
-    },
-    {
-     "name": "FLOOR 2",
-     "detail": "Row ×12 · Press ×12 · Swing ×18 → RUN 2:00 @ 6.0 / 10%"
-    },
-    {
-     "name": "FLOOR 1",
-     "detail": "Row ×8 · Press ×8 · Swing ×12 → RUN 1:30 @ 6.0 / 12%"
-    },
-    {
-     "name": "BASEMENT · optional",
-     "detail": "Row ×6 · Press ×6 · Swing ×10 → RUN 1:00 @ 6.0 / 15%"
-    }
+    { "name": "LAP 1", "detail": "Goblet squat 50 lb ×30, 2-count pause at the bottom → RUN 0.25 mi @ 7.0" },
+    { "name": "LAP 2", "detail": "Deficit push-up on the 40s ×35 → RUN 0.25 mi @ 7.0" },
+    { "name": "LAP 3", "detail": "One-arm snatch 35 lb ×36 (18/side) → RUN 0.25 mi @ 7.5" },
+    { "name": "LAP 4", "detail": "Rack reverse lunge 2×40 ×30 (15/side) → RUN 0.25 mi @ 7.5" },
+    { "name": "LAP 5", "detail": "Z press 2×40 ×16 → RUN 0.25 mi @ 7.5" },
+    { "name": "LAP 6", "detail": "Double clean 2×40 ×30 → RUN 0.25 mi @ 8.0" },
+    { "name": "FINALE", "detail": "Front-rack carry 2×40 · 200 m unbroken" }
    ],
-   "noteGreen": "Log your finish time.",
-   "text": "★ BATWING ROW — hinge 45°, both bells to the ribs, hold 2 counts at the top. ★ SEE-SAW PRESS — both racked, press one at a time, never set down. ★ DEAD-STOP SWING — park the bell every rep, switch hands, hike from zero."
+   "noteGreen": "Log your finish time and the lap you started to hurt on.",
+   "text": "★ DEFICIT PUSH-UP — hands on the bell handles, chest sinks below the hands. ★ Z PRESS — seated on the floor, legs straight out, strict press from the rack. ★ RACK LUNGE — bells stay racked the whole set."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "CORE · 7 MIN · 2 ROUNDS",
-   "meta": "35 lb + bodyweight",
-   "format": "2 rounds, straight through",
+   "title": "THE SLOW BURN · 7 MIN · 3 ROUNDS",
+   "meta": "35 lb + bodyweight · time under tension",
+   "format": "3 rounds, straight through",
    "items": [
-    {
-     "name": "Half get-up · 35 lb · 5/side",
-     "detail": ""
-    },
-    {
-     "name": "Renegade drag · 35 lb · 10 total",
-     "detail": "Hips don't rotate."
-    },
-    {
-     "name": "Side plank reach-through · 8/side",
-     "detail": ""
-    }
+    { "name": "Dragon flag negative ×5", "detail": "3-count lower, heels touch last." },
+    { "name": "Hollow hold · 35 lb overhead · 40s", "detail": "" },
+    { "name": "Side plank hip dip ×12/side", "detail": "" }
    ],
    "text": ""
   },
@@ -96,25 +59,16 @@
    "title": "COOLDOWN · 4 MIN",
    "meta": "one pass",
    "items": [
-    {
-     "name": "Calves + Achilles · 90s",
-     "detail": ""
-    },
-    {
-     "name": "Lats + doorway pec · 90s",
-     "detail": ""
-    },
-    {
-     "name": "Breathe · 60s",
-     "detail": ""
-    }
+    { "name": "Quads + hip flexors · 90s", "detail": "" },
+    { "name": "Calves + hamstrings · 90s", "detail": "" },
+    { "name": "Breathe · 60s", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "floors, top to ground",
-  "emomGreen": "4 + basement",
-  "emomYellow": "4"
+  "emomUnit": "laps finished",
+  "emomGreen": "6 + carry",
+  "emomYellow": "5"
  }
 }

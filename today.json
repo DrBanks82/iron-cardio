@@ -1,74 +1,93 @@
 {
- "date": "2026-08-31",
- "weekday": "MONDAY · TODAY",
- "title": "THE GAUNTLET II · SIX LAPS",
- "vibe": "45 min · green · legs + bodyweight + flat running",
- "why": "Tower III was all upper body and all grade. Today is legs, bodyweight and flat running — one clock, a run leg out of every station.",
+ "date": "2026-09-01",
+ "weekday": "TUESDAY · TODAY",
+ "title": "THE FLOOR · UPPER DENSITY, ZERO LEG LOAD",
+ "vibe": "45 min · green · upper + midline · no treadmill by design",
+ "why": "Legs are tired from six laps; today nothing stands on them. First card through the movement gate: 11 movements, 9 of them under 25% lifetime use.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 7 MIN · ONE PASS",
-   "meta": "Moves Method Day B",
+   "title": "WARM-UP · 6 MIN · ONE PASS",
+   "meta": "Moves Method Day A · shoulders + spine",
    "format": "one pass",
    "items": [
-    { "name": "Shoulder protocol 2×20 · shoulder extensions 30s", "detail": "" },
-    { "name": "Toe squats 30s · ankle rolls in a squat 30s", "detail": "" },
-    { "name": "Single-leg balance 30s/side · knee drives 10/side", "detail": "" },
-    { "name": "Side step-ups 10/side · 10 bodyweight squats", "detail": "" },
-    { "name": "Belt walk 3.5 mph · 2 min", "detail": "" }
+    { "name": "Shoulder dislocates (towel) ×15 · wrist rocks 30s", "detail": "" },
+    { "name": "Thoracic rotations ×8/side · Jefferson curl ×8 (35 lb)", "detail": "" },
+    { "name": "Scapular push-ups ×12 · squat overhead reach ×8", "detail": "" },
+    { "name": "Floor press 2×40 ×8 easy · halo 35 lb ×6/side", "detail": "" }
    ],
    "text": ""
   },
   {
-   "id": "main",
-   "kind": "conditioning",
-   "title": "THE GAUNTLET · 6 LAPS · FOR TIME",
-   "meta": "~27 MIN · 177 REPS + 1.5 MI · 2×40 lb · 50 lb · 35 lb",
-   "format": "ONE CLOCK · 6 LAPS · station then run, every lap",
-   "workRest": "One clock, never stopped. Finish the station, straight onto the belt. Count laps finished.",
+   "id": "floor",
+   "kind": "strength",
+   "title": "THE FLOOR · 12 MIN · 8 ROUNDS",
+   "meta": "every 90s · alternate A1 / A2 · 4 rounds each · 2×40 lb · 50 lb",
+   "format": "E90S · odd rounds A1, even rounds A2",
+   "workRest": "New set every 90 seconds. Whatever is left of the 90 is your rest.",
    "items": [
-    { "name": "LAP 1", "detail": "Goblet squat 50 lb ×30, 2-count pause at the bottom → RUN 0.25 mi @ 7.0" },
-    { "name": "LAP 2", "detail": "Deficit push-up on the 40s ×35 → RUN 0.25 mi @ 7.0" },
-    { "name": "LAP 3", "detail": "One-arm snatch 35 lb ×36 (18/side) → RUN 0.25 mi @ 7.5" },
-    { "name": "LAP 4", "detail": "Rack reverse lunge 2×40 ×30 (15/side) → RUN 0.25 mi @ 7.5" },
-    { "name": "LAP 5", "detail": "Z press 2×40 ×16 → RUN 0.25 mi @ 7.5" },
-    { "name": "LAP 6", "detail": "Double clean 2×40 ×30 → RUN 0.25 mi @ 8.0" },
-    { "name": "FINALE", "detail": "Front-rack carry 2×40 · 200 m unbroken" }
+    { "name": "A1 · Floor press + glute bridge 2×40 ×10", "detail": "hips locked up top for all 10" },
+    { "name": "A2 · Cross-body row 50 lb ×10/side", "detail": "hinge, pull to the opposite hip, 1-count at the top" }
    ],
-   "noteGreen": "Log your finish time and the lap you started to hurt on.",
-   "text": "★ DEFICIT PUSH-UP — hands on the bell handles, chest sinks below the hands. ★ Z PRESS — seated on the floor, legs straight out, strict press from the rack. ★ RACK LUNGE — bells stay racked the whole set."
+   "text": ""
+  },
+  {
+   "id": "kneel",
+   "kind": "strength",
+   "title": "THE KNEEL · 12 MIN · 8 ROUNDS",
+   "meta": "every 90s · alternate B1 / B2 · 4 rounds each · 40 lb · 35 lb",
+   "format": "E90S · odd rounds B1, even rounds B2",
+   "workRest": "Same clock. Both bells stay within reach.",
+   "items": [
+    { "name": "B1 · Windmill press 40 lb ×5/side", "detail": "press to lockout, windmill down and up under the locked arm = 1" },
+    { "name": "B2 · Tall-kneeling cross-body halo 35 lb ×12", "detail": "hips forward, ribs down" }
+   ],
+   "text": ""
+  },
+  {
+   "id": "arms",
+   "kind": "strength",
+   "title": "THE ARMS · 6 MIN · 3 ROUNDS",
+   "meta": "every 2 min · C1 + C2 back to back · 35 lb · 50 lb",
+   "format": "E2MOM · superset",
+   "workRest": "Both movements inside each 2 minutes. Rest whatever is left.",
+   "items": [
+    { "name": "C1 · Two-hand KB skullcrusher 35 lb ×15", "detail": "lying, bell by the horns, elbows stay pointed at the ceiling" },
+    { "name": "C2 · DB pullover 50 lb ×12", "detail": "lying, slight elbow bend, reach the bell behind your head to the floor" }
+   ],
+   "text": ""
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE SLOW BURN · 7 MIN · 3 ROUNDS",
-   "meta": "35 lb + bodyweight · time under tension",
+   "title": "THE BRACE · 6 MIN · 3 ROUNDS",
+   "meta": "35 lb + bodyweight · rotation + anti-extension",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "Dragon flag negative ×5", "detail": "3-count lower, heels touch last." },
-    { "name": "Hollow hold · 35 lb overhead · 40s", "detail": "" },
-    { "name": "Side plank hip dip ×12/side", "detail": "" }
+    { "name": "Half-kneeling chop 35 lb ×10/side", "detail": "" },
+    { "name": "Dead bug, 35 lb held over chest ×12", "detail": "" },
+    { "name": "L-sit on the 40s · 20s", "detail": "hands on the handles, legs straight or tucked" },
+    { "name": "Standing walkout ×6", "detail": "hands walk out to a long line, walk back" }
    ],
    "text": ""
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
-   "title": "COOLDOWN · 4 MIN",
+   "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Quads + hip flexors · 90s", "detail": "" },
-    { "name": "Calves + hamstrings · 90s", "detail": "" },
-    { "name": "Breathe · 60s", "detail": "" }
+    { "name": "Doorway pec stretch · 45s/side", "detail": "" },
+    { "name": "Child's pose with side reach · 45s/side", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "laps finished",
-  "emomGreen": "6 + carry",
-  "emomYellow": "5"
+  "emomUnit": "rounds on the 90s clock",
+  "emomGreen": "8 + 8 + 3",
+  "emomYellow": "6 + 6 + 3"
  }
 }

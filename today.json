@@ -1,21 +1,21 @@
 {
- "date": "2026-09-01",
- "weekday": "TUESDAY · TODAY",
- "title": "THE GAUNTLET III · UPPER LAPS",
- "vibe": "45 min · green · gauntlet · upper-body stations, run legs between",
- "why": "Same gauntlet you like, six new weapons in the stations. Legs only run today; every station is upper body or midline.",
+ "date": "2026-09-03",
+ "weekday": "THURSDAY · TODAY",
+ "title": "THE SPRINT LADDER · POSTERIOR RUNGS",
+ "vibe": "45 min · green · hard · hinge stations, sprint legs that get shorter and faster",
+ "why": "Posterior chain has been the quietest pattern since mid-August; today every station is hinge, glute or hamstring. Off each one, a flat sprint leg that drops in distance and climbs in speed.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A · shoulders + spine",
+   "meta": "Moves Method Day B · ankles + knees + hinge",
    "format": "one pass",
    "items": [
-    { "name": "Shoulder dislocates (towel) ×15 · wrist rocks 30s", "detail": "" },
-    { "name": "Thoracic rotations ×8/side · Jefferson curl 35 lb ×8", "detail": "" },
-    { "name": "Scapular push-ups ×12 · floor press 2×40 ×8 easy", "detail": "" },
+    { "name": "Ankle rolls in the squat 30s · toe squats ×10", "detail": "" },
+    { "name": "Single-leg balance 30s/side · knee drives ×10/side", "detail": "" },
+    { "name": "Hamstring walkouts ×6 · hip hinge with the 35 lb ×10", "detail": "" },
     { "name": "Belt 3.5 mph · 2 min", "detail": "" }
    ],
    "text": ""
@@ -23,32 +23,32 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE GAUNTLET · 6 LAPS · FOR TIME",
-   "meta": "~26 MIN · 192 REPS + 1.5 MI · 2×40 lb · 50 lb · 35 lb · 40 lb",
-   "format": "ONE CLOCK · 6 LAPS · station then run, every lap",
-   "workRest": "One clock, never stopped. Finish the station, straight onto the belt. Count laps finished.",
+   "title": "THE SPRINT LADDER · 6 RUNGS · FOR TIME",
+   "meta": "~27 MIN · 6 RUNGS · 1.8 MI · 2×40 lb · 50 lb · 40 lb",
+   "format": "ONE CLOCK · 6 RUNGS · station then sprint leg, every rung · legs get SHORTER and FASTER",
+   "workRest": "One clock, never stopped. Finish the station, straight onto the belt. Count rungs finished.",
    "items": [
-    { "name": "LAP 1", "detail": "Floor press + glute bridge 2×40 ×20 → RUN 0.25 mi @ 7.0" },
-    { "name": "LAP 2", "detail": "Cross-body row 50 lb ×30 (15/side) → RUN 0.25 mi @ 7.0" },
-    { "name": "LAP 3", "detail": "Windmill press 40 lb ×12 (6/side) → RUN 0.25 mi @ 7.5" },
-    { "name": "LAP 4", "detail": "Two-hand KB skullcrusher 35 lb ×25 → RUN 0.25 mi @ 7.5" },
-    { "name": "LAP 5", "detail": "DB pullover 50 lb ×20 → RUN 0.25 mi @ 8.0" },
-    { "name": "LAP 6", "detail": "Tall-kneeling cross-body halo 35 lb ×20 → RUN 0.25 mi @ 8.5" },
-    { "name": "FINALE", "detail": "L-sit on the 40s · 3 × 15s, 15s between" }
+    { "name": "RUNG 1", "detail": "Double KB deadlift 2×40 ×15, 3-count lower → RUN 0.5 mi @ 7.5" },
+    { "name": "RUNG 2", "detail": "Staggered-stance RDL 50 lb ×10/side → RUN 0.4 mi @ 8.0" },
+    { "name": "RUNG 3", "detail": "Two-hand swing 40 lb ×25 → RUN 0.3 mi @ 8.5" },
+    { "name": "RUNG 4", "detail": "Dynamic reverse lunge 2×40 ×8/side → RUN 0.25 mi @ 9.0" },
+    { "name": "RUNG 5", "detail": "Weighted glute bridge 2×40 on hips ×20, 2-count top → RUN 0.2 mi @ 9.5" },
+    { "name": "RUNG 6", "detail": "Squat jump ×12 → RUN 0.15 mi @ 10.0" },
+    { "name": "FINALE", "detail": "Standing calf raise 2×40 ×20, 2-count top · Nordic negatives ×8" }
    ],
-   "noteGreen": "Log your finish time and the lap you started to hurt on.",
-   "text": "★ FLOOR PRESS + BRIDGE — hips locked up for the whole set. ★ CROSS-BODY ROW — hinge, pull to the opposite hip. ★ WINDMILL PRESS — press to lockout, windmill down and up under the locked arm = 1. ★ SKULLCRUSHER — lying, bell by the horns, elbows at the ceiling. ★ PULLOVER — lying, reach the bell behind your head to the floor."
+   "noteGreen": "Log your finish time and the rung the belt started to win on.",
+   "text": "★ STAGGERED RDL — rear toe kicked back, weight on the front leg, hinge till the hamstring stops you. ★ DYNAMIC LUNGE — step back, lean the chest forward over the front knee at the bottom, drive up. ★ GLUTE BRIDGE — bells on the hips, heels close, hold the top. ★ NORDIC NEGATIVES — kneel, feet hooked under the couch, lower the chest to the floor as slow as you can, push back up."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE BRACE · 6 MIN · 3 ROUNDS",
-   "meta": "35 lb + bodyweight · rotation + anti-extension",
+   "title": "THE BRACE · 5 MIN · 3 ROUNDS",
+   "meta": "35 lb + bodyweight · anti-rotation + anti-extension",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "Half-kneeling chop 35 lb ×10/side", "detail": "" },
-    { "name": "Dead bug, 35 lb held over chest ×12", "detail": "" },
-    { "name": "Standing walkout ×6", "detail": "hands walk out to a long line, walk back" }
+    { "name": "Bear-position drag-through 35 lb ×10", "detail": "hips low, drag the bell under you side to side" },
+    { "name": "Bird dog ×8/side, 3-count hold", "detail": "" },
+    { "name": "Lying leg raise ×12", "detail": "" }
    ],
    "text": ""
   },
@@ -58,15 +58,15 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Doorway pec stretch · 45s/side", "detail": "" },
-    { "name": "Child's pose with side reach · 45s/side", "detail": "" }
+    { "name": "Couch stretch · 45s/side", "detail": "" },
+    { "name": "Standing hamstring stretch · 45s/side", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "laps finished",
-  "emomGreen": "6 + L-sit",
+  "emomUnit": "rungs finished",
+  "emomGreen": "6 + finale",
   "emomYellow": "5"
  }
 }

@@ -1,53 +1,52 @@
 {
- "date": "2026-09-04",
- "weekday": "FRIDAY · TODAY",
- "title": "THE SWITCHBACK · HILL LAPS",
- "vibe": "45 min · green · hard · upper stations, uphill legs, 24-min clock",
- "why": "Legs sprinted flat yesterday and squatted Monday, so today the run leg goes UPHILL and every station is upper body. Same gauntlet arc, new clock: as many stations as you can clear in 24 minutes.",
+ "date": "2026-09-05",
+ "weekday": "SATURDAY · TODAY",
+ "title": "THE PISTON · SQUAT CLOCK",
+ "vibe": "45 min · green · hard · leg stations, flat legs, every 3:00 for 8 rounds",
+ "why": "Upper two of the last three days, so today is all squat pattern (quads last loaded 08-26). Same run-interleaved arc, new clock: every 3:00 you lift, run, and bank whatever rest is left.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A · shoulders + spine",
+   "meta": "Moves Method Day B · ankles + knees + hips",
    "format": "one pass",
    "items": [
-    { "name": "Shoulder dislocates ×12 · thoracic rotations ×8/side", "detail": "" },
-    { "name": "Jefferson curl 35 lb ×6, slow · wrist rocks 30s", "detail": "" },
-    { "name": "Scapular push-ups ×10 · active pigeon 30s/side", "detail": "" },
-    { "name": "Belt 3.5 mph @ 8% · 2 min", "detail": "set the grade now, it stays all session" }
+    { "name": "Shoulder dislocates ×10 · toe squats 30s", "detail": "" },
+    { "name": "Ankle rolls in the squat ×10/side · knee drives ×10/side", "detail": "" },
+    { "name": "Single-leg balance 20s/side · side step-ups ×8/side", "detail": "on the stair" },
+    { "name": "Belt 5.5 mph @ 0% · 2 min", "detail": "then set it to 7.5, it stays there all block" }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE SWITCHBACK · 24 MIN · AMRAP",
-   "meta": "24 MIN CAP · 5 STATIONS PER LAP · TARGET 10 STATIONS (2 LAPS) · STRETCH 12 · 40 lb · 50 lb · 2×40 lb",
-   "format": "24-MIN CLOCK · station, then HILL LEG, next station · count stations cleared",
-   "workRest": "Every station exits onto the belt: RUN 0.10 mi @ 6.0 / 8%. Belt stays at 6.0 / 8% the whole 24 min.",
+   "title": "THE PISTON · 24 MIN · E3MOM",
+   "meta": "8 ROUNDS · EVERY 3:00 · 4 STATIONS × 2 · 2×40 lb · 50 lb · 35 lb",
+   "format": "EVERY 3:00 · station, then RUN LEG, rest until the next 3:00 · count rounds made on the clock",
+   "workRest": "Every round exits onto the belt: RUN 0.20 mi @ 7.5 / 0%. Belt stays at 7.5 the whole 24 min. Rest = whatever is left before the next 3:00.",
    "items": [
-    { "name": "S1 · Z press 40 lb ×8/side → HILL LEG", "detail": "" },
-    { "name": "S2 · Split-stance row 50 lb ×10/side, 2-count hold at the top → HILL LEG", "detail": "" },
-    { "name": "S3 · One-arm floor press 40 lb ×12/side → HILL LEG", "detail": "" },
-    { "name": "S4 · Body saw ×12 → HILL LEG", "detail": "" },
-    { "name": "S5 · Push-up ×15, hands on the 40 lb bells → HILL LEG", "detail": "" },
-    { "name": "REPEAT S1 → S5 until the clock hits 24:00", "detail": "" }
+    { "name": "R1 · Double front squat 2×40 lb ×6 + swing 40 lb ×12 → RUN LEG", "detail": "" },
+    { "name": "R2 · Front-rack split squat 2×40 lb ×6/side + Cossack squat 35 lb ×5/side → RUN LEG", "detail": "" },
+    { "name": "R3 · Front-rack reverse lunge 2×40 lb ×5/side + single-leg hip thrust ×10/side → RUN LEG", "detail": "" },
+    { "name": "R4 · Bulgarian split squat 50 lb ×8/side + swing 40 lb ×15 → RUN LEG", "detail": "" },
+    { "name": "R5-R8 · REPEAT R1 → R4", "detail": "" }
    ],
-   "noteGreen": "Log stations cleared at 24:00 and the station where the hill leg started to win.",
-   "text": "★ Z PRESS — sit on the floor, legs straight and wide, press from the rack with nothing behind you. ★ SPLIT-STANCE ROW — one foot forward, bell on the rear-leg side, row to the hip and hold. ★ BODY SAW — on the forearms, feet in socks on the hard floor, push the whole body back with the elbows, pull it back in. ★ HILL LEG — short steps, quick feet, hands off the rails."
+   "noteGreen": "Log rounds made on the clock (8 = target), your shortest rest, and RPE.",
+   "text": "★ COSSACK — wide stance, sit all the way onto one heel, other leg straight, toes up. ★ SINGLE-LEG HIP THRUST — shoulders on the couch, one foot down, other knee to chest, drive the hips up. ★ BULGARIAN — rear foot on the couch or a stair, bell in the hand opposite the front leg. ★ RUN LEG — belt is already at 7.5; straddle the rails, step on, quick feet."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE SAW · 5 MIN · 3 ROUNDS",
-   "meta": "35 lb · anti-rotation + anti-extension",
+   "title": "THE CRAWLSPACE · 6 MIN · 3 ROUNDS",
+   "meta": "50 lb · anti-lateral-flexion + flexion + locomotion",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "Half-kneeling chop 35 lb ×8/side", "detail": "high to low, across the body" },
-    { "name": "Kneeling cross-body halo 35 lb ×8/side", "detail": "" },
-    { "name": "Body saw ×10", "detail": "" }
+    { "name": "V-up ×12", "detail": "" },
+    { "name": "Standing side bend 50 lb ×10/side", "detail": "bell in one hand, slow" },
+    { "name": "Bear crawl 10 yd out + 10 yd back", "detail": "knees an inch off the floor" }
    ],
    "text": ""
   },
@@ -57,16 +56,16 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Doorway pec stretch · 45s/side", "detail": "" },
-    { "name": "Thread the needle · 45s/side", "detail": "" },
+    { "name": "Couch stretch · 45s/side", "detail": "" },
+    { "name": "Deep squat hold · 60s", "detail": "" },
     { "name": "Belt 3.0 mph @ 0% · 1 min", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "stations cleared in 24 min",
-  "emomGreen": "10 (2 laps) · stretch 12",
-  "emomYellow": "8"
+  "emomUnit": "rounds made on the 3:00 clock",
+  "emomGreen": "8",
+  "emomYellow": "6"
  }
 }

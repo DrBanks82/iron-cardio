@@ -1,6 +1,6 @@
 {
- "date": "2026-09-05",
- "weekday": "SATURDAY · TODAY",
+ "date": "2026-09-06",
+ "weekday": "SUNDAY · TODAY",
  "title": "THE PISTON · SQUAT CLOCK",
  "vibe": "45 min · green · hard · leg stations, flat legs, every 3:00 for 8 rounds",
  "why": "Upper two of the last three days, so today is all squat pattern (quads last loaded 08-26). Same run-interleaved arc, new clock: every 3:00 you lift, run, and bank whatever rest is left.",
@@ -13,10 +13,22 @@
    "meta": "Moves Method Day B · ankles + knees + hips",
    "format": "one pass",
    "items": [
-    { "name": "Shoulder dislocates ×10 · toe squats 30s", "detail": "" },
-    { "name": "Ankle rolls in the squat ×10/side · knee drives ×10/side", "detail": "" },
-    { "name": "Single-leg balance 20s/side · side step-ups ×8/side", "detail": "on the stair" },
-    { "name": "Belt 5.5 mph @ 0% · 2 min", "detail": "then set it to 7.5, it stays there all block" }
+    {
+     "name": "Shoulder dislocates ×10 · toe squats 30s",
+     "detail": ""
+    },
+    {
+     "name": "Ankle rolls in the squat ×10/side · knee drives ×10/side",
+     "detail": ""
+    },
+    {
+     "name": "Single-leg balance 20s/side · side step-ups ×8/side",
+     "detail": "on the stair"
+    },
+    {
+     "name": "Belt 5.5 mph @ 0% · 2 min",
+     "detail": "then set it to 7.5, it stays there all block"
+    }
    ],
    "text": ""
   },
@@ -28,11 +40,26 @@
    "format": "EVERY 3:00 · station, then RUN LEG, rest until the next 3:00 · count rounds made on the clock",
    "workRest": "Every round exits onto the belt: RUN 0.20 mi @ 7.5 / 0%. Belt stays at 7.5 the whole 24 min. Rest = whatever is left before the next 3:00.",
    "items": [
-    { "name": "R1 · Double front squat 2×40 lb ×6 + swing 40 lb ×12 → RUN LEG", "detail": "" },
-    { "name": "R2 · Front-rack split squat 2×40 lb ×6/side + Cossack squat 35 lb ×5/side → RUN LEG", "detail": "" },
-    { "name": "R3 · Front-rack reverse lunge 2×40 lb ×5/side + single-leg hip thrust ×10/side → RUN LEG", "detail": "" },
-    { "name": "R4 · Bulgarian split squat 50 lb ×8/side + swing 40 lb ×15 → RUN LEG", "detail": "" },
-    { "name": "R5-R8 · REPEAT R1 → R4", "detail": "" }
+    {
+     "name": "R1 · Double front squat 2×40 lb ×6 + swing 40 lb ×12 → RUN LEG",
+     "detail": ""
+    },
+    {
+     "name": "R2 · Front-rack split squat 2×40 lb ×6/side + Cossack squat 35 lb ×5/side → RUN LEG",
+     "detail": ""
+    },
+    {
+     "name": "R3 · Front-rack reverse lunge 2×40 lb ×5/side + single-leg hip thrust ×10/side → RUN LEG",
+     "detail": ""
+    },
+    {
+     "name": "R4 · Bulgarian split squat 50 lb ×8/side + swing 40 lb ×15 → RUN LEG",
+     "detail": ""
+    },
+    {
+     "name": "R5-R8 · REPEAT R1 → R4",
+     "detail": ""
+    }
    ],
    "noteGreen": "Log rounds made on the clock (8 = target), your shortest rest, and RPE.",
    "text": "★ COSSACK — wide stance, sit all the way onto one heel, other leg straight, toes up. ★ SINGLE-LEG HIP THRUST — shoulders on the couch, one foot down, other knee to chest, drive the hips up. ★ BULGARIAN — rear foot on the couch or a stair, bell in the hand opposite the front leg. ★ RUN LEG — belt is already at 7.5; straddle the rails, step on, quick feet."
@@ -44,9 +71,18 @@
    "meta": "50 lb · anti-lateral-flexion + flexion + locomotion",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "V-up ×12", "detail": "" },
-    { "name": "Standing side bend 50 lb ×10/side", "detail": "bell in one hand, slow" },
-    { "name": "Bear crawl 10 yd out + 10 yd back", "detail": "knees an inch off the floor" }
+    {
+     "name": "V-up ×12",
+     "detail": ""
+    },
+    {
+     "name": "Standing side bend 50 lb ×10/side",
+     "detail": "bell in one hand, slow"
+    },
+    {
+     "name": "Bear crawl 10 yd out + 10 yd back",
+     "detail": "knees an inch off the floor"
+    }
    ],
    "text": ""
   },
@@ -56,9 +92,18 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Couch stretch · 45s/side", "detail": "" },
-    { "name": "Deep squat hold · 60s", "detail": "" },
-    { "name": "Belt 3.0 mph @ 0% · 1 min", "detail": "" }
+    {
+     "name": "Couch stretch · 45s/side",
+     "detail": ""
+    },
+    {
+     "name": "Deep squat hold · 60s",
+     "detail": ""
+    },
+    {
+     "name": "Belt 3.0 mph @ 0% · 1 min",
+     "detail": ""
+    }
    ],
    "text": ""
   }

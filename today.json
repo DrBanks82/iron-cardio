@@ -1,88 +1,53 @@
 {
- "date": "2026-09-06",
- "weekday": "SUNDAY · TODAY",
- "title": "THE PISTON · SQUAT CLOCK",
- "vibe": "45 min · green · hard · leg stations, flat legs, every 3:00 for 8 rounds",
- "why": "Upper two of the last three days, so today is all squat pattern (quads last loaded 08-26). Same run-interleaved arc, new clock: every 3:00 you lift, run, and bank whatever rest is left.",
+ "date": "2026-09-07",
+ "weekday": "MONDAY · TODAY",
+ "title": "THE DESCENT · DOWNHILL LAPS",
+ "vibe": "45 min · green · hard · 5 upper stations, 3 laps, the hill drops and the belt speeds up every lap",
+ "why": "Quads are sore from the squat clock, so today is shoulders, arms and midline and the legs only run. Same one-clock arc, new run axis: each lap the grade comes down and the speed goes up.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B · ankles + knees + hips",
+   "meta": "Moves Method Day A · shoulders + spine, hips for the sore legs",
    "format": "one pass",
    "items": [
-    {
-     "name": "Shoulder dislocates ×10 · toe squats 30s",
-     "detail": ""
-    },
-    {
-     "name": "Ankle rolls in the squat ×10/side · knee drives ×10/side",
-     "detail": ""
-    },
-    {
-     "name": "Single-leg balance 20s/side · side step-ups ×8/side",
-     "detail": "on the stair"
-    },
-    {
-     "name": "Belt 5.5 mph @ 0% · 2 min",
-     "detail": "then set it to 7.5, it stays there all block"
-    }
+    {"name": "Shoulder dislocates ×10 · thoracic rotations ×8/side", "detail": ""},
+    {"name": "Jefferson curl ×6 · hamstring walkouts ×6", "detail": "slow"},
+    {"name": "Active pigeon 30s/side · wrist rocks ×10", "detail": ""},
+    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": "then set 6.5 @ 8% for lap 1"}
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE PISTON · 24 MIN · E3MOM",
-   "meta": "8 ROUNDS · EVERY 3:00 · 4 STATIONS × 2 · 2×40 lb · 50 lb · 35 lb",
-   "format": "EVERY 3:00 · station, then RUN LEG, rest until the next 3:00 · count rounds made on the clock",
-   "workRest": "Every round exits onto the belt: RUN 0.20 mi @ 7.5 / 0%. Belt stays at 7.5 the whole 24 min. Rest = whatever is left before the next 3:00.",
+   "title": "THE DESCENT · 24 MIN · FOR TIME",
+   "meta": "3 LAPS · 5 STATIONS · 15 RUN LEGS · 2×40 lb · 50 lb · 35 lb · cap 26:00",
+   "format": "FOR TIME · station, then RUN LEG, next station · no rest stations · count laps finished, then time",
+   "workRest": "Every station exits onto the belt for 0.10 mi. LAP 1 legs @ 6.5 / 8%. LAP 2 legs @ 7.5 / 4%. LAP 3 legs @ 8.5 / 0%. Set the belt at the start of each lap.",
    "items": [
-    {
-     "name": "R1 · Double front squat 2×40 lb ×6 + swing 40 lb ×12 → RUN LEG",
-     "detail": ""
-    },
-    {
-     "name": "R2 · Front-rack split squat 2×40 lb ×6/side + Cossack squat 35 lb ×5/side → RUN LEG",
-     "detail": ""
-    },
-    {
-     "name": "R3 · Front-rack reverse lunge 2×40 lb ×5/side + single-leg hip thrust ×10/side → RUN LEG",
-     "detail": ""
-    },
-    {
-     "name": "R4 · Bulgarian split squat 50 lb ×8/side + swing 40 lb ×15 → RUN LEG",
-     "detail": ""
-    },
-    {
-     "name": "R5-R8 · REPEAT R1 → R4",
-     "detail": ""
-    }
+    {"name": "S1 · Double clean + jerk 2×40 lb ×6 → RUN LEG", "detail": ""},
+    {"name": "S2 · Bench dips ×15 → RUN LEG", "detail": "hands on the couch or stair edge"},
+    {"name": "S3 · Double upright row 2×40 lb ×10 → RUN LEG", "detail": ""},
+    {"name": "S4 · Pullover 50 lb ×12 → RUN LEG", "detail": "lying, slow behind the head"},
+    {"name": "S5 · Overhead tricep extension 35 lb ×12 + curl 50 lb ×10 → RUN LEG", "detail": ""},
+    {"name": "LAPS 2 + 3 · REPEAT S1 → S5, belt flatter and faster", "detail": ""}
    ],
-   "noteGreen": "Log rounds made on the clock (8 = target), your shortest rest, and RPE.",
-   "text": "★ COSSACK — wide stance, sit all the way onto one heel, other leg straight, toes up. ★ SINGLE-LEG HIP THRUST — shoulders on the couch, one foot down, other knee to chest, drive the hips up. ★ BULGARIAN — rear foot on the couch or a stair, bell in the hand opposite the front leg. ★ RUN LEG — belt is already at 7.5; straddle the rails, step on, quick feet."
+   "noteGreen": "Log laps finished, finish time, RPE, and whether 8.5 flat on lap 3 was the right top speed.",
+   "text": "★ JERK — one clean to the rack, then dip, drive, dip under, stand; knees bent when the bells lock out. ★ UPRIGHT ROW — bells to the sternum, elbows lead, no lean back. ★ TRICEP EXTENSION — one bell, both hands on the horns, elbows tight to the ears. ★ RUN LEG — straddle the rails, step on moving, quick feet on the hill."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE CRAWLSPACE · 6 MIN · 3 ROUNDS",
-   "meta": "50 lb · anti-lateral-flexion + flexion + locomotion",
+   "title": "THE BASEMENT · 6 MIN · 3 ROUNDS",
+   "meta": "35 lb · anti-extension + flexion + rotation",
    "format": "3 rounds, straight through",
    "items": [
-    {
-     "name": "V-up ×12",
-     "detail": ""
-    },
-    {
-     "name": "Standing side bend 50 lb ×10/side",
-     "detail": "bell in one hand, slow"
-    },
-    {
-     "name": "Bear crawl 10 yd out + 10 yd back",
-     "detail": "knees an inch off the floor"
-    }
+    {"name": "Inchworm walkout ×8", "detail": "hands walk out long, walk back"},
+    {"name": "Lying leg raise ×15", "detail": "3-count lower"},
+    {"name": "Around the world 35 lb ×10/direction", "detail": "standing, bell circles the hips"}
    ],
    "text": ""
   },
@@ -92,25 +57,16 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    {
-     "name": "Couch stretch · 45s/side",
-     "detail": ""
-    },
-    {
-     "name": "Deep squat hold · 60s",
-     "detail": ""
-    },
-    {
-     "name": "Belt 3.0 mph @ 0% · 1 min",
-     "detail": ""
-    }
+    {"name": "Doorway pec stretch · 45s/side", "detail": ""},
+    {"name": "Lat stretch on the rail · 45s/side", "detail": ""},
+    {"name": "Belt 3.0 mph @ 0% · 1 min", "detail": ""}
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "rounds made on the 3:00 clock",
-  "emomGreen": "8",
-  "emomYellow": "6"
+  "emomUnit": "laps finished",
+  "emomGreen": "3",
+  "emomYellow": "2"
  }
 }

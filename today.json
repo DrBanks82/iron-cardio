@@ -1,53 +1,88 @@
 {
- "date": "2026-09-07",
- "weekday": "MONDAY · TODAY",
- "title": "THE DESCENT · DOWNHILL LAPS",
- "vibe": "45 min · green · hard · 5 upper stations, 3 laps, the hill drops and the belt speeds up every lap",
- "why": "Quads are sore from the squat clock, so today is shoulders, arms and midline and the legs only run. Same one-clock arc, new run axis: each lap the grade comes down and the speed goes up.",
+ "date": "2026-09-08",
+ "weekday": "TUESDAY · TODAY",
+ "title": "THE DESCENT II · HYROX CHIPPER",
+ "vibe": "45 min · green · hard · 5 big stations, 5 run legs, the hill drops and the belt speeds up every leg",
+ "why": "Fresh legs after two days off, so yesterday's unspent upper work gets fused with a HYROX chipper: full body, high reps, one clock. Every station exits onto a 0.25 mi leg and the grade comes down while the speed goes up.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A · shoulders + spine, hips for the sore legs",
+   "meta": "Moves Method Day C · flow, ankles for the jumps",
    "format": "one pass",
    "items": [
-    {"name": "Shoulder dislocates ×10 · thoracic rotations ×8/side", "detail": ""},
-    {"name": "Jefferson curl ×6 · hamstring walkouts ×6", "detail": "slow"},
-    {"name": "Active pigeon 30s/side · wrist rocks ×10", "detail": ""},
-    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": "then set 6.5 @ 8% for lap 1"}
+    {
+     "name": "Rock-backs ×10 · bear-hold to down-dog ×8",
+     "detail": ""
+    },
+    {
+     "name": "Rolling (egg roll, segmental) ×4/side · cross-crawl ×20",
+     "detail": ""
+    },
+    {
+     "name": "Ankle rolls in the squat ×10/side · toe squats 30s",
+     "detail": ""
+    },
+    {
+     "name": "Belt 5.5 mph @ 0% · 2 min",
+     "detail": "then set 6.5 @ 8% for leg 1"
+    }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE DESCENT · 24 MIN · FOR TIME",
-   "meta": "3 LAPS · 5 STATIONS · 15 RUN LEGS · 2×40 lb · 50 lb · 35 lb · cap 26:00",
-   "format": "FOR TIME · station, then RUN LEG, next station · no rest stations · count laps finished, then time",
-   "workRest": "Every station exits onto the belt for 0.10 mi. LAP 1 legs @ 6.5 / 8%. LAP 2 legs @ 7.5 / 4%. LAP 3 legs @ 8.5 / 0%. Set the belt at the start of each lap.",
+   "title": "THE DESCENT II · 26 MIN · FOR TIME",
+   "meta": "ONE PASS · 5 STATIONS · 5 RUN LEGS · 2×40 lb · 50 lb · cap 28:00",
+   "format": "FOR TIME · chip the station, then RUN LEG, next station · rest only to keep form · count stations cleared, then time",
+   "workRest": "Every station exits onto the belt for 0.25 mi. LEG 1 @ 6.5 / 8%. LEG 2 @ 7.0 / 6%. LEG 3 @ 7.5 / 4%. LEG 4 @ 8.0 / 2%. LEG 5 @ 8.5 / 0%. Set the next leg while you walk to the bells.",
    "items": [
-    {"name": "S1 · Double clean + jerk 2×40 lb ×6 → RUN LEG", "detail": ""},
-    {"name": "S2 · Bench dips ×15 → RUN LEG", "detail": "hands on the couch or stair edge"},
-    {"name": "S3 · Double upright row 2×40 lb ×10 → RUN LEG", "detail": ""},
-    {"name": "S4 · Pullover 50 lb ×12 → RUN LEG", "detail": "lying, slow behind the head"},
-    {"name": "S5 · Overhead tricep extension 35 lb ×12 + curl 50 lb ×10 → RUN LEG", "detail": ""},
-    {"name": "LAPS 2 + 3 · REPEAT S1 → S5, belt flatter and faster", "detail": ""}
+    {
+     "name": "S1 · Double thruster 2×40 lb ×30 → RUN LEG 1",
+     "detail": "hip crease below the knee every rep"
+    },
+    {
+     "name": "S2 · Renegade row 2×40 lb ×40 (20/side) → RUN LEG 2",
+     "detail": "feet wide, hips still"
+    },
+    {
+     "name": "S3 · Burpee broad jump ×25 → RUN LEG 3",
+     "detail": "chest to the floor, jump forward, turn at the wall"
+    },
+    {
+     "name": "S4 · Double clean + jerk 2×40 lb ×20 → RUN LEG 4",
+     "detail": ""
+    },
+    {
+     "name": "S5 · Bench dips ×30 + pullover 50 lb ×20 → RUN LEG 5",
+     "detail": "couch edge · lying, slow behind the head"
+    }
    ],
-   "noteGreen": "Log laps finished, finish time, RPE, and whether 8.5 flat on lap 3 was the right top speed.",
-   "text": "★ JERK — one clean to the rack, then dip, drive, dip under, stand; knees bent when the bells lock out. ★ UPRIGHT ROW — bells to the sternum, elbows lead, no lean back. ★ TRICEP EXTENSION — one bell, both hands on the horns, elbows tight to the ears. ★ RUN LEG — straddle the rails, step on moving, quick feet on the hill."
+   "noteGreen": "Log stations cleared, finish time, RPE, and whether 8.5 flat was the right final leg.",
+   "text": "★ THRUSTER — bells in the rack, full squat, stand and drive the bells overhead in one motion. ★ JERK — dip, drive, dip under, stand; knees bent when the bells lock out. ★ BURPEE BROAD JUMP — land soft, knees over toes. ★ RUN LEG — step on moving, quick feet on the hill, open the stride as it flattens."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE BASEMENT · 6 MIN · 3 ROUNDS",
-   "meta": "35 lb · anti-extension + flexion + rotation",
+   "title": "THE CELLAR · 6 MIN · 3 ROUNDS",
+   "meta": "35 lb · anti-extension + anti-rotation",
    "format": "3 rounds, straight through",
    "items": [
-    {"name": "Inchworm walkout ×8", "detail": "hands walk out long, walk back"},
-    {"name": "Lying leg raise ×15", "detail": "3-count lower"},
-    {"name": "Around the world 35 lb ×10/direction", "detail": "standing, bell circles the hips"}
+    {
+     "name": "Dead bug 35 lb ×10/side",
+     "detail": "bell held over the chest, low back down"
+    },
+    {
+     "name": "Bell drag-through 35 lb ×16",
+     "detail": "hands and toes, hips still"
+    },
+    {
+     "name": "Half-kneeling chop 35 lb ×10/side",
+     "detail": ""
+    }
    ],
    "text": ""
   },
@@ -57,16 +92,25 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    {"name": "Doorway pec stretch · 45s/side", "detail": ""},
-    {"name": "Lat stretch on the rail · 45s/side", "detail": ""},
-    {"name": "Belt 3.0 mph @ 0% · 1 min", "detail": ""}
+    {
+     "name": "Couch stretch · 45s/side",
+     "detail": ""
+    },
+    {
+     "name": "Doorway pec stretch · 45s/side",
+     "detail": ""
+    },
+    {
+     "name": "Belt 3.0 mph @ 0% · 1 min",
+     "detail": ""
+    }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "laps finished",
-  "emomGreen": "3",
-  "emomYellow": "2"
+  "emomUnit": "stations cleared",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

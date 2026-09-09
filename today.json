@@ -1,33 +1,37 @@
 {
- "date": "2026-09-08",
- "weekday": "TUESDAY · TODAY",
- "title": "THE DESCENT II · HYROX CHIPPER",
- "vibe": "45 min · green · hard · 5 big stations, 5 run legs, the hill drops and the belt speeds up every leg",
- "why": "Fresh legs after two days off, so yesterday's unspent upper work gets fused with a HYROX chipper: full body, high reps, one clock. Every station exits onto a 0.25 mi leg and the grade comes down while the speed goes up.",
+ "date": "2026-09-09",
+ "weekday": "WEDNESDAY · TODAY",
+ "title": "THE FIRE TEAM · TABATA GAUNTLET",
+ "vibe": "45 min · green · hard · 5 Tabata posts, 5 sprint legs, the belt gets faster every leg",
+ "why": "Two passes of yesterday's chipper on a green day means today writes higher: five 4-minute Tabata posts, each exiting onto a 0.25 mi leg that speeds up every time. Snatch and get-up carry the bell work, Army-style bodyweight fills the gaps.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day C · flow, ankles for the jumps",
+   "title": "WARM-UP · 5 MIN · ONE PASS",
+   "meta": "Moves Method Day B · ankles, knees, shoulders for the snatch",
    "format": "one pass",
    "items": [
     {
-     "name": "Rock-backs ×10 · bear-hold to down-dog ×8",
+     "name": "Shoulder protocol ×20 · shoulder extensions ×10",
      "detail": ""
     },
     {
-     "name": "Rolling (egg roll, segmental) ×4/side · cross-crawl ×20",
+     "name": "Toe squats 30s · ankle rolls in the squat ×10/side",
      "detail": ""
     },
     {
-     "name": "Ankle rolls in the squat ×10/side · toe squats 30s",
+     "name": "Single-leg balance 20s/side · knee drives ×10/side",
      "detail": ""
     },
     {
-     "name": "Belt 5.5 mph @ 0% · 2 min",
-     "detail": "then set 6.5 @ 8% for leg 1"
+     "name": "Side step-ups ×8/side · 35 lb snatch ×5/side easy",
+     "detail": ""
+    },
+    {
+     "name": "Belt 5.5 mph @ 0% · 1 min",
+     "detail": "then set 7.5 @ 0% for leg 1"
     }
    ],
    "text": ""
@@ -35,52 +39,52 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE DESCENT II · 26 MIN · FOR TIME",
-   "meta": "ONE PASS · 5 STATIONS · 5 RUN LEGS · 2×40 lb · 50 lb · cap 28:00",
-   "format": "FOR TIME · chip the station, then RUN LEG, next station · rest only to keep form · count stations cleared, then time",
-   "workRest": "Every station exits onto the belt for 0.25 mi. LEG 1 @ 6.5 / 8%. LEG 2 @ 7.0 / 6%. LEG 3 @ 7.5 / 4%. LEG 4 @ 8.0 / 2%. LEG 5 @ 8.5 / 0%. Set the next leg while you walk to the bells.",
+   "title": "THE FIRE TEAM · 30 MIN · TABATA GAUNTLET",
+   "meta": "ONE PASS · 5 POSTS · 5 RUN LEGS · 35 lb · 2×40 lb · 50 lb · cap 32:00",
+   "format": "TABATA · each post = 8 × (20s work / 10s rest), alternate A and B every interval (4 of each) · leave the post, run the leg, walk to the next post · one clock the whole way",
+   "workRest": "Every post exits onto the belt for 0.25 mi at 0%. LEG 1 @ 7.5. LEG 2 @ 8.0. LEG 3 @ 8.5. LEG 4 @ 9.0. LEG 5 @ 9.0 / 2%. Set the next leg before you start the post.",
    "items": [
     {
-     "name": "S1 · Double thruster 2×40 lb ×30 → RUN LEG 1",
-     "detail": "hip crease below the knee every rep"
-    },
-    {
-     "name": "S2 · Renegade row 2×40 lb ×40 (20/side) → RUN LEG 2",
-     "detail": "feet wide, hips still"
-    },
-    {
-     "name": "S3 · Burpee broad jump ×25 → RUN LEG 3",
-     "detail": "chest to the floor, jump forward, turn at the wall"
-    },
-    {
-     "name": "S4 · Double clean + jerk 2×40 lb ×20 → RUN LEG 4",
+     "name": "P1 · A: Snatch 35 lb (switch hands each interval) · B: Hand-release push-up → RUN LEG 1",
      "detail": ""
     },
     {
-     "name": "S5 · Bench dips ×30 + pullover 50 lb ×20 → RUN LEG 5",
-     "detail": "couch edge · lying, slow behind the head"
+     "name": "P2 · A: Half get-up 35 lb (switch sides each interval) · B: Mountain climber → RUN LEG 2",
+     "detail": "get-up to the hand, back down, repeat"
+    },
+    {
+     "name": "P3 · A: Frog jump · B: Bear crawl forward / backward → RUN LEG 3",
+     "detail": ""
+    },
+    {
+     "name": "P4 · A: Bear-hug squat 50 lb · B: Lateral ski jump → RUN LEG 4",
+     "detail": ""
+    },
+    {
+     "name": "P5 · A: Double high pull 2×40 lb · B: Squat thrust → RUN LEG 5",
+     "detail": ""
     }
    ],
-   "noteGreen": "Log stations cleared, finish time, RPE, and whether 8.5 flat was the right final leg.",
-   "text": "★ THRUSTER — bells in the rack, full squat, stand and drive the bells overhead in one motion. ★ JERK — dip, drive, dip under, stand; knees bent when the bells lock out. ★ BURPEE BROAD JUMP — land soft, knees over toes. ★ RUN LEG — step on moving, quick feet on the hill, open the stride as it flattens."
+   "noteGreen": "Log reps per interval on P1 snatch and P5 high pull, finish time, RPE, and whether 9.0 held on legs 4 and 5.",
+   "text": "★ TABATA — 20s all-out, 10s off, 8 intervals = 4:00 per post; count reps, every interval is a max effort. ★ HALF GET-UP — roll to the elbow, post to the hand, hips stay down, reverse. ★ FROG JUMP — deep squat, hands touch the floor, jump forward, turn at the wall. ★ BEAR-HUG SQUAT — dumbbell hugged vertical to the chest, full depth. ★ SQUAT THRUST — hands down, feet back to the top of a push-up, feet in, stand; no push-up, no jump. ★ RUN LEG — step on moving, quick feet, cadence up as the belt speeds up."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE CELLAR · 6 MIN · 3 ROUNDS",
+   "title": "THE FOXHOLE · 6 MIN · 3 ROUNDS",
    "meta": "35 lb · anti-extension + anti-rotation",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Dead bug 35 lb ×10/side",
-     "detail": "bell held over the chest, low back down"
+     "name": "Flutter kick ×30 (15/leg)",
+     "detail": "low back down, feet 6 in off the floor"
     },
     {
-     "name": "Bell drag-through 35 lb ×16",
-     "detail": "hands and toes, hips still"
+     "name": "Bird dog 3-count hold ×8/side",
+     "detail": ""
     },
     {
-     "name": "Half-kneeling chop 35 lb ×10/side",
+     "name": "Tall-kneeling halo 35 lb ×8/direction",
      "detail": ""
     }
    ],
@@ -93,11 +97,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Couch stretch · 45s/side",
+     "name": "Deep squat hold · 60s",
      "detail": ""
     },
     {
-     "name": "Doorway pec stretch · 45s/side",
+     "name": "Calf stretch on the belt edge · 30s/side",
      "detail": ""
     },
     {
@@ -109,7 +113,7 @@
   }
  ],
  "timer": {
-  "emomUnit": "stations cleared",
+  "emomUnit": "posts cleared",
   "emomGreen": "5",
   "emomYellow": "4"
  }

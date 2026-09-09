@@ -1,9 +1,9 @@
 {
  "date": "2026-09-09",
  "weekday": "WEDNESDAY · TODAY",
- "title": "THE FIRE TEAM · TABATA GAUNTLET",
- "vibe": "45 min · green · hard · 5 Tabata posts, 5 sprint legs, the belt gets faster every leg",
- "why": "Two passes of yesterday's chipper on a green day means today writes higher: five 4-minute Tabata posts, each exiting onto a 0.25 mi leg that speeds up every time. Snatch and get-up carry the bell work, Army-style bodyweight fills the gaps.",
+ "title": "THE CLIMB · LADDER LAPS",
+ "vibe": "45 min · green · hard · 3 laps, 5 loaded stations, reps climb every lap, legs get faster every lap",
+ "why": "Yesterday was two passes of a chipper, so today is an ascending ladder: 3 laps of 5 loaded stations, reps go 8, 12, 16 and every station exits onto a 0.15 mi leg. Snatch, high pull, hinge, squat and press all loaded, running on flooded legs.",
  "estMin": 45,
  "blocks": [
   {
@@ -26,12 +26,12 @@
      "detail": ""
     },
     {
-     "name": "Side step-ups ×8/side · 35 lb snatch ×5/side easy",
+     "name": "Side step-ups ×8/side · 50 lb DB snatch ×3/side easy",
      "detail": ""
     },
     {
      "name": "Belt 5.5 mph @ 0% · 1 min",
-     "detail": "then set 7.5 @ 0% for leg 1"
+     "detail": "then set 7.5 @ 0% for lap 1"
     }
    ],
    "text": ""
@@ -39,34 +39,34 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE FIRE TEAM · 30 MIN · TABATA GAUNTLET",
-   "meta": "ONE PASS · 5 POSTS · 5 RUN LEGS · 35 lb · 2×40 lb · 50 lb · cap 32:00",
-   "format": "TABATA · each post = 8 × (20s work / 10s rest), alternate A and B every interval (4 of each) · leave the post, run the leg, walk to the next post · one clock the whole way",
-   "workRest": "Every post exits onto the belt for 0.25 mi at 0%. LEG 1 @ 7.5. LEG 2 @ 8.0. LEG 3 @ 8.5. LEG 4 @ 9.0. LEG 5 @ 9.0 / 2%. Set the next leg before you start the post.",
+   "title": "THE CLIMB · 30 MIN · ASCENDING LADDER",
+   "meta": "3 LAPS · 5 STATIONS · 15 RUN LEGS · 2×40 lb · 50 lb · cap 30:00",
+   "format": "LADDER · lap 1 = 8 reps per station · lap 2 = 12 · lap 3 = 16 (unilateral: per side is half) · every station exits onto a 0.15 mi leg · one clock · count laps, then time",
+   "workRest": "Legs are 0.15 mi flat. LAP 1 legs @ 7.5. LAP 2 legs @ 8.0. LAP 3 legs @ 8.5. Set the lap speed once, leave it.",
    "items": [
     {
-     "name": "P1 · A: Snatch 35 lb (switch hands each interval) · B: Hand-release push-up → RUN LEG 1",
+     "name": "S1 · Double high pull 2×40 lb ×8 / 12 / 16 → RUN LEG",
      "detail": ""
     },
     {
-     "name": "P2 · A: Half get-up 35 lb (switch sides each interval) · B: Mountain climber → RUN LEG 2",
-     "detail": "get-up to the hand, back down, repeat"
+     "name": "S2 · Bear-hug squat 50 lb ×8 / 12 / 16 → RUN LEG",
+     "detail": "dumbbell hugged vertical to the chest, full depth"
     },
     {
-     "name": "P3 · A: Frog jump · B: Bear crawl forward / backward → RUN LEG 3",
+     "name": "S3 · DB snatch 50 lb ×8 / 12 / 16 (half per arm) → RUN LEG",
      "detail": ""
     },
     {
-     "name": "P4 · A: Bear-hug squat 50 lb · B: Lateral ski jump → RUN LEG 4",
-     "detail": ""
+     "name": "S4 · Kickstand RDL 50 lb ×8 / 12 / 16 (half per leg) → RUN LEG",
+     "detail": "back toe down, bell in the opposite hand"
     },
     {
-     "name": "P5 · A: Double high pull 2×40 lb · B: Squat thrust → RUN LEG 5",
+     "name": "S5 · Double floor press 2×40 lb ×8 / 12 / 16 → RUN LEG",
      "detail": ""
     }
    ],
-   "noteGreen": "Log reps per interval on P1 snatch and P5 high pull, finish time, RPE, and whether 9.0 held on legs 4 and 5.",
-   "text": "★ TABATA — 20s all-out, 10s off, 8 intervals = 4:00 per post; count reps, every interval is a max effort. ★ HALF GET-UP — roll to the elbow, post to the hand, hips stay down, reverse. ★ FROG JUMP — deep squat, hands touch the floor, jump forward, turn at the wall. ★ BEAR-HUG SQUAT — dumbbell hugged vertical to the chest, full depth. ★ SQUAT THRUST — hands down, feet back to the top of a push-up, feet in, stand; no push-up, no jump. ★ RUN LEG — step on moving, quick feet, cadence up as the belt speeds up."
+   "noteGreen": "Log laps finished + time, RPE, and whether 8.5 held for all five lap-3 legs.",
+   "text": "★ HIGH PULL — hike, snap the hips, elbows high and wide to chest height, bells back down the same path. ★ KICKSTAND RDL — 80% on the front leg, hinge to the shin, hips square. ★ FLOOR PRESS — elbows touch the floor every rep. ★ RUN LEG — step on moving, quick feet, find the stride by the end of the leg."
   },
   {
    "id": "core",
@@ -113,8 +113,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "posts cleared",
-  "emomGreen": "5",
-  "emomYellow": "4"
+  "emomUnit": "laps finished",
+  "emomGreen": "3",
+  "emomYellow": "2"
  }
 }

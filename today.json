@@ -1,16 +1,16 @@
 {
  "date": "2026-09-10",
  "weekday": "THURSDAY · TODAY",
- "title": "THE CLIMB II · RUN IT BACK",
- "vibe": "45 min · green · hard · same 3 laps, same 5 loaded stations, 8 / 12 / 16, legs 7.5 → 8.5 · beat yesterday's clock",
- "why": "You called yesterday a smoker and asked to run it back, so the ladder is unchanged: 3 laps of 5 loaded stations, 8 / 12 / 16, every station onto a 0.15 mi leg. Only the finisher rotates.",
+ "title": "THE CLIMB II · NEW RUNGS",
+ "vibe": "45 min · green · hard · same ladder style, 5 new loaded stations, 8 / 12 / 16, legs 7.5 → 8.5",
+ "why": "Same style as yesterday by request: 3 laps of 5 loaded stations, reps 8 / 12 / 16, every station onto a 0.15 mi leg that gets faster each lap. Every station is new: double swing, front-rack lunge, push-up on the bells, gorilla row, weighted bridge.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 5 MIN · ONE PASS",
-   "meta": "Moves Method Day B · ankles, knees, shoulders for the snatch",
+   "meta": "Moves Method Day B · ankles, knees, hips for the lunge + swing",
    "format": "one pass",
    "items": [
     {
@@ -26,7 +26,7 @@
      "detail": ""
     },
     {
-     "name": "Side step-ups ×8/side · 50 lb DB snatch ×3/side easy",
+     "name": "Side step-ups ×8/side · two-hand swing 35 lb ×10 easy",
      "detail": ""
     },
     {
@@ -45,28 +45,28 @@
    "workRest": "Legs are 0.15 mi flat. LAP 1 legs @ 7.5. LAP 2 legs @ 8.0. LAP 3 legs @ 8.5. Set the lap speed once, leave it.",
    "items": [
     {
-     "name": "S1 · Double high pull 2×40 lb ×8 / 12 / 16 → RUN LEG",
+     "name": "S1 · Double swing 2×40 lb ×8 / 12 / 16 → RUN LEG",
      "detail": ""
     },
     {
-     "name": "S2 · Bear-hug squat 50 lb ×8 / 12 / 16 → RUN LEG",
-     "detail": "dumbbell hugged vertical to the chest, full depth"
-    },
-    {
-     "name": "S3 · DB snatch 50 lb ×8 / 12 / 16 (half per arm) → RUN LEG",
+     "name": "S2 · Front-rack reverse lunge 2×40 lb ×8 / 12 / 16 (half per leg) → RUN LEG",
      "detail": ""
     },
     {
-     "name": "S4 · Kickstand RDL 50 lb ×8 / 12 / 16 (half per leg) → RUN LEG",
-     "detail": "back toe down, bell in the opposite hand"
+     "name": "S3 · Push-up on the bells ×8 / 12 / 16 → RUN LEG",
+     "detail": "chest to the handles, full lockout"
     },
     {
-     "name": "S5 · Double floor press 2×40 lb ×8 / 12 / 16 → RUN LEG",
-     "detail": ""
+     "name": "S4 · Gorilla row 2×40 lb ×8 / 12 / 16 (half per arm) → RUN LEG",
+     "detail": "bells between the feet, hinge and hold, row one while the other stays down"
+    },
+    {
+     "name": "S5 · Weighted glute bridge 50 lb ×8 / 12 / 16 → RUN LEG",
+     "detail": "DB across the hips, 1-count squeeze at the top"
     }
    ],
-   "noteGreen": "Log finish time (goal: under yesterday), RPE, and whether 8.5 held for all five lap-3 legs.",
-   "text": "★ HIGH PULL — hike, snap the hips, elbows high and wide to chest height, bells back down the same path. ★ KICKSTAND RDL — 80% on the front leg, hinge to the shin, hips square. ★ FLOOR PRESS — elbows touch the floor every rep. ★ RUN LEG — step on moving, quick feet, find the stride by the end of the leg."
+   "noteGreen": "Log finish time, RPE, and whether 8.5 held for all five lap-3 legs.",
+   "text": "★ DOUBLE SWING — hike, snap, bells to chest height, stand tall at the top. ★ FRONT-RACK LUNGE — bells racked, elbows in, back knee kisses the floor. ★ GORILLA ROW — flat back the whole set, no rotation. ★ RUN LEG — step on moving, quick feet, find the stride by the end of the leg."
   },
   {
    "id": "core",
@@ -76,8 +76,8 @@
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Tall-kneeling Pallof press-out 35 lb ×8/side · 2-count hold",
-     "detail": "bell at the sternum, press straight out, do not let the hips turn"
+     "name": "Tall-kneeling Pallof hold-out 35 lb ×8/side · 2-count",
+     "detail": "bell at the sternum, push it straight out, hips stay square"
     },
     {
      "name": "Single-arm front-rack carry 40 lb · 40 yd/side",

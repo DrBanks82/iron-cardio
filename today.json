@@ -1,9 +1,9 @@
 {
- "date": "2026-09-09",
- "weekday": "WEDNESDAY · TODAY",
- "title": "THE CLIMB · LADDER LAPS",
- "vibe": "45 min · green · hard · 3 laps, 5 loaded stations, reps climb every lap, legs get faster every lap",
- "why": "Yesterday was two passes of a chipper, so today is an ascending ladder: 3 laps of 5 loaded stations, reps go 8, 12, 16 and every station exits onto a 0.15 mi leg. Snatch, high pull, hinge, squat and press all loaded, running on flooded legs.",
+ "date": "2026-09-10",
+ "weekday": "THURSDAY · TODAY",
+ "title": "THE CLIMB II · RUN IT BACK",
+ "vibe": "45 min · green · hard · same 3 laps, same 5 loaded stations, 8 / 12 / 16, legs 7.5 → 8.5 · beat yesterday's clock",
+ "why": "You called yesterday a smoker and asked to run it back, so the ladder is unchanged: 3 laps of 5 loaded stations, 8 / 12 / 16, every station onto a 0.15 mi leg. Only the finisher rotates.",
  "estMin": 45,
  "blocks": [
   {
@@ -39,7 +39,7 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE CLIMB · 30 MIN · ASCENDING LADDER",
+   "title": "THE CLIMB II · 30 MIN · ASCENDING LADDER",
    "meta": "3 LAPS · 5 STATIONS · 15 RUN LEGS · 2×40 lb · 50 lb · cap 30:00",
    "format": "LADDER · lap 1 = 8 reps per station · lap 2 = 12 · lap 3 = 16 (unilateral: per side is half) · every station exits onto a 0.15 mi leg · one clock · count laps, then time",
    "workRest": "Legs are 0.15 mi flat. LAP 1 legs @ 7.5. LAP 2 legs @ 8.0. LAP 3 legs @ 8.5. Set the lap speed once, leave it.",
@@ -65,27 +65,27 @@
      "detail": ""
     }
    ],
-   "noteGreen": "Log laps finished + time, RPE, and whether 8.5 held for all five lap-3 legs.",
+   "noteGreen": "Log finish time (goal: under yesterday), RPE, and whether 8.5 held for all five lap-3 legs.",
    "text": "★ HIGH PULL — hike, snap the hips, elbows high and wide to chest height, bells back down the same path. ★ KICKSTAND RDL — 80% on the front leg, hinge to the shin, hips square. ★ FLOOR PRESS — elbows touch the floor every rep. ★ RUN LEG — step on moving, quick feet, find the stride by the end of the leg."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE FOXHOLE · 6 MIN · 3 ROUNDS",
-   "meta": "35 lb · anti-extension + anti-rotation",
+   "title": "THE BUNKER · 6 MIN · 3 ROUNDS",
+   "meta": "35 lb · 40 lb · anti-rotation + carry + anti-extension",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Flutter kick ×30 (15/leg)",
-     "detail": "low back down, feet 6 in off the floor"
+     "name": "Tall-kneeling Pallof press-out 35 lb ×8/side · 2-count hold",
+     "detail": "bell at the sternum, press straight out, do not let the hips turn"
     },
     {
-     "name": "Bird dog 3-count hold ×8/side",
-     "detail": ""
+     "name": "Single-arm front-rack carry 40 lb · 40 yd/side",
+     "detail": "ribs down, forearm vertical, torso quiet"
     },
     {
-     "name": "Tall-kneeling halo 35 lb ×8/direction",
-     "detail": ""
+     "name": "KB dead bug 35 lb ×8/side",
+     "detail": "bell pressed over the sternum, low back down"
     }
    ],
    "text": ""

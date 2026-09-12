@@ -1,37 +1,37 @@
 {
- "date": "2026-09-11",
- "weekday": "FRIDAY · TODAY",
- "title": "THE FORGE · UNBROKEN CHAINS",
- "vibe": "50 min · green · hard · full body · 5 chains, bells never touch the floor mid-chain, every chain onto a hill leg",
- "why": "Full body by construction: every station is a CHAIN of 2-3 lifts run unbroken, so each lap hits hinge, squat, press, pull and ground. Three straight days of flat legs, so the run axis moves to grade — 6.0 mph, climbing 6% / 8% / 10% by lap.",
- "estMin": 50,
+ "date": "2026-09-12",
+ "weekday": "SATURDAY · TODAY",
+ "title": "THE TOWER · DESCENDING FLOORS",
+ "vibe": "45 min · green · hard · 5 floors, 300 reps, one clock, every floor exits onto a fartlek leg",
+ "why": "The Tower is your highest-rated session and it has been 22 days: one descending list, one clock, big pull and press volume. Legs only run today after four straight loaded-leg days, and the legs alternate float and surge.",
+ "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 7 MIN · ONE PASS",
-   "meta": "Moves Method Day A · shoulders + spine for the overhead chains",
+   "title": "WARM-UP · 6 MIN · ONE PASS",
+   "meta": "Moves Method Day C flow + shoulder and elbow prep",
    "format": "one pass",
    "items": [
     {
-     "name": "Shoulder dislocates ×15 · thoracic rotations ×8/side",
+     "name": "Rock-backs ×10 · cross-crawls ×20 · segmental rolls ×3/side",
+     "detail": "keep it moving, no pauses"
+    },
+    {
+     "name": "Bear crawl 10 yd out + back",
      "detail": ""
     },
     {
-     "name": "Jefferson curl ×8 · hamstring walkouts ×6",
+     "name": "Shoulder dislocates ×15 · scap push-ups ×12",
      "detail": ""
     },
     {
-     "name": "Active pigeon 30s/side · horse-stance squat hold 30s",
-     "detail": ""
-    },
-    {
-     "name": "Wrist rocks ×10 · empty-hand get-up ×1/side",
-     "detail": "rehearse the chain positions"
+     "name": "Elbow circles ×10/dir · empty-bell curl + press ×10",
+     "detail": "prime the elbows for the curl floors"
     },
     {
      "name": "Belt 5.5 mph @ 0% · 2 min",
-     "detail": "then set 6.0 @ 6% for lap 1"
+     "detail": "then set 6.5 for the first leg"
     }
    ],
    "text": ""
@@ -39,53 +39,57 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE FORGE · 30 MIN AMRAP",
-   "meta": "5 CHAIN STATIONS · TARGET 12 CHAINS · STRETCH 15 · 2×40 lb · 40 lb · 50 lb",
-   "format": "AMRAP 30:00 · each station is ONE unbroken chain · finish the chain, then run the leg · count chains finished",
-   "workRest": "Legs are 0.12 mi. LAP 1 (chains 1–5) 6.0 @ 6%. LAP 2 (chains 6–10) 6.0 @ 8%. LAP 3 (chains 11–15) 6.0 @ 10%. Set the grade once per lap.",
+   "title": "THE TOWER · CAP 28:00",
+   "meta": "5 FLOORS · 20 / 16 / 12 / 8 / 4 PER STATION · 300 REPS · 2×40 lb · 50 lb",
+   "format": "For time. At each floor run all 5 stations at that floor's number, then the leg, then drop a floor. Count floors descended.",
+   "workRest": "Legs are 0.20 mi. F20 → 6.5 · F16 → 8.5 · F12 → 6.5 · F8 → 8.5 · F4 → 9.0. Float, surge, float, surge, finish.",
    "items": [
     {
-     "name": "C1 · IRON CHAIN 2×40 — high pull ×5 → thruster ×5 → jerk ×5 → HILL LEG",
-     "detail": "bells stay in the hands all 15 reps"
+     "name": "T1 · SA cross-body row 50 lb — 20 / 16 / 12 / 8 / 4",
+     "detail": "half per side"
     },
     {
-     "name": "C2 · GROUND CHAIN 40 lb — get-up ×1/side → windmill ×4/side → HILL LEG",
-     "detail": "stand up out of the get-up straight into the windmill"
+     "name": "T2 · Double push press 2×40 — 20 / 16 / 12 / 8 / 4",
+     "detail": ""
     },
     {
-     "name": "C3 · DEVIL CHAIN 2×40 — devil press ×8 → HILL LEG",
-     "detail": "burpee to the bells, snap them overhead in one arc"
+     "name": "T3 · Double floor press 2×40 — 20 / 16 / 12 / 8 / 4",
+     "detail": ""
     },
     {
-     "name": "C4 · POWER CHAIN 2×40 → bodyweight — deadlift ×10 → squat jump ×10 → HILL LEG",
-     "detail": "drop the bells and jump immediately"
+     "name": "T4 · SA curl 50 lb — 20 / 16 / 12 / 8 / 4",
+     "detail": "half per side"
     },
     {
-     "name": "C5 · UPPER CHAIN 50 lb — pullover ×10 → rear delt fly ×10 → HILL LEG",
-     "detail": "on the floor, no rest between the two"
+     "name": "T5 · Double shrug 2×40 — 20 / 16 / 12 / 8 / 4",
+     "detail": "2-count squeeze at the top"
+    },
+    {
+     "name": "FARTLEK LEG · 0.20 mi — then drop a floor",
+     "detail": ""
     }
    ],
-   "noteGreen": "Log chains finished at 30:00, RPE, and which grade started winning.",
-   "text": "★ HIGH PULL — hinge, snap, elbows high and wide. ★ JERK — quick knee bend, drive, catch with locked elbows. ★ WINDMILL — back leg straight, eyes on the bell. ★ DEVIL PRESS — one continuous arc, no press-out. ★ HILL LEG — step on moving, short quick stride."
+   "noteGreen": "Log floors descended at 28:00, finish time if you get to the ground floor, RPE, and which station ate the clock.",
+   "text": "★ CROSS-BODY ROW — pull the bell across to the opposite hip, ribs down. ★ PUSH PRESS — quick knee bend, drive, lock out overhead. ★ SHRUG — straight up, squeeze, no rolling. ★ SURGE LEG — step on moving, short quick stride."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE VISE · 8 MIN · 3 ROUNDS",
-   "meta": "35 lb · anti-extension + anti-rotation",
+   "title": "THE ATTIC · 8 MIN · 3 ROUNDS",
+   "meta": "bodyweight · anti-extension + anti-lateral-flexion + compression",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Dragon flag negative ×5",
-     "detail": "3-count lower, low back glued down"
+     "name": "Hollow rock ×20",
+     "detail": "low back glued down"
     },
     {
-     "name": "Bell rollout 35 lb ×10",
-     "detail": "hands on the handle, roll out flat, ribs down"
+     "name": "Copenhagen plank ×20s/side",
+     "detail": "top foot on the bench, hips stacked and lifted"
     },
     {
-     "name": "Bear-position drag-through 35 lb ×12",
-     "detail": "knees hover, hips do not rotate"
+     "name": "L-sit hold on the bells ×20s",
+     "detail": "knees tucked is fine"
     }
    ],
    "text": ""
@@ -97,11 +101,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Couch stretch 45s/side",
+     "name": "Doorway pec stretch 45s/side",
      "detail": ""
     },
     {
-     "name": "Thread-the-needle 30s/side · deep squat hold 60s",
+     "name": "Thread-the-needle 30s/side · lat hang or wall lat stretch 45s/side",
      "detail": ""
     },
     {
@@ -113,8 +117,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "chains finished",
-  "emomGreen": "12",
-  "emomYellow": "9"
+  "emomUnit": "floors descended",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

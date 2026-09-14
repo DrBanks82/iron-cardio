@@ -1,54 +1,48 @@
 {
  "date": "2026-09-14",
  "weekday": "MONDAY · TODAY",
- "title": "REDLINE · EIGHT GEARS",
- "vibe": "45 min · green · intense · the run IS the session — 8 quarters, the belt climbs every rep",
- "why": "First running-primary day in the log: score is the highest gear you hold for a full 0.25 mi. One loaded burst between gears, so every quarter starts on compromised legs.",
+ "title": "THE ANVIL · HEAVY LAPS",
+ "vibe": "45 min · green · intense · 3 laps, 5 loaded stations, a run leg out of every one, legs get faster by lap",
+ "why": "Fixed heavy reps every lap, 249 reps + 2.25 mi, cap 30:00. Loaded gauntlet laps; nothing from yesterday's stations.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 8 MIN · ONE PASS",
-   "meta": "Moves Method Day A — spine / hams / hips + 2 strides",
+   "title": "WARM-UP · 6 MIN · ONE PASS",
+   "meta": "Moves Method Day A — spine / hams / hips",
    "format": "one pass",
    "items": [
     {"name": "Shoulder dislocates ×15 · thoracic rotations ×10/side", "detail": ""},
     {"name": "Jefferson curl ×8 · single-leg goodmorning ×10/side", "detail": ""},
-    {"name": "Hamstring walkout ×8 · active pigeon 45s/side", "detail": ""},
-    {"name": "Horse-stance squat ×10 · ankle rolls in a deep squat 30s/side", "detail": ""},
-    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": ""},
-    {"name": "2 × 0.05 mi @ 8.5 · walk 60s between", "detail": "open the stride, don't race it"}
+    {"name": "Hamstring walkout ×8 · active pigeon 30s/side", "detail": ""},
+    {"name": "Horse-stance squat ×10", "detail": ""},
+    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": ""}
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "REDLINE · 8 GEARS · 2.0 mi",
-   "meta": "8 RUN REPS · 0.25 mi EACH · 7 LOADED BURSTS · 121 REPS · 50 lb · 2×40 lb",
-   "format": "One clock. Run the quarter at the written speed, step off, do the burst unbroken, straight back on one notch faster. Score = the highest gear you hold for the full quarter.",
-   "workRest": "0.25 mi per gear at 0% grade. No rest beyond the burst.",
+   "title": "THE ANVIL · 3 LAPS · 5 STATIONS",
+   "meta": "3 LAPS · 83 REPS PER LAP · 249 REPS · 2.25 mi · 2×40 lb · 50 lb · CAP 30:00",
+   "format": "One clock. Station, then the run leg, then the next station. Same reps every lap; the legs get faster by lap.",
+   "workRest": "Run legs 0.15 mi flat: lap 1 @ 8.0 · lap 2 @ 8.5 · lap 3 @ 9.0. No rest beyond the walk to the bells.",
    "items": [
-    {"name": "GEAR 1 · RUN 0.25 mi @ 7.5", "detail": ""},
-    {"name": "Kickstand RDL 50 lb ×12/side", "detail": "back toe down for balance only"},
-    {"name": "GEAR 2 · RUN 0.25 mi @ 7.8", "detail": ""},
-    {"name": "Eccentric calf raise 50 lb ×20", "detail": "3-count down off a step"},
-    {"name": "GEAR 3 · RUN 0.25 mi @ 8.1", "detail": ""},
-    {"name": "Split squat 2×40 ×10/side", "detail": ""},
-    {"name": "GEAR 4 · RUN 0.25 mi @ 8.4", "detail": ""},
-    {"name": "Nordic hamstring negative ×6", "detail": "3-count lower, hands catch you"},
-    {"name": "GEAR 5 · RUN 0.25 mi @ 8.7", "detail": ""},
-    {"name": "Pogo hop ×30", "detail": "ankles only, fast off the floor"},
-    {"name": "GEAR 6 · RUN 0.25 mi @ 9.0", "detail": ""},
-    {"name": "Upright row 2×40 ×15", "detail": ""},
-    {"name": "GEAR 7 · RUN 0.25 mi @ 9.5", "detail": ""},
-    {"name": "Weighted glute bridge 50 lb ×20", "detail": "2-count at the top"},
-    {"name": "GEAR 8 · RUN 0.25 mi @ 10.0 — done", "detail": ""},
-    {"name": "STRETCH · GEAR 9 · 0.25 @ 10.5 · GEAR 10 · 0.25 @ 11.0", "detail": ""}
+    {"name": "A · Double thruster 2×40 ×12", "detail": ""},
+    {"name": "RUN 0.15 mi", "detail": ""},
+    {"name": "B · Gorilla row 2×40 ×10/side", "detail": ""},
+    {"name": "RUN 0.15 mi", "detail": ""},
+    {"name": "C · DB snatch 50 lb ×8/side", "detail": ""},
+    {"name": "RUN 0.15 mi", "detail": ""},
+    {"name": "D · Double deadlift 2×40 ×15", "detail": "2-count at the top"},
+    {"name": "RUN 0.15 mi", "detail": ""},
+    {"name": "E · Push-up on the bells ×20", "detail": "chest to the handles"},
+    {"name": "RUN 0.15 mi — lap done", "detail": ""},
+    {"name": "STRETCH · LAP 4 @ 9.5", "detail": ""}
    ],
-   "noteGreen": "Log the highest gear held, total time, RPE, and the first gear that felt like work.",
-   "text": "★ POGO — new: stiff ankles, minimal knee bend, fast off the floor. ★ ECCENTRIC CALF — the 3 seconds down IS the exercise. ★ Straddle the belt to change speed, don't stop it."
+   "noteGreen": "Log laps + finish time, RPE, which station ate the clock, whether 9.0 held on all five lap-3 legs.",
+   "text": ""
   },
   {
    "id": "core",
@@ -57,9 +51,9 @@
    "meta": "anti-rotation close · 35 lb",
    "format": "3 rounds, straight through",
    "items": [
-    {"name": "Pallof hold-out 35 lb ×8/side", "detail": "3-count hold at full reach"},
+    {"name": "Pallof hold-out 35 lb ×8/side", "detail": "3-count at full reach"},
     {"name": "Lying leg raise ×15", "detail": ""},
-    {"name": "Drag-through 35 lb ×16", "detail": "hands on the floor, drag the bell across"}
+    {"name": "Drag-through 35 lb ×16", "detail": ""}
    ],
    "text": ""
   },
@@ -71,14 +65,10 @@
    "items": [
     {"name": "Calf and soleus stretch 45s/side", "detail": ""},
     {"name": "Standing hamstring + figure-4 45s/side", "detail": ""},
-    {"name": "Belt 3.0 mph @ 0% · 2 min", "detail": ""}
+    {"name": "Belt 3.0 mph · 2 min", "detail": ""}
    ],
    "text": ""
   }
  ],
- "timer": {
-  "emomUnit": "gears held for the full quarter",
-  "emomGreen": "8",
-  "emomYellow": "6"
- }
+ "timer": {"emomUnit": "laps finished", "emomGreen": "3", "emomYellow": "2"}
 }

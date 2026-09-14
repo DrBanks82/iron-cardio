@@ -1,57 +1,65 @@
 {
- "date": "2026-09-13",
- "weekday": "SUNDAY · TODAY",
- "title": "THE FURNACE · TABATA LAPS",
- "vibe": "45 min · green · hard · 5 Tabata stations, 40 work intervals, a run leg out of every one",
- "why": "First Tabata in the log: 20 on / 10 off, eight intervals a station, score is your worst interval. Station 3 is a full four minutes of loaded midline, and legs are back under load after a run-only day.",
+ "date": "2026-09-14",
+ "weekday": "MONDAY · TODAY",
+ "title": "REDLINE · EIGHT GEARS",
+ "vibe": "45 min · green · intense · the run IS the session — 8 quarters, the belt climbs every rep",
+ "why": "First running-primary day in the log: score is the highest gear you hold for a full 0.25 mi. One loaded burst between gears, so every quarter starts on compromised legs.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B — shoulders / ankles / knees",
+   "title": "WARM-UP · 8 MIN · ONE PASS",
+   "meta": "Moves Method Day A — spine / hams / hips + 2 strides",
    "format": "one pass",
    "items": [
-    {"name": "Shoulder protocol 2×20 · shoulder extensions ×15", "detail": ""},
-    {"name": "Toe squat ×10 · ankle rolls in a deep squat 30s/side", "detail": ""},
-    {"name": "Single-leg balance 30s/side · knee drives ×10/side", "detail": ""},
-    {"name": "Side step-up ×10/side", "detail": ""},
-    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": ""}
+    {"name": "Shoulder dislocates ×15 · thoracic rotations ×10/side", "detail": ""},
+    {"name": "Jefferson curl ×8 · single-leg goodmorning ×10/side", "detail": ""},
+    {"name": "Hamstring walkout ×8 · active pigeon 45s/side", "detail": ""},
+    {"name": "Horse-stance squat ×10 · ankle rolls in a deep squat 30s/side", "detail": ""},
+    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": ""},
+    {"name": "2 × 0.05 mi @ 8.5 · walk 60s between", "detail": "open the stride, don't race it"}
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE FURNACE · 5 STATIONS · 40 WORK INTERVALS",
-   "meta": "5 TABATAS · 20s ON / 10s OFF × 8 EACH · 352 REPS · 1.0 mi · 50 lb · 2×40 lb · 35 lb",
-   "format": "One clock. Run a full Tabata at the station (8 intervals), then the run leg, then the next station. Score each station by your LOWEST interval.",
-   "workRest": "20s work / 10s rest × 8 = 4:00 per station. Run legs are 0.20 mi: 7.5 · 7.5 · 8.0 · 8.0 · 8.5.",
+   "title": "REDLINE · 8 GEARS · 2.0 mi",
+   "meta": "8 RUN REPS · 0.25 mi EACH · 7 LOADED BURSTS · 121 REPS · 50 lb · 2×40 lb",
+   "format": "One clock. Run the quarter at the written speed, step off, do the burst unbroken, straight back on one notch faster. Score = the highest gear you hold for the full quarter.",
+   "workRest": "0.25 mi per gear at 0% grade. No rest beyond the burst.",
    "items": [
-    {"name": "S1 · Bear-hug squat 50 lb — hold 8/interval", "detail": "DB hugged to the chest, elbows in"},
-    {"name": "RUN 0.20 mi @ 7.5", "detail": ""},
-    {"name": "S2 · Double high pull 2×40 — hold 8/interval", "detail": "elbows high and outside, bells to the ribs"},
-    {"name": "RUN 0.20 mi @ 7.5", "detail": ""},
-    {"name": "S3 · CORE — alternate every interval: weighted V-up 35 lb ×8 / Russian twist 35 lb ×12", "detail": "4 intervals of each, V-up first"},
-    {"name": "RUN 0.20 mi @ 8.0", "detail": ""},
-    {"name": "S4 · Curtsy step-behind 50 lb — hold 8/interval", "detail": "one DB at your side, back foot behind and past the standing leg"},
-    {"name": "RUN 0.20 mi @ 8.0", "detail": ""},
-    {"name": "S5 · Bench dip — hold 10/interval", "detail": ""},
-    {"name": "RUN 0.20 mi @ 8.5 — done", "detail": ""}
+    {"name": "GEAR 1 · RUN 0.25 mi @ 7.5", "detail": ""},
+    {"name": "Kickstand RDL 50 lb ×12/side", "detail": "back toe down for balance only"},
+    {"name": "GEAR 2 · RUN 0.25 mi @ 7.8", "detail": ""},
+    {"name": "Eccentric calf raise 50 lb ×20", "detail": "3-count down off a step"},
+    {"name": "GEAR 3 · RUN 0.25 mi @ 8.1", "detail": ""},
+    {"name": "Split squat 2×40 ×10/side", "detail": ""},
+    {"name": "GEAR 4 · RUN 0.25 mi @ 8.4", "detail": ""},
+    {"name": "Nordic hamstring negative ×6", "detail": "3-count lower, hands catch you"},
+    {"name": "GEAR 5 · RUN 0.25 mi @ 8.7", "detail": ""},
+    {"name": "Pogo hop ×30", "detail": "ankles only, fast off the floor"},
+    {"name": "GEAR 6 · RUN 0.25 mi @ 9.0", "detail": ""},
+    {"name": "Upright row 2×40 ×15", "detail": ""},
+    {"name": "GEAR 7 · RUN 0.25 mi @ 9.5", "detail": ""},
+    {"name": "Weighted glute bridge 50 lb ×20", "detail": "2-count at the top"},
+    {"name": "GEAR 8 · RUN 0.25 mi @ 10.0 — done", "detail": ""},
+    {"name": "STRETCH · GEAR 9 · 0.25 @ 10.5 · GEAR 10 · 0.25 @ 11.0", "detail": ""}
    ],
-   "noteGreen": "Log your lowest interval at each station, total time, RPE, and which Tabata broke first.",
-   "text": "★ BEAR-HUG SQUAT — squeeze the bell, don't let it slide. ★ HIGH PULL — hinge and snap, arms follow. ★ RUSSIAN TWIST — feet off the floor, rotate from the ribs. ★ CURTSY STEP-BEHIND — new movement, first two intervals are the calibration."
+   "noteGreen": "Log the highest gear held, total time, RPE, and the first gear that felt like work.",
+   "text": "★ POGO — new: stiff ankles, minimal knee bend, fast off the floor. ★ ECCENTRIC CALF — the 3 seconds down IS the exercise. ★ Straddle the belt to change speed, don't stop it."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE FLUE · 4 MIN · 2 ROUNDS",
+   "title": "THE AXLE · 3 ROUNDS",
    "meta": "anti-rotation close · 35 lb",
-   "format": "2 rounds, straight through",
+   "format": "3 rounds, straight through",
    "items": [
-    {"name": "Bird dog ×10/side", "detail": "2-count hold at the top"},
-    {"name": "Standing rotation high-to-low 35 lb ×10/side", "detail": "hips square, ribs drive it"}
+    {"name": "Pallof hold-out 35 lb ×8/side", "detail": "3-count hold at full reach"},
+    {"name": "Lying leg raise ×15", "detail": ""},
+    {"name": "Drag-through 35 lb ×16", "detail": "hands on the floor, drag the bell across"}
    ],
    "text": ""
   },
@@ -61,16 +69,16 @@
    "title": "COOLDOWN · 4 MIN",
    "meta": "one pass",
    "items": [
-    {"name": "Couch stretch 45s/side", "detail": ""},
     {"name": "Calf and soleus stretch 45s/side", "detail": ""},
-    {"name": "Belt 3.0 mph @ 0% · 1 min", "detail": ""}
+    {"name": "Standing hamstring + figure-4 45s/side", "detail": ""},
+    {"name": "Belt 3.0 mph @ 0% · 2 min", "detail": ""}
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "work intervals held at the floor",
-  "emomGreen": "40",
-  "emomYellow": "32"
+  "emomUnit": "gears held for the full quarter",
+  "emomGreen": "8",
+  "emomYellow": "6"
  }
 }

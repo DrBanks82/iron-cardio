@@ -1,74 +1,136 @@
 {
- "date": "2026-09-14",
- "weekday": "MONDAY · TODAY",
- "title": "THE ANVIL · HEAVY LAPS",
- "vibe": "45 min · green · intense · 3 laps, 5 loaded stations, a run leg out of every one, legs get faster by lap",
- "why": "Fixed heavy reps every lap, 249 reps + 2.25 mi, cap 30:00. Loaded gauntlet laps; nothing from yesterday's stations.",
+ "date": "2026-09-15",
+ "weekday": "TUESDAY · TODAY",
+ "title": "THE LONE BELL · ONE-ARM ROUNDS",
+ "vibe": "45 min · green · hard · 8 one-arm stations on a 3:15 clock, a hill leg out of every one, grade climbs every 2 rounds",
+ "why": "Everything single-arm or single-leg, heavy bell, ground lifts. Short hill legs pull flat-speed load down after yesterday's 2.25 mi at 9.0.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A — spine / hams / hips",
-   "format": "one pass",
+   "meta": "Moves Method Day C — flow",
+   "format": "one continuous flow, no stops",
    "items": [
-    {"name": "Shoulder dislocates ×15 · thoracic rotations ×10/side", "detail": ""},
-    {"name": "Jefferson curl ×8 · single-leg goodmorning ×10/side", "detail": ""},
-    {"name": "Hamstring walkout ×8 · active pigeon 30s/side", "detail": ""},
-    {"name": "Horse-stance squat ×10", "detail": ""},
-    {"name": "Belt 5.5 mph @ 0% · 2 min", "detail": ""}
+    {
+     "name": "Rock-back ×10 · segmental roll ×3/side",
+     "detail": ""
+    },
+    {
+     "name": "Bear crawl 20 ft out and back ×2",
+     "detail": ""
+    },
+    {
+     "name": "Cross-crawl ×20 · half-kneel to stand ×5/side",
+     "detail": ""
+    },
+    {
+     "name": "Arm bar 35 lb 20s/side",
+     "detail": ""
+    },
+    {
+     "name": "Belt 5.5 mph @ 0% · 2 min",
+     "detail": ""
+    }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE ANVIL · 3 LAPS · 5 STATIONS",
-   "meta": "3 LAPS · 83 REPS PER LAP · 249 REPS · 2.25 mi · 2×40 lb · 50 lb · CAP 30:00",
-   "format": "One clock. Station, then the run leg, then the next station. Same reps every lap; the legs get faster by lap.",
-   "workRest": "Run legs 0.15 mi flat: lap 1 @ 8.0 · lap 2 @ 8.5 · lap 3 @ 9.0. No rest beyond the walk to the bells.",
+   "title": "THE LONE BELL · EVERY 3:15 · 8 ROUNDS",
+   "meta": "8 ROUNDS · 1 station + 1 hill leg per round · 26:00 · 40 lb · 50 lb · 0.96 mi",
+   "format": "Clock every 3:15. Do the station, run the leg, rest what is left. Score = rounds finished inside the window.",
+   "workRest": "Hill leg 0.12 mi @ 6.0 every round: R1-2 @ 6% · R3-4 @ 8% · R5-6 @ 10% · R7-8 @ 12%.",
    "items": [
-    {"name": "A · Double thruster 2×40 ×12", "detail": ""},
-    {"name": "RUN 0.15 mi", "detail": ""},
-    {"name": "B · Gorilla row 2×40 ×10/side", "detail": ""},
-    {"name": "RUN 0.15 mi", "detail": ""},
-    {"name": "C · DB snatch 50 lb ×8/side", "detail": ""},
-    {"name": "RUN 0.15 mi", "detail": ""},
-    {"name": "D · Double deadlift 2×40 ×15", "detail": "2-count at the top"},
-    {"name": "RUN 0.15 mi", "detail": ""},
-    {"name": "E · Push-up on the bells ×20", "detail": "chest to the handles"},
-    {"name": "RUN 0.15 mi — lap done", "detail": ""},
-    {"name": "STRETCH · LAP 4 @ 9.5", "detail": ""}
+    {
+     "name": "R1 · Get-up 40 lb ×2/side",
+     "detail": ""
+    },
+    {
+     "name": "R2 · Bulgarian split squat 50 lb ×8/side",
+     "detail": "rear foot on the bench"
+    },
+    {
+     "name": "R3 · One-arm jerk 40 lb ×8/side",
+     "detail": "rack it once, jerk ×8, no re-rack"
+    },
+    {
+     "name": "R4 · One-arm high pull 40 lb ×12/side",
+     "detail": ""
+    },
+    {
+     "name": "R5 · Bent press 40 lb ×3/side",
+     "detail": "sit under it, hips back, eyes on the bell"
+    },
+    {
+     "name": "R6 · Curtsy lunge 50 lb ×8/side",
+     "detail": ""
+    },
+    {
+     "name": "R7 · Windmill 40 lb ×5/side",
+     "detail": "2-count at the bottom"
+    },
+    {
+     "name": "R8 · Bench dip ×15",
+     "detail": "feet up on the bells"
+    },
+    {
+     "name": "STRETCH · R9-10 @ 12% · repeat R3 + R5",
+     "detail": ""
+    }
    ],
-   "noteGreen": "Log laps + finish time, RPE, which station ate the clock, whether 9.0 held on all five lap-3 legs.",
+   "noteGreen": "Log rounds inside the window, which round ran long, RPE, whether 12% held at 6.0.",
    "text": ""
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE AXLE · 3 ROUNDS",
-   "meta": "anti-rotation close · 35 lb",
+   "title": "THE KEEL · 3 ROUNDS",
+   "meta": "anti-extension close · 35 lb",
    "format": "3 rounds, straight through",
    "items": [
-    {"name": "Pallof hold-out 35 lb ×8/side", "detail": "3-count at full reach"},
-    {"name": "Lying leg raise ×15", "detail": ""},
-    {"name": "Drag-through 35 lb ×16", "detail": ""}
+    {
+     "name": "Weighted dead bug 35 lb ×10/side",
+     "detail": "bell held over the chest"
+    },
+    {
+     "name": "Hand walkout ×8",
+     "detail": "walk the hands out long, walk back"
+    },
+    {
+     "name": "Bear-hold shoulder tap ×20",
+     "detail": "knees an inch off the floor"
+    }
    ],
    "text": ""
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
-   "title": "COOLDOWN · 4 MIN",
+   "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    {"name": "Calf and soleus stretch 45s/side", "detail": ""},
-    {"name": "Standing hamstring + figure-4 45s/side", "detail": ""},
-    {"name": "Belt 3.0 mph · 2 min", "detail": ""}
+    {
+     "name": "Couch stretch 45s/side",
+     "detail": ""
+    },
+    {
+     "name": "Lat and QL reach 30s/side",
+     "detail": ""
+    },
+    {
+     "name": "Belt 3.0 mph · 1 min",
+     "detail": ""
+    }
    ],
    "text": ""
   }
  ],
- "timer": {"emomUnit": "laps finished", "emomGreen": "3", "emomYellow": "2"}
+ "timer": {
+  "emomUnit": "rounds inside the window",
+  "emomGreen": "8",
+  "emomYellow": "6"
+ }
 }

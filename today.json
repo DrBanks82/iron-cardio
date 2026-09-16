@@ -1,32 +1,28 @@
 {
- "date": "2026-09-15",
- "weekday": "TUESDAY · TODAY",
- "title": "THE LONE BELL · ONE-ARM ROUNDS",
- "vibe": "45 min · green · hard · 8 one-arm stations on a 3:15 clock, a hill leg out of every one, grade climbs every 2 rounds",
- "why": "Everything single-arm or single-leg, heavy bell, ground lifts. Short hill legs pull flat-speed load down after yesterday's 2.25 mi at 9.0.",
+ "date": "2026-09-16",
+ "weekday": "WEDNESDAY · TODAY",
+ "title": "FIGHT GONE BAD · GAUNTLET EDITION",
+ "vibe": "45 min · green · hard · 5 stations × 1:00 max reps, a flat leg out of every one, 3 rounds, score = total reps",
+ "why": "Upper pull + press volume on tired-but-not-sore legs, with a weighted sit-up station scored like every other lift. Every rep is a point; the run legs are the toll.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day C — flow",
-   "format": "one continuous flow, no stops",
+   "meta": "Moves Method Day A — shoulders / spine / wrists",
+   "format": "one pass, no rest",
    "items": [
     {
-     "name": "Rock-back ×10 · segmental roll ×3/side",
-     "detail": ""
+     "name": "Shoulder dislocates ×12 · thoracic rotation ×8/side",
+     "detail": "towel or band"
     },
     {
-     "name": "Bear crawl 20 ft out and back ×2",
-     "detail": ""
+     "name": "Jefferson curl ×6 · wrist rocks ×10",
+     "detail": "35 lb, slow"
     },
     {
-     "name": "Cross-crawl ×20 · half-kneel to stand ×5/side",
-     "detail": ""
-    },
-    {
-     "name": "Arm bar 35 lb 20s/side",
+     "name": "Hamstring walkout ×6 · active pigeon 30s/side",
      "detail": ""
     },
     {
@@ -39,69 +35,57 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE LONE BELL · EVERY 3:15 · 8 ROUNDS",
-   "meta": "8 ROUNDS · 1 station + 1 hill leg per round · 26:00 · 40 lb · 50 lb · 0.96 mi",
-   "format": "Clock every 3:15. Do the station, run the leg, rest what is left. Score = rounds finished inside the window.",
-   "workRest": "Hill leg 0.12 mi @ 6.0 every round: R1-2 @ 6% · R3-4 @ 8% · R5-6 @ 10% · R7-8 @ 12%.",
+   "title": "FIGHT GONE BAD · 3 ROUNDS · 5 STATIONS",
+   "meta": "3 ROUNDS · 1:00 max reps per station · 0.10 mi leg out of every station · cap 30:00 · 2×40 lb · 50 lb · 35 lb · 1.5 mi",
+   "format": "One clock. 1:00 max reps at the station, run the leg, straight into the next station. Count every rep. Score = total reps across all 3 rounds.",
+   "workRest": "Leg 0.10 mi @ 8.5 flat after every station, all 3 rounds. No rest minute — the leg is the rest.",
    "items": [
     {
-     "name": "R1 · Get-up 40 lb ×2/side",
-     "detail": ""
+     "name": "S1 · Double push press 2×40 lb · 1:00 max",
+     "detail": "rack once, drive with the legs, lock out every rep"
     },
     {
-     "name": "R2 · Bulgarian split squat 50 lb ×8/side",
-     "detail": "rear foot on the bench"
+     "name": "S2 · Double bent-over row 2×40 lb · 1:00 max",
+     "detail": "bells to the ribs, pause at the top"
     },
     {
-     "name": "R3 · One-arm jerk 40 lb ×8/side",
-     "detail": "rack it once, jerk ×8, no re-rack"
+     "name": "S3 · CORE · Weighted sit-up 35 lb · 1:00 max",
+     "detail": "bell hugged to the chest, shoulders to the floor every rep"
     },
     {
-     "name": "R4 · One-arm high pull 40 lb ×12/side",
-     "detail": ""
+     "name": "S4 · Sumo deadlift high pull 50 lb · 1:00 max",
+     "detail": "elbows above the bell at the top"
     },
     {
-     "name": "R5 · Bent press 40 lb ×3/side",
-     "detail": "sit under it, hips back, eyes on the bell"
+     "name": "S5 · Burpee · 1:00 max",
+     "detail": "chest to the floor, jump and clap at the top"
     },
     {
-     "name": "R6 · Curtsy lunge 50 lb ×8/side",
-     "detail": ""
-    },
-    {
-     "name": "R7 · Windmill 40 lb ×5/side",
-     "detail": "2-count at the bottom"
-    },
-    {
-     "name": "R8 · Bench dip ×15",
-     "detail": "feet up on the bells"
-    },
-    {
-     "name": "STRETCH · R9-10 @ 12% · repeat R3 + R5",
+     "name": "STRETCH · if under 30:00 · S3 + S5 one more minute each",
      "detail": ""
     }
    ],
-   "noteGreen": "Log rounds inside the window, which round ran long, RPE, whether 12% held at 6.0.",
-   "text": ""
+   "noteGreen": "Log the total score, the station that scored lowest, and RPE. Over 250 is the target; over 300 is the stretch.",
+   "text": "Scoring: 1 rep = 1 point at every station. Run legs are not scored."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE KEEL · 3 ROUNDS",
-   "meta": "anti-extension close · 35 lb",
+   "title": "THE HULL · 3 ROUNDS",
+   "meta": "stomach + anti-rotation close · 35 lb",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Weighted dead bug 35 lb ×10/side",
-     "detail": "bell held over the chest"
+     "name": "Dragon flag negative ×6",
+     "detail": "on the bench, 3-count down"
     },
     {
-     "name": "Hand walkout ×8",
-     "detail": "walk the hands out long, walk back"
+     "name": "Half-kneeling chop 35 lb ×10/side",
+     "detail": "high to low, hips still"
     },
     {
-     "name": "Bear-hold shoulder tap ×20",
-     "detail": "knees an inch off the floor"
+     "name": "L-sit on the bells 20s",
+     "detail": "legs straight, toes up"
     }
    ],
    "text": ""
@@ -113,11 +97,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Couch stretch 45s/side",
+     "name": "Lat and QL reach 30s/side",
      "detail": ""
     },
     {
-     "name": "Lat and QL reach 30s/side",
+     "name": "Cobra to child's pose ×6",
      "detail": ""
     },
     {
@@ -129,8 +113,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "rounds inside the window",
-  "emomGreen": "8",
-  "emomYellow": "6"
+  "emomUnit": "total reps scored",
+  "emomGreen": "250",
+  "emomYellow": "200"
  }
 }

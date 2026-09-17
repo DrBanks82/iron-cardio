@@ -1,32 +1,32 @@
 {
- "date": "2026-09-16",
- "weekday": "WEDNESDAY · TODAY",
- "title": "FIGHT GONE BAD · GAUNTLET EDITION",
- "vibe": "45 min · green · hard · 5 stations × 1:00 max reps, a flat leg out of every one, 3 rounds, score = total reps",
- "why": "Upper pull + press volume on tired-but-not-sore legs, with a weighted sit-up station scored like every other lift. Every rep is a point; the run legs are the toll.",
+ "date": "2026-09-17",
+ "weekday": "THURSDAY · TODAY",
+ "title": "THE BALLAST · OBLIQUE LAPS",
+ "vibe": "45 min · green · hard · AMRAP 28:00 · 3 pairs per lap, a flat leg out of every pair, score = laps",
+ "why": "Heavy slow legs paired with loaded side and stomach work, off two upper days. Every pair ends on a run leg; the sides get hit every lap, not just at the end.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A — shoulders / spine / wrists",
+   "meta": "Moves Method Day B — ankles / knees / hips",
    "format": "one pass, no rest",
    "items": [
     {
-     "name": "Shoulder dislocates ×12 · thoracic rotation ×8/side",
-     "detail": "towel or band"
-    },
-    {
-     "name": "Jefferson curl ×6 · wrist rocks ×10",
-     "detail": "35 lb, slow"
-    },
-    {
-     "name": "Hamstring walkout ×6 · active pigeon 30s/side",
+     "name": "Toe squats ×10 · ankle rolls in the squat ×10/side",
      "detail": ""
     },
     {
-     "name": "Belt 5.5 mph @ 0% · 2 min",
+     "name": "Single-leg squat to the bench ×5/side · knee drives ×10/side",
+     "detail": ""
+    },
+    {
+     "name": "Side step-ups ×8/side · shoulder protocol ×20",
+     "detail": "bench · light band or towel"
+    },
+    {
+     "name": "Belt 5.5 mph · 2 min",
      "detail": ""
     }
    ],
@@ -35,57 +35,73 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "FIGHT GONE BAD · 3 ROUNDS · 5 STATIONS",
-   "meta": "3 ROUNDS · 1:00 max reps per station · 0.10 mi leg out of every station · cap 30:00 · 2×40 lb · 50 lb · 35 lb · 1.5 mi",
-   "format": "One clock. 1:00 max reps at the station, run the leg, straight into the next station. Count every rep. Score = total reps across all 3 rounds.",
-   "workRest": "Leg 0.10 mi @ 8.5 flat after every station, all 3 rounds. No rest minute — the leg is the rest.",
+   "title": "THE BALLAST · AMRAP 28:00 · 3 PAIRS PER LAP",
+   "meta": "AMRAP 28:00 · 4 LAPS target · 6 stations in 3 pairs · 0.12 mi flat leg after every pair · 2×40 lb · 50 lb · 40 lb · 35 lb",
+   "format": "One clock. Do the pair, run the leg, straight into the next pair. Score = laps finished at 28:00 (count the pairs of a partial lap).",
+   "workRest": "Leg 0.12 mi @ 8.5 flat after every pair. No rest; the leg is the rest. 3 legs per lap.",
    "items": [
     {
-     "name": "S1 · Double push press 2×40 lb · 1:00 max",
-     "detail": "rack once, drive with the legs, lock out every rep"
+     "name": "P1a · Double front squat 2×40 lb ×6",
+     "detail": "3-count down, stand fast"
     },
     {
-     "name": "S2 · Double bent-over row 2×40 lb · 1:00 max",
-     "detail": "bells to the ribs, pause at the top"
+     "name": "P1b · Suitcase deadlift 50 lb ×6/side",
+     "detail": "bell beside the foot, 2-count at the knee, hips level"
     },
     {
-     "name": "S3 · CORE · Weighted sit-up 35 lb · 1:00 max",
-     "detail": "bell hugged to the chest, shoulders to the floor every rep"
+     "name": "LEG · 0.12 mi @ 8.5",
+     "detail": ""
     },
     {
-     "name": "S4 · Sumo deadlift high pull 50 lb · 1:00 max",
-     "detail": "elbows above the bell at the top"
+     "name": "P2a · Cossack squat 50 lb ×6/side",
+     "detail": "bell at the chest, heel down"
     },
     {
-     "name": "S5 · Burpee · 1:00 max",
-     "detail": "chest to the floor, jump and clap at the top"
+     "name": "P2b · Side bend 40 lb ×10/side",
+     "detail": "bell at the hip, 2-count at the bottom, tall on the way up"
     },
     {
-     "name": "STRETCH · if under 30:00 · S3 + S5 one more minute each",
+     "name": "LEG · 0.12 mi @ 8.5",
+     "detail": ""
+    },
+    {
+     "name": "P3a · DB snatch 50 lb ×8/side",
+     "detail": "hip snap, punch through at the top"
+    },
+    {
+     "name": "P3b · Russian twist 35 lb ×20",
+     "detail": "heels off the floor, bell taps the floor each side"
+    },
+    {
+     "name": "LEG · 0.12 mi @ 8.5",
+     "detail": ""
+    },
+    {
+     "name": "STRETCH · 5th lap inside 28:00",
      "detail": ""
     }
    ],
-   "noteGreen": "Log the total score, the station that scored lowest, and RPE. Over 250 is the target; over 300 is the stretch.",
-   "text": "Scoring: 1 rep = 1 point at every station. Run legs are not scored."
+   "noteGreen": "4 laps is the target, 5 is the stretch. Log laps, the pair that slowed you most, and RPE.",
+   "text": "Front squat: 3 seconds down every rep, no bounce. Suitcase deadlift: the free hand stays off the body; do not lean toward the bell."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE HULL · 3 ROUNDS",
-   "meta": "stomach + anti-rotation close · 35 lb",
+   "title": "THE HOLD · 3 ROUNDS",
+   "meta": "anti-rotation + stomach close · 35 lb",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Dragon flag negative ×6",
-     "detail": "on the bench, 3-count down"
+     "name": "Pallof hold-out 35 lb ×8/side",
+     "detail": "arms long, 3-count hold, hips square"
     },
     {
-     "name": "Half-kneeling chop 35 lb ×10/side",
-     "detail": "high to low, hips still"
+     "name": "Lying leg raise ×15",
+     "detail": "35 lb bell held over the chest, low back down"
     },
     {
-     "name": "L-sit on the bells 20s",
-     "detail": "legs straight, toes up"
+     "name": "Bear crawl 10 steps out, 10 back",
+     "detail": "knees an inch off the floor, hips level"
     }
    ],
    "text": ""
@@ -97,11 +113,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Lat and QL reach 30s/side",
+     "name": "Couch stretch 30s/side",
      "detail": ""
     },
     {
-     "name": "Cobra to child's pose ×6",
+     "name": "QL and lat reach 30s/side",
      "detail": ""
     },
     {
@@ -113,8 +129,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "total reps scored",
-  "emomGreen": "250",
-  "emomYellow": "200"
+  "emomUnit": "laps finished",
+  "emomGreen": "4",
+  "emomYellow": "3"
  }
 }

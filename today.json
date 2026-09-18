@@ -1,29 +1,29 @@
 {
- "date": "2026-09-17",
- "weekday": "THURSDAY · TODAY",
- "title": "THE BALLAST · OBLIQUE LAPS",
- "vibe": "45 min · green · hard · AMRAP 28:00 · 3 pairs per lap, a flat leg out of every pair, score = laps",
- "why": "Heavy slow legs paired with loaded side and stomach work, off two upper days. Every pair ends on a run leg; the sides get hit every lap, not just at the end.",
+ "date": "2026-09-18",
+ "weekday": "FRIDAY · TODAY",
+ "title": "THE BELLOWS · CHAIN LAPS",
+ "vibe": "45 min · green · heart session · FOR TIME · 4 laps, cap 28:00 · reps fall, legs get longer and faster",
+ "why": "Heart day. Three unbroken chains a lap, each one dumping you straight onto the belt, and the session negative-splits: reps drop every lap while the run legs get longer and faster.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B — ankles / knees / hips",
+   "meta": "Moves Method Day A — shoulders / spine / hips, overhead day",
    "format": "one pass, no rest",
    "items": [
     {
-     "name": "Toe squats ×10 · ankle rolls in the squat ×10/side",
+     "name": "Deep squat overhead reachout ×8/side · shoulder extensions ×10",
+     "detail": "hands behind, chest open"
+    },
+    {
+     "name": "Horse-stance hold 30s · single-leg goodmorning ×8/side",
      "detail": ""
     },
     {
-     "name": "Single-leg squat to the bench ×5/side · knee drives ×10/side",
+     "name": "Ankle rolls in the squat ×10/side · thoracic rotations ×8/side",
      "detail": ""
-    },
-    {
-     "name": "Side step-ups ×8/side · shoulder protocol ×20",
-     "detail": "bench · light band or towel"
     },
     {
      "name": "Belt 5.5 mph · 2 min",
@@ -35,73 +35,69 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE BALLAST · AMRAP 28:00 · 3 PAIRS PER LAP",
-   "meta": "AMRAP 28:00 · 4 LAPS target · 6 stations in 3 pairs · 0.12 mi flat leg after every pair · 2×40 lb · 50 lb · 40 lb · 35 lb",
-   "format": "One clock. Do the pair, run the leg, straight into the next pair. Score = laps finished at 28:00 (count the pairs of a partial lap).",
-   "workRest": "Leg 0.12 mi @ 8.5 flat after every pair. No rest; the leg is the rest. 3 legs per lap.",
+   "title": "THE BELLOWS · FOR TIME · 4 LAPS",
+   "meta": "FOR TIME · 4 LAPS · 3 chains per lap · a run leg out of every chain · cap 28:00 · 2×40 lb",
+   "format": "One clock. Chain, leg, chain, leg, chain, leg — that is one lap. Four laps for time. Numbers read lap 1 / 2 / 3 / 4.",
+   "workRest": "12 run legs, 2.1 mi total. Lap 1 · 0.15 mi @ 7.8 · Lap 2 · 0.15 mi @ 8.3 · Lap 3 · 0.20 mi @ 8.8 · Lap 4 · 0.20 mi @ 9.3. No rest — the leg is the rest.",
    "items": [
     {
-     "name": "P1a · Double front squat 2×40 lb ×6",
-     "detail": "3-count down, stand fast"
+     "name": "C1 · Double deadlift → hang power clean → push jerk · 6 / 5 / 4 / 3 each",
+     "detail": "2×40 lb, unbroken — bells never touch down inside the chain"
     },
     {
-     "name": "P1b · Suitcase deadlift 50 lb ×6/side",
-     "detail": "bell beside the foot, 2-count at the knee, hips level"
-    },
-    {
-     "name": "LEG · 0.12 mi @ 8.5",
+     "name": "LEG · 0.15 / 0.15 / 0.20 / 0.20 mi",
      "detail": ""
     },
     {
-     "name": "P2a · Cossack squat 50 lb ×6/side",
-     "detail": "bell at the chest, heel down"
+     "name": "C2 · Devil press · 6 / 5 / 4 / 3",
+     "detail": "2×40 lb"
     },
     {
-     "name": "P2b · Side bend 40 lb ×10/side",
-     "detail": "bell at the hip, 2-count at the bottom, tall on the way up"
+     "name": "C2 · Double high pull · 12 / 10 / 8 / 6",
+     "detail": "straight off the last devil press, unbroken"
     },
     {
-     "name": "LEG · 0.12 mi @ 8.5",
+     "name": "LEG · 0.15 / 0.15 / 0.20 / 0.20 mi",
      "detail": ""
     },
     {
-     "name": "P3a · DB snatch 50 lb ×8/side",
-     "detail": "hip snap, punch through at the top"
+     "name": "C3 · Double thruster · 6 / 5 / 4 / 3",
+     "detail": "2×40 lb"
     },
     {
-     "name": "P3b · Russian twist 35 lb ×20",
-     "detail": "heels off the floor, bell taps the floor each side"
+     "name": "C3 · Mountain climber · 24 / 20 / 16 / 12",
+     "detail": "straight to the floor, count both knees"
     },
     {
-     "name": "LEG · 0.12 mi @ 8.5",
+     "name": "LEG · 0.15 / 0.15 / 0.20 / 0.20 mi",
      "detail": ""
     },
     {
-     "name": "STRETCH · 5th lap inside 28:00",
+     "name": "STRETCH · all 4 laps under 25:00",
      "detail": ""
     }
    ],
-   "noteGreen": "4 laps is the target, 5 is the stretch. Log laps, the pair that slowed you most, and RPE.",
-   "text": "Front squat: 3 seconds down every rep, no bounce. Suitcase deadlift: the free hand stays off the body; do not lean toward the bell."
+   "noteGreen": "Finish 4 laps inside 28:00. Log your time, which chain broke first, and RPE.",
+   "text": "Devil press: both bells to the floor, chest down, stand and punch them overhead in one motion. Push jerk: quick knee bend, punch up, lock out tall. Thruster: bells in the rack, drive out of the bottom straight overhead."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE HOLD · 3 ROUNDS",
-   "meta": "anti-rotation + stomach close · 35 lb",
+   "title": "THE DRAFT · 3 ROUNDS",
+   "meta": "loaded stomach + oblique close · 35 lb",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Pallof hold-out 35 lb ×8/side",
-     "detail": "arms long, 3-count hold, hips square"
+     "name": "Weighted V-up 35 lb ×15",
+     "detail": "bell over the chest, shoulders and heels leave the floor together"
     },
     {
-     "name": "Lying leg raise ×15",
-     "detail": "35 lb bell held over the chest, low back down"
+     "name": "Around the world 35 lb ×10 each direction",
+     "detail": "bell circles the hips, stay tall, no lean"
     },
     {
-     "name": "Bear crawl 10 steps out, 10 back",
-     "detail": "knees an inch off the floor, hips level"
+     "name": "Hand walkout ×8",
+     "detail": "walk the hands out flat, walk them back"
     }
    ],
    "text": ""
@@ -113,11 +109,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Couch stretch 30s/side",
+     "name": "Lat and side-body reach 30s/side",
      "detail": ""
     },
     {
-     "name": "QL and lat reach 30s/side",
+     "name": "Calf and hip flexor stretch 30s/side",
      "detail": ""
     },
     {
@@ -129,7 +125,7 @@
   }
  ],
  "timer": {
-  "emomUnit": "laps finished",
+  "emomUnit": "laps · for time, cap 28:00",
   "emomGreen": "4",
   "emomYellow": "3"
  }

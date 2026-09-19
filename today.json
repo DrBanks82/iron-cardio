@@ -1,29 +1,33 @@
 {
- "date": "2026-09-18",
- "weekday": "FRIDAY · TODAY",
- "title": "THE BELLOWS · CHAIN LAPS",
- "vibe": "45 min · green · heart session · FOR TIME · 4 laps, cap 28:00 · reps fall, legs get longer and faster",
- "why": "Heart day. Three unbroken chains a lap, each one dumping you straight onto the belt, and the session negative-splits: reps drop every lap while the run legs get longer and faster.",
+ "date": "2026-09-19",
+ "weekday": "SATURDAY · TODAY",
+ "title": "THE IRON TOWER · STRONGMAN FLOORS",
+ "vibe": "45 min · green · hard · FOR TIME · 5 floors, cap 28:00 · first day with the 60",
+ "why": "Fresh legs off a rest day, so the new 60 lb bell headlines a strongman tower. Reps fall every floor while the run legs get shorter and faster.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A — shoulders / spine / hips, overhead day",
+   "meta": "Moves Method Day B — ankles / knees / hips / shoulders",
    "format": "one pass, no rest",
    "items": [
     {
-     "name": "Deep squat overhead reachout ×8/side · shoulder extensions ×10",
-     "detail": "hands behind, chest open"
-    },
-    {
-     "name": "Horse-stance hold 30s · single-leg goodmorning ×8/side",
+     "name": "Toe squat hold 30s · knee drives ×10/side",
      "detail": ""
     },
     {
-     "name": "Ankle rolls in the squat ×10/side · thoracic rotations ×8/side",
+     "name": "Single-leg balance 20s/side · side step-ups ×8/side",
+     "detail": "no load"
+    },
+    {
+     "name": "Shoulder circles 2×20 · shoulder extensions ×10",
      "detail": ""
+    },
+    {
+     "name": "60 lb swing ×5 · 60 lb bear-hug squat ×3",
+     "detail": "feel the new bell"
     },
     {
      "name": "Belt 5.5 mph · 2 min",
@@ -35,69 +39,61 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE BELLOWS · FOR TIME · 4 LAPS",
-   "meta": "FOR TIME · 4 LAPS · 3 chains per lap · a run leg out of every chain · cap 28:00 · 2×40 lb",
-   "format": "One clock. Chain, leg, chain, leg, chain, leg — that is one lap. Four laps for time. Numbers read lap 1 / 2 / 3 / 4.",
-   "workRest": "12 run legs, 2.1 mi total. Lap 1 · 0.15 mi @ 7.8 · Lap 2 · 0.15 mi @ 8.3 · Lap 3 · 0.20 mi @ 8.8 · Lap 4 · 0.20 mi @ 9.3. No rest — the leg is the rest.",
+   "title": "THE IRON TOWER · FOR TIME · 5 FLOORS",
+   "meta": "FOR TIME · 5 FLOORS · 5 stations then a run leg per floor · cap 28:00 · 60 lb / 2×45 lb / 52 lb",
+   "format": "One clock. All 5 stations, then the leg — that is one floor. Numbers read floor 1 / 2 / 3 / 4 / 5.",
+   "workRest": "5 run legs, 1.0 mi total. Floor 1 · 0.30 mi @ 7.5 · Floor 2 · 0.25 mi @ 8.0 · Floor 3 · 0.20 mi @ 8.5 · Floor 4 · 0.15 mi @ 9.0 · Floor 5 · 0.10 mi @ 9.5. No rest.",
    "items": [
     {
-     "name": "C1 · Double deadlift → hang power clean → push jerk · 6 / 5 / 4 / 3 each",
-     "detail": "2×40 lb, unbroken — bells never touch down inside the chain"
-    },
-    {
-     "name": "LEG · 0.15 / 0.15 / 0.20 / 0.20 mi",
+     "name": "S1 · Heavy swing 60 lb · 20 / 16 / 12 / 8 / 4",
      "detail": ""
     },
     {
-     "name": "C2 · Devil press · 6 / 5 / 4 / 3",
-     "detail": "2×40 lb"
+     "name": "S2 · Zercher squat 60 lb · 10 / 8 / 6 / 4 / 2",
+     "detail": "bell hugged in the elbows"
     },
     {
-     "name": "C2 · Double high pull · 12 / 10 / 8 / 6",
-     "detail": "straight off the last devil press, unbroken"
-    },
-    {
-     "name": "LEG · 0.15 / 0.15 / 0.20 / 0.20 mi",
+     "name": "S3 · Floor press 2×45 lb · 15 / 12 / 9 / 6 / 3",
      "detail": ""
     },
     {
-     "name": "C3 · Double thruster · 6 / 5 / 4 / 3",
-     "detail": "2×40 lb"
+     "name": "S4 · Odd-load deadlift 60 KB + 52 DB · 10 / 8 / 6 / 4 / 2",
+     "detail": "swap hands every floor"
     },
     {
-     "name": "C3 · Mountain climber · 24 / 20 / 16 / 12",
-     "detail": "straight to the floor, count both knees"
+     "name": "S5 · Step-up 2×45 lb racked · 20 / 16 / 12 / 8 / 4",
+     "detail": "alternating legs, total"
     },
     {
-     "name": "LEG · 0.15 / 0.15 / 0.20 / 0.20 mi",
-     "detail": ""
+     "name": "LEG · 0.30 / 0.25 / 0.20 / 0.15 / 0.10 mi",
+     "detail": "7.5 / 8.0 / 8.5 / 9.0 / 9.5"
     },
     {
-     "name": "STRETCH · all 4 laps under 25:00",
+     "name": "STRETCH · all 5 floors under 24:00",
      "detail": ""
     }
    ],
-   "noteGreen": "Finish 4 laps inside 28:00. Log your time, which chain broke first, and RPE.",
-   "text": "Devil press: both bells to the floor, chest down, stand and punch them overhead in one motion. Push jerk: quick knee bend, punch up, lock out tall. Thruster: bells in the rack, drive out of the bottom straight overhead."
+   "noteGreen": "Finish 5 floors inside 28:00. Log your time, the station that slowed you most, and RPE.",
+   "text": "Zercher: bell hugged high in the crook of the elbows, sit straight down, stand tall. Odd-load deadlift: one implement per hand, stay square, do not let the heavy side pull you over. Step-up: bench height, whole foot on top, drive through the heel."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE DRAFT · 3 ROUNDS",
-   "meta": "loaded stomach + oblique close · 35 lb",
+   "title": "THE YOKE · 3 ROUNDS",
+   "meta": "loaded midline close · 35 lb",
    "format": "3 rounds, straight through",
    "items": [
     {
-     "name": "Weighted V-up 35 lb ×15",
-     "detail": "bell over the chest, shoulders and heels leave the floor together"
+     "name": "Weighted dead bug 35 lb ×8/side",
+     "detail": "bell pressed over the chest"
     },
     {
-     "name": "Around the world 35 lb ×10 each direction",
-     "detail": "bell circles the hips, stay tall, no lean"
+     "name": "Halo 35 lb ×8 each direction",
+     "detail": ""
     },
     {
-     "name": "Hand walkout ×8",
-     "detail": "walk the hands out flat, walk them back"
+     "name": "Lying leg raise ×15",
+     "detail": "low back pinned"
     }
    ],
    "text": ""
@@ -109,11 +105,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Lat and side-body reach 30s/side",
+     "name": "Hip flexor and quad stretch 30s/side",
      "detail": ""
     },
     {
-     "name": "Calf and hip flexor stretch 30s/side",
+     "name": "Hamstring fold 30s · chest opener 30s",
      "detail": ""
     },
     {
@@ -125,8 +121,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "laps · for time, cap 28:00",
-  "emomGreen": "4",
-  "emomYellow": "3"
+  "emomUnit": "floors · for time, cap 28:00",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

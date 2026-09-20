@@ -1,100 +1,56 @@
 {
- "date": "2026-09-19",
- "weekday": "SATURDAY · TODAY",
- "title": "THE IRON TOWER · STRONGMAN FLOORS",
- "vibe": "45 min · green · hard · FOR TIME · 5 floors, cap 28:00 · first day with the 60",
- "why": "Fresh legs off a rest day, so the new 60 lb bell headlines a strongman tower. Reps fall every floor while the run legs get shorter and faster.",
+ "date": "2026-09-20",
+ "weekday": "SUNDAY · TODAY",
+ "title": "THE MULE · CARRY EMOM",
+ "vibe": "45 min · green · hard · E2MOM · 12 rounds, 24:00 · carries + grip",
+ "why": "Legs took swings, zercher, deadlifts and step-ups yesterday, so today headlines loaded carries and upper work. Every 2 minutes: one station, then a leg — the clock is the rest.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B — ankles / knees / hips / shoulders",
+   "meta": "Moves Method Day A — shoulders / spine / wrists",
    "format": "one pass, no rest",
    "items": [
-    {
-     "name": "Toe squat hold 30s · knee drives ×10/side",
-     "detail": ""
-    },
-    {
-     "name": "Single-leg balance 20s/side · side step-ups ×8/side",
-     "detail": "no load"
-    },
-    {
-     "name": "Shoulder circles 2×20 · shoulder extensions ×10",
-     "detail": ""
-    },
-    {
-     "name": "60 lb swing ×5 · 60 lb bear-hug squat ×3",
-     "detail": "feel the new bell"
-    },
-    {
-     "name": "Belt 5.5 mph · 2 min",
-     "detail": ""
-    }
+    { "name": "Shoulder dislocates ×15 · thoracic rotations ×10/side", "detail": "" },
+    { "name": "Jefferson curl ×8 · hamstring walkout ×8", "detail": "" },
+    { "name": "Wrist rocks ×20 · active pigeon 30s/side", "detail": "" },
+    { "name": "Farmer carry 2×45 lb · 20 yd out + back", "detail": "set the grip" },
+    { "name": "Belt 5.5 mph · 2 min", "detail": "" }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE IRON TOWER · FOR TIME · 5 FLOORS",
-   "meta": "FOR TIME · 5 FLOORS · 5 stations then a run leg per floor · cap 28:00 · 60 lb / 2×45 lb / 52 lb",
-   "format": "One clock. All 5 stations, then the leg — that is one floor. Numbers read floor 1 / 2 / 3 / 4 / 5.",
-   "workRest": "5 run legs, 1.0 mi total. Floor 1 · 0.30 mi @ 7.5 · Floor 2 · 0.25 mi @ 8.0 · Floor 3 · 0.20 mi @ 8.5 · Floor 4 · 0.15 mi @ 9.0 · Floor 5 · 0.10 mi @ 9.5. No rest.",
+   "title": "THE MULE · E2MOM · 12 ROUNDS · 24:00",
+   "meta": "EVERY 2:00 × 12 ROUNDS · 6 stations run twice · 60 lb / 2×45 lb / 52 lb / 35 lb",
+   "format": "On the top of every 2:00: the station, then the leg. Whatever is left of the 2:00 is your rest. Stations run S1→S6, then S1→S6 again.",
+   "workRest": "12 run legs. ODD rounds · 0.10 mi @ 8.5 flat. EVEN rounds · 0.08 mi @ 6.0 / 8% grade. 1.08 mi total.",
    "items": [
-    {
-     "name": "S1 · Heavy swing 60 lb · 20 / 16 / 12 / 8 / 4",
-     "detail": ""
-    },
-    {
-     "name": "S2 · Zercher squat 60 lb · 10 / 8 / 6 / 4 / 2",
-     "detail": "bell hugged in the elbows"
-    },
-    {
-     "name": "S3 · Floor press 2×45 lb · 15 / 12 / 9 / 6 / 3",
-     "detail": ""
-    },
-    {
-     "name": "S4 · Odd-load deadlift 60 KB + 52 DB · 10 / 8 / 6 / 4 / 2",
-     "detail": "swap hands every floor"
-    },
-    {
-     "name": "S5 · Step-up 2×45 lb racked · 20 / 16 / 12 / 8 / 4",
-     "detail": "alternating legs, total"
-    },
-    {
-     "name": "LEG · 0.30 / 0.25 / 0.20 / 0.15 / 0.10 mi",
-     "detail": "7.5 / 8.0 / 8.5 / 9.0 / 9.5"
-    },
-    {
-     "name": "STRETCH · all 5 floors under 24:00",
-     "detail": ""
-    }
+    { "name": "S1 · Farmer carry 2×45 lb · 40 yd out + back", "detail": "do not set them down" },
+    { "name": "S2 · DB snatch 52 lb ×8/side", "detail": "" },
+    { "name": "S3 · Bear-hug carry 60 lb · 30 yd out + back", "detail": "bell high on the chest, ribs down" },
+    { "name": "S4 · Pullover 52 lb ×15", "detail": "on the bench, long arms" },
+    { "name": "S5 · Bottoms-up rack carry 35 lb · 20 yd/side", "detail": "bell inverted, crush the handle" },
+    { "name": "S6 · Get-up 60 lb ×1/side", "detail": "heavy — take the full sequence" },
+    { "name": "LEG · odd 0.10 @ 8.5 · even 0.08 @ 6.0 / 8%", "detail": "" },
+    { "name": "STRETCH · rounds 13–14 · repeat S1 and S6", "detail": "" }
    ],
-   "noteGreen": "Finish 5 floors inside 28:00. Log your time, the station that slowed you most, and RPE.",
-   "text": "Zercher: bell hugged high in the crook of the elbows, sit straight down, stand tall. Odd-load deadlift: one implement per hand, stay square, do not let the heavy side pull you over. Step-up: bench height, whole foot on top, drive through the heel."
+   "noteGreen": "Score = rounds finished inside the 2:00. Green 12. Log your score, the first round you ran over, and RPE.",
+   "text": "Bottoms-up carry: bell upside down, elbow tight to the ribs, forearm vertical — if it tips, reset and keep walking. Get-up at 60: roll to elbow, to hand, hips up, sweep the leg, stand. Bear-hug carry: squeeze the bell, breathe through the belt of the ribs."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE YOKE · 3 ROUNDS",
-   "meta": "loaded midline close · 35 lb",
+   "title": "THE RUCK LINE · 3 ROUNDS",
+   "meta": "loaded oblique + locomotion close",
    "format": "3 rounds, straight through",
    "items": [
-    {
-     "name": "Weighted dead bug 35 lb ×8/side",
-     "detail": "bell pressed over the chest"
-    },
-    {
-     "name": "Halo 35 lb ×8 each direction",
-     "detail": ""
-    },
-    {
-     "name": "Lying leg raise ×15",
-     "detail": "low back pinned"
-    }
+    { "name": "One-hand farmer carry 60 lb · 30 yd out + back per side", "detail": "stay square, no lean" },
+    { "name": "Bear crawl · 15 yd out + back", "detail": "hips low" },
+    { "name": "Dragon flag negative ×6", "detail": "3-count down" }
    ],
    "text": ""
   },
@@ -104,25 +60,16 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    {
-     "name": "Hip flexor and quad stretch 30s/side",
-     "detail": ""
-    },
-    {
-     "name": "Hamstring fold 30s · chest opener 30s",
-     "detail": ""
-    },
-    {
-     "name": "Belt 3.0 mph · 1 min",
-     "detail": ""
-    }
+    { "name": "Lat and chest opener 30s/side", "detail": "" },
+    { "name": "Forearm and wrist stretch 30s/side", "detail": "" },
+    { "name": "Belt 3.0 mph · 1 min", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "floors · for time, cap 28:00",
-  "emomGreen": "5",
-  "emomYellow": "4"
+  "emomUnit": "rounds inside the 2:00 window",
+  "emomGreen": "12",
+  "emomYellow": "9"
  }
 }

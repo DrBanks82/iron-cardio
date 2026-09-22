@@ -1,56 +1,56 @@
 {
- "date": "2026-09-20",
- "weekday": "SUNDAY · TODAY",
- "title": "THE MULE · CARRY EMOM",
- "vibe": "45 min · green · hard · E2MOM · 12 rounds, 24:00 · carries + grip",
- "why": "Legs took swings, zercher, deadlifts and step-ups yesterday, so today headlines loaded carries and upper work. Every 2 minutes: one station, then a leg — the clock is the rest.",
+ "date": "2026-09-22",
+ "weekday": "TUESDAY · TODAY",
+ "title": "THE RATCHET · LADDER LAPS",
+ "vibe": "45 min · green · hard · ascending ladder · 5 rungs, cap 30:00 · legs + back",
+ "why": "Two days off legs, eight hours of sleep: today climbs a leg-and-back ladder, 2 reps up to 10. Every station sits beside the belt, no carrying.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A — shoulders / spine / wrists",
+   "meta": "Moves Method Day B — ankles / knees / hips",
    "format": "one pass, no rest",
    "items": [
-    { "name": "Shoulder dislocates ×15 · thoracic rotations ×10/side", "detail": "" },
-    { "name": "Jefferson curl ×8 · hamstring walkout ×8", "detail": "" },
-    { "name": "Wrist rocks ×20 · active pigeon 30s/side", "detail": "" },
-    { "name": "Farmer carry 2×45 lb · 20 yd out + back", "detail": "set the grip" },
-    { "name": "Belt 5.5 mph · 2 min", "detail": "" }
+    { "name": "Toe squat 30s · ankle rolls in squat ×10/side", "detail": "" },
+    { "name": "Single-leg balance 20s/side · knee drives ×10/side", "detail": "" },
+    { "name": "Shoulder protocol ×20 · shoulder extensions ×10", "detail": "" },
+    { "name": "Goblet squat 35 lb ×8 · 3-ct down", "detail": "" },
+    { "name": "Belt 6.0 → 8.0 mph · 2 min", "detail": "" }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE MULE · E2MOM · 12 ROUNDS · 24:00",
-   "meta": "EVERY 2:00 × 12 ROUNDS · 6 stations run twice · 60 lb / 2×45 lb / 52 lb / 35 lb",
-   "format": "On the top of every 2:00: the station, then the leg. Whatever is left of the 2:00 is your rest. Stations run S1→S6, then S1→S6 again.",
-   "workRest": "12 run legs. ODD rounds · 0.10 mi @ 8.5 flat. EVEN rounds · 0.08 mi @ 6.0 / 8% grade. 1.08 mi total.",
+   "title": "THE RATCHET · 5 RUNGS · CAP 30:00",
+   "meta": "ASCENDING LADDER · rungs 2-4-6-8-10 · 6 stations + 1 leg per rung · 2×45 / 60 / 52 lb",
+   "format": "Each rung: every station for the rung's reps, then the leg. Climb 2 → 4 → 6 → 8 → 10. One clock.",
+   "workRest": "5 legs, all 8.5 flat. Leg time = rung × 15 s: 0:30 / 1:00 / 1:30 / 2:00 / 2:30. ~1.1 mi total.",
    "items": [
-    { "name": "S1 · Farmer carry 2×45 lb · 40 yd out + back", "detail": "do not set them down" },
-    { "name": "S2 · DB snatch 52 lb ×8/side", "detail": "" },
-    { "name": "S3 · Bear-hug carry 60 lb · 30 yd out + back", "detail": "bell high on the chest, ribs down" },
-    { "name": "S4 · Pullover 52 lb ×15", "detail": "on the bench, long arms" },
-    { "name": "S5 · Bottoms-up rack carry 35 lb · 20 yd/side", "detail": "bell inverted, crush the handle" },
-    { "name": "S6 · Get-up 60 lb ×1/side", "detail": "heavy — take the full sequence" },
-    { "name": "LEG · odd 0.10 @ 8.5 · even 0.08 @ 6.0 / 8%", "detail": "" },
-    { "name": "STRETCH · rounds 13–14 · repeat S1 and S6", "detail": "" }
+    { "name": "S1 · Double rack reverse lunge 2×45 lb · rung/side", "detail": "" },
+    { "name": "S2 · Reverse-grip bent-over row 2×45 lb · rung", "detail": "palms up, 1-ct squeeze" },
+    { "name": "S3 · Goblet squat 60 lb · rung", "detail": "" },
+    { "name": "S4 · Staggered-stance RDL 52 lb · rung/side", "detail": "" },
+    { "name": "S5 · Hip thrust 60 lb off the bench · rung", "detail": "2-ct lockout" },
+    { "name": "S6 · Push-up · rung ×2", "detail": "4 / 8 / 12 / 16 / 20" },
+    { "name": "LEG · 8.5 flat · rung × 15 s", "detail": "" },
+    { "name": "STRETCH · rung 12 · then leg 3:00", "detail": "" }
    ],
-   "noteGreen": "Score = rounds finished inside the 2:00. Green 12. Log your score, the first round you ran over, and RPE.",
-   "text": "Bottoms-up carry: bell upside down, elbow tight to the ribs, forearm vertical — if it tips, reset and keep walking. Get-up at 60: roll to elbow, to hand, hips up, sweep the leg, stand. Bear-hug carry: squeeze the bell, breathe through the belt of the ribs."
+   "noteGreen": "Score = rungs finished inside 30:00. Green 5. Log the time, the slowest station and RPE.",
+   "text": "Staggered RDL: back toe on the floor by the front heel, 90% of the weight on the front leg. Hip thrust: shoulder blades on the bench edge, bell across the hips, ribs down at the top."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE RUCK LINE · 3 ROUNDS",
-   "meta": "loaded oblique + locomotion close",
+   "title": "THE LOCKNUT · 3 ROUNDS",
+   "meta": "anti-rotation + anti-extension close",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "One-hand farmer carry 60 lb · 30 yd out + back per side", "detail": "stay square, no lean" },
-    { "name": "Bear crawl · 15 yd out + back", "detail": "hips low" },
-    { "name": "Dragon flag negative ×6", "detail": "3-count down" }
+    { "name": "Half-kneeling chop 35 lb ×10/side", "detail": "" },
+    { "name": "Hollow rock ×20", "detail": "" },
+    { "name": "Bird dog ×8/side", "detail": "3-ct hold" }
    ],
    "text": ""
   },
@@ -60,16 +60,16 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Lat and chest opener 30s/side", "detail": "" },
-    { "name": "Forearm and wrist stretch 30s/side", "detail": "" },
+    { "name": "Couch stretch 45s/side", "detail": "" },
+    { "name": "Child's pose lat reach 30s/side", "detail": "" },
     { "name": "Belt 3.0 mph · 1 min", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "rounds inside the 2:00 window",
-  "emomGreen": "12",
-  "emomYellow": "9"
+  "emomUnit": "rungs finished inside 30:00",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

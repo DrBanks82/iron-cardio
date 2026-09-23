@@ -1,56 +1,57 @@
 {
- "date": "2026-09-22",
- "weekday": "TUESDAY · TODAY",
- "title": "THE RATCHET · LADDER LAPS",
- "vibe": "45 min · green · hard · ascending ladder · 5 rungs, cap 30:00 · legs + back",
- "why": "Two days off legs, eight hours of sleep: today climbs a leg-and-back ladder, 2 reps up to 10. Every station sits beside the belt, no carrying.",
+ "date": "2026-09-23",
+ "weekday": "WEDNESDAY · TODAY",
+ "title": "THE CRANE · UPPER LAPS",
+ "vibe": "45 min · green · hard · AMRAP 24:00 · 6 upper stations + 1 hill leg per lap",
+ "why": "Legs took the ladder yesterday, so today is shoulders, arms and chest on a 24-minute clock. The leg out of every lap goes uphill to spare the joints.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B — ankles / knees / hips",
+   "meta": "Moves Method Day A — shoulders / spine / wrists",
    "format": "one pass, no rest",
    "items": [
-    { "name": "Toe squat 30s · ankle rolls in squat ×10/side", "detail": "" },
-    { "name": "Single-leg balance 20s/side · knee drives ×10/side", "detail": "" },
-    { "name": "Shoulder protocol ×20 · shoulder extensions ×10", "detail": "" },
-    { "name": "Goblet squat 35 lb ×8 · 3-ct down", "detail": "" },
-    { "name": "Belt 6.0 → 8.0 mph · 2 min", "detail": "" }
+    { "name": "Squat overhead reach-out ×8", "detail": "" },
+    { "name": "Thoracic rotation ×8/side", "detail": "" },
+    { "name": "Jefferson curl 35 lb ×6", "detail": "slow, one vertebra at a time" },
+    { "name": "Hamstring walkout ×5 · wrist rocks ×10", "detail": "" },
+    { "name": "Halo 35 lb ×5 each way", "detail": "" },
+    { "name": "Belt 6.0 → 7.5 mph / 4% · 2 min", "detail": "" }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE RATCHET · 5 RUNGS · CAP 30:00",
-   "meta": "ASCENDING LADDER · rungs 2-4-6-8-10 · 6 stations + 1 leg per rung · 2×45 / 60 / 52 lb",
-   "format": "Each rung: every station for the rung's reps, then the leg. Climb 2 → 4 → 6 → 8 → 10. One clock.",
-   "workRest": "5 legs, all 8.5 flat. Leg time = rung × 15 s: 0:30 / 1:00 / 1:30 / 2:00 / 2:30. ~1.1 mi total.",
+   "title": "THE CRANE · AMRAP 24:00",
+   "meta": "LAPS · 6 stations + 1 leg per lap · 2×45 / 52 lb + bodyweight",
+   "format": "Stations S1 to S6, then the leg. Repeat. Count laps inside 24:00.",
+   "workRest": "Every leg: 0.15 mi @ 8.0 mph / 4% grade. ~0.8 mi total.",
    "items": [
-    { "name": "S1 · Double rack reverse lunge 2×45 lb · rung/side", "detail": "" },
-    { "name": "S2 · Reverse-grip bent-over row 2×45 lb · rung", "detail": "palms up, 1-ct squeeze" },
-    { "name": "S3 · Goblet squat 60 lb · rung", "detail": "" },
-    { "name": "S4 · Staggered-stance RDL 52 lb · rung/side", "detail": "" },
-    { "name": "S5 · Hip thrust 60 lb off the bench · rung", "detail": "2-ct lockout" },
-    { "name": "S6 · Push-up · rung ×2", "detail": "4 / 8 / 12 / 16 / 20" },
-    { "name": "LEG · 8.5 flat · rung × 15 s", "detail": "" },
-    { "name": "STRETCH · rung 12 · then leg 3:00", "detail": "" }
+    { "name": "S1 · Double push press 2×45 lb ×8", "detail": "" },
+    { "name": "S2 · Upright row 2×45 lb ×10", "detail": "elbows lead, bells to the chest" },
+    { "name": "S3 · Bench dip ×15", "detail": "" },
+    { "name": "S4 · Skull crusher 52 lb DB ×12", "detail": "on the bench" },
+    { "name": "S5 · Hammer curl 2×45 lb ×10", "detail": "" },
+    { "name": "S6 · Inchworm to push-up ×6", "detail": "WILDCARD" },
+    { "name": "LEG · 0.15 mi @ 8.0 / 4%", "detail": "" }
    ],
-   "noteGreen": "Score = rungs finished inside 30:00. Green 5. Log the time, the slowest station and RPE.",
-   "text": "Staggered RDL: back toe on the floor by the front heel, 90% of the weight on the front leg. Hip thrust: shoulder blades on the bench edge, bell across the hips, ribs down at the top."
+   "noteGreen": "Score = laps inside 24:00. Green 5, stretch 6. Log laps, slowest station, RPE.",
+   "noteYellow": "Yellow target 4 laps.",
+   "text": "Skull crusher: both hands on the DB handle ends, lower to the forehead, elbows point up. Inchworm: walk the hands out to plank, one push-up, walk back to standing."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE LOCKNUT · 3 ROUNDS",
+   "title": "THE GUY-WIRE · 3 ROUNDS",
    "meta": "anti-rotation + anti-extension close",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "Half-kneeling chop 35 lb ×10/side", "detail": "" },
-    { "name": "Hollow rock ×20", "detail": "" },
-    { "name": "Bird dog ×8/side", "detail": "3-ct hold" }
+    { "name": "Pallof hold-out 35 lb ×8/side", "detail": "3-ct hold" },
+    { "name": "Dead bug ×10/side", "detail": "" },
+    { "name": "Side plank 30s/side", "detail": "" }
    ],
    "text": ""
   },
@@ -60,15 +61,15 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Couch stretch 45s/side", "detail": "" },
-    { "name": "Child's pose lat reach 30s/side", "detail": "" },
+    { "name": "Doorway pec stretch 45s/side", "detail": "" },
+    { "name": "Overhead triceps stretch 30s/side", "detail": "" },
     { "name": "Belt 3.0 mph · 1 min", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "rungs finished inside 30:00",
+  "emomUnit": "laps finished inside 24:00",
   "emomGreen": "5",
   "emomYellow": "4"
  }

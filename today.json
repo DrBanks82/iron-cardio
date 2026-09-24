@@ -1,57 +1,54 @@
 {
- "date": "2026-09-23",
- "weekday": "WEDNESDAY · TODAY",
- "title": "THE CRANE · UPPER LAPS",
- "vibe": "45 min · green · hard · AMRAP 24:00 · 6 upper stations + 1 hill leg per lap",
- "why": "Legs took the ladder yesterday, so today is shoulders, arms and chest on a 24-minute clock. The leg out of every lap goes uphill to spare the joints.",
+ "date": "2026-09-24",
+ "weekday": "THURSDAY · TODAY",
+ "title": "THE FORGE · CHAIN LAPS",
+ "vibe": "45 min · green · hard · FOR TIME · 5 laps · 3 chains + a quarter mile per lap",
+ "why": "Upper took yesterday, so today is legs and hips in unbroken chains. Reps fall every lap while the quarter-mile legs get faster.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A — shoulders / spine / wrists",
+   "meta": "Moves Method Day B · ankles / knees / hips",
    "format": "one pass, no rest",
    "items": [
-    { "name": "Squat overhead reach-out ×8", "detail": "" },
-    { "name": "Thoracic rotation ×8/side", "detail": "" },
-    { "name": "Jefferson curl 35 lb ×6", "detail": "slow, one vertebra at a time" },
-    { "name": "Hamstring walkout ×5 · wrist rocks ×10", "detail": "" },
-    { "name": "Halo 35 lb ×5 each way", "detail": "" },
-    { "name": "Belt 6.0 → 7.5 mph / 4% · 2 min", "detail": "" }
+    { "name": "Toe squat hold 30s", "detail": "" },
+    { "name": "Ankle rolls in deep squat ×10/side", "detail": "" },
+    { "name": "Knee drives ×10/side", "detail": "" },
+    { "name": "Single-leg balance 20s/side", "detail": "" },
+    { "name": "Side step-up ×8/side", "detail": "bench" },
+    { "name": "Belt 6.0 → 8.0 mph flat · 2 min", "detail": "" }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE CRANE · AMRAP 24:00",
-   "meta": "LAPS · 6 stations + 1 leg per lap · 2×45 / 52 lb + bodyweight",
-   "format": "Stations S1 to S6, then the leg. Repeat. Count laps inside 24:00.",
-   "workRest": "Every leg: 0.15 mi @ 8.0 mph / 4% grade. ~0.8 mi total.",
+   "title": "THE FORGE · FOR TIME · 5 LAPS",
+   "meta": "5 LAPS · cap 26:00 · C1 → C2 → C3 → LEG · each chain unbroken",
+   "format": "Reps per lap: 7 · 6 · 5 · 4 · 3 (= N). Bells down only between chains.",
+   "workRest": "LEG every lap: 0.25 mi flat · 8.0 / 8.5 / 9.0 / 9.0 / 9.5 mph. 1.25 mi total.",
    "items": [
-    { "name": "S1 · Double push press 2×45 lb ×8", "detail": "" },
-    { "name": "S2 · Upright row 2×45 lb ×10", "detail": "elbows lead, bells to the chest" },
-    { "name": "S3 · Bench dip ×15", "detail": "" },
-    { "name": "S4 · Skull crusher 52 lb DB ×12", "detail": "on the bench" },
-    { "name": "S5 · Hammer curl 2×45 lb ×10", "detail": "" },
-    { "name": "S6 · Inchworm to push-up ×6", "detail": "WILDCARD" },
-    { "name": "LEG · 0.15 mi @ 8.0 / 4%", "detail": "" }
+    { "name": "C1 · Double clean + lateral lunge 2×45 lb ×N", "detail": "1 clean, 1 lunge/side = 1 rep" },
+    { "name": "C2 · 60 lb swing ×2N → half figure-8 to cossack ×N/side", "detail": "" },
+    { "name": "C3 · Squat jump ×2N → Russian twist 35 lb ×4N", "detail": "WILDCARD" },
+    { "name": "LEG · 0.25 mi flat", "detail": "speed by lap above" }
    ],
-   "noteGreen": "Score = laps inside 24:00. Green 5, stretch 6. Log laps, slowest station, RPE.",
-   "noteYellow": "Yellow target 4 laps.",
-   "text": "Skull crusher: both hands on the DB handle ends, lower to the forehead, elbows point up. Inchworm: walk the hands out to plank, one push-up, walk back to standing."
+   "noteGreen": "Green = all 5 laps inside 26:00. Stretch = under 22:00. Log time, which chain broke first, RPE.",
+   "noteYellow": "Yellow: 4 laps (start at N = 6).",
+   "text": "Lateral lunge: bells racked, step wide, sit into the working hip. Figure-8 to cossack: pass the bell under the leg, hold it at the chest, shift into the cossack on that side. Squat jump: knee-up, drop to a squat, jump."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE GUY-WIRE · 3 ROUNDS",
-   "meta": "anti-rotation + anti-extension close",
+   "title": "THE QUENCH · 3 ROUNDS",
+   "meta": "3 ROUNDS · adductor + anti-extension close",
    "format": "3 rounds, straight through",
    "items": [
-    { "name": "Pallof hold-out 35 lb ×8/side", "detail": "3-ct hold" },
-    { "name": "Dead bug ×10/side", "detail": "" },
-    { "name": "Side plank 30s/side", "detail": "" }
+    { "name": "Copenhagen hold 20s/side", "detail": "top foot on the bench" },
+    { "name": "Hand walkout ×8", "detail": "" },
+    { "name": "L-sit on bells 20s", "detail": "tuck is fine" }
    ],
    "text": ""
   },
@@ -61,15 +58,15 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Doorway pec stretch 45s/side", "detail": "" },
-    { "name": "Overhead triceps stretch 30s/side", "detail": "" },
+    { "name": "Couch stretch 45s/side", "detail": "" },
+    { "name": "Deep squat hold 45s", "detail": "" },
     { "name": "Belt 3.0 mph · 1 min", "detail": "" }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "laps finished inside 24:00",
+  "emomUnit": "laps finished inside 26:00",
   "emomGreen": "5",
   "emomYellow": "4"
  }

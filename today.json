@@ -1,54 +1,95 @@
 {
- "date": "2026-09-24",
- "weekday": "THURSDAY · TODAY",
- "title": "THE FORGE · CHAIN LAPS",
- "vibe": "45 min · green · hard · FOR TIME · 5 laps · 3 chains + a quarter mile per lap",
- "why": "Upper took yesterday, so today is legs and hips in unbroken chains. Reps fall every lap while the quarter-mile legs get faster.",
+ "date": "2026-09-26",
+ "weekday": "Saturday",
+ "title": "THE ROXZONE · SUPERSET CLOCK",
+ "vibe": "hard",
+ "why": "GREEN (8 h sleep, shoulders/back a little sore from the 60 lb bell, energy high) after a planned rest day. Shape rotates to grind+ballistic SUPERSETS on a 3:00 clock (Neupert G&B family, unused this window), dressed as a HYROX race: 8 stations from the HYROX menu (the loaded station-7 carry, burpee broad jumps, wall balls, sled pull/push, ski, sit-ups) translated to your bells. Overhead volume is kept light and the 60 lb stays in a hug, not a swing, to respect the shoulders and back.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B · ankles / knees / hips",
-   "format": "one pass, no rest",
+   "meta": "Moves Method Day A · shoulders / spine (the sore bits)",
    "items": [
-    { "name": "Toe squat hold 30s", "detail": "" },
-    { "name": "Ankle rolls in deep squat ×10/side", "detail": "" },
-    { "name": "Knee drives ×10/side", "detail": "" },
-    { "name": "Single-leg balance 20s/side", "detail": "" },
-    { "name": "Side step-up ×8/side", "detail": "bench" },
-    { "name": "Belt 6.0 → 8.0 mph flat · 2 min", "detail": "" }
+    {
+     "name": "Shoulder dislocates ×10 (towel or 35 lb handle, wide)",
+     "detail": "slow, keep elbows straight"
+    },
+    {
+     "name": "Thoracic rotations ×8/side (quadruped)",
+     "detail": ""
+    },
+    {
+     "name": "Jefferson curl ×6 (35 lb, slow roll down)",
+     "detail": "back stays long, no bounce"
+    },
+    {
+     "name": "Single-leg good morning ×6/side",
+     "detail": ""
+    },
+    {
+     "name": "Active pigeon 30s/side",
+     "detail": ""
+    },
+    {
+     "name": "Belt 6.0 → 8.0 mph flat · 2 min",
+     "detail": ""
+    }
    ],
    "text": ""
   },
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE FORGE · FOR TIME · 5 LAPS",
-   "meta": "5 LAPS · cap 26:00 · C1 → C2 → C3 → LEG · each chain unbroken",
-   "format": "Reps per lap: 7 · 6 · 5 · 4 · 3 (= N). Bells down only between chains.",
-   "workRest": "LEG every lap: 0.25 mi flat · 8.0 / 8.5 / 9.0 / 9.0 / 9.5 mph. 1.25 mi total.",
+   "title": "THE ROXZONE · EVERY 3:00 · 8 ROUNDS",
+   "meta": "8 ROUNDS · 24:00 · one SUPERSET (grind ×N then ballistic ×N, unbroken) + one LEG per round · rest what is left of the 3:00",
+   "format": "Pairs P1-P4 run in order, then repeat (rounds 1-4, then 5-8). Score = rounds finished inside their 3:00 window.",
+   "workRest": "LEG alternates: odd rounds 0.25 mi flat @ 8.5 mph (the race run); even rounds 0.15 mi @ 6.5 mph / 8% (the sled push). 1.6 mi total.",
    "items": [
-    { "name": "C1 · Double clean + lateral lunge 2×45 lb ×N", "detail": "1 clean, 1 lunge/side = 1 rep" },
-    { "name": "C2 · 60 lb swing ×2N → half figure-8 to cossack ×N/side", "detail": "" },
-    { "name": "C3 · Squat jump ×2N → Russian twist 35 lb ×4N", "detail": "WILDCARD" },
-    { "name": "LEG · 0.25 mi flat", "detail": "speed by lap above" }
+    {
+     "name": "P1 · Bear-hug 60 lb step-up ×8/side → burpee broad jump ×6",
+     "detail": "HYROX station 7 + BBJ · bench step-up, bell hugged high; burpee, then a real broad jump, turn, repeat"
+    },
+    {
+     "name": "P2 · Hand-release push-up ×15 → KB thruster 35 lb ×15",
+     "detail": "wall balls · thruster fast, punch the bell up, catch it at the chest"
+    },
+    {
+     "name": "P3 · Sit-up 35 lb ×15 (bell hugged) → double high pull 2×45 lb ×10",
+     "detail": "sit-ups + sled pull · high pulls from a swing, elbows high"
+    },
+    {
+     "name": "P4 · Renegade row 2×45 lb ×5/side → swing 35 lb ×20",
+     "detail": "WILDCARD renegade row (last seen 09-10) · swings fast and snappy = the SkiErg"
+    },
+    {
+     "name": "LEG · 0.25 mi @ 8.5 flat (odd) / 0.15 mi @ 6.5 · 8% (even)",
+     "detail": "straight off the ballistic onto the belt"
+    }
    ],
-   "noteGreen": "Green = all 5 laps inside 26:00. Stretch = under 22:00. Log time, which chain broke first, RPE.",
-   "noteYellow": "Yellow: 4 laps (start at N = 6).",
-   "text": "Lateral lunge: bells racked, step wide, sit into the working hip. Figure-8 to cossack: pass the bell under the leg, hold it at the chest, shift into the cossack on that side. Squat jump: knee-up, drop to a squat, jump."
+   "noteGreen": "Green = 8 of 8 rounds inside their windows. Stretch = rounds 9-10 repeating P1 + P2 with the flat leg @ 9.0. Log which round ran over, the slowest pair, RPE.",
+   "noteYellow": "Yellow: 6 rounds (skip the round-7/8 repeat of P3/P4), even legs at 6.0 / 6%.",
+   "text": "Bear-hug step-up: 60 lb bell wrapped in both arms at the chest, full foot on the bench, stand tall, control the step down. Burpee broad jump: chest to floor, up, jump for distance with feet together, land soft. Thruster: squat, then punch the bell overhead as you stand, one motion. Double high pull: hike both bells, hinge-and-snap, pull the bells to chest height with elbows high, drop and re-hike. Renegade row: bells under shoulders, feet wide, row without the hips opening."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE QUENCH · 3 ROUNDS",
-   "meta": "3 ROUNDS · adductor + anti-extension close",
-   "format": "3 rounds, straight through",
+   "title": "THE ROXZONE FINISH · 3 ROUNDS",
+   "meta": "3 ROUNDS · anti-rotation + anti-extension close · straight through",
    "items": [
-    { "name": "Copenhagen hold 20s/side", "detail": "top foot on the bench" },
-    { "name": "Hand walkout ×8", "detail": "" },
-    { "name": "L-sit on bells 20s", "detail": "tuck is fine" }
+    {
+     "name": "Tall-kneeling halo 35 lb ×8/side",
+     "detail": "knees down, ribs stacked, slow circles"
+    },
+    {
+     "name": "Lying leg raise ×12",
+     "detail": "low back glued to the floor the whole way"
+    },
+    {
+     "name": "Bird dog ×8/side, 3-ct hold",
+     "detail": ""
+    }
    ],
    "text": ""
   },
@@ -58,16 +99,25 @@
    "title": "COOLDOWN · 3 MIN",
    "meta": "one pass",
    "items": [
-    { "name": "Couch stretch 45s/side", "detail": "" },
-    { "name": "Deep squat hold 45s", "detail": "" },
-    { "name": "Belt 3.0 mph · 1 min", "detail": "" }
+    {
+     "name": "Doorway pec stretch 45s/side",
+     "detail": ""
+    },
+    {
+     "name": "Child's pose with reach 45s",
+     "detail": ""
+    },
+    {
+     "name": "Belt 3.0 mph · 1 min",
+     "detail": ""
+    }
    ],
    "text": ""
   }
  ],
  "timer": {
-  "emomUnit": "laps finished inside 26:00",
-  "emomGreen": "5",
-  "emomYellow": "4"
+  "emomUnit": "rounds finished inside their 3:00 window",
+  "emomGreen": "8",
+  "emomYellow": "6"
  }
 }

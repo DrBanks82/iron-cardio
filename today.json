@@ -1,31 +1,39 @@
 {
- "date": "2026-09-26",
- "weekday": "Saturday",
- "title": "THE ROXZONE · SUPERSET CLOCK",
- "vibe": "hard",
- "why": "GREEN (8 h sleep, shoulders/back a little sore from the 60 lb bell, energy high) after a planned rest day. Shape rotates to grind+ballistic SUPERSETS on a 3:00 clock (Neupert G&B family, unused this window), dressed as a HYROX race: 8 stations from the HYROX menu (the loaded station-7 carry, burpee broad jumps, wall balls, sled pull/push, ski, sit-ups) translated to your bells. Overhead volume is kept light and the 60 lb stays in a hug, not a swing, to respect the shoulders and back.",
+ "date": "2026-09-27",
+ "weekday": "Sunday",
+ "title": "THE RESET · GROUND LAPS",
+ "vibe": "moderate",
+ "why": "GREEN (8 h, low back + upper shoulders a little sore) and you asked for mobility + core, not a recovery day. Shape rotates to the GET-UP / GROUND day (unused since 09-15): two 10:00 clocks built on the Original Strength 'pick 2, then crawl' template, get-ups and windmills on the 35 lb only, no heavy hinge, no 60 lb ballistics, short flat legs off every round.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A · shoulders / spine (the sore bits)",
+   "title": "WARM-UP · 8 MIN · ONE PASS",
+   "meta": "Moves Method Day C FLOW + Original Strength resets · low back / upper shoulders",
    "items": [
     {
-     "name": "Shoulder dislocates ×10 (towel or 35 lb handle, wide)",
-     "detail": "slow, keep elbows straight"
-    },
-    {
-     "name": "Thoracic rotations ×8/side (quadruped)",
+     "name": "Crocodile breathing ×10 breaths (belly down, nose only)",
      "detail": ""
     },
     {
-     "name": "Jefferson curl ×6 (35 lb, slow roll down)",
-     "detail": "back stays long, no bounce"
+     "name": "Head nods + rotations ×10 each (on all fours)",
+     "detail": ""
     },
     {
-     "name": "Single-leg good morning ×6/side",
+     "name": "Rock-backs ×15 (hands down, sit toward heels, spine long)",
+     "detail": ""
+    },
+    {
+     "name": "Segmental roll ×3 each way (lead with the arm, then the leg)",
+     "detail": ""
+    },
+    {
+     "name": "Cross-crawl ×20 (standing, opposite elbow to knee, slow)",
+     "detail": ""
+    },
+    {
+     "name": "Shoulder dislocates ×10 (towel, wide)",
      "detail": ""
     },
     {
@@ -33,7 +41,7 @@
      "detail": ""
     },
     {
-     "name": "Belt 6.0 → 8.0 mph flat · 2 min",
+     "name": "Belt 5.5 → 7.5 mph flat · 2 min",
      "detail": ""
     }
    ],
@@ -42,53 +50,86 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE ROXZONE · EVERY 3:00 · 8 ROUNDS",
-   "meta": "8 ROUNDS · 24:00 · one SUPERSET (grind ×N then ballistic ×N, unbroken) + one LEG per round · rest what is left of the 3:00",
-   "format": "Pairs P1-P4 run in order, then repeat (rounds 1-4, then 5-8). Score = rounds finished inside their 3:00 window.",
-   "workRest": "LEG alternates: odd rounds 0.25 mi flat @ 8.5 mph (the race run); even rounds 0.15 mi @ 6.5 mph / 8% (the sled push). 1.6 mi total.",
+   "title": "CLOCK 1 · GET UP · 10:00 AMRAP",
+   "meta": "10:00 · AMRAP ROUNDS · 4 moves + one LEG per round · nasal breathing pace, bell stays at 35 lb",
+   "format": "Score = rounds finished (green 5 / stretch 6 / yellow 4). Rest only what the breath needs.",
+   "workRest": "LEG every round: 0.15 mi flat @ 8.0 mph.",
    "items": [
     {
-     "name": "P1 · Bear-hug 60 lb step-up ×8/side → burpee broad jump ×6",
-     "detail": "HYROX station 7 + BBJ · bench step-up, bell hugged high; burpee, then a real broad jump, turn, repeat"
+     "name": "Get-up 35 lb ×1/side",
+     "detail": "slow, eyes on the bell, bell locked out the whole way"
     },
     {
-     "name": "P2 · Hand-release push-up ×15 → KB thruster 35 lb ×15",
-     "detail": "wall balls · thruster fast, punch the bell up, catch it at the chest"
+     "name": "Windmill 35 lb ×3/side",
+     "detail": "2-ct at the bottom"
     },
     {
-     "name": "P3 · Sit-up 35 lb ×15 (bell hugged) → double high pull 2×45 lb ×10",
-     "detail": "sit-ups + sled pull · high pulls from a swing, elbows high"
+     "name": "Arm bar 35 lb 20s/side",
+     "detail": "roll onto the hip, bell locked out, shoulder packed"
     },
     {
-     "name": "P4 · Renegade row 2×45 lb ×5/side → swing 35 lb ×20",
-     "detail": "WILDCARD renegade row (last seen 09-10) · swings fast and snappy = the SkiErg"
+     "name": "Rocking cross crawl ×10/side",
+     "detail": "on all fours: rock back, then opposite knee to elbow"
     },
     {
-     "name": "LEG · 0.25 mi @ 8.5 flat (odd) / 0.15 mi @ 6.5 · 8% (even)",
-     "detail": "straight off the ballistic onto the belt"
+     "name": "LEG · 0.15 mi @ 8.0 flat",
+     "detail": ""
     }
    ],
-   "noteGreen": "Green = 8 of 8 rounds inside their windows. Stretch = rounds 9-10 repeating P1 + P2 with the flat leg @ 9.0. Log which round ran over, the slowest pair, RPE.",
-   "noteYellow": "Yellow: 6 rounds (skip the round-7/8 repeat of P3/P4), even legs at 6.0 / 6%.",
-   "text": "Bear-hug step-up: 60 lb bell wrapped in both arms at the chest, full foot on the bench, stand tall, control the step down. Burpee broad jump: chest to floor, up, jump for distance with feet together, land soft. Thruster: squat, then punch the bell overhead as you stand, one motion. Double high pull: hike both bells, hinge-and-snap, pull the bells to chest height with elbows high, drop and re-hike. Renegade row: bells under shoulders, feet wide, row without the hips opening."
+   "noteGreen": "Green = 5 rounds. Stretch = 6. Log rounds + RPE.",
+   "noteYellow": "Yellow: 4 rounds, windmill ×2/side.",
+   "text": "Arm bar: lie on your back, bell locked out over the chest, roll onto the opposite hip and let the shoulder settle. Rocking cross crawl: all fours, rock the hips back to the heels, come forward and touch opposite knee to opposite elbow, alternate. 2 min transition to Clock 2."
+  },
+  {
+   "id": "main2",
+   "kind": "conditioning",
+   "title": "CLOCK 2 · CRAWL · 10:00 AMRAP",
+   "meta": "10:00 · AMRAP ROUNDS · 4 moves + one LEG per round · the Original Strength 'then crawl' half",
+   "format": "Score = rounds finished (green 4 / stretch 5 / yellow 3).",
+   "workRest": "LEG every round: 0.15 mi flat @ 8.0 mph.",
+   "items": [
+    {
+     "name": "Leopard crawl 15 yd forward + 15 yd BACKWARD",
+     "detail": "knees an inch off the floor, hips level, nose breathing"
+    },
+    {
+     "name": "Glute bridge 60 lb ×12 (2-ct squeeze)",
+     "detail": "bell on the hips, ribs down"
+    },
+    {
+     "name": "Drag-through 35 lb ×16",
+     "detail": "WILDCARD (13 d) · hand-and-toe position, hips still, pass the bell under"
+    },
+    {
+     "name": "Pallof hold-out 35 lb ×8/side, 3-ct",
+     "detail": "tall-kneeling, bell held out at arm's length"
+    },
+    {
+     "name": "LEG · 0.15 mi @ 8.0 flat",
+     "detail": ""
+    }
+   ],
+   "noteGreen": "Green = 4 rounds. Stretch = 5. Log rounds + which move slowed you.",
+   "noteYellow": "Yellow: 3 rounds, crawl forward only.",
+   "text": "Leopard crawl backward: same shape, drive from the hands, look where you are going. Glute bridge: heels close, drive through the heels, hold the top for 2. Pallof hold-out: both hands on the bell at the chest, push it straight out, hold 3, back in; the body does not rotate."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE ROXZONE FINISH · 3 ROUNDS",
-   "meta": "3 ROUNDS · anti-rotation + anti-extension close · straight through",
+   "title": "THE RESET FINISH · 3 ROUNDS",
+   "meta": "3 ROUNDS · anti-extension + rotation control close · straight through",
    "items": [
     {
-     "name": "Tall-kneeling halo 35 lb ×8/side",
-     "detail": "knees down, ribs stacked, slow circles"
+     "name": "Dead bug ×10/side, 2-ct",
+     "detail": "low back stays glued to the floor"
     },
     {
-     "name": "Lying leg raise ×12",
-     "detail": "low back glued to the floor the whole way"
+     "name": "Rolling ab wiper ×6/side",
+     "detail": "on your back, arms out wide, legs up, lower the legs side to side under control"
     },
     {
-     "name": "Bird dog ×8/side, 3-ct hold",
-     "detail": ""
+     "name": "Elevated rock-back ×10, 3-ct hold",
+     "detail": "hands and toes only, knees off the floor, rock back to the heels"
     }
    ],
    "text": ""
@@ -100,11 +141,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Doorway pec stretch 45s/side",
+     "name": "Child's pose with side reach 45s/side",
      "detail": ""
     },
     {
-     "name": "Child's pose with reach 45s",
+     "name": "Doorway pec stretch 45s/side",
      "detail": ""
     },
     {
@@ -116,8 +157,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "rounds finished inside their 3:00 window",
-  "emomGreen": "8",
-  "emomYellow": "6"
+  "emomUnit": "rounds finished (Clock 1 + Clock 2)",
+  "emomGreen": "9",
+  "emomYellow": "7"
  }
 }

@@ -1,47 +1,43 @@
 {
- "date": "2026-09-27",
- "weekday": "Sunday",
- "title": "THE RESET · GROUND LAPS",
- "vibe": "moderate",
- "why": "GREEN (8 h, low back + upper shoulders a little sore) and you asked for mobility + core, not a recovery day. Shape rotates to the GET-UP / GROUND day (unused since 09-15): two 10:00 clocks built on the Original Strength 'pick 2, then crawl' template, get-ups and windmills on the 35 lb only, no heavy hinge, no 60 lb ballistics, short flat legs off every round.",
+ "date": "2026-09-28",
+ "weekday": "Monday",
+ "title": "THE HELEN TOWER · HYBRID FLOORS",
+ "vibe": "hard",
+ "why": "GREEN (8 h, nothing sore, wants it hard) after a ground/mobility day that spared the legs. Tower shape is back (last 09-19): 5 descending floors for time, run leg GROWS as the reps shrink, built from the CrossFit run-plus-descending-reps WOD family (Helen, 400 m run + swings + pull-ups) on your bells.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 8 MIN · ONE PASS",
-   "meta": "Moves Method Day C FLOW + Original Strength resets · low back / upper shoulders",
+   "title": "WARM-UP · 6 MIN · ONE PASS",
+   "meta": "Moves Method Day B · ankles / knees / hips",
    "items": [
     {
-     "name": "Crocodile breathing ×10 breaths (belly down, nose only)",
+     "name": "Shoulder protocol 2×20 (light, no pause)",
      "detail": ""
     },
     {
-     "name": "Head nods + rotations ×10 each (on all fours)",
+     "name": "Toe squats ×20",
      "detail": ""
     },
     {
-     "name": "Rock-backs ×15 (hands down, sit toward heels, spine long)",
+     "name": "Ankle rolls in the squat ×10",
      "detail": ""
     },
     {
-     "name": "Segmental roll ×3 each way (lead with the arm, then the leg)",
+     "name": "Single-leg squat to bench ×8/side",
      "detail": ""
     },
     {
-     "name": "Cross-crawl ×20 (standing, opposite elbow to knee, slow)",
+     "name": "Knee drives ×10/side",
      "detail": ""
     },
     {
-     "name": "Shoulder dislocates ×10 (towel, wide)",
+     "name": "Side step-ups ×10/side",
      "detail": ""
     },
     {
-     "name": "Active pigeon 30s/side",
-     "detail": ""
-    },
-    {
-     "name": "Belt 5.5 → 7.5 mph flat · 2 min",
+     "name": "Belt 6.0 → 8.0 mph flat · 2 min",
      "detail": ""
     }
    ],
@@ -50,86 +46,57 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "CLOCK 1 · GET UP · 10:00 AMRAP",
-   "meta": "10:00 · AMRAP ROUNDS · 4 moves + one LEG per round · nasal breathing pace, bell stays at 35 lb",
-   "format": "Score = rounds finished (green 5 / stretch 6 / yellow 4). Rest only what the breath needs.",
-   "workRest": "LEG every round: 0.15 mi flat @ 8.0 mph.",
+   "title": "THE HELEN TOWER · 5 FLOORS · FOR TIME",
+   "meta": "5 FLOORS · one clock · cap 28:00 · reps FALL each floor, the run leg GROWS · 2×45 lb + 52 lb DB",
+   "format": "Floor 1 → 5 straight through, no rest intervals. Score = floors finished inside 28:00 (green 5 / yellow 4). Stretch = all 5 under 24:00.",
+   "workRest": "LEG closes every floor, flat @ 8.5 mph: 0.15 · 0.20 · 0.25 · 0.30 · 0.35 mi (1.25 mi).",
    "items": [
     {
-     "name": "Get-up 35 lb ×1/side",
-     "detail": "slow, eyes on the bell, bell locked out the whole way"
+     "name": "S1 · Double deadlift 2×45 lb · 20 / 16 / 12 / 8 / 4",
+     "detail": "bells outside the feet, stand tall, tap and go"
     },
     {
-     "name": "Windmill 35 lb ×3/side",
-     "detail": "2-ct at the bottom"
+     "name": "S2 · Double jerk 2×45 lb · 10 / 8 / 6 / 4 / 2",
+     "detail": "rack once, quick knee bend, drive, punch under, lock out"
     },
     {
-     "name": "Arm bar 35 lb 20s/side",
-     "detail": "roll onto the hip, bell locked out, shoulder packed"
+     "name": "S3 · Gorilla row 52 lb · 20 / 16 / 12 / 8 / 4 (alternating)",
+     "detail": "flat back, bell between the feet"
     },
     {
-     "name": "Rocking cross crawl ×10/side",
-     "detail": "on all fours: rock back, then opposite knee to elbow"
+     "name": "S4 · Front-rack split squat 2×45 lb · 10 / 8 / 6 / 4 / 2 per side",
+     "detail": "WILDCARD (13 d) · rear knee kisses the floor"
     },
     {
-     "name": "LEG · 0.15 mi @ 8.0 flat",
-     "detail": ""
+     "name": "S5 · V-up · 20 / 16 / 12 / 8 / 4",
+     "detail": "toes-to-bar stand-in, hands to feet at the top"
+    },
+    {
+     "name": "LEG · 0.15 → 0.35 mi @ 8.5 flat",
+     "detail": "straight off the V-ups onto the belt"
     }
    ],
-   "noteGreen": "Green = 5 rounds. Stretch = 6. Log rounds + RPE.",
-   "noteYellow": "Yellow: 4 rounds, windmill ×2/side.",
-   "text": "Arm bar: lie on your back, bell locked out over the chest, roll onto the opposite hip and let the shoulder settle. Rocking cross crawl: all fours, rock the hips back to the heels, come forward and touch opposite knee to opposite elbow, alternate. 2 min transition to Clock 2."
-  },
-  {
-   "id": "main2",
-   "kind": "conditioning",
-   "title": "CLOCK 2 · CRAWL · 10:00 AMRAP",
-   "meta": "10:00 · AMRAP ROUNDS · 4 moves + one LEG per round · the Original Strength 'then crawl' half",
-   "format": "Score = rounds finished (green 4 / stretch 5 / yellow 3).",
-   "workRest": "LEG every round: 0.15 mi flat @ 8.0 mph.",
-   "items": [
-    {
-     "name": "Leopard crawl 15 yd forward + 15 yd BACKWARD",
-     "detail": "knees an inch off the floor, hips level, nose breathing"
-    },
-    {
-     "name": "Glute bridge 60 lb ×12 (2-ct squeeze)",
-     "detail": "bell on the hips, ribs down"
-    },
-    {
-     "name": "Drag-through 35 lb ×16",
-     "detail": "WILDCARD (13 d) · hand-and-toe position, hips still, pass the bell under"
-    },
-    {
-     "name": "Pallof hold-out 35 lb ×8/side, 3-ct",
-     "detail": "tall-kneeling, bell held out at arm's length"
-    },
-    {
-     "name": "LEG · 0.15 mi @ 8.0 flat",
-     "detail": ""
-    }
-   ],
-   "noteGreen": "Green = 4 rounds. Stretch = 5. Log rounds + which move slowed you.",
-   "noteYellow": "Yellow: 3 rounds, crawl forward only.",
-   "text": "Leopard crawl backward: same shape, drive from the hands, look where you are going. Glute bridge: heels close, drive through the heels, hold the top for 2. Pallof hold-out: both hands on the bell at the chest, push it straight out, hold 3, back in; the body does not rotate."
+   "noteGreen": "Green = 5 floors inside 28:00. Stretch = under 24:00. Log total time, slowest station, RPE.",
+   "noteYellow": "Yellow: 4 floors (stop after the 0.30 mi leg), split squat 8 / 6 / 4 / 2.",
+   "text": "Double jerk: both bells racked, a fast knee bend and drive, then drop under the bells and stand them out; rack once per floor. Gorilla row: hip-width stance, one 52 lb bell on the floor between the feet, row one hand then the other, torso still. Front-rack split squat: both bells racked, long stride, rear knee to the floor, all reps one side then switch. V-up: legs straight, reach hands to feet, back flat on the way down."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE RESET FINISH · 3 ROUNDS",
-   "meta": "3 ROUNDS · anti-extension + rotation control close · straight through",
+   "title": "THE HELEN FINISH · 3 ROUNDS",
+   "meta": "3 ROUNDS · lateral + anti-extension close · straight through",
    "items": [
     {
-     "name": "Dead bug ×10/side, 2-ct",
-     "detail": "low back stays glued to the floor"
+     "name": "Side bend 35 lb ×10/side",
+     "detail": "bell at the side, slide down the leg, pull back up with the far-side obliques"
     },
     {
-     "name": "Rolling ab wiper ×6/side",
-     "detail": "on your back, arms out wide, legs up, lower the legs side to side under control"
+     "name": "Dragon flag negative ×6, 3-ct",
+     "detail": "hands on the bench behind the head, lower the body as one line"
     },
     {
-     "name": "Elevated rock-back ×10, 3-ct hold",
-     "detail": "hands and toes only, knees off the floor, rock back to the heels"
+     "name": "L-sit on the bells 20s",
+     "detail": ""
     }
    ],
    "text": ""
@@ -141,11 +108,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Child's pose with side reach 45s/side",
+     "name": "Couch stretch 45s/side",
      "detail": ""
     },
     {
-     "name": "Doorway pec stretch 45s/side",
+     "name": "Lat stretch on the bench 45s",
      "detail": ""
     },
     {
@@ -157,8 +124,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "rounds finished (Clock 1 + Clock 2)",
-  "emomGreen": "9",
-  "emomYellow": "7"
+  "emomUnit": "floors finished inside 28:00",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

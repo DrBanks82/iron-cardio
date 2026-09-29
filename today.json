@@ -1,43 +1,47 @@
 {
- "date": "2026-09-28",
- "weekday": "Monday",
- "title": "THE HELEN TOWER · HYBRID FLOORS",
+ "date": "2026-09-29",
+ "weekday": "Tuesday",
+ "title": "THE TWIST · ROTATION EMOM",
  "vibe": "hard",
- "why": "GREEN (8 h, nothing sore, wants it hard) after a ground/mobility day that spared the legs. Tower shape is back (last 09-19): 5 descending floors for time, run leg GROWS as the reps shrink, built from the CrossFit run-plus-descending-reps WOD family (Helen, 400 m run + swings + pull-ups) on your bells.",
+ "why": "GREEN (8 h, nothing sore, wants it hard) the day after a leg-heavy tower, so today is upper body + rotation on a strict minute clock with short flat sprints. Six sprint legs at 10.0 mph keep the run in without stacking more miles on the legs.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B · ankles / knees / hips",
+   "meta": "Moves Method Day A · shoulders / spine / hips",
    "items": [
     {
-     "name": "Shoulder protocol 2×20 (light, no pause)",
+     "name": "Squat overhead reach-out ×10",
      "detail": ""
     },
     {
-     "name": "Toe squats ×20",
+     "name": "Towel shoulder dislocates ×12",
      "detail": ""
     },
     {
-     "name": "Ankle rolls in the squat ×10",
+     "name": "Jefferson curl 35 lb ×6, slow",
      "detail": ""
     },
     {
-     "name": "Single-leg squat to bench ×8/side",
+     "name": "Thoracic rotations ×8/side",
      "detail": ""
     },
     {
-     "name": "Knee drives ×10/side",
+     "name": "Single-leg good morning ×6/side",
      "detail": ""
     },
     {
-     "name": "Side step-ups ×10/side",
+     "name": "Hamstring walkouts ×5",
      "detail": ""
     },
     {
-     "name": "Belt 6.0 → 8.0 mph flat · 2 min",
+     "name": "Active pigeon 30s/side",
+     "detail": ""
+    },
+    {
+     "name": "Belt 6.0 → 7.5 mph flat · 2 min",
      "detail": ""
     }
    ],
@@ -46,57 +50,61 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE HELEN TOWER · 5 FLOORS · FOR TIME",
-   "meta": "5 FLOORS · one clock · cap 28:00 · reps FALL each floor, the run leg GROWS · 2×45 lb + 52 lb DB",
-   "format": "Floor 1 → 5 straight through, no rest intervals. Score = floors finished inside 28:00 (green 5 / yellow 4). Stretch = all 5 under 24:00.",
-   "workRest": "LEG closes every floor, flat @ 8.5 mph: 0.15 · 0.20 · 0.25 · 0.30 · 0.35 mi (1.25 mi).",
+   "title": "THE TWIST · EMOM 24 · 6 CYCLES",
+   "meta": "6 CYCLES of 4 minutes · one station per minute · minute 4 is a sprint · 52 lb DB + 35 lb bell",
+   "format": "Every minute on the minute, 24 minutes. Odd cycles (1, 3, 5) = Set A. Even cycles (2, 4, 6) = Set B. Do the reps, rest the remainder. Score = minutes where the reps finished inside the minute (green 24 / yellow 20).",
+   "workRest": "MINUTE 4 of every cycle: SPRINT 30 s @ 10.0 mph flat, then step off and walk to the top of the next minute (6 sprints, ~0.5 mi).",
    "items": [
     {
-     "name": "S1 · Double deadlift 2×45 lb · 20 / 16 / 12 / 8 / 4",
-     "detail": "bells outside the feet, stand tall, tap and go"
+     "name": "SET A · min 1 · Floor press with glute bridge 52 lb · 8/side",
+     "detail": "hips up and held, press one arm, switch at 8"
     },
     {
-     "name": "S2 · Double jerk 2×45 lb · 10 / 8 / 6 / 4 / 2",
-     "detail": "rack once, quick knee bend, drive, punch under, lock out"
+     "name": "SET A · min 2 · Dead rotational clean 52 lb · 6/side",
+     "detail": "DB on the floor outside the foot, rotate through the hips, clean to the shoulder, set it back down dead each rep"
     },
     {
-     "name": "S3 · Gorilla row 52 lb · 20 / 16 / 12 / 8 / 4 (alternating)",
-     "detail": "flat back, bell between the feet"
+     "name": "SET A · min 3 · Pallof press-out 35 lb · 8/side, 2-ct hold",
+     "detail": "half-kneeling, bell at the chest, press straight out, hold 2, do not let the torso turn"
     },
     {
-     "name": "S4 · Front-rack split squat 2×45 lb · 10 / 8 / 6 / 4 / 2 per side",
-     "detail": "WILDCARD (13 d) · rear knee kisses the floor"
+     "name": "SET B · min 1 · Bench pullover 52 lb · 12",
+     "detail": "ribs down, lower to the ears, pull back over the chest"
     },
     {
-     "name": "S5 · V-up · 20 / 16 / 12 / 8 / 4",
-     "detail": "toes-to-bar stand-in, hands to feet at the top"
+     "name": "SET B · min 2 · Kneeling single-arm high pull 35 lb · 10/side",
+     "detail": "tall-kneeling, hike the bell back, pull it high with the elbow leading, swap at 10"
     },
     {
-     "name": "LEG · 0.15 → 0.35 mi @ 8.5 flat",
-     "detail": "straight off the V-ups onto the belt"
+     "name": "SET B · min 3 · Bent press 35 lb · 3/side",
+     "detail": "WILDCARD (14 d) · bell racked, fold sideways under it until the arm locks, stand up"
+    },
+    {
+     "name": "EVERY CYCLE · min 4 · SPRINT 30 s @ 10.0 flat",
+     "detail": "6 total"
     }
    ],
-   "noteGreen": "Green = 5 floors inside 28:00. Stretch = under 24:00. Log total time, slowest station, RPE.",
-   "noteYellow": "Yellow: 4 floors (stop after the 0.30 mi leg), split squat 8 / 6 / 4 / 2.",
-   "text": "Double jerk: both bells racked, a fast knee bend and drive, then drop under the bells and stand them out; rack once per floor. Gorilla row: hip-width stance, one 52 lb bell on the floor between the feet, row one hand then the other, torso still. Front-rack split squat: both bells racked, long stride, rear knee to the floor, all reps one side then switch. V-up: legs straight, reach hands to feet, back flat on the way down."
+   "noteGreen": "Green = 24 of 24 minutes made. Log minutes made, first minute that ran over, RPE.",
+   "noteYellow": "Yellow: 5 cycles (20 min), floor press 6/side, pullover 10, sprint @ 9.5.",
+   "text": ""
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE HELEN FINISH · 3 ROUNDS",
-   "meta": "3 ROUNDS · lateral + anti-extension close · straight through",
+   "title": "THE TWIST FINISH · 3 ROUNDS",
+   "meta": "3 ROUNDS · chop + Copenhagen + bird dog · straight through",
    "items": [
     {
-     "name": "Side bend 35 lb ×10/side",
-     "detail": "bell at the side, slide down the leg, pull back up with the far-side obliques"
+     "name": "Half-kneeling chop 35 lb ×8/side",
+     "detail": "bell from the outside hip up and across to the far shoulder, arms long"
     },
     {
-     "name": "Dragon flag negative ×6, 3-ct",
-     "detail": "hands on the bench behind the head, lower the body as one line"
+     "name": "Copenhagen hold, top foot on the bench · 20 s/side",
+     "detail": "on the elbow, bottom leg bent and free, hips high, top inner thigh does the work"
     },
     {
-     "name": "L-sit on the bells 20s",
-     "detail": ""
+     "name": "Bird dog, 3-ct hold ×6/side",
+     "detail": "hand and knee on the floor, opposite arm and leg long, hips level"
     }
    ],
    "text": ""
@@ -108,11 +116,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Couch stretch 45s/side",
+     "name": "Doorway chest stretch 45s/side",
      "detail": ""
     },
     {
-     "name": "Lat stretch on the bench 45s",
+     "name": "Thread-the-needle 45s/side",
      "detail": ""
     },
     {
@@ -124,8 +132,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "floors finished inside 28:00",
-  "emomGreen": "5",
-  "emomYellow": "4"
+  "emomUnit": "minutes made inside the minute",
+  "emomGreen": "24",
+  "emomYellow": "20"
  }
 }

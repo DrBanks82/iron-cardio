@@ -1,47 +1,43 @@
 {
- "date": "2026-09-29",
- "weekday": "Tuesday",
- "title": "THE TWIST · ROTATION EMOM",
- "vibe": "hard",
- "why": "GREEN (8 h, nothing sore, wants it hard) the day after a leg-heavy tower, so today is upper body + rotation on a strict minute clock with short flat sprints. Six sprint legs at 10.0 mph keep the run in without stacking more miles on the legs.",
+ "date": "2026-10-02",
+ "weekday": "Friday",
+ "title": "THE METRONOME · 40/20 CIRCUIT",
+ "vibe": "moderate",
+ "why": "YELLOW (about 6 h sleep, nothing sore, a little tired), so today is a steady interval circuit: the clock sets the work, you set the pace. Three rounds, moderate loads, every pattern touched once, and a 2-minute run leg closing each round. No ceiling test today.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A · shoulders / spine / hips",
+   "meta": "Moves Method Day B · ankles / knees / hips / shoulders",
    "items": [
     {
-     "name": "Squat overhead reach-out ×10",
+     "name": "Toe squats ×8",
+     "detail": "heels up, sit down between the heels, stand"
+    },
+    {
+     "name": "Ankle rolls in the deep squat ×6/side",
      "detail": ""
     },
     {
-     "name": "Towel shoulder dislocates ×12",
+     "name": "Single-leg balance 30s/side",
      "detail": ""
     },
     {
-     "name": "Jefferson curl 35 lb ×6, slow",
+     "name": "Knee drives ×10/side",
      "detail": ""
     },
     {
-     "name": "Thoracic rotations ×8/side",
+     "name": "Side step-ups on the bench ×8/side",
      "detail": ""
     },
     {
-     "name": "Single-leg good morning ×6/side",
-     "detail": ""
+     "name": "Shoulder extensions ×10",
+     "detail": "hands clasped behind you, lift and hold 1 count"
     },
     {
-     "name": "Hamstring walkouts ×5",
-     "detail": ""
-    },
-    {
-     "name": "Active pigeon 30s/side",
-     "detail": ""
-    },
-    {
-     "name": "Belt 6.0 → 7.5 mph flat · 2 min",
+     "name": "Belt 6.0 → 7.0 mph flat · 2 min",
      "detail": ""
     }
    ],
@@ -50,61 +46,61 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE TWIST · EMOM 24 · 6 CYCLES",
-   "meta": "6 CYCLES of 4 minutes · one station per minute · minute 4 is a sprint · 52 lb DB + 35 lb bell",
-   "format": "Every minute on the minute, 24 minutes. Odd cycles (1, 3, 5) = Set A. Even cycles (2, 4, 6) = Set B. Do the reps, rest the remainder. Score = minutes where the reps finished inside the minute (green 24 / yellow 20).",
-   "workRest": "MINUTE 4 of every cycle: SPRINT 30 s @ 10.0 mph flat, then step off and walk to the top of the next minute (6 sprints, ~0.5 mi).",
+   "title": "THE METRONOME · 3 ROUNDS · 40 ON / 20 OFF",
+   "meta": "3 ROUNDS of 8 minutes · 6 stations + 1 run leg per round · 24 minutes · 35 lb bell + 52 lb DB",
+   "format": "Each station: 40 seconds of work, 20 seconds to change over. Six stations take 6 minutes, then a 2-minute run leg, then the next round starts. Pick a pace you can hold for all 40 seconds on all three rounds. Score = 3 rounds finished; log the station that felt hardest and RPE.",
+   "workRest": "RUN LEG after station 6, every round: 2:00 @ 8.0 mph flat (about 0.27 mi each, 0.8 mi total). Round 3: finish at 8.5 if it feels good.",
    "items": [
     {
-     "name": "SET A · min 1 · Floor press with glute bridge 52 lb · 8/side",
-     "detail": "hips up and held, press one arm, switch at 8"
+     "name": "1 · Reverse lunge + curl 35 lb",
+     "detail": "bell held by the horns, step back, curl as you stand, alternate legs"
     },
     {
-     "name": "SET A · min 2 · Dead rotational clean 52 lb · 6/side",
-     "detail": "DB on the floor outside the foot, rotate through the hips, clean to the shoulder, set it back down dead each rep"
+     "name": "2 · 3-point row 52 lb",
+     "detail": "free hand on the bench, pull to the hip, 20 s per side"
     },
     {
-     "name": "SET A · min 3 · Pallof press-out 35 lb · 8/side, 2-ct hold",
-     "detail": "half-kneeling, bell at the chest, press straight out, hold 2, do not let the torso turn"
+     "name": "3 · Staggered single-arm RDL 52 lb",
+     "detail": "back foot on its toe as a kickstand, DB in the hand opposite the front leg, 20 s per side"
     },
     {
-     "name": "SET B · min 1 · Bench pullover 52 lb · 12",
-     "detail": "ribs down, lower to the ears, pull back over the chest"
+     "name": "4 · Overhead march 35 lb",
+     "detail": "WILDCARD (first time) · bell locked out overhead, march in place knees to hip height, switch arms at 20 s, ribs down"
     },
     {
-     "name": "SET B · min 2 · Kneeling single-arm high pull 35 lb · 10/side",
-     "detail": "tall-kneeling, hike the bell back, pull it high with the elbow leading, swap at 10"
+     "name": "5 · Goblet thruster 35 lb",
+     "detail": "bell at the chest, squat, drive it overhead as you stand"
     },
     {
-     "name": "SET B · min 3 · Bent press 35 lb · 3/side",
-     "detail": "WILDCARD (14 d) · bell racked, fold sideways under it until the arm locks, stand up"
+     "name": "6 · Mountain climbers",
+     "detail": "hands under shoulders, steady rhythm, hips level"
     },
     {
-     "name": "EVERY CYCLE · min 4 · SPRINT 30 s @ 10.0 flat",
-     "detail": "6 total"
+     "name": "RUN · 2:00 @ 8.0 flat",
+     "detail": "3 total"
     }
    ],
-   "noteGreen": "Green = 24 of 24 minutes made. Log minutes made, first minute that ran over, RPE.",
-   "noteYellow": "Yellow: 5 cycles (20 min), floor press 6/side, pullover 10, sprint @ 9.5.",
+   "noteGreen": "Green: all 3 rounds, run legs at 8.5, push the reps inside each 40.",
+   "noteYellow": "Yellow (today): all 3 rounds at a steady pace, run legs at 8.0. Drop to 7.5 if the legs feel flat.",
    "text": ""
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "THE TWIST FINISH · 3 ROUNDS",
-   "meta": "3 ROUNDS · chop + Copenhagen + bird dog · straight through",
+   "title": "MIDLINE CLOSE · 3 ROUNDS",
+   "meta": "3 ROUNDS · hollow rock + drag-through + leg raise · straight through",
    "items": [
     {
-     "name": "Half-kneeling chop 35 lb ×8/side",
-     "detail": "bell from the outside hip up and across to the far shoulder, arms long"
+     "name": "Hollow rock ×12",
+     "detail": "low back pressed down, arms long overhead, rock small and tight"
     },
     {
-     "name": "Copenhagen hold, top foot on the bench · 20 s/side",
-     "detail": "on the elbow, bottom leg bent and free, hips high, top inner thigh does the work"
+     "name": "Drag-through 35 lb ×6/side",
+     "detail": "on hands and toes, feet wide, reach under and drag the bell across, hips do not turn"
     },
     {
-     "name": "Bird dog, 3-ct hold ×6/side",
-     "detail": "hand and knee on the floor, opposite arm and leg long, hips level"
+     "name": "Lying leg raise ×10",
+     "detail": "low back pressed down, lower slow"
     }
    ],
    "text": ""
@@ -116,11 +112,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Doorway chest stretch 45s/side",
+     "name": "Couch stretch 45s/side",
      "detail": ""
     },
     {
-     "name": "Thread-the-needle 45s/side",
+     "name": "Child's pose with side reach 30s/side",
      "detail": ""
     },
     {
@@ -132,8 +128,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "minutes made inside the minute",
-  "emomGreen": "24",
-  "emomYellow": "20"
+  "emomUnit": "rounds finished",
+  "emomGreen": "3",
+  "emomYellow": "3"
  }
 }

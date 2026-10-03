@@ -1,43 +1,43 @@
 {
- "date": "2026-10-02",
- "weekday": "Friday",
- "title": "THE METRONOME · 40/20 CIRCUIT",
- "vibe": "moderate",
- "why": "YELLOW (about 6 h sleep, nothing sore, a little tired), so today is a steady interval circuit: the clock sets the work, you set the pace. Three rounds, moderate loads, every pattern touched once, and a 2-minute run leg closing each round. No ceiling test today.",
+ "date": "2026-10-03",
+ "weekday": "Saturday",
+ "title": "THE STONE YARD · HEAVY LAPS",
+ "vibe": "hard",
+ "why": "GREEN on a big sleep, so today is the heavy day: the 60 lb bell and the 45s, low reps, slow lowering, a quarter mile out of every lap. First heavy-slow day since 09-17.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day B · ankles / knees / hips / shoulders",
+   "meta": "Moves Method Day A · spine / hams / hips / wrists",
    "items": [
     {
-     "name": "Toe squats ×8",
-     "detail": "heels up, sit down between the heels, stand"
-    },
-    {
-     "name": "Ankle rolls in the deep squat ×6/side",
+     "name": "Deep squat overhead reachout ×8",
      "detail": ""
     },
     {
-     "name": "Single-leg balance 30s/side",
+     "name": "Jefferson curl ×6",
+     "detail": "bodyweight, roll down one segment at a time"
+    },
+    {
+     "name": "Single-leg goodmorning ×6/side",
      "detail": ""
     },
     {
-     "name": "Knee drives ×10/side",
+     "name": "Horse-stance squats ×10",
      "detail": ""
     },
     {
-     "name": "Side step-ups on the bench ×8/side",
+     "name": "Thoracic rotations ×8/side",
      "detail": ""
     },
     {
-     "name": "Shoulder extensions ×10",
-     "detail": "hands clasped behind you, lift and hold 1 count"
+     "name": "Wrist rocks ×10",
+     "detail": ""
     },
     {
-     "name": "Belt 6.0 → 7.0 mph flat · 2 min",
+     "name": "Belt 6.0 → 7.5 mph flat · 2 min",
      "detail": ""
     }
    ],
@@ -46,61 +46,61 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE METRONOME · 3 ROUNDS · 40 ON / 20 OFF",
-   "meta": "3 ROUNDS of 8 minutes · 6 stations + 1 run leg per round · 24 minutes · 35 lb bell + 52 lb DB",
-   "format": "Each station: 40 seconds of work, 20 seconds to change over. Six stations take 6 minutes, then a 2-minute run leg, then the next round starts. Pick a pace you can hold for all 40 seconds on all three rounds. Score = 3 rounds finished; log the station that felt hardest and RPE.",
-   "workRest": "RUN LEG after station 6, every round: 2:00 @ 8.0 mph flat (about 0.27 mi each, 0.8 mi total). Round 3: finish at 8.5 if it feels good.",
+   "title": "THE STONE YARD · AMRAP 26:00",
+   "meta": "AMRAP 26:00 · 6 stations + 1 run leg per lap · target 4 LAPS · 60 lb bell, 2×45, 35",
+   "format": "One clock, 26:00. Work the six stations in order, then the run leg, then start the next lap. Score = laps finished (a partial lap counts by station). Log laps, slowest station and RPE.",
+   "workRest": "RUN LEG after station 6, every lap: 0.25 mi @ 8.5 mph flat. Lap 4 and beyond: 9.0.",
    "items": [
     {
-     "name": "1 · Reverse lunge + curl 35 lb",
-     "detail": "bell held by the horns, step back, curl as you stand, alternate legs"
+     "name": "1 · Ground-to-shoulder 60 lb ×5/side",
+     "detail": "WILDCARD · two hands on the horn, hike it from the floor and lap it onto one shoulder, back to the floor, alternate"
     },
     {
-     "name": "2 · 3-point row 52 lb",
-     "detail": "free hand on the bench, pull to the hip, 20 s per side"
+     "name": "2 · Double front squat 2×45 ×5",
+     "detail": "3 counts down, drive up"
     },
     {
-     "name": "3 · Staggered single-arm RDL 52 lb",
-     "detail": "back foot on its toe as a kickstand, DB in the hand opposite the front leg, 20 s per side"
+     "name": "3 · Power shrug 2×45 ×12",
+     "detail": "bells at the sides, small leg drive, shrug hard, 1-count hold at the top"
     },
     {
-     "name": "4 · Overhead march 35 lb",
-     "detail": "WILDCARD (first time) · bell locked out overhead, march in place knees to hip height, switch arms at 20 s, ribs down"
+     "name": "4 · One-arm push press 60 lb ×4/side",
+     "detail": "rack it once per side, leg drive, 3 counts down"
     },
     {
-     "name": "5 · Goblet thruster 35 lb",
-     "detail": "bell at the chest, squat, drive it overhead as you stand"
+     "name": "5 · Shouldered split squat 60 lb ×6/side",
+     "detail": "bell sitting on the shoulder of the back leg, back knee kisses the floor"
     },
     {
-     "name": "6 · Mountain climbers",
-     "detail": "hands under shoulders, steady rhythm, hips level"
+     "name": "6 · Weighted sit-up 35 lb ×12",
+     "detail": "bell at the chest, punch it up at the top"
     },
     {
-     "name": "RUN · 2:00 @ 8.0 flat",
-     "detail": "3 total"
+     "name": "RUN · 0.25 mi @ 8.5 flat",
+     "detail": ""
     }
    ],
-   "noteGreen": "Green: all 3 rounds, run legs at 8.5, push the reps inside each 40.",
-   "noteYellow": "Yellow (today): all 3 rounds at a steady pace, run legs at 8.0. Drop to 7.5 if the legs feel flat.",
+   "noteGreen": "Green (today): 4 laps inside 26:00. Stretch: lap 5 through the push press.",
+   "noteYellow": "Yellow: 3 laps, split squat with the 35, run legs at 8.0.",
    "text": ""
   },
   {
    "id": "core",
    "kind": "finisher",
    "title": "MIDLINE CLOSE · 3 ROUNDS",
-   "meta": "3 ROUNDS · hollow rock + drag-through + leg raise · straight through",
+   "meta": "3 ROUNDS · windmill + hand walkout + bear-hold shoulder tap · straight through",
    "items": [
     {
-     "name": "Hollow rock ×12",
-     "detail": "low back pressed down, arms long overhead, rock small and tight"
+     "name": "Windmill 35 lb ×5/side",
+     "detail": "2-count pause at the bottom"
     },
     {
-     "name": "Drag-through 35 lb ×6/side",
-     "detail": "on hands and toes, feet wide, reach under and drag the bell across, hips do not turn"
+     "name": "Hand walkout ×8",
+     "detail": "walk the hands out past the shoulders, hips do not sag, walk back"
     },
     {
-     "name": "Lying leg raise ×10",
-     "detail": "low back pressed down, lower slow"
+     "name": "Bear-hold shoulder tap ×20",
+     "detail": "knees an inch off the floor, hips do not turn"
     }
    ],
    "text": ""
@@ -112,11 +112,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Couch stretch 45s/side",
+     "name": "Active pigeon 45s/side",
      "detail": ""
     },
     {
-     "name": "Child's pose with side reach 30s/side",
+     "name": "Hamstring walkouts ×6",
      "detail": ""
     },
     {
@@ -128,8 +128,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "rounds finished",
-  "emomGreen": "3",
+  "emomUnit": "laps finished",
+  "emomGreen": "4",
   "emomYellow": "3"
  }
 }

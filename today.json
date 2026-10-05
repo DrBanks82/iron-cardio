@@ -1,35 +1,35 @@
 {
- "date": "2026-10-03",
- "weekday": "Saturday",
- "title": "THE STONE YARD · HEAVY LAPS",
+ "date": "2026-10-05",
+ "weekday": "Monday",
+ "title": "THE IRON SHIRT · ONE-ARM TOWER",
  "vibe": "hard",
- "why": "GREEN on a big sleep, so today is the heavy day: the 60 lb bell and the 45s, low reps, slow lowering, a quarter mile out of every lap. First heavy-slow day since 09-17.",
+ "why": "GREEN after a rest day, so it is tower day: one arm at a time, chest, back and arms, a fast quarter mile out of every floor. Legs get one light station after Saturday's heavy laps.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
    "title": "WARM-UP · 6 MIN · ONE PASS",
-   "meta": "Moves Method Day A · spine / hams / hips / wrists",
+   "meta": "Moves Method Day A · shoulders / spine / hips",
    "items": [
     {
-     "name": "Deep squat overhead reachout ×8",
-     "detail": ""
+     "name": "Shoulder dislocates ×10",
+     "detail": "towel or band, wide grip"
     },
     {
-     "name": "Jefferson curl ×6",
-     "detail": "bodyweight, roll down one segment at a time"
-    },
-    {
-     "name": "Single-leg goodmorning ×6/side",
-     "detail": ""
-    },
-    {
-     "name": "Horse-stance squats ×10",
+     "name": "Shoulder extensions ×10",
      "detail": ""
     },
     {
      "name": "Thoracic rotations ×8/side",
+     "detail": ""
+    },
+    {
+     "name": "Hamstring walkouts ×6",
+     "detail": ""
+    },
+    {
+     "name": "Active pigeon 30s/side",
      "detail": ""
     },
     {
@@ -46,61 +46,65 @@
   {
    "id": "main",
    "kind": "conditioning",
-   "title": "THE STONE YARD · AMRAP 26:00",
-   "meta": "AMRAP 26:00 · 6 stations + 1 run leg per lap · target 4 LAPS · 60 lb bell, 2×45, 35",
-   "format": "One clock, 26:00. Work the six stations in order, then the run leg, then start the next lap. Score = laps finished (a partial lap counts by station). Log laps, slowest station and RPE.",
-   "workRest": "RUN LEG after station 6, every lap: 0.25 mi @ 8.5 mph flat. Lap 4 and beyond: 9.0.",
+   "title": "THE IRON SHIRT · 5 FLOORS FOR TIME",
+   "meta": "FOR TIME · 5 FLOORS · 7 stations + 1 run leg per floor · cap 30:00 · 52 lb DB, 45, 35",
+   "format": "One clock. Each floor: all seven stations in order at that floor's reps, then the run leg. Reps fall every floor. Score = floors finished inside 30:00, then the time. Log time, slowest station and RPE.",
+   "workRest": "RUN LEG after station 7, every floor: 0.25 mi flat. Floors 1-2 @ 8.5 · floors 3-4 @ 9.0 · floor 5 @ 9.5.",
    "items": [
     {
-     "name": "1 · Dead-start high pull 60 lb ×10",
-     "detail": "two hands on the handle, bell on the floor between the feet, drive the hips and pull it to chest height, elbows high, back to the floor every rep"
+     "name": "1 · One-arm floor chest press 52 lb · 10/8/6/4/2 per side",
+     "detail": "lying on the floor, 2 counts down, elbow touches, drive up"
     },
     {
-     "name": "2 · Double front squat 2×45 ×5",
-     "detail": "3 counts down, drive up"
+     "name": "2 · Split-stance one-arm row 52 lb · 10/8/6/4/2 per side",
+     "detail": "free hand on the front knee, pull to the hip, 1-count hold at the top"
     },
     {
-     "name": "3 · Power shrug 2×45 ×12",
-     "detail": "bells at the sides, small leg drive, shrug hard, 1-count hold at the top"
+     "name": "3 · Curtsy lunge 52 lb · 10/8/6/4/2 per side",
+     "detail": "DB held at the chest, back foot steps behind and across"
     },
     {
-     "name": "4 · One-arm push press 60 lb ×4/side",
-     "detail": "rack it once per side, leg drive, 3 counts down"
+     "name": "4 · One-arm Z press 45 lb · 5/4/3/2/1 per side",
+     "detail": "sit on the floor, legs straight out, no lean back"
     },
     {
-     "name": "5 · Shouldered split squat 60 lb ×6/side",
-     "detail": "bell sitting on the shoulder of the back leg, back knee kisses the floor"
+     "name": "5 · Overhead tricep extension 52 lb · 15/12/9/6/3",
+     "detail": "both hands on the DB, elbows in, full stretch behind the head"
     },
     {
-     "name": "6 · Weighted sit-up 35 lb ×12",
-     "detail": "bell at the chest, punch it up at the top"
+     "name": "6 · Uneven push-up · 5/4/3/2/1 per side",
+     "detail": "one hand on the 35 lb bell, one on the floor, chest to the bell hand"
     },
     {
-     "name": "RUN · 0.25 mi @ 8.5 flat",
+     "name": "7 · Russian twist 35 lb · 30/24/18/12/6",
+     "detail": "feet off the floor, bell touches down each side"
+    },
+    {
+     "name": "RUN · 0.25 mi flat · 8.5 / 8.5 / 9.0 / 9.0 / 9.5 by floor",
      "detail": ""
     }
    ],
-   "noteGreen": "Green (today): 4 laps inside 26:00. Stretch: lap 5 through the push press.",
-   "noteYellow": "Yellow: 3 laps, split squat with the 35, run legs at 8.0.",
+   "noteGreen": "Green (today): all 5 floors inside 30:00. Stretch: under 27:00.",
+   "noteYellow": "Yellow: 4 floors (start at the 8s), Z press with the 35, run legs at 8.0.",
    "text": ""
   },
   {
    "id": "core",
    "kind": "finisher",
    "title": "MIDLINE CLOSE · 3 ROUNDS",
-   "meta": "3 ROUNDS · windmill + hand walkout + bear-hold shoulder tap · straight through",
+   "meta": "3 ROUNDS · Pallof hold-out + dragon flag negative + weighted dead bug · straight through",
    "items": [
     {
-     "name": "Windmill 35 lb ×5/side",
-     "detail": "2-count pause at the bottom"
+     "name": "Half-kneeling Pallof hold-out 35 lb ×8/side",
+     "detail": "arms long, 3-count hold, hips do not turn"
     },
     {
-     "name": "Hand walkout ×8",
-     "detail": "walk the hands out past the shoulders, hips do not sag, walk back"
+     "name": "Dragon flag negative ×6",
+     "detail": "3 counts down"
     },
     {
-     "name": "Bear-hold shoulder tap ×20",
-     "detail": "knees an inch off the floor, hips do not turn"
+     "name": "Weighted dead bug 35 lb ×10/side",
+     "detail": "bell over the chest, low back stays down"
     }
    ],
    "text": ""
@@ -112,11 +116,11 @@
    "meta": "one pass",
    "items": [
     {
-     "name": "Active pigeon 45s/side",
+     "name": "Deep squat overhead reachout ×6",
      "detail": ""
     },
     {
-     "name": "Hamstring walkouts ×6",
+     "name": "Doorway chest stretch 30s/side",
      "detail": ""
     },
     {
@@ -128,8 +132,8 @@
   }
  ],
  "timer": {
-  "emomUnit": "laps finished",
-  "emomGreen": "4",
-  "emomYellow": "3"
+  "emomUnit": "floors finished",
+  "emomGreen": "5",
+  "emomYellow": "4"
  }
 }

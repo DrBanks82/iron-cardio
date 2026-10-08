@@ -1,57 +1,57 @@
 {
-  "date": "2026-10-06",
-  "weekday": "Tuesday",
-  "title": "THE PENDULUM · HINGE LADDER",
+  "date": "2026-10-08",
+  "weekday": "Thursday",
+  "title": "THE CATAPULT · POWER PAIRS",
   "vibe": "hard",
-  "why": "Yesterday loaded chest, back and arms, so today is hips and hamstrings: heavy swings, snatches and jerks climbing a 6-rung ladder, with a run leg that grows every rung. Six rungs is the number the last ladder owed.",
+  "why": "Rested yesterday and the last card was all hips and hamstrings, so today is squat, push and pull with speed: every bell lift is paired with an explosive bodyweight move, then a sprint leg, on a strict two-minute clock. Twelve rounds, rest is whatever the clock leaves you.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP · 6 MIN · ONE PASS",
-      "meta": "Moves Method Day B · ankles / knees / hips / shoulders",
+      "meta": "Moves Method Day A · shoulders / spine / hips + jump prime",
       "items": [
-        { "name": "Shoulder extensions ×10", "detail": "" },
-        { "name": "Toe squats 30s", "detail": "" },
-        { "name": "Ankle rolls in the squat ×8/side", "detail": "" },
-        { "name": "Single-leg balance 20s/side", "detail": "" },
-        { "name": "Single-leg squat to the bench ×5/side", "detail": "" },
-        { "name": "Knee drives ×10/side", "detail": "" },
-        { "name": "Hardstyle swing 35 lb ×10", "detail": "groove the hinge" },
-        { "name": "Belt 6.0 → 7.5 mph flat · 2 min", "detail": "" }
+        { "name": "Deep-squat overhead reach-out ×8", "detail": "" },
+        { "name": "Shoulder dislocates ×10", "detail": "band or towel" },
+        { "name": "Thoracic rotations ×8/side", "detail": "" },
+        { "name": "Single-leg good morning ×6/side", "detail": "" },
+        { "name": "Horse-stance squat 30s", "detail": "" },
+        { "name": "Pogo hops ×20", "detail": "stiff ankles, quick off the floor" },
+        { "name": "Double push press 2×45 ×5", "detail": "groove the dip and drive" },
+        { "name": "Belt 6.0 → 8.0 mph flat · 2 min", "detail": "" }
       ],
       "text": ""
     },
     {
       "id": "main",
       "kind": "conditioning",
-      "title": "THE PENDULUM · 6 RUNGS",
-      "meta": "ASCENDING LADDER · 6 RUNGS · 6 stations + 1 run leg per rung · cap 26:00 · 60 lb, 52 lb DB, 2×45",
-      "format": "One clock. Rung N: every station at its rung-N reps, in order, then the run leg. Reps climb each rung. Score = rungs finished inside 26:00, then the time. Log rungs, time, slowest station and RPE.",
-      "workRest": "RUN LEG after station 6, every rung: flat, 8.5 mph, time = rung × 15 s (0:15 / 0:30 / 0:45 / 1:00 / 1:15 / 1:30). Rung 6 leg at 9.0.",
+      "title": "THE CATAPULT · 12 ROUNDS",
+      "meta": "E2MOM · every 2:00 × 12 ROUNDS = 24:00 · one pair + one sprint leg per round · 6 pairs run twice · 2×45, 60 lb, 52 lb DB",
+      "format": "One clock. On every 2:00: the round's bell lift, straight into its bodyweight partner, straight onto the belt for the sprint leg. Whatever is left of the 2:00 is rest. Rounds 1-6 = pairs 1-6, rounds 7-12 = pairs 1-6 again. Score = rounds finished inside their 2:00. Log rounds made, the first round that ran over, slowest pair and RPE.",
+      "workRest": "SPRINT LEG every round: 0.10 mi flat at 9.0 mph (about 40 s). Rounds 7-12 at 9.5 if the first six all landed with 15 s to spare.",
       "items": [
-        { "name": "1 · Hardstyle swing 60 lb · 2/4/6/8/10/12", "detail": "two hands, snap the hips, bell floats to chest height" },
-        { "name": "2 · Half snatch 52 lb · 1/2/3/4/5/6 per side", "detail": "snatch to lockout, lower to the rack, drop from the rack into the next rep" },
-        { "name": "3 · Double jerk 2×45 · 1/2/3/4/5/6", "detail": "from the rack, bend the knees, drive, catch under with soft knees, stand to lockout" },
-        { "name": "4 · Cross-body single-leg deadlift 52 lb · 1/2/3/4/5/6 per side", "detail": "DB in the hand opposite the standing leg, reach to the shin, hips square" },
-        { "name": "5 · Hip thrust 60 lb · 2/4/6/8/10/12", "detail": "shoulders on the bench, bell on the hips, 2-count squeeze at the top" },
-        { "name": "6 · Squat jump · 2/4/6/8/10/12", "detail": "bodyweight, land quiet, reset each rep" },
-        { "name": "RUN · flat 8.5 · rung × 15 s", "detail": "0:15 → 1:30 by rung, rung 6 at 9.0" }
+        { "name": "P1 · Double push press 2×45 ×8 → plyo push-up ×8", "detail": "hands leave the floor every rep" },
+        { "name": "P2 · Renegade row 2×45 ×6/side → broad jump ×6", "detail": "stick each landing, walk back" },
+        { "name": "P3 · Bear-hug squat 60 lb ×10 → tuck jump ×8", "detail": "bell hugged to the chest, knees to the chest on the jump" },
+        { "name": "P4 · Double high pull 2×45 ×10 → skater hop ×8/side", "detail": "side-to-side bound, land on one foot, hold a beat" },
+        { "name": "P5 · Racked step-up 2×45 ×6/side on the bench → burpee ×6", "detail": "" },
+        { "name": "P6 · Bench pullover 52 lb ×12 → bear crawl 10 yd out + back", "detail": "hips low, opposite hand and foot" },
+        { "name": "RUN · 0.10 mi flat @ 9.0 · every round", "detail": "9.5 on rounds 7-12 if earned" }
       ],
-      "noteGreen": "Green (today): all 6 rungs inside 26:00. Stretch: under 23:00.",
-      "noteYellow": "Yellow: 5 rungs, swings and hip thrusts with the 52, run legs at 8.0.",
-      "text": ""
+      "noteGreen": "Green (today): all 12 rounds inside the clock. Stretch: rounds 13-14 repeating P1 and P2 with the leg at 9.5.",
+      "noteYellow": "Yellow: 10 rounds, push press and high pull on the 35 lb, legs at 8.5.",
+      "text": "Skater hop is new: push off one leg sideways, land on the other, knee soft, then bound back."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 3 ROUNDS",
-      "meta": "3 ROUNDS · drag-through + Copenhagen hold + L-sit · straight through",
+      "meta": "3 ROUNDS · halo + side bend + bird dog · straight through",
       "items": [
-        { "name": "Kettlebell drag-through 35 lb ×10/side", "detail": "hands and toes, arms straight, drag the bell under you hand to hand, hips do not turn" },
-        { "name": "Copenhagen hold off the bench 20s/side", "detail": "top foot on the bench, bottom knee bent, hips high" },
-        { "name": "L-sit on the floor 15s", "detail": "hands by the hips, legs straight, or one leg at a time" }
+        { "name": "Tall-kneeling halo 35 lb ×8 each way", "detail": "tight circles around the head, ribs down" },
+        { "name": "Standing side bend 52 lb ×10/side", "detail": "DB at the side, slide it down the thigh, pull back up with the far-side obliques" },
+        { "name": "Bird dog 3-count ×6/side", "detail": "" }
       ],
       "text": ""
     },
@@ -61,12 +61,12 @@
       "title": "COOLDOWN · 3 MIN",
       "meta": "one pass",
       "items": [
-        { "name": "Couch stretch 30s/side", "detail": "" },
-        { "name": "Standing hamstring fold 45s", "detail": "" },
+        { "name": "Calf stretch on the step 30s/side", "detail": "" },
+        { "name": "Doorway chest stretch 30s/side", "detail": "" },
         { "name": "Belt 3.0 mph · 1 min", "detail": "" }
       ],
       "text": ""
     }
   ],
-  "timer": { "emomUnit": "rungs finished", "emomGreen": "6", "emomYellow": "5" }
+  "timer": { "emomUnit": "rounds inside 2:00", "emomGreen": "12", "emomYellow": "10" }
 }

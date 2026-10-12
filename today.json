@@ -1,57 +1,99 @@
 {
-  "date": "2026-10-08",
-  "weekday": "Thursday",
-  "title": "THE CATAPULT · POWER PAIRS",
+  "date": "2026-10-12",
+  "weekday": "Monday",
+  "title": "THE OLYMPIAD · CHAIN LAPS",
   "vibe": "hard",
-  "why": "Rested yesterday and the last card was all hips and hamstrings, so today is squat, push and pull with speed: every bell lift is paired with an explosive bodyweight move, then a sprint leg, on a strict two-minute clock. Twelve rounds, rest is whatever the clock leaves you.",
+  "why": "Three days of fast 2-milers and no bells, so today is the pair: three unbroken double-kettlebell chains per lap, then a short incline leg. Five laps for time, legs and lungs loaded together.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP · 6 MIN · ONE PASS",
-      "meta": "Moves Method Day A · shoulders / spine / hips + jump prime",
+      "meta": "Moves Method Day B · ankles / knees / hips + clean groove",
       "items": [
-        { "name": "Deep-squat overhead reach-out ×8", "detail": "" },
-        { "name": "Shoulder dislocates ×10", "detail": "band or towel" },
-        { "name": "Thoracic rotations ×8/side", "detail": "" },
-        { "name": "Single-leg good morning ×6/side", "detail": "" },
-        { "name": "Horse-stance squat 30s", "detail": "" },
-        { "name": "Pogo hops ×20", "detail": "stiff ankles, quick off the floor" },
-        { "name": "Double push press 2×45 ×5", "detail": "groove the dip and drive" },
-        { "name": "Belt 6.0 → 8.0 mph flat · 2 min", "detail": "" }
+        {
+          "name": "Shoulder extensions ×10",
+          "detail": "hands behind on the bench, sit the hips forward"
+        },
+        {
+          "name": "Toe squats 30s",
+          "detail": ""
+        },
+        {
+          "name": "Ankle rolls in the squat ×8/side",
+          "detail": ""
+        },
+        {
+          "name": "Single-leg squat to the bench ×5/side",
+          "detail": ""
+        },
+        {
+          "name": "Knee drives ×10/side",
+          "detail": ""
+        },
+        {
+          "name": "Side step-ups ×8/side",
+          "detail": ""
+        },
+        {
+          "name": "Double clean + front squat 2×45 ×3",
+          "detail": "groove the rack"
+        },
+        {
+          "name": "Belt 6.0 → 7.5 mph flat · 2 min",
+          "detail": ""
+        }
       ],
       "text": ""
     },
     {
       "id": "main",
       "kind": "conditioning",
-      "title": "THE CATAPULT · 12 ROUNDS",
-      "meta": "E2MOM · every 2:00 × 12 ROUNDS = 24:00 · one pair + one sprint leg per round · 6 pairs run twice · 2×45, 60 lb, 52 lb DB",
-      "format": "One clock. On every 2:00: the round's bell lift, straight into its bodyweight partner, straight onto the belt for the sprint leg. Whatever is left of the 2:00 is rest. Rounds 1-6 = pairs 1-6, rounds 7-12 = pairs 1-6 again. Score = rounds finished inside their 2:00. Log rounds made, the first round that ran over, slowest pair and RPE.",
-      "workRest": "SPRINT LEG every round: 0.10 mi flat at 9.0 mph (about 40 s). Rounds 7-12 at 9.5 if the first six all landed with 15 s to spare.",
+      "title": "THE OLYMPIAD · 5 LAPS FOR TIME",
+      "meta": "FOR TIME · 5 LAPS · 3 chains + 1 incline leg per lap · cap 26:00 · 2×45 lb · 50 reps per lap",
+      "format": "One clock. Each lap: Chain 1, Chain 2, Chain 3, then the belt. Every chain is one unbroken set of 5: the bells do not touch the floor until the chain is done. Rest only between chains. Score = time for 5 laps. Log the time, the first chain to break, slowest chain and RPE.",
+      "workRest": "LEG every lap: 0.15 mi @ 8.0 mph at 4% incline (about 1:05). Laps 4-5 at 8.5 if laps 1-3 landed under 5:00 each.",
       "items": [
-        { "name": "P1 · Double push press 2×45 ×8 → plyo push-up ×8", "detail": "hands leave the floor every rep" },
-        { "name": "P2 · Renegade row 2×45 ×6/side → broad jump ×6", "detail": "stick each landing, walk back" },
-        { "name": "P3 · Bear-hug squat 60 lb ×10 → tuck jump ×8", "detail": "bell hugged to the chest, knees to the chest on the jump" },
-        { "name": "P4 · Double high pull 2×45 ×10 → skater hop ×8/side", "detail": "side-to-side bound, land on one foot, hold a beat" },
-        { "name": "P5 · Racked step-up 2×45 ×6/side on the bench → burpee ×6", "detail": "" },
-        { "name": "P6 · Bench pullover 52 lb ×12 → bear crawl 10 yd out + back", "detail": "hips low, opposite hand and foot" },
-        { "name": "RUN · 0.10 mi flat @ 9.0 · every round", "detail": "9.5 on rounds 7-12 if earned" }
+        {
+          "name": "C1 · Double clean → front squat → jerk 2×45 ×5",
+          "detail": "5 full chains = 15 reps"
+        },
+        {
+          "name": "C2 · Double clean → front-rack split squat ×5/side → thruster 2×45 ×5",
+          "detail": "one clean, then 5 split squats each leg in the rack, then 5 thrusters"
+        },
+        {
+          "name": "C3 · Up-down ×5 → double high pull 2×45 ×5 → bench jump-over ×5",
+          "detail": "up-down = drop flat, feet back in, stand"
+        },
+        {
+          "name": "RUN · 0.15 mi @ 8.0 / 4% · every lap",
+          "detail": "8.5 on laps 4-5 if earned"
+        }
       ],
-      "noteGreen": "Green (today): all 12 rounds inside the clock. Stretch: rounds 13-14 repeating P1 and P2 with the leg at 9.5.",
-      "noteYellow": "Yellow: 10 rounds, push press and high pull on the 35 lb, legs at 8.5.",
-      "text": "Skater hop is new: push off one leg sideways, land on the other, knee soft, then bound back."
+      "noteGreen": "Green (today): 5 laps, cap 26:00, stretch under 23:00. If you finish under 22:00, lap 6 = C1 + C3 + leg at 8.5.",
+      "noteYellow": "Yellow: 4 laps, C1 and C2 on the 35 lb single bell (one arm each side), legs flat at 8.0.",
+      "text": "Up-down is new: hands down, kick the feet back so the chest is just off the floor, hop the feet back in, stand. Bench jump-over: two feet over the bench and back counts as one."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 3 ROUNDS",
-      "meta": "3 ROUNDS · halo + side bend + bird dog · straight through",
+      "meta": "3 ROUNDS · walkout + leg raise + windmill · straight through",
       "items": [
-        { "name": "Tall-kneeling halo 35 lb ×8 each way", "detail": "tight circles around the head, ribs down" },
-        { "name": "Standing side bend 52 lb ×10/side", "detail": "DB at the side, slide it down the thigh, pull back up with the far-side obliques" },
-        { "name": "Bird dog 3-count ×6/side", "detail": "" }
+        {
+          "name": "Hand walkout ×8",
+          "detail": "walk the hands out until the hips want to sag, walk back"
+        },
+        {
+          "name": "Bench leg raise ×12",
+          "detail": "hands hold the bench behind the head, low back stays down"
+        },
+        {
+          "name": "Windmill 35 lb ×5/side",
+          "detail": "eyes on the bell"
+        }
       ],
       "text": ""
     },
@@ -61,12 +103,25 @@
       "title": "COOLDOWN · 3 MIN",
       "meta": "one pass",
       "items": [
-        { "name": "Calf stretch on the step 30s/side", "detail": "" },
-        { "name": "Doorway chest stretch 30s/side", "detail": "" },
-        { "name": "Belt 3.0 mph · 1 min", "detail": "" }
+        {
+          "name": "Couch stretch 30s/side",
+          "detail": ""
+        },
+        {
+          "name": "Calf stretch on the step 30s/side",
+          "detail": ""
+        },
+        {
+          "name": "Belt 3.0 mph · 1 min",
+          "detail": ""
+        }
       ],
       "text": ""
     }
   ],
-  "timer": { "emomUnit": "rounds inside 2:00", "emomGreen": "12", "emomYellow": "10" }
+  "timer": {
+    "emomUnit": "laps finished (cap 26:00)",
+    "emomGreen": "5",
+    "emomYellow": "4"
+  }
 }

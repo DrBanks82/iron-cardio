@@ -1,47 +1,51 @@
 {
-  "date": "2026-10-14",
-  "weekday": "Wednesday",
-  "title": "THE KEEL · ROTATION LAPS",
+  "date": "2026-10-15",
+  "weekday": "Thursday",
+  "title": "THE YOKE · STRONGMAN EMOM",
   "vibe": "hard",
-  "why": "Monday loaded squats, cleans and jerks, so today pulls and twists: six stations of rowing and anti-rotation work, each lap exiting on a steady fifth of a mile. Laps in 24 minutes, lungs at a steady burn instead of a sprint.",
+  "why": "Yesterday was pull and rotation at RPE 6, so today the hips and legs carry the load: heavy swings, floor-to-shoulder lifts, sumo pulls and a cradled walk, every minute on the minute, with a sprint leg closing each cycle. 25 minutes, 25 rounds, strongman tempo.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 6 MIN · ONE PASS",
-      "meta": "Moves Method Day A · shoulders / spine / wrists + row groove",
+      "title": "WARM-UP · 7 MIN · ONE PASS",
+      "meta": "Moves Method Day B · ankles / knees / hips + swing groove",
       "items": [
         {
-          "name": "Squat overhead reach-out ×8",
-          "detail": "sit in the squat, reach both arms overhead and hold 2 counts"
+          "name": "Shoulder protocol ×20",
+          "detail": "arm circles forward and back, then across the chest"
         },
         {
-          "name": "Shoulder dislocates ×10",
-          "detail": "towel or band, wide grip"
+          "name": "Toe squats 30s",
+          "detail": "kneel on the toes, sit back on the heels"
         },
         {
-          "name": "Jefferson curl ×6",
-          "detail": "bodyweight, roll down one vertebra at a time"
+          "name": "Ankle rolls in the squat ×10/side",
+          "detail": "bottom of a squat, knee drives over the toe"
         },
         {
-          "name": "Thoracic rotations ×8/side",
-          "detail": "on all fours, hand behind head"
+          "name": "Single-leg balance 20s/side",
+          "detail": "eyes up"
         },
         {
-          "name": "Single-leg good morning ×6/side",
+          "name": "Single-leg squat to the bench ×6/side",
+          "detail": "touch and go"
+        },
+        {
+          "name": "Knee drives ×10/side",
           "detail": ""
         },
         {
-          "name": "Wrist rocks 30s",
+          "name": "Side step-ups on the bench ×8/side",
           "detail": ""
         },
         {
-          "name": "Plank single-arm row 35 lb ×5/side",
-          "detail": "groove the hip-still row"
+          "name": "Two-hand swing 35 lb ×10",
+          "detail": "groove the hinge"
         },
         {
-          "name": "Belt 6.0 → 7.0 mph flat · 2 min",
+          "name": "Belt 6.0 → 7.5 mph flat · 2 min",
           "detail": ""
         }
       ],
@@ -50,61 +54,53 @@
     {
       "id": "main",
       "kind": "conditioning",
-      "title": "THE KEEL · LAPS IN 24:00",
-      "meta": "AMRAP LAPS · 24:00 · 6 stations + 1 steady leg per lap · 35 / 45 / 60 lb",
-      "format": "One clock, 24:00. A lap is the six stations in order, then the belt. Move straight through; the only rest is the walk to the treadmill. Score = laps finished. Log laps, the slowest station, and RPE.",
-      "workRest": "LEG every lap: 0.20 mi at 7.4 mph console flat (about 1:37), cadence quick and short, ~168 steps a minute. This is a steady leg, not a sprint: same speed every lap.",
+      "title": "THE YOKE · EMOM 25:00",
+      "meta": "EMOM · 25 ROUNDS · 5-minute cycle × 5 · 60 lb / 2×45 lb",
+      "format": "One clock, 25:00. Each minute has one job; do it, then rest until the next minute. Minutes 1 to 4 are the four lifts, minute 5 is the belt. Repeat the cycle 5 times. Score = rounds finished inside their minute. Log rounds made, the first minute that ran over, and RPE.",
+      "workRest": "SPRINT LEG every 5th minute: 0.12 mi at 9.0 mph flat (about 48 seconds), step off and walk to the bells. Cycles 4 and 5: 9.5 mph if cycles 1 to 3 all finished inside the minute.",
       "items": [
         {
-          "name": "S1 · Dead-start rotational clean 45 lb ×5/side",
-          "detail": "bell starts on the floor outside the opposite foot, rotate and clean to the rack, set it down dead each rep"
+          "name": "MIN 1 · Double swing 2×45 lb ×10",
+          "detail": "hardstyle, hips snap, bells to chest height"
         },
         {
-          "name": "S2 · Plank single-arm row 45 lb ×8/side",
-          "detail": "feet wide, hips square to the floor, elbow to the ribs"
+          "name": "MIN 2 · Bell-to-shoulder 60 lb ×3/side",
+          "detail": "odd object style: hug the bell off the floor, roll it up to the shoulder, lower it under control, switch sides"
         },
         {
-          "name": "S3 · Kneeling single-arm upright row 35 lb ×10/side",
-          "detail": "tall-kneeling, elbow leads, bell to the sternum"
+          "name": "MIN 3 · Sumo deadlift high pull 60 lb ×10",
+          "detail": "wide stance, pull from the floor to the chin, elbows high"
         },
         {
-          "name": "S4 · One-hand lateral carry walk 60 lb ×10 steps each way",
-          "detail": "bell in one hand, step sideways, stay dead level, switch hands on the way back"
+          "name": "MIN 4 · Zercher walk 60 lb · 20 steps out, 20 back",
+          "detail": "bell cradled in the crooks of the elbows, chest tall, short fast steps"
         },
         {
-          "name": "S5 · Half-kneeling Pallof hold-out 35 lb ×8/side",
-          "detail": "bell held at the chest, push it straight out and back, do not let it pull you around"
-        },
-        {
-          "name": "S6 · Pilates saw ×6/side",
-          "detail": "seated, legs wide, reach the opposite hand past the little toe, exhale as you reach"
-        },
-        {
-          "name": "RUN · 0.20 mi @ 7.4 flat · every lap",
-          "detail": "steady, same speed every lap"
+          "name": "MIN 5 · RUN 0.12 mi @ 9.0 flat",
+          "detail": "sprint leg, every cycle"
         }
       ],
-      "noteGreen": "Green (today): 5 laps in 24:00. Stretch: a 6th lap started before 21:00 and finished before the clock.",
-      "noteYellow": "Yellow: 4 laps, S1 and S2 on the 35 lb bell, leg at 7.0.",
-      "text": "The Pilates saw is new: sit tall, legs wide, arms out to the sides, twist and reach the right hand toward the left foot like a saw past the toe, come back tall, switch. Dead-start clean: the bell comes to a complete stop on the floor between reps."
+      "noteGreen": "Green (today): all 25 rounds inside their minute. Stretch: belt at 9.5 for cycles 4 and 5.",
+      "noteYellow": "Yellow: swings ×8, bell-to-shoulder ×2/side, high pulls ×8, belt at 8.5.",
+      "text": "Bell-to-shoulder is new: squat down, wrap both arms around the 60 lb bell like a stone, stand and pull it up to one shoulder, then reverse it to the floor. No throwing it down. Zercher walk: elbows bent, bell sits in the elbow crooks against the chest, do not let it drift down to the belly."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 3 ROUNDS",
-      "meta": "3 ROUNDS · dead bug + lateral plank lift + roll-up · straight through",
+      "meta": "3 ROUNDS · hollow rock + bird dog + overhead walk · straight through",
       "items": [
         {
-          "name": "Dead bug, 35 lb held above the chest ×8/side",
-          "detail": "bell locked out above the chest, opposite arm and leg lower slowly"
+          "name": "Hollow rock ×15",
+          "detail": "low back pressed into the floor"
         },
         {
-          "name": "Lateral plank hip lifts ×10/side",
-          "detail": "on the forearm, hips drop and lift"
+          "name": "Bird dog ×8/side, 2-count hold",
+          "detail": "reach long, hips level"
         },
         {
-          "name": "Pilates roll-up ×8",
-          "detail": "arms overhead, peel off the floor one vertebra at a time, fold over the legs"
+          "name": "Overhead walk 35 lb ×20 steps/side",
+          "detail": "locked arm, ribs down, bell over the shoulder"
         }
       ],
       "text": ""
@@ -116,11 +112,11 @@
       "meta": "one pass",
       "items": [
         {
-          "name": "Child's pose with side reach 30s/side",
+          "name": "Couch stretch 30s/side",
           "detail": ""
         },
         {
-          "name": "Doorway chest stretch 30s/side",
+          "name": "Calf stretch on the step 30s/side",
           "detail": ""
         },
         {
@@ -132,8 +128,8 @@
     }
   ],
   "timer": {
-    "emomUnit": "laps finished (24:00)",
-    "emomGreen": "5",
-    "emomYellow": "4"
+    "emomUnit": "rounds inside the minute (25:00)",
+    "emomGreen": "25",
+    "emomYellow": "20"
   }
 }

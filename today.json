@@ -1,48 +1,40 @@
 {
-  "date": "2026-10-15",
-  "weekday": "Thursday",
-  "title": "THE YOKE · STRONGMAN EMOM",
+  "date": "2026-10-16",
+  "weekday": "Friday",
+  "title": "THE OBSTACLE COURSE · BODYWEIGHT LAPS",
   "vibe": "hard",
-  "why": "Yesterday was pull and rotation at RPE 6, so today the hips and legs carry the load: heavy swings, floor-to-shoulder lifts, sumo pulls and a cradled walk, every minute on the minute, with a sprint leg closing each cycle. 25 minutes, 25 rounds, strongman tempo.",
+  "why": "Same gauntlet style, brand-new stations: the bells sit out except one, and the work is pushing, jumping, crawling and holding your own 250 lb. Four laps for time, a hill sprint off every lap.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP · 7 MIN · ONE PASS",
-      "meta": "Moves Method Day B · ankles / knees / hips + swing groove",
+      "meta": "Moves Method Day C flow · one continuous ground sequence",
       "items": [
         {
-          "name": "Shoulder protocol ×20",
-          "detail": "arm circles forward and back, then across the chest"
+          "name": "Rock-backs ×10",
+          "detail": "all fours, hips to heels, spine long"
         },
         {
-          "name": "Toe squats 30s",
-          "detail": "kneel on the toes, sit back on the heels"
+          "name": "Segmental rolls ×3/side",
+          "detail": "lead with the arm, then the leg"
         },
         {
-          "name": "Ankle rolls in the squat ×10/side",
-          "detail": "bottom of a squat, knee drives over the toe"
+          "name": "Cross-crawls ×10/side",
+          "detail": "standing, elbow to opposite knee, slow"
         },
         {
-          "name": "Single-leg balance 20s/side",
-          "detail": "eyes up"
+          "name": "Baby crawl 10 yd out and back",
+          "detail": "knees down, opposite hand and knee"
         },
         {
-          "name": "Single-leg squat to the bench ×6/side",
-          "detail": "touch and go"
+          "name": "Scapular push-ups ×10",
+          "detail": "arms locked, only the shoulder blades move"
         },
         {
-          "name": "Knee drives ×10/side",
-          "detail": ""
-        },
-        {
-          "name": "Side step-ups on the bench ×8/side",
-          "detail": ""
-        },
-        {
-          "name": "Two-hand swing 35 lb ×10",
-          "detail": "groove the hinge"
+          "name": "Pogo hops 30s",
+          "detail": "stiff ankles, quick off the floor"
         },
         {
           "name": "Belt 6.0 → 7.5 mph flat · 2 min",
@@ -54,53 +46,69 @@
     {
       "id": "main",
       "kind": "conditioning",
-      "title": "THE YOKE · EMOM 25:00",
-      "meta": "EMOM · 25 ROUNDS · 5-minute cycle × 5 · 60 lb / 2×45 lb",
-      "format": "One clock, 25:00. Each minute has one job; do it, then rest until the next minute. Minutes 1 to 4 are the four lifts, minute 5 is the belt. Repeat the cycle 5 times. Score = rounds finished inside their minute. Log rounds made, the first minute that ran over, and RPE.",
-      "workRest": "SPRINT LEG every 5th minute: 0.12 mi at 9.0 mph flat (about 48 seconds), step off and walk to the bells. Cycles 4 and 5: 9.5 mph if cycles 1 to 3 all finished inside the minute.",
+      "title": "THE OBSTACLE COURSE · 4 LAPS FOR TIME",
+      "meta": "FOR TIME · 4 LAPS · 8 stations + 1 hill sprint per lap · cap 26:00 · bodyweight + 35 lb",
+      "format": "One clock. A lap is the eight stations in order, then the belt. Move straight through; rest only where you have to. Record the total time for 4 laps, the station that cost the most, and RPE.",
+      "workRest": "HILL SPRINT every lap: 0.10 mi at 8.0 mph on 8% grade (about 45 seconds), then straight back to station 1. Lap 4: 8.5 mph if laps 1 to 3 were under 6:00 each.",
       "items": [
         {
-          "name": "MIN 1 · Double swing 2×45 lb ×10",
-          "detail": "hardstyle, hips snap, bells to chest height"
+          "name": "S1 · Pike push-up, feet on the bench ×10",
+          "detail": "hips high, head to the floor between the hands"
         },
         {
-          "name": "MIN 2 · Bell-to-shoulder 60 lb ×3/side",
-          "detail": "odd object style: hug the bell off the floor, roll it up to the shoulder, lower it under control, switch sides"
+          "name": "S2 · Depth drop to broad jump ×5",
+          "detail": "step off the bench, land soft, jump forward at once"
         },
         {
-          "name": "MIN 3 · Sumo deadlift high pull 60 lb ×10",
-          "detail": "wide stance, pull from the floor to the chin, elbows high"
+          "name": "S3 · Towel hamstring curl ×10",
+          "detail": "on your back, heels on towels, bridge up and drag the heels in"
         },
         {
-          "name": "MIN 4 · Zercher walk 60 lb · 20 steps out, 20 back",
-          "detail": "bell cradled in the crooks of the elbows, chest tall, short fast steps"
+          "name": "S4 · Pistol squat to the bench ×6/side",
+          "detail": "one leg, sit back to the bench, stand without the other foot touching"
         },
         {
-          "name": "MIN 5 · RUN 0.12 mi @ 9.0 flat",
-          "detail": "sprint leg, every cycle"
+          "name": "S5 · Crab walk 10 yd out, bear crawl 10 yd back",
+          "detail": "hips up on the crab, knees an inch off the floor on the bear"
+        },
+        {
+          "name": "S6 · Split jumps ×8/side",
+          "detail": "lunge, jump, switch legs in the air"
+        },
+        {
+          "name": "S7 · Kettlebell figure-8 35 lb ×10",
+          "detail": "pass the bell between the legs in a figure eight, standing tall"
+        },
+        {
+          "name": "S8 · Wall sit with the 35 lb on the thighs 45s",
+          "detail": "thighs level, back flat on the wall"
+        },
+        {
+          "name": "HILL · RUN 0.10 mi @ 8.0 / 8% · every lap",
+          "detail": "sprint, then recover walking to S1"
         }
       ],
-      "noteGreen": "Green (today): all 25 rounds inside their minute. Stretch: belt at 9.5 for cycles 4 and 5.",
-      "noteYellow": "Yellow: swings ×8, bell-to-shoulder ×2/side, high pulls ×8, belt at 8.5.",
-      "text": "Bell-to-shoulder is new: squat down, wrap both arms around the 60 lb bell like a stone, stand and pull it up to one shoulder, then reverse it to the floor. No throwing it down. Zercher walk: elbows bent, bell sits in the elbow crooks against the chest, do not let it drift down to the belly."
+      "noteGreen": "Green (today): 4 laps under 26:00. Stretch: under 22:00.",
+      "noteYellow": "Yellow: 3 laps, pike push-ups from the floor, pistols ×4/side, hill at 7.0 / 6%.",
+      "text": "Pike push-up: feet on the bench, body folded at the hips, lower the crown of the head toward the floor and press back up. Depth drop: step off the bench, absorb the landing, then broad jump immediately. Pistol to bench: lower on one leg until you touch the bench, then drive up; hold the free leg out front. Figure-8: hand the bell around the outside of one leg, through the middle, around the other."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 3 ROUNDS",
-      "meta": "3 ROUNDS · hollow rock + bird dog + overhead walk · straight through",
+      "meta": "3 ROUNDS · flutter kicks + superman + bicycle · straight through",
       "items": [
         {
-          "name": "Hollow rock ×15",
-          "detail": "low back pressed into the floor"
+          "name": "Flutter kicks ×40",
+          "detail": "low back pressed down, heels 6 inches off the floor"
         },
         {
-          "name": "Bird dog ×8/side, 2-count hold",
-          "detail": "reach long, hips level"
+          "name": "Superman, 2-count hold ×10",
+          "detail": "arms and legs off the floor together"
         },
         {
-          "name": "Overhead walk 35 lb ×20 steps/side",
-          "detail": "locked arm, ribs down, bell over the shoulder"
+          "name": "Bicycle crunch ×20/side",
+          "detail": "slow, elbow to the opposite knee"
         }
       ],
       "text": ""
@@ -112,11 +120,11 @@
       "meta": "one pass",
       "items": [
         {
-          "name": "Couch stretch 30s/side",
+          "name": "Pigeon stretch 30s/side",
           "detail": ""
         },
         {
-          "name": "Calf stretch on the step 30s/side",
+          "name": "Downward dog with calf pedals 45s",
           "detail": ""
         },
         {
@@ -128,8 +136,8 @@
     }
   ],
   "timer": {
-    "emomUnit": "rounds inside the minute (25:00)",
-    "emomGreen": "25",
-    "emomYellow": "20"
+    "emomUnit": "laps for time (cap 26:00)",
+    "emomGreen": "4",
+    "emomYellow": "3"
   }
 }

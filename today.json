@@ -1,40 +1,40 @@
 {
   "date": "2026-10-16",
   "weekday": "Friday",
-  "title": "THE OBSTACLE COURSE · BODYWEIGHT LAPS",
+  "title": "THE CIRCUS · KETTLEBELL LAPS",
   "vibe": "hard",
-  "why": "Same gauntlet style, brand-new stations: the bells sit out except one, and the work is pushing, jumping, crawling and holding your own 250 lb. Four laps for time, a hill sprint off every lap.",
+  "why": "Same gauntlet style, eight kettlebell stations that have never been on a card: cleans that circle the body, presses from the bottom of a squat, flips, catches and kneeling windmills. Four laps for time with a flat leg off every lap.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP · 7 MIN · ONE PASS",
-      "meta": "Moves Method Day C flow · one continuous ground sequence",
+      "meta": "Moves Method Day A + I.A.H. prep · shoulders / spine / hips",
       "items": [
         {
-          "name": "Rock-backs ×10",
-          "detail": "all fours, hips to heels, spine long"
+          "name": "Scorpion taps ×8/side",
+          "detail": "face down, heel taps the floor across the body"
         },
         {
-          "name": "Segmental rolls ×3/side",
-          "detail": "lead with the arm, then the leg"
+          "name": "Shoulder dislocates ×10",
+          "detail": "towel, wide grip"
         },
         {
-          "name": "Cross-crawls ×10/side",
-          "detail": "standing, elbow to opposite knee, slow"
+          "name": "Thoracic rotations ×8/side",
+          "detail": "on all fours"
         },
         {
-          "name": "Baby crawl 10 yd out and back",
-          "detail": "knees down, opposite hand and knee"
+          "name": "Adduction hip rocks ×10/side",
+          "detail": "one leg out to the side, rock back"
         },
         {
-          "name": "Scapular push-ups ×10",
-          "detail": "arms locked, only the shoulder blades move"
+          "name": "Kneeling halo 35 lb ×5 each way",
+          "detail": "tall-kneeling, bell around the head"
         },
         {
-          "name": "Pogo hops 30s",
-          "detail": "stiff ankles, quick off the floor"
+          "name": "Circular clean 35 lb ×3/side",
+          "detail": "groove the catch before the clock"
         },
         {
           "name": "Belt 6.0 → 7.5 mph flat · 2 min",
@@ -46,69 +46,69 @@
     {
       "id": "main",
       "kind": "conditioning",
-      "title": "THE OBSTACLE COURSE · 4 LAPS FOR TIME",
-      "meta": "FOR TIME · 4 LAPS · 8 stations + 1 hill sprint per lap · cap 26:00 · bodyweight + 35 lb",
+      "title": "THE CIRCUS · 4 LAPS FOR TIME",
+      "meta": "FOR TIME · 4 LAPS · 8 stations + 1 flat leg per lap · cap 27:00 · 35 / 45 / 52 lb",
       "format": "One clock. A lap is the eight stations in order, then the belt. Move straight through; rest only where you have to. Record the total time for 4 laps, the station that cost the most, and RPE.",
-      "workRest": "HILL SPRINT every lap: 0.10 mi at 8.0 mph on 8% grade (about 45 seconds), then straight back to station 1. Lap 4: 8.5 mph if laps 1 to 3 were under 6:00 each.",
+      "workRest": "LEG every lap: 0.15 mi at 8.5 mph flat (about 1:04), then straight back to station 1. Lap 4 at 9.0 if laps 1 to 3 were under 6:00 each.",
       "items": [
         {
-          "name": "S1 · Pike push-up, feet on the bench ×10",
-          "detail": "hips high, head to the floor between the hands"
+          "name": "S1 · Circular clean 35 lb ×6/side",
+          "detail": "bell circles around the outside of the body and lands in the rack"
         },
         {
-          "name": "S2 · Depth drop to broad jump ×5",
-          "detail": "step off the bench, land soft, jump forward at once"
+          "name": "S2 · Sots press 35 lb ×5/side",
+          "detail": "sit in the bottom of the squat, press from the rack to lockout, stay down"
         },
         {
-          "name": "S3 · Towel hamstring curl ×10",
-          "detail": "on your back, heels on towels, bridge up and drag the heels in"
+          "name": "S3 · Around-the-world with hand catch 35 lb ×8 each way",
+          "detail": "pass the bell around the body, release and catch it behind the back"
         },
         {
-          "name": "S4 · Pistol squat to the bench ×6/side",
-          "detail": "one leg, sit back to the bench, stand without the other foot touching"
+          "name": "S4 · Dual kneeling windmill 45 lb ×5/side",
+          "detail": "both knees down, bell locked out overhead, reach the free hand to the floor"
         },
         {
-          "name": "S5 · Crab walk 10 yd out, bear crawl 10 yd back",
-          "detail": "hips up on the crab, knees an inch off the floor on the bear"
+          "name": "S5 · Tray squat 35 lb ×8/side",
+          "detail": "bell balanced flat on the palm overhead like a tray, squat to depth"
         },
         {
-          "name": "S6 · Split jumps ×8/side",
-          "detail": "lunge, jump, switch legs in the air"
+          "name": "S6 · Lawnmower clean 52 lb DB ×6/side",
+          "detail": "staggered stance, pull from outside the front foot across to the rack"
         },
         {
-          "name": "S7 · Kettlebell figure-8 35 lb ×10",
-          "detail": "pass the bell between the legs in a figure eight, standing tall"
+          "name": "S7 · Simple flip and catch 35 lb ×10",
+          "detail": "flip the bell one full turn by the horns, catch the handle, soft knees"
         },
         {
-          "name": "S8 · Wall sit with the 35 lb on the thighs 45s",
-          "detail": "thighs level, back flat on the wall"
+          "name": "S8 · Overhead lunge 35 lb ×6/side",
+          "detail": "bell locked out overhead the whole set, reverse lunge"
         },
         {
-          "name": "HILL · RUN 0.10 mi @ 8.0 / 8% · every lap",
-          "detail": "sprint, then recover walking to S1"
+          "name": "LEG · RUN 0.15 mi @ 8.5 flat · every lap",
+          "detail": ""
         }
       ],
-      "noteGreen": "Green (today): 4 laps under 26:00. Stretch: under 22:00.",
-      "noteYellow": "Yellow: 3 laps, pike push-ups from the floor, pistols ×4/side, hill at 7.0 / 6%.",
-      "text": "Pike push-up: feet on the bench, body folded at the hips, lower the crown of the head toward the floor and press back up. Depth drop: step off the bench, absorb the landing, then broad jump immediately. Pistol to bench: lower on one leg until you touch the bench, then drive up; hold the free leg out front. Figure-8: hand the bell around the outside of one leg, through the middle, around the other."
+      "noteGreen": "Green (today): 4 laps under 27:00. Stretch: under 23:00.",
+      "noteYellow": "Yellow: 3 laps, Sots press ×3/side, windmills with the 35, belt at 7.5.",
+      "text": "Circular clean: sweep the bell out and around the hip like an around-the-world, and let it land in the rack instead of passing to the other hand. Sots press: squat to the bottom, hold it, press the bell up and down without standing. Hand catch: as the bell passes behind you, let go with one hand and catch with the other. Flip: start from a two-hand hold at the waist, pop the bell up so the handle turns a full circle, catch the handle. Lawnmower clean: like starting a mower, pull across the body into the rack."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 3 ROUNDS",
-      "meta": "3 ROUNDS · flutter kicks + superman + bicycle · straight through",
+      "meta": "3 ROUNDS · Turkish sit-up + birddog shoulder tap + abduction press windmill · straight through",
       "items": [
         {
-          "name": "Flutter kicks ×40",
-          "detail": "low back pressed down, heels 6 inches off the floor"
+          "name": "Turkish sit-up 35 lb ×6/side",
+          "detail": "roll up to the elbow, then the hand, then sit tall; back down slow"
         },
         {
-          "name": "Superman, 2-count hold ×10",
-          "detail": "arms and legs off the floor together"
+          "name": "Birddog shoulder taps ×8/side",
+          "detail": "on all fours, opposite leg out, tap the shoulder"
         },
         {
-          "name": "Bicycle crunch ×20/side",
-          "detail": "slow, elbow to the opposite knee"
+          "name": "Abduction press windmill 35 lb ×5/side",
+          "detail": "standing, bell overhead, lift the free leg out to the side as you hinge"
         }
       ],
       "text": ""
@@ -120,11 +120,11 @@
       "meta": "one pass",
       "items": [
         {
-          "name": "Pigeon stretch 30s/side",
-          "detail": ""
+          "name": "Scorpion rotations ×6/side",
+          "detail": "slow"
         },
         {
-          "name": "Downward dog with calf pedals 45s",
+          "name": "Doorway chest stretch 30s/side",
           "detail": ""
         },
         {
@@ -136,7 +136,7 @@
     }
   ],
   "timer": {
-    "emomUnit": "laps for time (cap 26:00)",
+    "emomUnit": "laps for time (cap 27:00)",
     "emomGreen": "4",
     "emomYellow": "3"
   }

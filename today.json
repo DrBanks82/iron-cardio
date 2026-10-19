@@ -1,43 +1,39 @@
 {
-  "date": "2026-10-16",
-  "weekday": "Friday",
-  "title": "THE CIRCUS · KETTLEBELL LAPS",
+  "date": "2026-10-19",
+  "weekday": "Monday",
+  "title": "THE PISTON · 30/30 PAIRS",
   "vibe": "hard",
-  "why": "Same gauntlet style, eight kettlebell stations that have never been on a card: cleans that circle the body, presses from the bottom of a squat, flips, catches and kneeling windmills. Four laps for time with a flat leg off every lap.",
-  "estMin": 45,
+  "why": "Thirty minutes, so the clock is tight: three grind-and-ballistic pairs plus one wildcard, 30 seconds each, a sprint leg off every round. Five of the seven bell stations have never been on a card.",
+  "estMin": 30,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 7 MIN · ONE PASS",
-      "meta": "Moves Method Day A + I.A.H. prep · shoulders / spine / hips",
+      "title": "WARM-UP · 5 MIN · ONE PASS",
+      "meta": "Moves Method Day A · shoulders / spine / wrists",
       "items": [
         {
-          "name": "Scorpion taps ×8/side",
-          "detail": "face down, heel taps the floor across the body"
+          "name": "Jefferson curl ×6",
+          "detail": "slow roll down, slow back up, no weight"
         },
         {
-          "name": "Shoulder dislocates ×10",
-          "detail": "towel, wide grip"
-        },
-        {
-          "name": "Thoracic rotations ×8/side",
+          "name": "Wrist rocks ×10 each way",
           "detail": "on all fours"
         },
         {
-          "name": "Adduction hip rocks ×10/side",
-          "detail": "one leg out to the side, rock back"
+          "name": "Half-kneeling halo 35 lb ×4 each way",
+          "detail": ""
         },
         {
-          "name": "Kneeling halo 35 lb ×5 each way",
-          "detail": "tall-kneeling, bell around the head"
+          "name": "Single-leg good morning ×6/side",
+          "detail": ""
         },
         {
-          "name": "Circular clean 35 lb ×3/side",
-          "detail": "groove the catch before the clock"
+          "name": "Outside-the-legs swing 35 lb ×5/side",
+          "detail": "groove it before the clock"
         },
         {
-          "name": "Belt 6.0 → 7.5 mph flat · 2 min",
+          "name": "Belt 6.0 → 7.5 mph flat · 1 min",
           "detail": ""
         }
       ],
@@ -46,69 +42,65 @@
     {
       "id": "main",
       "kind": "conditioning",
-      "title": "THE CIRCUS · 4 LAPS FOR TIME",
-      "meta": "FOR TIME · 4 LAPS · 8 stations + 1 flat leg per lap · cap 27:00 · 35 / 45 / 52 lb",
-      "format": "One clock. A lap is the eight stations in order, then the belt. Move straight through; rest only where you have to. Record the total time for 4 laps, the station that cost the most, and RPE.",
-      "workRest": "LEG every lap: 0.15 mi at 8.5 mph flat (about 1:04), then straight back to station 1. Lap 4 at 9.0 if laps 1 to 3 were under 6:00 each.",
+      "title": "THE PISTON · 4 ROUNDS",
+      "meta": "4 ROUNDS · 7 stations × 30 s work / 30 s off + 1 sprint leg per round · ~17 min · 35 / 52 lb",
+      "format": "One clock. 30 seconds on, 30 seconds off, seven stations in order, then the belt, then straight into the next round. Count reps at every station; the score is total reps across 4 rounds.",
+      "workRest": "LEG every round: SPRINT 0.10 mi @ 9.0 flat (about 40 s), walk 20 s, back to station 1. Round 4 at 9.5 if rounds 1 to 3 were clean.",
       "items": [
         {
-          "name": "S1 · Circular clean 35 lb ×6/side",
-          "detail": "bell circles around the outside of the body and lands in the rack"
+          "name": "P1a · Outside-the-legs swing 35 lb · 30 s",
+          "detail": "one-hand swing, bell travels outside the leg, switch hands at 15 s"
         },
         {
-          "name": "S2 · Sots press 35 lb ×5/side",
-          "detail": "sit in the bottom of the squat, press from the rack to lockout, stay down"
+          "name": "P1b · Fireman's squat 35 lb · 30 s",
+          "detail": "bell shouldered, free hand out, squat to depth; switch shoulder each round"
         },
         {
-          "name": "S3 · Around-the-world with hand catch 35 lb ×8 each way",
-          "detail": "pass the bell around the body, release and catch it behind the back"
+          "name": "P2a · Palm-up snatch 35 lb · 30 s",
+          "detail": "snatch, finish with the bell flat on the open palm overhead; switch hands at 15 s"
         },
         {
-          "name": "S4 · Dual kneeling windmill 45 lb ×5/side",
-          "detail": "both knees down, bell locked out overhead, reach the free hand to the floor"
+          "name": "P2b · Kneeling kettlebell curl 35 lb · 30 s",
+          "detail": "tall-kneeling, both hands on the horns, curl to the chin, slow down"
         },
         {
-          "name": "S5 · Tray squat 35 lb ×8/side",
-          "detail": "bell balanced flat on the palm overhead like a tray, squat to depth"
+          "name": "P3a · Skull crusher 52 lb DB · 30 s",
+          "detail": "lying, both hands on the handle, lower to the forehead"
         },
         {
-          "name": "S6 · Lawnmower clean 52 lb DB ×6/side",
-          "detail": "staggered stance, pull from outside the front foot across to the rack"
+          "name": "P3b · Offset push-up on the 35 · 30 s",
+          "detail": "one hand on the bell handle, one on the floor; switch at 15 s"
         },
         {
-          "name": "S7 · Simple flip and catch 35 lb ×10",
-          "detail": "flip the bell one full turn by the horns, catch the handle, soft knees"
+          "name": "W · Krajewski halo 35 lb · 30 s",
+          "detail": "grab the bell from the floor side, curl it to the chest, lean away and drive it up one side, lower it down the other; alternate"
         },
         {
-          "name": "S8 · Overhead lunge 35 lb ×6/side",
-          "detail": "bell locked out overhead the whole set, reverse lunge"
-        },
-        {
-          "name": "LEG · RUN 0.15 mi @ 8.5 flat · every lap",
+          "name": "LEG · SPRINT 0.10 mi @ 9.0 flat · every round",
           "detail": ""
         }
       ],
-      "noteGreen": "Green (today): 4 laps under 27:00. Stretch: under 23:00.",
-      "noteYellow": "Yellow: 3 laps, Sots press ×3/side, windmills with the 35, belt at 7.5.",
-      "text": "Circular clean: sweep the bell out and around the hip like an around-the-world, and let it land in the rack instead of passing to the other hand. Sots press: squat to the bottom, hold it, press the bell up and down without standing. Hand catch: as the bell passes behind you, let go with one hand and catch with the other. Flip: start from a two-hand hold at the waist, pop the bell up so the handle turns a full circle, catch the handle. Lawnmower clean: like starting a mower, pull across the body into the rack."
+      "noteGreen": "Green (today): 4 rounds, full 30 s at every station. Stretch: 20 or more reps on every 30 s bell station.",
+      "noteYellow": "Yellow: 3 rounds, 20 s on / 40 s off, belt at 8.0.",
+      "text": "Outside-the-legs swing: one hand, the bell swings beside the leg instead of between them, hips do the work. Fireman's squat: rest the bell on top of the shoulder as if walking it out of a building. Palm-up snatch: catch the snatch and open the hand so the bell sits flat on the palm at lockout. Krajewski halo: grab the bell from the floor side, curl it to the chest, lean away and drive it up one side, lower it down the other."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 3 ROUNDS",
-      "meta": "3 ROUNDS · Turkish sit-up + birddog shoulder tap + abduction press windmill · straight through",
+      "meta": "3 ROUNDS · kneeling crossbody halo + windshield wipers + dragon flag negative · straight through",
       "items": [
         {
-          "name": "Turkish sit-up 35 lb ×6/side",
-          "detail": "roll up to the elbow, then the hand, then sit tall; back down slow"
+          "name": "Kneeling crossbody halo 35 lb ×8/side",
+          "detail": "tall-kneeling, bell crosses from hip to opposite shoulder, around the head"
         },
         {
-          "name": "Birddog shoulder taps ×8/side",
-          "detail": "on all fours, opposite leg out, tap the shoulder"
+          "name": "Windshield wipers ×10",
+          "detail": "on the back, legs up, swing side to side, shoulders pinned"
         },
         {
-          "name": "Abduction press windmill 35 lb ×5/side",
-          "detail": "standing, bell overhead, lift the free leg out to the side as you hinge"
+          "name": "Dragon flag negative ×6",
+          "detail": "3-count lower, bench or floor, grip behind the head"
         }
       ],
       "text": ""
@@ -116,15 +108,11 @@
     {
       "id": "cooldown",
       "kind": "cooldown",
-      "title": "COOLDOWN · 3 MIN",
+      "title": "COOLDOWN · 2 MIN",
       "meta": "one pass",
       "items": [
         {
-          "name": "Scorpion rotations ×6/side",
-          "detail": "slow"
-        },
-        {
-          "name": "Doorway chest stretch 30s/side",
+          "name": "Doorway chest stretch 30 s/side",
           "detail": ""
         },
         {
@@ -136,7 +124,7 @@
     }
   ],
   "timer": {
-    "emomUnit": "laps for time (cap 27:00)",
+    "emomUnit": "rounds of 7 × 30/30 + sprint",
     "emomGreen": "4",
     "emomYellow": "3"
   }

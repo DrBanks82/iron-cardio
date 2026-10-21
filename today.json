@@ -1,94 +1,115 @@
 {
-  "date": "2026-10-20",
-  "weekday": "Tuesday",
-  "title": "THE DRILL · 15-12-9-6-3",
+  "date": "2026-10-21",
+  "weekday": "Wednesday",
+  "title": "THE ENGINE \u00b7 POWER A \u00b7 WEEK 1",
   "vibe": "hard",
-  "why": "Green (8 h, nothing sore). You asked for basics in 30 minutes: heavy swings, goblet squats, double cleans, burpees, a run leg off every floor. Nothing to learn, everything to earn.",
-  "estMin": 30,
+  "why": "Block day 1 of 4 weeks: power and functional strength, same three sessions every week, numbers compared week to week. Green (6 h, nothing sore), 45 min.",
+  "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 4 MIN · ONE PASS",
-      "meta": "Moves Method Day B · ankles / knees / hips",
+      "title": "WARM-UP \u00b7 6 MIN \u00b7 ONE PASS",
+      "meta": "Moves Method Day B \u00b7 ankles / knees / hips",
       "items": [
         {
-          "name": "Ankle rolls in the squat ×10 each way",
-          "detail": "sit in the bottom, roll the ankles"
-        },
-        {
-          "name": "Toe squats ×8",
-          "detail": "slow, heels high"
-        },
-        {
-          "name": "Knee drives ×10/side",
+          "name": "Ankle rolls in the squat \u00d710 each way",
           "detail": ""
         },
         {
-          "name": "Shoulder extensions ×10",
-          "detail": "hands behind, lift"
-        },
-        {
-          "name": "Swing 35 lb ×10",
-          "detail": "groove the hinge"
-        },
-        {
-          "name": "Belt 6.0 → 7.5 mph flat · 1 min",
+          "name": "Toe squats \u00d78",
           "detail": ""
+        },
+        {
+          "name": "Knee drives \u00d710/side",
+          "detail": ""
+        },
+        {
+          "name": "Shoulder extensions \u00d710",
+          "detail": ""
+        },
+        {
+          "name": "Single-leg balance 20 s/side",
+          "detail": ""
+        },
+        {
+          "name": "Swing 35 lb \u00d710",
+          "detail": ""
+        },
+        {
+          "name": "Belt 6.0 \u2192 7.5 mph flat \u00b7 1 min",
+          "detail": ""
+        },
+        {
+          "name": "BROAD JUMP TEST \u00b7 best of 3",
+          "detail": "mark the landing, write the distance down"
         }
       ],
       "text": ""
     },
     {
       "id": "main",
-      "kind": "conditioning",
-      "title": "THE DRILL · 5 FLOORS · FOR TIME",
-      "meta": "5 FLOORS · reps 15-12-9-6-3 at every station · 0.20 mi leg after every floor · cap 20:00 · 60 / 2×45 lb",
-      "format": "One clock, for time. Floor 1 is 15 of everything, then the belt. Floor 2 is 12 of everything, then the belt. Down to 3. Score = time at the end of the fifth leg. Total: 45 swings, 45 goblet squats, 45 double cleans, 45 burpees, 1.0 mi.",
-      "workRest": "LEG after every floor: 0.20 mi @ 9.0 flat. Fifth leg @ 9.5. Walk straight off the belt to the swing.",
+      "kind": "strength",
+      "title": "THE ENGINE \u00b7 EMOM 16:00",
+      "meta": "4 ROUNDS of 4 minutes \u00b7 2\u00d745 lb / 60 lb \u00b7 every rep fast \u00b7 rest the remainder of each minute",
+      "format": "Every minute on the minute. Minute 1 cleans, minute 2 push press, minute 3 swings, minute 4 broad jumps. Repeat 4 times. Score = how many of the 16 minutes left you 20 s or more of rest.",
+      "workRest": "Week 1 numbers. Next Monday: 6 / 6 / 14 / 5 if every minute today finished with rest left.",
       "items": [
         {
-          "name": "1 · Two-hand swing 60 lb · 15-12-9-6-3",
-          "detail": "chest high, snap the hips, unbroken"
+          "name": "Min 1 \u00b7 Double clean 2\u00d745 lb \u00d75",
+          "detail": "from the floor every rep, fast hips"
         },
         {
-          "name": "2 · Goblet squat 60 lb · 15-12-9-6-3",
-          "detail": "elbows inside the knees at the bottom"
+          "name": "Min 2 \u00b7 Push press 2\u00d745 lb \u00d75",
+          "detail": "dip, drive, lock out"
         },
         {
-          "name": "3 · Double clean 2×45 lb · 15-12-9-6-3",
-          "detail": "from the floor each rep, rack and stand tall"
+          "name": "Min 3 \u00b7 Two-hand swing 60 lb \u00d712",
+          "detail": "chest high, snap"
         },
         {
-          "name": "4 · Burpee over the bell · 15-12-9-6-3",
-          "detail": "chest to floor, two-foot hop over the 60"
+          "name": "Min 4 \u00b7 Broad jump \u00d74",
+          "detail": "reset each jump, stick the landing"
+        }
+      ],
+      "noteGreen": "Green (today): all 4 rounds, 16 minutes, as written.",
+      "noteYellow": "Yellow: 3 rounds, 12 minutes.",
+      "text": ""
+    },
+    {
+      "id": "run",
+      "kind": "conditioning",
+      "title": "SPRINT LEGS \u00b7 4 REPS",
+      "meta": "4 REPS \u00b7 0.20 mi @ 9.5 flat \u00b7 1:00 walk @ 3.0 between \u00b7 ~8 min",
+      "items": [
+        {
+          "name": "0.20 mi @ 9.5 flat \u00d74",
+          "detail": ""
         },
         {
-          "name": "LEG · 0.20 mi @ 9.0 flat · every floor · 9.5 on the fifth",
+          "name": "Walk 3.0 \u00b7 1:00 between",
           "detail": ""
         }
       ],
-      "noteGreen": "Green (today): all 5 floors as written. Stretch: under 17:00. Cap 20:00.",
-      "noteYellow": "Yellow: floors 12-9-6-3, belt at 8.0.",
-      "text": ""
+      "text": "Next week: 10.0 if all 4 held today."
     },
     {
       "id": "core",
       "kind": "finisher",
-      "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · dead bug + bird dog + lying leg raise · straight through",
+      "title": "MIDLINE CLOSE \u00b7 2 ROUNDS",
+      "meta": "2 ROUNDS \u00b7 carry + side plank + dead bug \u00b7 straight through",
       "items": [
         {
-          "name": "Dead bug ×10/side",
+          "name": "Suitcase carry 60 lb \u00b7 40 yd/side",
+          "detail": "tall, no lean"
+        },
+        {
+          "name": "Side plank 30 s/side",
+          "detail": ""
+        },
+        {
+          "name": "Dead bug \u00d710/side",
           "detail": "low back glued to the floor"
-        },
-        {
-          "name": "Bird dog 3-count ×6/side",
-          "detail": "reach long, hips level"
-        },
-        {
-          "name": "Lying leg raise ×12",
-          "detail": "hands under the hips, slow down"
         }
       ],
       "text": ""
@@ -96,11 +117,11 @@
     {
       "id": "cooldown",
       "kind": "cooldown",
-      "title": "COOLDOWN · 2 MIN",
+      "title": "COOLDOWN \u00b7 2 MIN",
       "meta": "one pass",
       "items": [
         {
-          "name": "Belt 3.0 mph · 1 min",
+          "name": "Belt 3.0 mph \u00b7 1 min",
           "detail": ""
         },
         {
@@ -112,8 +133,8 @@
     }
   ],
   "timer": {
-    "emomUnit": "floors done of 5",
-    "emomGreen": "5",
-    "emomYellow": "4"
+    "emomUnit": "minutes done of 16",
+    "emomGreen": "16",
+    "emomYellow": "12"
   }
 }

@@ -1,115 +1,107 @@
 {
-  "date": "2026-10-21",
-  "weekday": "Wednesday",
-  "title": "THE ENGINE \u00b7 POWER A \u00b7 WEEK 1",
+  "date": "2026-10-22",
+  "weekday": "Thursday",
+  "title": "THE PRESS BOX \u00b7 STRENGTH \u00b7 WEEK 1",
   "vibe": "hard",
-  "why": "Block day 1 of 4 weeks: power and functional strength, same three sessions every week, numbers compared week to week. Green (6 h, nothing sore), 45 min.",
+  "why": "Block day 2: heavy strength on a 90-second clock, same lifts every week. Green (8 h, legs a bit tired), 45 min, no treadmill on the card.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP \u00b7 6 MIN \u00b7 ONE PASS",
-      "meta": "Moves Method Day B \u00b7 ankles / knees / hips",
+      "meta": "Moves Method Day A \u00b7 shoulders / spine / hips",
       "items": [
         {
-          "name": "Ankle rolls in the squat \u00d710 each way",
+          "name": "Shoulder dislocates (towel) \u00d710",
           "detail": ""
         },
         {
-          "name": "Toe squats \u00d78",
+          "name": "Jefferson curl \u00d76",
+          "detail": "slow, one vertebra at a time"
+        },
+        {
+          "name": "Thoracic rotations \u00d78/side",
           "detail": ""
         },
         {
-          "name": "Knee drives \u00d710/side",
+          "name": "Single-leg good morning \u00d78/side",
           "detail": ""
         },
         {
-          "name": "Shoulder extensions \u00d710",
+          "name": "Horse-stance squat 30 s",
           "detail": ""
         },
         {
-          "name": "Single-leg balance 20 s/side",
+          "name": "Wrist rocks \u00d710",
           "detail": ""
         },
         {
-          "name": "Swing 35 lb \u00d710",
-          "detail": ""
-        },
-        {
-          "name": "Belt 6.0 \u2192 7.5 mph flat \u00b7 1 min",
-          "detail": ""
-        },
-        {
-          "name": "BROAD JUMP TEST \u00b7 best of 3",
-          "detail": "mark the landing, write the distance down"
+          "name": "Double clean 2\u00d745 lb \u00d73 + front squat \u00d73 + press \u00d73",
+          "detail": "groove the rack"
         }
       ],
       "text": ""
     },
     {
-      "id": "main",
+      "id": "block1",
       "kind": "strength",
-      "title": "THE ENGINE \u00b7 EMOM 16:00",
-      "meta": "4 ROUNDS of 4 minutes \u00b7 2\u00d745 lb / 60 lb \u00b7 every rep fast \u00b7 rest the remainder of each minute",
-      "format": "Every minute on the minute. Minute 1 cleans, minute 2 push press, minute 3 swings, minute 4 broad jumps. Repeat 4 times. Score = how many of the 16 minutes left you 20 s or more of rest.",
-      "workRest": "Week 1 numbers. Next Monday: 6 / 6 / 14 / 5 if every minute today finished with rest left.",
+      "title": "BLOCK 1 \u00b7 SQUAT + PRESS \u00b7 EVERY 90 S",
+      "meta": "8 SLOTS \u00b7 12:00 \u00b7 2\u00d745 lb \u00b7 odd slots squat, even slots press \u00b7 4 sets each",
+      "format": "A new set starts every 90 seconds. Slot 1 front squat, slot 2 press, slot 3 front squat, slot 4 press, through slot 8. Rest is whatever is left in the slot. Score = sets finished with every rep clean.",
+      "workRest": "Week 1 numbers. Next week: 6 / 6 if all 8 slots were clean today.",
       "items": [
         {
-          "name": "Min 1 \u00b7 Double clean 2\u00d745 lb \u00d75",
-          "detail": "from the floor every rep, fast hips"
+          "name": "Odd slots \u00b7 Double front squat 2\u00d745 lb \u00d75",
+          "detail": "3-count down, drive up"
         },
         {
-          "name": "Min 2 \u00b7 Push press 2\u00d745 lb \u00d75",
-          "detail": "dip, drive, lock out"
-        },
-        {
-          "name": "Min 3 \u00b7 Two-hand swing 60 lb \u00d712",
-          "detail": "chest high, snap"
-        },
-        {
-          "name": "Min 4 \u00b7 Broad jump \u00d74",
-          "detail": "reset each jump, stick the landing"
+          "name": "Even slots \u00b7 Double press 2\u00d745 lb \u00d75",
+          "detail": "strict, lock out, no leg drive"
         }
       ],
-      "noteGreen": "Green (today): all 4 rounds, 16 minutes, as written.",
-      "noteYellow": "Yellow: 3 rounds, 12 minutes.",
+      "noteGreen": "Green (today): all 8 slots as written.",
+      "noteYellow": "Yellow: 6 slots (9:00).",
       "text": ""
     },
     {
-      "id": "run",
-      "kind": "conditioning",
-      "title": "SPRINT LEGS \u00b7 4 REPS",
-      "meta": "4 REPS \u00b7 0.20 mi @ 9.5 flat \u00b7 1:00 walk @ 3.0 between \u00b7 ~8 min",
+      "id": "block2",
+      "kind": "strength",
+      "title": "BLOCK 2 \u00b7 HINGE + ROW \u00b7 EVERY 90 S",
+      "meta": "8 SLOTS \u00b7 12:00 \u00b7 60 lb / 2\u00d745 lb \u00b7 odd slots deadlift, even slots row \u00b7 4 sets each",
+      "format": "Same clock. Slot 1 deadlift, slot 2 renegade row, alternate through slot 8.",
+      "workRest": "Next week: 12 / 6 if all 8 slots were clean today.",
       "items": [
         {
-          "name": "0.20 mi @ 9.5 flat \u00d74",
-          "detail": ""
+          "name": "Odd slots \u00b7 Deadlift 60 lb \u00d710",
+          "detail": "dead stop on the floor every rep, bell between the feet"
         },
         {
-          "name": "Walk 3.0 \u00b7 1:00 between",
-          "detail": ""
+          "name": "Even slots \u00b7 Renegade row 2\u00d745 lb \u00d75/side",
+          "detail": "hips square, no twist"
         }
       ],
-      "text": "Next week: 10.0 if all 4 held today."
+      "noteGreen": "Green (today): all 8 slots as written.",
+      "noteYellow": "Yellow: 6 slots (9:00).",
+      "text": ""
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE \u00b7 2 ROUNDS",
-      "meta": "2 ROUNDS \u00b7 carry + side plank + dead bug \u00b7 straight through",
+      "meta": "2 ROUNDS \u00b7 get-up + hollow + bird dog \u00b7 straight through",
       "items": [
         {
-          "name": "Suitcase carry 60 lb \u00b7 40 yd/side",
-          "detail": "tall, no lean"
+          "name": "Get-up 35 lb \u00d72/side",
+          "detail": "slow, own every position"
         },
         {
-          "name": "Side plank 30 s/side",
+          "name": "Hollow hold 30 s",
+          "detail": "low back down, shoulders off"
+        },
+        {
+          "name": "Bird dog 3-count \u00d76/side",
           "detail": ""
-        },
-        {
-          "name": "Dead bug \u00d710/side",
-          "detail": "low back glued to the floor"
         }
       ],
       "text": ""
@@ -121,11 +113,11 @@
       "meta": "one pass",
       "items": [
         {
-          "name": "Belt 3.0 mph \u00b7 1 min",
+          "name": "Couch stretch 30 s/side",
           "detail": ""
         },
         {
-          "name": "Couch stretch 30 s/side",
+          "name": "Lat stretch on the bell 30 s/side",
           "detail": ""
         }
       ],
@@ -133,7 +125,7 @@
     }
   ],
   "timer": {
-    "emomUnit": "minutes done of 16",
+    "emomUnit": "slots done of 16",
     "emomGreen": "16",
     "emomYellow": "12"
   }

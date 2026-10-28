@@ -1,132 +1,82 @@
 {
-  "date": "2026-10-27",
-  "weekday": "Tuesday",
-  "title": "THE PRESS BOX · STRENGTH · WEEK 1",
-  "vibe": "hard",
-  "why": "Block week 1, day 2: heavy strength on a 90-second clock, same card every week. 45 min, no treadmill on the card.",
-  "estMin": 45,
+  "date": "2026-10-28",
+  "weekday": "Wednesday",
+  "title": "THE ROAD · 3 MILE · WEEK 1",
+  "vibe": "steady-hard",
+  "why": "Block week 1, day 3: the timed 3-mile. Same run every Wednesday and Saturday; beat the time next week. Legs day on the Moves Method menu.",
+  "estMin": 40,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP · 6 MIN · ONE PASS",
-      "meta": "Moves Method Day A · shoulders / spine / hips",
+      "meta": "Moves Method Day B · ankles / knees / hips",
       "items": [
-        {
-          "name": "Shoulder dislocates (towel) ×10",
-          "detail": ""
-        },
-        {
-          "name": "Jefferson curl ×6",
-          "detail": "slow, one vertebra at a time"
-        },
-        {
-          "name": "Thoracic rotations ×8/side",
-          "detail": ""
-        },
-        {
-          "name": "Single-leg good morning ×8/side",
-          "detail": ""
-        },
-        {
-          "name": "Horse-stance squat 30 s",
-          "detail": ""
-        },
-        {
-          "name": "Wrist rocks ×10",
-          "detail": ""
-        },
-        {
-          "name": "Double clean 2×45 lb ×3 + front squat ×3 + press ×3",
-          "detail": "groove the rack"
-        }
+        {"name": "Ankle rolls in the squat ×10/side", "detail": ""},
+        {"name": "Toe squats ×10", "detail": ""},
+        {"name": "Knee drives ×10/side", "detail": ""},
+        {"name": "Leg swings ×10/side", "detail": "front-back, then side-side"},
+        {"name": "Swing 35 lb ×10", "detail": "wake the hips"},
+        {"name": "Belt 2:00 · 5.5 → 7.0 mph", "detail": ""}
       ],
       "text": ""
     },
     {
-      "id": "block1",
-      "kind": "strength",
-      "title": "BLOCK 1 · SQUAT + PRESS · EVERY 90 S",
-      "meta": "8 SLOTS · 12:00 · 2×45 lb · odd slots squat, even slots press · 4 sets each",
-      "format": "A new set starts every 90 seconds. Slot 1 front squat, slot 2 press, slot 3 front squat, slot 4 press, through slot 8. Rest is whatever is left in the slot. Score = sets finished with every rep clean.",
-      "workRest": "Week 1 numbers. Next week: 6 / 6 if all 8 slots were clean today.",
+      "id": "run",
+      "kind": "run",
+      "title": "3 MILES · CONTINUOUS · FOR TIME",
+      "meta": "target 8.0 mph (7:30/mi) · 22:30 · record the time and the mile splits",
+      "format": "Start at 7.8, settle at 8.0 by the half mile. Hold it. If mile 2 feels controlled, mile 3 at 8.2 or better. Stop the clock at 3.00.",
+      "workRest": "Week 1 benchmark. Beat it next Wednesday.",
       "items": [
-        {
-          "name": "Odd slots · Double front squat 2×45 lb ×5",
-          "detail": "3-count down, drive up"
-        },
-        {
-          "name": "Even slots · Double press 2×45 lb ×5",
-          "detail": "strict, lock out, no leg drive"
-        }
+        {"name": "Mile 1 · 7.8 → 8.0 mph", "detail": "settle in"},
+        {"name": "Mile 2 · 8.0 mph", "detail": "hold"},
+        {"name": "Mile 3 · 8.0 → 8.2+ mph", "detail": "finish faster than you started"}
       ],
-      "noteGreen": "Green (today): all 8 slots as written.",
-      "noteYellow": "Yellow: 6 slots (9:00).",
+      "noteGreen": "Green: 3.00 mi under 22:30.",
+      "noteYellow": "Yellow: 3.00 mi under 23:30.",
       "text": ""
     },
     {
-      "id": "block2",
-      "kind": "strength",
-      "title": "BLOCK 2 · HINGE + ROW · EVERY 90 S",
-      "meta": "8 SLOTS · 12:00 · 60 lb / 2×45 lb · odd slots deadlift, even slots row · 4 sets each",
-      "format": "Same clock. Slot 1 deadlift, slot 2 renegade row, alternate through slot 8.",
-      "workRest": "Next week: 12 / 6 if all 8 slots were clean today.",
+      "id": "walk",
+      "kind": "cooldown",
+      "title": "WALK DOWN · 3 MIN",
+      "meta": "3.0 mph · 3% incline",
       "items": [
-        {
-          "name": "Odd slots · Deadlift 60 lb ×10",
-          "detail": "dead stop on the floor every rep, bell between the feet"
-        },
-        {
-          "name": "Even slots · Renegade row 2×45 lb ×5/side",
-          "detail": "hips square, no twist"
-        }
+        {"name": "Walk 3:00 @ 3.0 mph / 3%", "detail": "breathe through the nose by the end"}
       ],
-      "noteGreen": "Green (today): all 8 slots as written.",
-      "noteYellow": "Yellow: 6 slots (9:00).",
+      "text": ""
+    },
+    {
+      "id": "mobility",
+      "kind": "mobility",
+      "title": "LEGS · 6 MIN · ONE PASS",
+      "meta": "Moves Method Day B · after the run",
+      "items": [
+        {"name": "Deep squat hold 60 s", "detail": "heels down, elbows pry the knees"},
+        {"name": "Couch stretch 45 s/side", "detail": ""},
+        {"name": "Pigeon 45 s/side", "detail": ""},
+        {"name": "Hamstring hang 45 s", "detail": ""},
+        {"name": "Calf stretch on the step 30 s/side", "detail": ""}
+      ],
       "text": ""
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · get-up + hollow + bird dog · straight through",
+      "meta": "2 ROUNDS · pallof + side plank + dead bug · straight through",
       "items": [
-        {
-          "name": "Get-up 35 lb ×2/side",
-          "detail": "slow, own every position"
-        },
-        {
-          "name": "Hollow hold 30 s",
-          "detail": "low back down, shoulders off"
-        },
-        {
-          "name": "Bird dog 3-count ×6/side",
-          "detail": ""
-        }
-      ],
-      "text": ""
-    },
-    {
-      "id": "cooldown",
-      "kind": "cooldown",
-      "title": "COOLDOWN · 2 MIN",
-      "meta": "one pass",
-      "items": [
-        {
-          "name": "Couch stretch 30 s/side",
-          "detail": ""
-        },
-        {
-          "name": "Lat stretch on the bell 30 s/side",
-          "detail": ""
-        }
+        {"name": "Half-kneeling Pallof press 35 lb ×8/side", "detail": "hold the bell out 2 s"},
+        {"name": "Side plank 30 s/side", "detail": ""},
+        {"name": "Dead bug ×10/side", "detail": "low back pinned"}
       ],
       "text": ""
     }
   ],
   "timer": {
-    "emomUnit": "slots done of 16",
-    "emomGreen": "16",
-    "emomYellow": "12"
+    "emomUnit": "3-mile time",
+    "emomGreen": "22:30",
+    "emomYellow": "23:30"
   }
 }

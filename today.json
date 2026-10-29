@@ -1,82 +1,89 @@
 {
-  "date": "2026-10-28",
-  "weekday": "Wednesday",
-  "title": "THE ROAD · 3 MILE · WEEK 1",
-  "vibe": "steady-hard",
-  "why": "Block week 1, day 3: the timed 3-mile. Same run every Wednesday and Saturday; beat the time next week. Legs day on the Moves Method menu.",
-  "estMin": 40,
+  "date": "2026-10-29",
+  "weekday": "Thursday",
+  "title": "THE LAUNCH · POWER B · WEEK 1",
+  "vibe": "hard",
+  "why": "Block week 1, day 4: snatch and jump power on a 90-second clock, hill sprints, then the 2:00 swing test. Same card every Thursday.",
+  "estMin": 44,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
       "title": "WARM-UP · 6 MIN · ONE PASS",
-      "meta": "Moves Method Day B · ankles / knees / hips",
+      "meta": "Moves Method Day C · flow",
       "items": [
-        {"name": "Ankle rolls in the squat ×10/side", "detail": ""},
-        {"name": "Toe squats ×10", "detail": ""},
-        {"name": "Knee drives ×10/side", "detail": ""},
-        {"name": "Leg swings ×10/side", "detail": "front-back, then side-side"},
-        {"name": "Swing 35 lb ×10", "detail": "wake the hips"},
-        {"name": "Belt 2:00 · 5.5 → 7.0 mph", "detail": ""}
+        {"name": "Rock-backs ×10", "detail": ""},
+        {"name": "Bear crawl 2 × 10 yd", "detail": "forward, then backward"},
+        {"name": "Cross-crawls ×10/side", "detail": ""},
+        {"name": "Shoulder rolls + arm circles ×10 each way", "detail": ""},
+        {"name": "Swing 35 lb ×10", "detail": ""},
+        {"name": "One-arm swing 35 lb ×5/side", "detail": "groove the snatch path"}
       ],
       "text": ""
     },
     {
-      "id": "run",
+      "id": "e90",
+      "kind": "emom",
+      "title": "EVERY 90 S × 8 · SNATCH + JUMP",
+      "meta": "12:00 · 35 lb · rest the remainder of each slot",
+      "format": "Each slot: snatch left, snatch right, then tuck jumps. Rest until the next slot starts. Score = slots finished with 30 s or more left.",
+      "workRest": "Next Thursday: 8/side + 6 jumps if all 8 slots had rest left today.",
+      "items": [
+        {"name": "One-arm snatch 35 lb ×6/side", "detail": "punch through at the top, no bang on the forearm"},
+        {"name": "Tuck jump ×5", "detail": "soft landing, reset each"}
+      ],
+      "noteGreen": "Green: 8 of 8 slots with rest left (96 snatches).",
+      "noteYellow": "Yellow: 6 of 8.",
+      "text": ""
+    },
+    {
+      "id": "hills",
       "kind": "run",
-      "title": "3 MILES · CONTINUOUS · FOR TIME",
-      "meta": "target 8.0 mph (7:30/mi) · 22:30 · record the time and the mile splits",
-      "format": "Start at 7.8, settle at 8.0 by the half mile. Hold it. If mile 2 feels controlled, mile 3 at 8.2 or better. Stop the clock at 3.00.",
-      "workRest": "Week 1 benchmark. Beat it next Wednesday.",
+      "title": "HILL SPRINTS · 6 × 0.10 MI",
+      "meta": "9.0 mph · 6% incline · walk 3.0 flat between · ~9 min",
       "items": [
-        {"name": "Mile 1 · 7.8 → 8.0 mph", "detail": "settle in"},
-        {"name": "Mile 2 · 8.0 mph", "detail": "hold"},
-        {"name": "Mile 3 · 8.0 → 8.2+ mph", "detail": "finish faster than you started"}
+        {"name": "0.10 mi @ 9.0 mph / 6% ×6", "detail": "count the sprints you held"},
+        {"name": "Walk 3.0 mph / 0% until the breath settles (about 1:00)", "detail": ""}
       ],
-      "noteGreen": "Green: 3.00 mi under 22:30.",
-      "noteYellow": "Yellow: 3.00 mi under 23:30.",
-      "text": ""
+      "text": "Short on time? Drop sprints 5 and 6, never the swing test."
     },
     {
-      "id": "walk",
-      "kind": "cooldown",
-      "title": "WALK DOWN · 3 MIN",
-      "meta": "3.0 mph · 3% incline",
+      "id": "swingtest",
+      "kind": "test",
+      "title": "2:00 MAX SWINGS · 60 LB",
+      "meta": "two-hand · record the number",
       "items": [
-        {"name": "Walk 3:00 @ 3.0 mph / 3%", "detail": "breathe through the nose by the end"}
+        {"name": "Two-hand swing 60 lb · as many as you can in 2:00", "detail": "set the bell down to rest if you need to, clock keeps running"}
       ],
-      "text": ""
-    },
-    {
-      "id": "mobility",
-      "kind": "mobility",
-      "title": "LEGS · 6 MIN · ONE PASS",
-      "meta": "Moves Method Day B · after the run",
-      "items": [
-        {"name": "Deep squat hold 60 s", "detail": "heels down, elbows pry the knees"},
-        {"name": "Couch stretch 45 s/side", "detail": ""},
-        {"name": "Pigeon 45 s/side", "detail": ""},
-        {"name": "Hamstring hang 45 s", "detail": ""},
-        {"name": "Calf stretch on the step 30 s/side", "detail": ""}
-      ],
-      "text": ""
+      "text": "Week 1 benchmark. Write the number down."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · pallof + side plank + dead bug · straight through",
+      "meta": "2 ROUNDS · windmill + shoulder tap + leg raise · straight through",
       "items": [
-        {"name": "Half-kneeling Pallof press 35 lb ×8/side", "detail": "hold the bell out 2 s"},
-        {"name": "Side plank 30 s/side", "detail": ""},
-        {"name": "Dead bug ×10/side", "detail": "low back pinned"}
+        {"name": "Windmill 35 lb ×5/side", "detail": "eyes on the bell"},
+        {"name": "Plank shoulder tap ×20", "detail": "hips still"},
+        {"name": "Lying leg raise ×12", "detail": "low back pinned"}
+      ],
+      "text": ""
+    },
+    {
+      "id": "cooldown",
+      "kind": "cooldown",
+      "title": "COOLDOWN · 2 MIN",
+      "meta": "one pass",
+      "items": [
+        {"name": "Couch stretch 30 s/side", "detail": ""},
+        {"name": "Lat stretch on the bell 30 s/side", "detail": ""}
       ],
       "text": ""
     }
   ],
   "timer": {
-    "emomUnit": "3-mile time",
-    "emomGreen": "22:30",
-    "emomYellow": "23:30"
+    "emomUnit": "slots with rest left (of 8)",
+    "emomGreen": "8",
+    "emomYellow": "6"
   }
 }

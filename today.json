@@ -1,71 +1,76 @@
 {
-  "date": "2026-10-30",
-  "weekday": "Friday",
-  "title": "THE RUCK · LOADED INCLINE",
+  "date": "2026-10-31",
+  "weekday": "Saturday",
+  "title": "THE ROAD · 3 MILE · NEGATIVE SPLIT",
   "vibe": "steady-hard",
-  "why": "Zone 2 day with teeth: a 30-minute incline walk that gets interrupted every 5 minutes by a loaded leg. Nothing from Mon, Tue or Thu repeats. First Tonal stations.",
-  "estMin": 46,
+  "why": "Second 3-mile of the week. Wednesday was 22:45 at 7:40 / 7:35 / 7:30. Today: start a hair slower, finish faster, beat 22:45. Drills before, strides after, new mobility and core.",
+  "estMin": 42,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 5 MIN · ONE PASS",
-      "meta": "Moves Method flow · hips / ankles",
+      "title": "WARM-UP · 6 MIN · RUN DRILLS",
+      "meta": "Tonal bank drills · then the belt",
       "items": [
-        {"name": "90-90 hip switches ×8/side", "detail": "Tonal bank"},
-        {"name": "Quadruped hip circles ×6 each way", "detail": ""},
-        {"name": "Hamstring walkout ×6", "detail": ""},
-        {"name": "Toe squats ×10", "detail": ""},
-        {"name": "Belt 1:00 · 3.0 mph flat → 3.5 / 6%", "detail": ""}
+        {"name": "Lateral walkout ×6/side", "detail": ""},
+        {"name": "Bodyweight single-leg RDL ×8/side", "detail": "reach long"},
+        {"name": "High knees 2 × 20 yd", "detail": ""},
+        {"name": "Butt kickers 2 × 20 yd", "detail": ""},
+        {"name": "Skater bound ×6/side", "detail": "stick each landing"},
+        {"name": "Belt 2:00 · 6.0 → 7.5 mph", "detail": ""}
       ],
       "text": ""
     },
     {
-      "id": "ruck",
+      "id": "run",
       "kind": "run",
-      "title": "THE RUCK · 30:00 · 3.5 MPH / 10%",
-      "meta": "Zone 2 · nose breathing · step off every 5:00 for one loaded leg, then straight back on",
-      "format": "Walk 3.5 mph at 10% for 30 minutes. At 5, 10, 15, 20, 25 and 30 minutes, pause the belt, do the leg listed, step back on. Belt speed never changes. If nose breathing breaks, drop to 8%.",
-      "workRest": "Next week: 11% if all 6 legs were done with the belt at 10%.",
+      "title": "3 MILES · FOR TIME · BEAT 22:45",
+      "meta": "negative split by design · 7.8 → 8.0 → 8.3 mph · record time and splits",
+      "format": "Mile 1 at 7.8 the whole way, no faster. Mile 2 at 8.0. Mile 3 at 8.3, last 0.25 at 8.5 or better. The research says a held-back first mile buys the fast third. Stop the clock at 3.00.",
+      "workRest": "Benchmark: beat Wednesday's 22:45.",
       "items": [
-        {"name": "5:00 · Waiter march 35 lb 20 steps/side", "detail": "bell locked out overhead, knees high"},
-        {"name": "10:00 · Tonal pullthrough ×12", "detail": "rope between the legs, hinge, snap the hips; find the weight that makes rep 12 hard"},
-        {"name": "15:00 · Suitcase march 52 lb 20 steps/side", "detail": "ribs down"},
-        {"name": "20:00 · Tonal face pull ×15", "detail": "rope, elbows high, pause 1 s"},
-        {"name": "25:00 · Leopard crawl 2 × 10 yd", "detail": "knees an inch off the floor"},
-        {"name": "30:00 · Goblet squat to bench 60 lb ×10", "detail": "touch, do not sit"}
+        {"name": "Mile 1 · 7.8 mph (7:42)", "detail": "patience"},
+        {"name": "Mile 2 · 8.0 mph (7:30)", "detail": "settle"},
+        {"name": "Mile 3 · 8.3 mph (7:14) · last 0.25 at 8.5+", "detail": "empty it"}
       ],
-      "noteGreen": "Green: 30:00 at 10% and all 6 legs.",
-      "noteYellow": "Yellow: 30:00 at 8% or 5 legs.",
+      "noteGreen": "Green: under 22:30.",
+      "noteYellow": "Yellow: under 22:45.",
       "text": ""
     },
     {
-      "id": "push",
-      "kind": "emom",
-      "title": "PUSH-UP EMOM · 6:00",
-      "meta": "6 minutes · a different push-up each minute · rest the remainder",
-      "format": "Top of each minute, do the push-up listed. Score = minutes finished with 20 s left.",
+      "id": "strides",
+      "kind": "run",
+      "title": "STRIDES · 4 × 20 S",
+      "meta": "after a 2:00 walk · 10.0 mph flat · walk 1:00 between",
       "items": [
-        {"name": "Min 1 · Deficit push-up, hands on the 45s ×12", "detail": "chest below the handles"},
-        {"name": "Min 2 · Uneven push-up, one hand on the 35 ×6/side", "detail": ""},
-        {"name": "Min 3 · Archer push-up ×5/side", "detail": "straight arm slides out"},
-        {"name": "Min 4 · Plyo push-up ×8", "detail": "hands leave the floor"},
-        {"name": "Min 5 · Pushup to plank with reach ×10", "detail": "Tonal bank"},
-        {"name": "Min 6 · Deficit push-up, hands on the 45s · max reps", "detail": "record the number"}
+        {"name": "Walk 2:00 @ 3.0", "detail": "breath back first"},
+        {"name": "20 s @ 10.0 mph ×4", "detail": "WILDCARD · tall, quick feet, relaxed arms"},
+        {"name": "Walk 1:00 @ 3.0 between", "detail": ""}
       ],
-      "noteGreen": "Green: 6 of 6 minutes with rest left.",
-      "noteYellow": "Yellow: 5 of 6.",
+      "text": "Short on time? Drop the strides, never the 3 miles."
+    },
+    {
+      "id": "mobility",
+      "kind": "mobility",
+      "title": "RUNNER'S RESET · 5 MIN",
+      "meta": "Tonal bank stretches · one pass",
+      "items": [
+        {"name": "Runner's lunge 45 s/side", "detail": ""},
+        {"name": "Quad-hip stretch with the bench 45 s/side", "detail": "rear foot up on the bench"},
+        {"name": "Lying hamstring stretch 45 s/side", "detail": ""},
+        {"name": "Ninety-ninety arm sweep ×6/side", "detail": "open the chest"}
+      ],
       "text": ""
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · straight through · Tonal + floor",
+      "meta": "2 ROUNDS · Tonal + floor · straight through",
       "items": [
-        {"name": "Tonal half-kneeling chop ×8/side", "detail": "high to low, hips still; last rep hard"},
-        {"name": "V-up ×12", "detail": ""},
-        {"name": "Superhero ISO hold 30 s", "detail": "arms and legs off the floor"}
+        {"name": "Tonal lateral bridge with row ×10/side", "detail": "side plank, pull the handle to the ribs; last rep hard"},
+        {"name": "Bent hollow rock ×15", "detail": ""},
+        {"name": "Single-leg glute bridge ×10/side", "detail": "2 s squeeze at the top"}
       ],
       "text": ""
     },
@@ -73,17 +78,16 @@
       "id": "cooldown",
       "kind": "cooldown",
       "title": "COOLDOWN · 2 MIN",
-      "meta": "one pass",
+      "meta": "walk it off",
       "items": [
-        {"name": "Bretzel 45 s/side", "detail": ""},
-        {"name": "Calf stretch on the step 30 s/side", "detail": ""}
+        {"name": "Walk 2:00 @ 2.5 mph", "detail": "nose breathing"}
       ],
       "text": ""
     }
   ],
   "timer": {
-    "emomUnit": "loaded legs done (of 6)",
-    "emomGreen": "6",
-    "emomYellow": "5"
+    "emomUnit": "3-mile time",
+    "emomGreen": "22:30",
+    "emomYellow": "22:45"
   }
 }

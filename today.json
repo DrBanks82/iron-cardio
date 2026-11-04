@@ -1,93 +1,132 @@
 {
-  "date": "2026-10-31",
-  "weekday": "Saturday",
-  "title": "THE ROAD · 3 MILE · NEGATIVE SPLIT",
-  "vibe": "steady-hard",
-  "why": "Second 3-mile of the week. Wednesday was 22:45 at 7:40 / 7:35 / 7:30. Today: start a hair slower, finish faster, beat 22:45. Drills before, strides after, new mobility and core.",
-  "estMin": 42,
+  "date": "2026-11-04",
+  "weekday": "Wednesday",
+  "title": "THE HOTEL · DUMBBELL LADDER · UPPER",
+  "vibe": "GREEN · 45 MIN · LIFT DAY, LEGS SPARED",
+  "why": "Four straight run days (13 miles, 10-31 to 11-03) and no lifting since Thursday. Today is the lift you missed: an upper-body dumbbell ladder on an 18-minute clock, legs touched only in the warm-up and one short sprint salt. Shape from the muscle-building manual (Week 3 Day 3: horizontal push + rows), movements half from today's dumbbell-only research, dressed as a ladder because the last two cards were a for-time run and a ruck.",
+  "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 6 MIN · RUN DRILLS",
-      "meta": "Tonal bank drills · then the belt",
+      "title": "WARM-UP · 6 MIN · SHOULDERS + SPINE",
+      "meta": "Moves Method Day A · ONE PASS · light 10 lb DB where named",
       "items": [
-        {"name": "Lateral walkout ×6/side", "detail": ""},
-        {"name": "Bodyweight single-leg RDL ×8/side", "detail": "reach long"},
-        {"name": "High knees 2 × 20 yd", "detail": ""},
-        {"name": "Butt kickers 2 × 20 yd", "detail": ""},
-        {"name": "Skater bound ×6/side", "detail": "stick each landing"},
-        {"name": "Belt 2:00 · 6.0 → 7.5 mph", "detail": ""}
+        {
+          "name": "Towel shoulder dislocates",
+          "detail": "x10, wide grip, slow over and back"
+        },
+        {
+          "name": "Thoracic rotations (quadruped)",
+          "detail": "x8/side, follow the hand with your eyes"
+        },
+        {
+          "name": "Jefferson curl, 10 lb DB",
+          "detail": "x6, 3-count down, roll up one vertebra at a time"
+        },
+        {
+          "name": "Hamstring walkouts",
+          "detail": "x6, hands walk out to plank and back"
+        },
+        {
+          "name": "Active pigeon",
+          "detail": "30 s/side, press the front shin into the floor"
+        },
+        {
+          "name": "Wrist rocks",
+          "detail": "x10 each direction, loads the floor press"
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "kind": "main",
+      "title": "THE LADDER · 18:00 CAP · 2-4-6-8-10",
+      "meta": "ONE PASS · 5 RUNGS · 6 stations in order · reps per station = the rung · rest only when a set breaks",
+      "format": "ascending ladder on a clock",
+      "workRest": "18:00 cap · rungs 2, 4, 6, 8, 10 · unilateral stations are per side",
+      "items": [
+        {
+          "name": "1 · Floor press, 2 x 50 lb",
+          "detail": "Elbows 45°, 2-count pause on the floor, drive up together"
+        },
+        {
+          "name": "2 · Meadows row, 50 lb",
+          "detail": "Staggered stance, elbow drives high and back, per side"
+        },
+        {
+          "name": "3 · Seated halo press, 35 lb",
+          "detail": "Sit on the bench edge, halo around the head then press overhead (one rep = halo + press)"
+        },
+        {
+          "name": "4 · Bent-over reverse fly, 2 x 15 lb",
+          "detail": "Hinge flat, thumbs up, 1-count squeeze at the top"
+        },
+        {
+          "name": "5 · Zottman curl, 2 x 25 lb",
+          "detail": "WILDCARD · curl palms up, rotate at the top, lower palms down on a 3-count"
+        },
+        {
+          "name": "6 · Alternating lateral lunge, 35 lb at the chest",
+          "detail": "Per side, only leg work in the block, keep it smooth not fast"
+        }
       ],
-      "text": ""
+      "text": "Rung 2 is a warm-up rung, move. Rungs 8 and 10 are where it is earned. GREEN: finished rung 10 under 16:00, add a rung of 12 until the clock. YELLOW: stop at rung 8. If a press rep fails, drop 50s to 45s on the floor press and keep moving."
     },
     {
       "id": "run",
       "kind": "run",
-      "title": "3 MILES · FOR TIME · BEAT 22:45",
-      "meta": "negative split by design · 7.8 → 8.0 → 8.3 mph · record time and splits",
-      "format": "Mile 1 at 7.8 the whole way, no faster. Mile 2 at 8.0. Mile 3 at 8.3, last 0.25 at 8.5 or better. The research says a held-back first mile buys the fast third. Stop the clock at 3.00.",
-      "workRest": "Benchmark: beat Wednesday's 22:45.",
+      "title": "SPRINT SALT · 6 × 30 S",
+      "meta": "6 ROUNDS · 30 s @ 9.0 mph / 30 s walk @ 3.0 · 2% incline",
+      "format": "short interval",
+      "workRest": "30 s on / 30 s off · 6:00 total",
       "items": [
-        {"name": "Mile 1 · 7.8 mph (7:42)", "detail": "patience"},
-        {"name": "Mile 2 · 8.0 mph (7:30)", "detail": "settle"},
-        {"name": "Mile 3 · 8.3 mph (7:14) · last 0.25 at 8.5+", "detail": "empty it"}
+        {
+          "name": "Sprint, 9.0 mph, 2% incline",
+          "detail": "30 s, cadence quick (168+), hands off the rails"
+        },
+        {
+          "name": "Walk, 3.0 mph",
+          "detail": "30 s, stay on the belt"
+        }
       ],
-      "noteGreen": "Green: under 22:30.",
-      "noteYellow": "Yellow: under 22:45.",
-      "text": ""
-    },
-    {
-      "id": "strides",
-      "kind": "run",
-      "title": "STRIDES · 4 × 20 S",
-      "meta": "after a 2:00 walk · 10.0 mph flat · walk 1:00 between",
-      "items": [
-        {"name": "Walk 2:00 @ 3.0", "detail": "breath back first"},
-        {"name": "20 s @ 10.0 mph ×4", "detail": "WILDCARD · tall, quick feet, relaxed arms"},
-        {"name": "Walk 1:00 @ 3.0 between", "detail": ""}
-      ],
-      "text": "Short on time? Drop the strides, never the 3 miles."
-    },
-    {
-      "id": "mobility",
-      "kind": "mobility",
-      "title": "RUNNER'S RESET · 5 MIN",
-      "meta": "Tonal bank stretches · one pass",
-      "items": [
-        {"name": "Runner's lunge 45 s/side", "detail": ""},
-        {"name": "Quad-hip stretch with the bench 45 s/side", "detail": "rear foot up on the bench"},
-        {"name": "Lying hamstring stretch 45 s/side", "detail": ""},
-        {"name": "Ninety-ninety arm sweep ×6/side", "detail": "open the chest"}
-      ],
-      "text": ""
+      "text": "Deliberately tiny after four run days. This is the only run leg today. Do not stretch it into a mile."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · Tonal + floor · straight through",
+      "meta": "2 ROUNDS · straight through · rest 45 s between rounds",
       "items": [
-        {"name": "Tonal lateral bridge with row ×10/side", "detail": "side plank, pull the handle to the ribs; last rep hard"},
-        {"name": "Bent hollow rock ×15", "detail": ""},
-        {"name": "Single-leg glute bridge ×10/side", "detail": "2 s squeeze at the top"}
-      ],
-      "text": ""
+        {
+          "name": "Side plank reach-under, 15 lb DB",
+          "detail": "x8/side, top arm threads under and back to the ceiling (manual: side plank)"
+        },
+        {
+          "name": "Plank rotational press, 20 lb DB",
+          "detail": "x5/side, from push-up plank row the bell then press it to the ceiling as you rotate (manual: plank rotational press)"
+        },
+        {
+          "name": "Dead bug with DB press-out, 2 x 10 lb",
+          "detail": "x10/side, bells pressed to the ceiling, opposite heel taps the floor"
+        },
+        {
+          "name": "Suitcase carry, 50 lb",
+          "detail": "40 steps/side down the hallway or across the gym, ribs down, do not lean"
+        }
+      ]
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
-      "title": "COOLDOWN · 2 MIN",
-      "meta": "walk it off",
-      "items": [
-        {"name": "Walk 2:00 @ 2.5 mph", "detail": "nose breathing"}
-      ],
-      "text": ""
+      "title": "COOLDOWN · 3 MIN",
+      "meta": "walk 3.0 mph on the belt, then doorway pec stretch 30 s/side",
+      "text": "Record ladder time (or rungs done at the cap), top rung reached, sprint speed held, and RPE."
     }
   ],
   "timer": {
-    "emomUnit": "3-mile time",
-    "emomGreen": "22:30",
-    "emomYellow": "22:45"
+    "emomUnit": "rungs done in 18:00",
+    "emomGreen": "5 rungs (2-10) + a 12 rung",
+    "emomYellow": "4 rungs (2-8)"
   }
 }

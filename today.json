@@ -1,132 +1,139 @@
 {
-  "date": "2026-11-04",
-  "weekday": "Wednesday",
-  "title": "THE HOTEL · DUMBBELL LADDER · UPPER",
-  "vibe": "GREEN · 45 MIN · LIFT DAY, LEGS SPARED",
-  "why": "Four straight run days (13 miles, 10-31 to 11-03) and no lifting since Thursday. Today is the lift you missed: an upper-body dumbbell ladder on an 18-minute clock, legs touched only in the warm-up and one short sprint salt. Shape from the muscle-building manual (Week 3 Day 3: horizontal push + rows), movements half from today's dumbbell-only research, dressed as a ladder because the last two cards were a for-time run and a ruck.",
+  "date": "2026-11-05",
+  "weekday": "Thursday",
+  "title": "THE UNWIND · BACK RESET + LEG AMRAP",
+  "vibe": "YELLOW VOLUME · 45 MIN · LOOSEN THE BACK, THEN LEGS",
+  "why": "Low back tight from the hotel bed, not from training. So a 12-minute back reset leads instead of a 6-minute warm-up, then a lower-body AMRAP built on single-leg work that keeps the spine tall (curtsy, knees-over-toes lunge, lateral walks, rotations) from the muscle-building manual Week 3 Day 4, run legs short and optional. Written at the middle of the range on purpose. Finish with the three spine-stabilizing moves physical therapists use for a cranky back.",
   "estMin": 45,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 6 MIN · SHOULDERS + SPINE",
-      "meta": "Moves Method Day A · ONE PASS · light 10 lb DB where named",
+      "title": "BACK RESET · 12 MIN · ONE PASS",
+      "meta": "ONE PASS · slow · breathe out on every stretch · Moves Method Day A spine and hips plus today's back research",
       "items": [
         {
-          "name": "Towel shoulder dislocates",
-          "detail": "x10, wide grip, slow over and back"
+          "name": "Cat-cow",
+          "detail": "x10, 3 s each way, move one vertebra at a time"
+        },
+        {
+          "name": "Sphinx to cobra",
+          "detail": "x8, press up slowly, hips stay on the floor, 2 s at the top"
+        },
+        {
+          "name": "Pelvic tilts (lying)",
+          "detail": "x15, flatten the low back into the floor then release"
+        },
+        {
+          "name": "Knee-to-chest",
+          "detail": "30 s/side, then both knees 30 s, pull gently"
+        },
+        {
+          "name": "90-90 hip switches",
+          "detail": "x8/side, tall chest, hands off the floor if you can"
+        },
+        {
+          "name": "Child's pose with side reach",
+          "detail": "30 s each side, walk the hands to the corner, breathe into the ribs"
         },
         {
           "name": "Thoracic rotations (quadruped)",
-          "detail": "x8/side, follow the hand with your eyes"
-        },
-        {
-          "name": "Jefferson curl, 10 lb DB",
-          "detail": "x6, 3-count down, roll up one vertebra at a time"
-        },
-        {
-          "name": "Hamstring walkouts",
-          "detail": "x6, hands walk out to plank and back"
+          "detail": "x8/side, eyes follow the hand"
         },
         {
           "name": "Active pigeon",
-          "detail": "30 s/side, press the front shin into the floor"
+          "detail": "45 s/side, press the front shin down"
         },
         {
-          "name": "Wrist rocks",
-          "detail": "x10 each direction, loads the floor press"
+          "name": "Single-leg good morning, bodyweight",
+          "detail": "x8/leg, flat back, 5 s pause on the last rep"
+        },
+        {
+          "name": "Jefferson curl, 10 lb DB",
+          "detail": "x5, 5 s on the way down, stack up slowly"
         }
       ]
     },
     {
       "id": "main",
       "kind": "main",
-      "title": "THE LADDER · 18:00 CAP · 2-4-6-8-10",
-      "meta": "ONE PASS · 5 RUNGS · 6 stations in order · reps per station = the rung · rest only when a set breaks",
-      "format": "ascending ladder on a clock",
-      "workRest": "18:00 cap · rungs 2, 4, 6, 8, 10 · unilateral stations are per side",
+      "title": "LEG AMRAP · 16:00 · TALL SPINE",
+      "meta": "AMRAP 16:00 · target 4 ROUNDS (GREEN 5) · 6 stations in order · chest up on every rep · rest only when form slips",
+      "format": "AMRAP on a clock, run-interleaved",
+      "workRest": "16:00 continuous · count completed rounds",
       "items": [
         {
-          "name": "1 · Floor press, 2 x 50 lb",
-          "detail": "Elbows 45°, 2-count pause on the floor, drive up together"
+          "name": "1 · Curtsy lunge, 2 x 20 lb",
+          "detail": "x6/side, back foot crosses behind, torso tall, no lean"
         },
         {
-          "name": "2 · Meadows row, 50 lb",
-          "detail": "Staggered stance, elbow drives high and back, per side"
+          "name": "2 · One-bell offset lateral walk, 40 lb",
+          "detail": "WILDCARD · 10 steps each direction, one bell held at the side (the manual's lateral walk), hips level, switch hands at the turn"
         },
         {
-          "name": "3 · Seated halo press, 35 lb",
-          "detail": "Sit on the bench edge, halo around the head then press overhead (one rep = halo + press)"
+          "name": "3 · Knees-over-toes reverse lunge, 2 x 20 lb",
+          "detail": "x6/side, front knee travels forward over the toes, heel stays down"
         },
         {
-          "name": "4 · Bent-over reverse fly, 2 x 15 lb",
-          "detail": "Hinge flat, thumbs up, 1-count squeeze at the top"
+          "name": "4 · Standing high-to-low rotation, 15 lb",
+          "detail": "x8/side, bell travels from high outside shoulder to opposite hip, hips turn with it"
         },
         {
-          "name": "5 · Zottman curl, 2 x 25 lb",
-          "detail": "WILDCARD · curl palms up, rotate at the top, lower palms down on a 3-count"
+          "name": "5 · Three-point single-arm row, 30 lb",
+          "detail": "x8/side, one hand on the bench, flat back, elbow to the hip"
         },
         {
-          "name": "6 · Alternating lateral lunge, 35 lb at the chest",
-          "detail": "Per side, only leg work in the block, keep it smooth not fast"
+          "name": "6 · Run leg, 0.20 mi @ 7.5 mph, 1% incline",
+          "detail": "Quick cadence, tall. If the back says no: walk 0.15 mi @ 3.5 mph at 8% instead"
         }
       ],
-      "text": "Rung 2 is a warm-up rung, move. Rungs 8 and 10 are where it is earned. GREEN: finished rung 10 under 16:00, add a rung of 12 until the clock. YELLOW: stop at rung 8. If a press rep fails, drop 50s to 45s on the floor press and keep moving."
-    },
-    {
-      "id": "run",
-      "kind": "run",
-      "title": "SPRINT SALT · 6 × 30 S",
-      "meta": "6 ROUNDS · 30 s @ 9.0 mph / 30 s walk @ 3.0 · 2% incline",
-      "format": "short interval",
-      "workRest": "30 s on / 30 s off · 6:00 total",
-      "items": [
-        {
-          "name": "Sprint, 9.0 mph, 2% incline",
-          "detail": "30 s, cadence quick (168+), hands off the rails"
-        },
-        {
-          "name": "Walk, 3.0 mph",
-          "detail": "30 s, stay on the belt"
-        }
-      ],
-      "text": "Deliberately tiny after four run days. This is the only run leg today. Do not stretch it into a mile."
+      "text": "Four rounds in 16:00 is the number today. GREEN: five if the back is loose by round 2 and every rep stayed tall. This is a middle-of-the-range card by design: the stimulus is legs that work while the spine stays stacked, not a race. Any station that pinches, drop the bells and do it empty."
     },
     {
       "id": "core",
       "kind": "finisher",
-      "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · straight through · rest 45 s between rounds",
+      "title": "SPINE STABILITY CLOSE · 2 ROUNDS",
+      "meta": "2 ROUNDS · the physical-therapy big three plus a bridge and a Copenhagen · rest 45 s between rounds",
       "items": [
         {
-          "name": "Side plank reach-under, 15 lb DB",
-          "detail": "x8/side, top arm threads under and back to the ceiling (manual: side plank)"
+          "name": "Bird dog, 3 s holds",
+          "detail": "x6/side, reach long, do not arch, drag the elbow and knee together between reps"
         },
         {
-          "name": "Plank rotational press, 20 lb DB",
-          "detail": "x5/side, from push-up plank row the bell then press it to the ceiling as you rotate (manual: plank rotational press)"
+          "name": "Curl-up, hands under the low back",
+          "detail": "x8, lift only the shoulder blades, 5 s hold each, neutral neck"
         },
         {
-          "name": "Dead bug with DB press-out, 2 x 10 lb",
-          "detail": "x10/side, bells pressed to the ceiling, opposite heel taps the floor"
+          "name": "Glute bridge march, 3 s holds",
+          "detail": "x6/side, hips high and level, pull one knee up without the pelvis tipping"
         },
         {
-          "name": "Suitcase carry, 50 lb",
-          "detail": "40 steps/side down the hallway or across the gym, ribs down, do not lean"
+          "name": "Copenhagen hold, knee on the bench",
+          "detail": "20 s/side, top leg on the bench, bottom knee lifts to meet it, hips tall"
         }
       ]
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
-      "title": "COOLDOWN · 3 MIN",
-      "meta": "walk 3.0 mph on the belt, then doorway pec stretch 30 s/side",
-      "text": "Record ladder time (or rungs done at the cap), top rung reached, sprint speed held, and RPE."
+      "title": "COOLDOWN · 4 MIN",
+      "meta": "walk 3.0 mph 2 min, then floor",
+      "items": [
+        {
+          "name": "Lying knee-to-chest, both knees",
+          "detail": "45 s, rock gently side to side"
+        },
+        {
+          "name": "Supine twist",
+          "detail": "45 s/side, shoulders flat, breathe out into it"
+        }
+      ],
+      "text": "Record rounds completed in 16:00, whether the run legs were run or walked, how the back felt at the start versus the end (1-10), and RPE. Still owed from Wednesday: ladder time or rungs, top rung, sprints held, RPE."
     }
   ],
   "timer": {
-    "emomUnit": "rungs done in 18:00",
-    "emomGreen": "5 rungs (2-10) + a 12 rung",
-    "emomYellow": "4 rungs (2-8)"
+    "emomUnit": "rounds in 16:00",
+    "emomGreen": "5",
+    "emomYellow": "4"
   }
 }

@@ -104,7 +104,7 @@
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · all on the cable · rest 45 s between rounds",
+      "meta": "2 ROUNDS · cable plus mat · rest 45 s between rounds",
       "items": [
         {
           "name": "Half-kneeling lift, low to high, 10 kg",
@@ -115,12 +115,20 @@
           "detail": "20 s/side, feet shoulder width, arms locked straight out, do not let the hips turn"
         },
         {
-          "name": "Kneeling cable crunch, rope, 20 kg",
-          "detail": "x12, rope behind the head, round the spine toward the knees, hips still, 2 s at the bottom"
+          "name": "Bird dog, 3 s holds",
+          "detail": "x6/side on the mat, reach long, no arch"
+        },
+        {
+          "name": "Glute bridge march, 3 s holds",
+          "detail": "x6/side, hips high and level, the leg fatigue says keep it slow"
         },
         {
           "name": "Straight-arm pulldown, 20 kg",
           "detail": "x12, standing, rope, ribs down, pull with the lats to the thighs"
+        },
+        {
+          "name": "Copenhagen hold, foot on the bench",
+          "detail": "20 s/side, top foot on the bench, hips tall, bottom knee lifts to meet it"
         }
       ]
     },

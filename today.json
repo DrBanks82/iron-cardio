@@ -1,77 +1,85 @@
 {
   "date": "2026-11-11",
   "weekday": "Wednesday",
-  "title": "THE PULLEY · 21-15-9 · CABLE CHIPPER",
-  "vibe": "GREEN · 30 MIN · ONE CLOCK, ONE CABLE STACK",
-  "why": "Cable machine only and 30 minutes. Yesterday's card was pulls and anti-rotation on the minute, so today flips to legs and push on one descending list for time: six cable stations, 21-15-9, low pulley first then high pulley so you change the height twice a round, not six times. Shape is the for-time chipper, not used since 10-20; cable squat, pullthrough and chest work came from today's cable-only research (garagegymreviews cable workouts). Loads in kg, round 1 finds the weight where the last rep is hard.",
-  "estMin": 30,
+  "title": "THE STACK · FULL BODY CABLE AMRAP · 20:00",
+  "vibe": "GREEN · ~32 MIN · INTENSE, ONE STACK, EVERY PATTERN",
+  "why": "The machine was taken yesterday, so nothing has been lifted since 11-03 and nothing is sore: full intensity is on the table. One cable stack, every pattern in one 20-minute AMRAP: squat, hinge, lunge, vertical pull, horizontal push, rear delts, side delts. Eight stations, ten reps each, as many rounds as the clock allows, loads heavy enough that round 4 is a fight. Pulley heights are grouped (low for 1-4, high for 5-7, back to low for 8) so you change twice a round. Loads in kg, the empty round sets them.",
+  "estMin": 32,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "WARM-UP · 5 MIN · ANKLES, KNEES, HIPS",
-      "meta": "ONE PASS · Moves Method Day B, then one empty round",
+      "title": "WARM-UP · 5 MIN · FULL BODY",
+      "meta": "ONE PASS · Moves Method Day B legs plus shoulders, then one empty round",
       "items": [
         {
           "name": "Toe squats",
-          "detail": "x15, sit back on the heels"
+          "detail": "x15"
         },
         {
           "name": "Ankle rolls in the squat",
           "detail": "x10 each way, heels down"
         },
         {
-          "name": "Knee drives",
-          "detail": "x10/side, slow"
-        },
-        {
           "name": "Single-leg squat to the bench",
-          "detail": "x6/leg, control down, stand without a push-off"
+          "detail": "x6/leg"
         },
         {
-          "name": "Shoulder protocol with the empty handle",
-          "detail": "x15 front raise, x15 lateral raise, no load"
+          "name": "Shoulder dislocates with the rope",
+          "detail": "x10, wide"
+        },
+        {
+          "name": "Cat-cow",
+          "detail": "x8"
         },
         {
           "name": "One empty round",
-          "detail": "5 reps of each station with the pin out, learn the pulley heights"
+          "detail": "5 reps of each station with the pin out, learn the heights, set the loads"
         }
       ]
     },
     {
       "id": "main",
       "kind": "main",
-      "title": "FOR TIME · 21-15-9 · CAP 16:00",
-      "meta": "ONE PASS · 3 ROUNDS descending · stations 1-4 on the low pulley, 5-6 on the high · rest only when a set breaks",
-      "format": "for-time descending chipper",
-      "workRest": "no rest built in · cap 16:00",
+      "title": "AMRAP 20:00 · 8 STATIONS × 10 REPS",
+      "meta": "AMRAP 20:00 · target 4 ROUNDS (GREEN 5) · stations 1-4 low pulley, 5-7 high pulley, 8 low · rest only when a set breaks",
+      "format": "AMRAP on a clock, full body",
+      "workRest": "20:00 continuous · count rounds and extra stations",
       "items": [
         {
-          "name": "1 · Cable front squat, handle at the chest, start 25 kg",
-          "detail": "21 / 15 / 9 · low pulley, face the stack, sit back against the cable, chest up"
+          "name": "1 · Cable front squat, handle at the chest, start 30 kg",
+          "detail": "x10 · low pulley, face the stack, sit back into the cable, chest up, stand hard"
         },
         {
-          "name": "2 · Cable Romanian deadlift, rope, start 30 kg",
-          "detail": "21 / 15 / 9 · low pulley, back to the stack, hinge long, rope between the legs"
+          "name": "2 · Cable Romanian deadlift, rope, start 35 kg",
+          "detail": "x10 · low pulley, back to the stack, hinge long, snap the hips"
         },
         {
-          "name": "3 · Cable reverse lunge, handle at the chest, start 10 kg",
-          "detail": "21 / 15 / 9 total · low pulley, face the stack, the cable pulls you forward, stay tall"
+          "name": "3 · Cable reverse lunge, handle at the chest, start 12 kg",
+          "detail": "x10/side · low pulley, the cable pulls you forward, stay tall"
         },
         {
-          "name": "4 · Cable biceps curl, straight bar or rope, start 15 kg",
-          "detail": "21 / 15 / 9 · low pulley, elbows pinned"
+          "name": "4 · Cable biceps curl, bar or rope, start 20 kg",
+          "detail": "x10 · low pulley, elbows pinned, 2-count down"
         },
         {
-          "name": "5 · Standing cable chest fly, start 10 kg per side",
-          "detail": "21 / 15 / 9 · high pulley, split stance, arms long, squeeze the handles together at the sternum. WILDCARD: dual stack, one handle in each hand; single stack, one arm at a time"
+          "name": "5 · Lat pulldown, kneeling or seated, start 40 kg",
+          "detail": "x10 · high pulley, bar or both handles, elbows to the hips, chest tall"
         },
         {
-          "name": "6 · Rope triceps pushdown, start 20 kg",
-          "detail": "21 / 15 / 9 · high pulley, elbows pinned, split the rope at the bottom"
+          "name": "6 · Standing cable chest fly, start 12 kg per side",
+          "detail": "x10 · high pulley, split stance, squeeze the handles together at the sternum. WILDCARD: single stack, one arm at a time"
+        },
+        {
+          "name": "7 · Cable reverse fly, crossed handles, start 8 kg per side",
+          "detail": "x10 · high pulley, grab the opposite handles, arms long, pull wide to a T, 1 s squeeze"
+        },
+        {
+          "name": "8 · Single-arm cable lateral raise, start 8 kg",
+          "detail": "x10/side · low pulley, stand side-on, raise to shoulder height, 2-count down"
         }
       ],
-      "text": "GREEN: finished under 13:00, go one plate up on squat and RDL next time, and write the time. YELLOW: 15-12-9. If the pulley height change costs you, do stations 1-4 then 5-6 in every round and do not reorder."
+      "text": "Four rounds in 20:00 is the floor. GREEN: five. If a station leaves you with easy reps in round 2, go up a plate on it immediately and write the new number. Nothing is sore and nothing has been lifted in a week, so push the loads, not the rest."
     },
     {
       "id": "core",
@@ -80,20 +88,20 @@
       "meta": "2 ROUNDS · cable and floor · rest 30 s between rounds",
       "items": [
         {
-          "name": "Kneeling cable crunch, rope, 20 kg",
+          "name": "Kneeling cable crunch, rope, 25 kg",
           "detail": "x12, rope behind the head, round toward the knees, hips still"
         },
         {
-          "name": "Standing pallof press, 10 kg",
-          "detail": "x10/side, press out and hold 2 s, hips square"
+          "name": "Standing pallof press, 12 kg",
+          "detail": "x10/side, press out, 2 s hold, hips square"
         },
         {
           "name": "Hollow rock",
-          "detail": "x15, low back pressed down"
+          "detail": "x15, low back down"
         },
         {
           "name": "Superhero hold",
-          "detail": "30 s, arms and legs long, squeeze the glutes"
+          "detail": "30 s, arms and legs long"
         }
       ]
     },
@@ -101,13 +109,13 @@
       "id": "cooldown",
       "kind": "cooldown",
       "title": "COOLDOWN · 2 MIN",
-      "meta": "walk 1:00, then couch stretch 30 s/side on the bench",
-      "text": "Record: chipper time, kg settled per station, RPE. Still owed: Tuesday's cable loads if you did it."
+      "meta": "walk 1:00, couch stretch 30 s/side",
+      "text": "Record: rounds plus extra stations in 20:00, kg settled per station, RPE."
     }
   ],
   "timer": {
-    "emomUnit": "chipper time (21-15-9)",
-    "emomGreen": "13:00",
-    "emomYellow": "16:00"
+    "emomUnit": "rounds in 20:00",
+    "emomGreen": "5",
+    "emomYellow": "4"
   }
 }

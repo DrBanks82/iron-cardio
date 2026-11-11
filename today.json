@@ -1,166 +1,113 @@
 {
-  "date": "2026-11-10",
-  "weekday": "Tuesday",
-  "title": "THE TOWER · CABLE EMOM · MUNICH",
-  "vibe": "GREEN · ~50 MIN · RE-ENTRY DAY, LEGS LIGHT, LONG STRETCH",
-  "why": "Seven days since the last real session and a flight to Munich, so this is a re-entry card: one cable machine, one treadmill, moderate volume, full intensity if you want it. Legs are tired, so the pull of the day is upper body and midline on the cable (five stations on the minute, four rounds), a short interval block, and a long stretch on both ends. Shape is the EMOM, not used since 10-26; the cable movements come from the Tonal bank and today's anti-rotation research.",
-  "estMin": 50,
+  "date": "2026-11-11",
+  "weekday": "Wednesday",
+  "title": "THE PULLEY · 21-15-9 · CABLE CHIPPER",
+  "vibe": "GREEN · 30 MIN · ONE CLOCK, ONE CABLE STACK",
+  "why": "Cable machine only and 30 minutes. Yesterday's card was pulls and anti-rotation on the minute, so today flips to legs and push on one descending list for time: six cable stations, 21-15-9, low pulley first then high pulley so you change the height twice a round, not six times. Shape is the for-time chipper, not used since 10-20; cable squat, pullthrough and chest work came from today's cable-only research (garagegymreviews cable workouts). Loads in kg, round 1 finds the weight where the last rep is hard.",
+  "estMin": 30,
   "blocks": [
     {
       "id": "warmup",
       "kind": "warmup",
-      "title": "THE STRETCH · 10 MIN · ONE PASS",
-      "meta": "ONE PASS · Moves Method Day A (shoulders, spine, hamstrings, hips) · slow, breathe out into each position",
+      "title": "WARM-UP · 5 MIN · ANKLES, KNEES, HIPS",
+      "meta": "ONE PASS · Moves Method Day B, then one empty round",
       "items": [
         {
-          "name": "Passive hang on the cable frame bar",
-          "detail": "45 s total, any grip; no bar, hold the two handles at the lowest pulley and sit back into a squat reach"
+          "name": "Toe squats",
+          "detail": "x15, sit back on the heels"
         },
         {
-          "name": "Shoulder dislocates with the rope or a towel",
-          "detail": "x10, wide grip, slow"
+          "name": "Ankle rolls in the squat",
+          "detail": "x10 each way, heels down"
         },
         {
-          "name": "Cat-cow",
-          "detail": "x10, 3 s each way"
+          "name": "Knee drives",
+          "detail": "x10/side, slow"
         },
         {
-          "name": "Thoracic rotations (quadruped)",
-          "detail": "x8/side"
+          "name": "Single-leg squat to the bench",
+          "detail": "x6/leg, control down, stand without a push-off"
         },
         {
-          "name": "Single-leg good morning",
-          "detail": "x8/leg, bodyweight, 5 s pause on the last"
+          "name": "Shoulder protocol with the empty handle",
+          "detail": "x15 front raise, x15 lateral raise, no load"
         },
         {
-          "name": "Hamstring walkouts",
-          "detail": "x8"
-        },
-        {
-          "name": "Active pigeon",
-          "detail": "45 s/side"
-        },
-        {
-          "name": "90-90 hip switches",
-          "detail": "x8/side"
-        },
-        {
-          "name": "Couch stretch on the wall or bench",
-          "detail": "45 s/side, squeeze the back glute"
+          "name": "One empty round",
+          "detail": "5 reps of each station with the pin out, learn the pulley heights"
         }
       ]
     },
     {
       "id": "main",
       "kind": "main",
-      "title": "CABLE EMOM · 20:00 · 5 STATIONS × 4 ROUNDS",
-      "meta": "20 SETS · one station per minute · do the reps, rest the remainder · loads in kg, first round finds the weight where the last rep is hard",
-      "format": "EMOM 20:00",
-      "workRest": "on the minute · 5 stations cycle 4 times",
+      "title": "FOR TIME · 21-15-9 · CAP 16:00",
+      "meta": "ONE PASS · 3 ROUNDS descending · stations 1-4 on the low pulley, 5-6 on the high · rest only when a set breaks",
+      "format": "for-time descending chipper",
+      "workRest": "no rest built in · cap 16:00",
       "items": [
         {
-          "name": "Min 1 · Half-kneeling single-arm pulldown, start 25 kg",
-          "detail": "x8/side (both sides inside the minute), kneel on the leg opposite the pulling arm, pull the elbow to the hip"
+          "name": "1 · Cable front squat, handle at the chest, start 25 kg",
+          "detail": "21 / 15 / 9 · low pulley, face the stack, sit back against the cable, chest up"
         },
         {
-          "name": "Min 2 · Cable pullthrough, start 30 kg",
-          "detail": "x12, rope at the low pulley, hinge not squat, squeeze the glutes at the top. The only leg loading today"
+          "name": "2 · Cable Romanian deadlift, rope, start 30 kg",
+          "detail": "21 / 15 / 9 · low pulley, back to the stack, hinge long, rope between the legs"
         },
         {
-          "name": "Min 3 · Face pull to external rotation, start 15 kg",
-          "detail": "x15, rope at face height, pull to the ears then rotate the knuckles to the ceiling"
+          "name": "3 · Cable reverse lunge, handle at the chest, start 10 kg",
+          "detail": "21 / 15 / 9 total · low pulley, face the stack, the cable pulls you forward, stay tall"
         },
         {
-          "name": "Min 4 · Inline chop, high to low, start 15 kg",
-          "detail": "x8/side, half-kneeling, pulley high, arms long, turn through the trunk not the arms"
+          "name": "4 · Cable biceps curl, straight bar or rope, start 15 kg",
+          "detail": "21 / 15 / 9 · low pulley, elbows pinned"
         },
         {
-          "name": "Min 5 · Pallof walkout iso hold, start 10 kg",
-          "detail": "WILDCARD · x3/side: walk out until the cable pulls hard, hold 10 s arms long, walk in. From today's research"
+          "name": "5 · Standing cable chest fly, start 10 kg per side",
+          "detail": "21 / 15 / 9 · high pulley, split stance, arms long, squeeze the handles together at the sternum. WILDCARD: dual stack, one handle in each hand; single stack, one arm at a time"
+        },
+        {
+          "name": "6 · Rope triceps pushdown, start 20 kg",
+          "detail": "21 / 15 / 9 · high pulley, elbows pinned, split the rope at the bottom"
         }
       ],
-      "text": "Four rounds. GREEN: if every station leaves 20 s or more by round 2, raise the load one plate on the pulldown and pullthrough for rounds 3 and 4. This is a re-entry card: moderate on purpose, go heavy on the pulls if you feel it."
-    },
-    {
-      "id": "run",
-      "kind": "run",
-      "title": "INTERVALS · 4 × 1:00",
-      "meta": "4 ROUNDS · 1:00 @ 12.5 km/h, 1% / 1:00 walk @ 5 km/h · 8:00 total",
-      "format": "short interval",
-      "workRest": "1:00 on / 1:00 off",
-      "items": [
-        {
-          "name": "Run, 12.5 km/h, 1% incline",
-          "detail": "1:00, quick cadence, tall. 12.5 km/h is about 7:45 per mile"
-        },
-        {
-          "name": "Walk, 5 km/h",
-          "detail": "1:00 on the belt"
-        }
-      ],
-      "text": "Legs are tired and you are jet-lagged, so eight minutes, not a 5k. If the first interval feels heavy, drop to 12.0 km/h and keep all four."
+      "text": "GREEN: finished under 13:00, go one plate up on squat and RDL next time, and write the time. YELLOW: 15-12-9. If the pulley height change costs you, do stations 1-4 then 5-6 in every round and do not reorder."
     },
     {
       "id": "core",
       "kind": "finisher",
       "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · cable plus mat · rest 45 s between rounds",
+      "meta": "2 ROUNDS · cable and floor · rest 30 s between rounds",
       "items": [
         {
-          "name": "Half-kneeling lift, low to high, 10 kg",
-          "detail": "x8/side, pulley low, arms long, finish tall over the outside shoulder"
+          "name": "Kneeling cable crunch, rope, 20 kg",
+          "detail": "x12, rope behind the head, round toward the knees, hips still"
         },
         {
-          "name": "Horizontal pallof hold, 10 kg",
-          "detail": "20 s/side, feet shoulder width, arms locked straight out, do not let the hips turn"
+          "name": "Standing pallof press, 10 kg",
+          "detail": "x10/side, press out and hold 2 s, hips square"
         },
         {
-          "name": "Bird dog, 3 s holds",
-          "detail": "x6/side on the mat, reach long, no arch"
+          "name": "Hollow rock",
+          "detail": "x15, low back pressed down"
         },
         {
-          "name": "Glute bridge march, 3 s holds",
-          "detail": "x6/side, hips high and level, the leg fatigue says keep it slow"
-        },
-        {
-          "name": "Straight-arm pulldown, 20 kg",
-          "detail": "x12, standing, rope, ribs down, pull with the lats to the thighs"
-        },
-        {
-          "name": "Copenhagen hold, foot on the bench",
-          "detail": "20 s/side, top foot on the bench, hips tall, bottom knee lifts to meet it"
+          "name": "Superhero hold",
+          "detail": "30 s, arms and legs long, squeeze the glutes"
         }
       ]
     },
     {
       "id": "cooldown",
       "kind": "cooldown",
-      "title": "THE LONG STRETCH · 6 MIN",
-      "meta": "walk 4 km/h for 2 min, then the floor, 45 s each",
-      "items": [
-        {
-          "name": "Hamstring on the bench",
-          "detail": "45 s/side, flat back"
-        },
-        {
-          "name": "Figure-four on the back",
-          "detail": "45 s/side"
-        },
-        {
-          "name": "Child's pose with side reach",
-          "detail": "45 s/side"
-        },
-        {
-          "name": "Supine twist",
-          "detail": "45 s/side"
-        }
-      ],
-      "text": "Record: loads you settled on for each station (kg), seconds of rest left on the hardest minute, interval speed held, and RPE."
+      "title": "COOLDOWN · 2 MIN",
+      "meta": "walk 1:00, then couch stretch 30 s/side on the bench",
+      "text": "Record: chipper time, kg settled per station, RPE. Still owed: Tuesday's cable loads if you did it."
     }
   ],
   "timer": {
-    "emomUnit": "rest left on the hardest minute",
-    "emomGreen": "20 s",
-    "emomYellow": "10 s"
+    "emomUnit": "chipper time (21-15-9)",
+    "emomGreen": "13:00",
+    "emomYellow": "16:00"
   }
 }

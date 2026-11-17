@@ -1,121 +1,145 @@
 {
-  "date": "2026-11-11",
-  "weekday": "Wednesday",
-  "title": "THE STACK · FULL BODY CABLE AMRAP · 20:00",
-  "vibe": "GREEN · ~32 MIN · INTENSE, ONE STACK, EVERY PATTERN",
-  "why": "The machine was taken yesterday, so nothing has been lifted since 11-03 and nothing is sore: full intensity is on the table. One cable stack, every pattern in one 20-minute AMRAP: squat, hinge, lunge, vertical pull, horizontal push, rear delts, side delts. Eight stations, ten reps each, as many rounds as the clock allows, loads heavy enough that round 4 is a fight. Pulley heights are grouped (low for 1-4, high for 5-7, back to low for 8) so you change twice a round. Loads in kg, the empty round sets them.",
-  "estMin": 32,
-  "blocks": [
+ "date": "2026-11-17",
+ "weekday": "Monday",
+ "title": "THE ANVIL · HEAVY DUMBBELL CLOCK · 45:00",
+ "vibe": "GREEN · 45 MIN · HEAVY, ON THE CLOCK, NO TREADMILL",
+ "why": "Eight days of running and walking, one lift yesterday: today is heavy dumbbells on a clock and the legs get loaded, not pounded. Two every-90-second strength blocks, a 5-minute burner, then midline.",
+ "estMin": 45,
+ "blocks": [
+  {
+   "id": "warmup",
+   "kind": "warmup",
+   "title": "WARM-UP · 6 MIN · ANKLES, KNEES, SHOULDERS",
+   "meta": "ONE PASS · Moves Method Day B plus shoulders",
+   "items": [
     {
-      "id": "warmup",
-      "kind": "warmup",
-      "title": "WARM-UP · 5 MIN · FULL BODY",
-      "meta": "ONE PASS · Moves Method Day B legs plus shoulders, then one empty round",
-      "items": [
-        {
-          "name": "Toe squats",
-          "detail": "x15"
-        },
-        {
-          "name": "Ankle rolls in the squat",
-          "detail": "x10 each way, heels down"
-        },
-        {
-          "name": "Single-leg squat to the bench",
-          "detail": "x6/leg"
-        },
-        {
-          "name": "Shoulder dislocates with the rope",
-          "detail": "x10, wide"
-        },
-        {
-          "name": "Cat-cow",
-          "detail": "x8"
-        },
-        {
-          "name": "One empty round",
-          "detail": "5 reps of each station with the pin out, learn the heights, set the loads"
-        }
-      ]
+     "name": "Toe squats x15",
+     "detail": ""
     },
     {
-      "id": "main",
-      "kind": "main",
-      "title": "AMRAP 20:00 · 8 STATIONS × 10 REPS",
-      "meta": "AMRAP 20:00 · target 4 ROUNDS (GREEN 5) · stations 1-4 low pulley, 5-7 high pulley, 8 low · rest only when a set breaks",
-      "format": "AMRAP on a clock, full body",
-      "workRest": "20:00 continuous · count rounds and extra stations",
-      "items": [
-        {
-          "name": "1 · Cable front squat, handle at the chest, start 30 kg",
-          "detail": "x10 · low pulley, face the stack, sit back into the cable, chest up, stand hard"
-        },
-        {
-          "name": "2 · Cable Romanian deadlift, rope, start 35 kg",
-          "detail": "x10 · low pulley, back to the stack, hinge long, snap the hips"
-        },
-        {
-          "name": "3 · Cable reverse lunge, handle at the chest, start 12 kg",
-          "detail": "x10/side · low pulley, the cable pulls you forward, stay tall"
-        },
-        {
-          "name": "4 · Cable biceps curl, bar or rope, start 20 kg",
-          "detail": "x10 · low pulley, elbows pinned, 2-count down"
-        },
-        {
-          "name": "5 · Lat pulldown, kneeling or seated, start 40 kg",
-          "detail": "x10 · high pulley, bar or both handles, elbows to the hips, chest tall"
-        },
-        {
-          "name": "6 · Standing cable chest fly, start 12 kg per side",
-          "detail": "x10 · high pulley, split stance, squeeze the handles together at the sternum. WILDCARD: single stack, one arm at a time"
-        },
-        {
-          "name": "7 · Cable reverse fly, crossed handles, start 8 kg per side",
-          "detail": "x10 · high pulley, grab the opposite handles, arms long, pull wide to a T, 1 s squeeze"
-        },
-        {
-          "name": "8 · Single-arm cable lateral raise, start 8 kg",
-          "detail": "x10/side · low pulley, stand side-on, raise to shoulder height, 2-count down"
-        }
-      ],
-      "text": "Four rounds in 20:00 is the floor. GREEN: five. If a station leaves you with easy reps in round 2, go up a plate on it immediately and write the new number. Nothing is sore and nothing has been lifted in a week, so push the loads, not the rest."
+     "name": "Ankle rolls in the squat x10 each way",
+     "detail": "heels down"
     },
     {
-      "id": "core",
-      "kind": "finisher",
-      "title": "MIDLINE CLOSE · 2 ROUNDS",
-      "meta": "2 ROUNDS · cable and floor · rest 30 s between rounds",
-      "items": [
-        {
-          "name": "Kneeling cable crunch, rope, 25 kg",
-          "detail": "x12, rope behind the head, round toward the knees, hips still"
-        },
-        {
-          "name": "Standing pallof press, 12 kg",
-          "detail": "x10/side, press out, 2 s hold, hips square"
-        },
-        {
-          "name": "Hollow rock",
-          "detail": "x15, low back down"
-        },
-        {
-          "name": "Superhero hold",
-          "detail": "30 s, arms and legs long"
-        }
-      ]
+     "name": "Single-leg squat to the box x6/leg",
+     "detail": ""
     },
     {
-      "id": "cooldown",
-      "kind": "cooldown",
-      "title": "COOLDOWN · 2 MIN",
-      "meta": "walk 1:00, couch stretch 30 s/side",
-      "text": "Record: rounds plus extra stations in 20:00, kg settled per station, RPE."
+     "name": "Knee drives x10/leg",
+     "detail": ""
+    },
+    {
+     "name": "Shoulder dislocates with a towel x10",
+     "detail": "wide grip"
+    },
+    {
+     "name": "Cat-cow x8, then 2 x 5 squats holding a 40 at the chest",
+     "detail": ""
     }
-  ],
-  "timer": {
-    "emomUnit": "rounds in 20:00",
-    "emomGreen": "5",
-    "emomYellow": "4"
+   ],
+   "text": "Set up two pairs before the clock starts: 2x55 and 2x60 for squats, 2x45 and 2x50 for push press."
+  },
+  {
+   "id": "a",
+   "kind": "main",
+   "title": "BLOCK A · EVERY 90 S × 8 · SQUAT / PUSH PRESS",
+   "meta": "8 SETS (4 each) · 12:00 · odd sets squat, even sets push press · rest is what is left of the 90 s",
+   "format": "every 90 s, heavy-slow strength on a clock",
+   "workRest": "1 set per 90 s · 8 sets · 12:00",
+   "items": [
+    {
+     "name": "Double DB front squat 2x55 → 2x60 ×5",
+     "detail": "set 1 at 2x55, go to 2x60 if crisp; bells on the shoulders, 2-count down"
+    },
+    {
+     "name": "Double DB push press 2x45 → 2x50 ×6",
+     "detail": "bend the knees, drive, lock out; set 1 at 2x45"
+    }
+   ],
+   "text": "Target: finish at 2x60 squat and 2x50 push press with 5 and 6 reps still crisp. Write the loads you settled on."
+  },
+  {
+   "id": "b",
+   "kind": "main",
+   "title": "BLOCK B · EVERY 90 S × 8 · DEADLIFT + JUMP / STEP-UP",
+   "meta": "8 SETS (4 each) · 12:00 · odd sets deadlift then jumps in the same 90 s, even sets step-ups",
+   "format": "every 90 s, heavy hinge + power on a clock",
+   "workRest": "1 set per 90 s · 8 sets · 12:00",
+   "items": [
+    {
+     "name": "Sumo DB deadlift 70 ×10 + box jump ×5",
+     "detail": "one 70 between the feet, flat back, stand hard; then straight to the box, step down. WILDCARD"
+    },
+    {
+     "name": "Weighted box step-up 2x40 ×6/side",
+     "detail": "full foot on the box, drive through the heel, control the step down"
+    }
+   ],
+   "text": "Box jumps are five quiet landings, not a max height. If the 70 deadlift feels light by set 2, slow the lowering to a 3-count."
+  },
+  {
+   "id": "c",
+   "kind": "main",
+   "title": "BLOCK C · AMRAP 5:00 · THE BURNER",
+   "meta": "AMRAP 5:00 · target 4 ROUNDS (GREEN 5) · no rest",
+   "format": "AMRAP, short glycolytic burner",
+   "workRest": "5:00 continuous · count rounds",
+   "items": [
+    {
+     "name": "Cossack squat holding a 25 ×5/side",
+     "detail": "heel down, slide side to side"
+    },
+    {
+     "name": "Burpee over the dumbbell ×5",
+     "detail": "chest to floor, jump over the bell"
+    },
+    {
+     "name": "Box jump ×5",
+     "detail": ""
+    },
+    {
+     "name": "Mountain climber ×20",
+     "detail": "hands on the dumbbells"
+    }
+   ],
+   "text": "Count rounds. This is the only piece of the session you are allowed to be sloppy-breathing on."
+  },
+  {
+   "id": "core",
+   "kind": "finisher",
+   "title": "MIDLINE CLOSE · 2 ROUNDS · 7 MIN",
+   "meta": "2 ROUNDS · rest 30 s between rounds",
+   "items": [
+    {
+     "name": "Suitcase carry 70 · 40 m/side",
+     "detail": "one bell, tall, shoulders level"
+    },
+    {
+     "name": "Kettlebell windmill ×5/side",
+     "detail": "light bell, arm locked, eyes on the bell"
+    },
+    {
+     "name": "Weighted dead bug 20 ×10",
+     "detail": "dumbbell held over the chest, low back glued down"
+    },
+    {
+     "name": "Kettlebell around the world ×10 each way",
+     "detail": "hips still"
+    }
+   ],
+   "text": "Windmill: pick a bell you can hold overhead with a straight arm the whole set."
+  },
+  {
+   "id": "cooldown",
+   "kind": "cooldown",
+   "title": "COOLDOWN · 3 MIN",
+   "meta": "walk 1:00, couch stretch 45 s/side, hang or doorway pec stretch 30 s",
+   "text": "Record: loads settled in A and B, rounds in the 5:00 burner, RPE. Also what you did yesterday."
   }
+ ],
+ "timer": {
+  "emomUnit": "rounds in the 5:00 burner",
+  "emomGreen": "5",
+  "emomYellow": "4"
+ }
 }

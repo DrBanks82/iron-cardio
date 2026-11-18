@@ -1,145 +1,141 @@
 {
- "date": "2026-11-17",
- "weekday": "Monday",
- "title": "THE ANVIL · HEAVY DUMBBELL CLOCK · 45:00",
- "vibe": "GREEN · 45 MIN · HEAVY, ON THE CLOCK, NO TREADMILL",
- "why": "Eight days of running and walking, one lift yesterday: today is heavy dumbbells on a clock and the legs get loaded, not pounded. Two every-90-second strength blocks, a 5-minute burner, then midline.",
+ "date": "2026-11-18",
+ "weekday": "Wednesday",
+ "title": "THE PRESS DECK \u00b7 CHEST LADDER + SWING \u00b7 45:00",
+ "vibe": "GREEN \u00b7 45 MIN \u00b7 HARD UPPER, CHEST FIRST, NO TREADMILL",
+ "why": "Legs were loaded heavy on the clock yesterday, so today the lower body only hinges. Chest leads: a 2-4-6-8 floor press and hand-release push-up ladder, then swings paired with chest fly-to-press and rows, a 5-minute chest burner, and an anti-rotation close. Your own 2 mi stays yours; no treadmill on this card.",
  "estMin": 45,
  "blocks": [
   {
    "id": "warmup",
    "kind": "warmup",
-   "title": "WARM-UP · 6 MIN · ANKLES, KNEES, SHOULDERS",
-   "meta": "ONE PASS · Moves Method Day B plus shoulders",
+   "title": "WARM-UP \u00b7 5 MIN \u00b7 SHOULDERS, SPINE, WRISTS",
+   "meta": "ONE PASS \u00b7 Moves Method Day A (press day)",
    "items": [
     {
-     "name": "Toe squats x15",
-     "detail": ""
-    },
-    {
-     "name": "Ankle rolls in the squat x10 each way",
-     "detail": "heels down"
-    },
-    {
-     "name": "Single-leg squat to the box x6/leg",
-     "detail": ""
-    },
-    {
-     "name": "Knee drives x10/leg",
-     "detail": ""
-    },
-    {
      "name": "Shoulder dislocates with a towel x10",
-     "detail": "wide grip"
+     "detail": "wide grip, slow"
     },
     {
-     "name": "Cat-cow x8, then 2 x 5 squats holding a 40 at the chest",
-     "detail": ""
+     "name": "Thoracic rotations x8/side",
+     "detail": "on all fours, hand behind head"
+    },
+    {
+     "name": "Scapular push-ups x10",
+     "detail": "arms locked, only the shoulder blades move"
+    },
+    {
+     "name": "Jefferson curl x6",
+     "detail": "bodyweight, roll down one vertebra at a time"
+    },
+    {
+     "name": "Wrist rocks x10 each way",
+     "detail": "hands flat, rock forward and back"
+    },
+    {
+     "name": "Two-hand swing x10 with a light bell, then double DB floor press 2x35 x8",
+     "detail": "groove both patterns before the clock"
     }
    ],
-   "text": "Set up two pairs before the clock starts: 2x55 and 2x60 for squats, 2x45 and 2x50 for push press."
+   "text": "Set up before the clock: 2x55 and 2x60 for floor press, 2x30 or 2x35 for fly-to-press, 2x60 for rows, 2x45 for the burner and renegade rows, the heaviest kettlebell on the rack for swings."
   },
   {
    "id": "a",
    "kind": "main",
-   "title": "BLOCK A · EVERY 90 S × 8 · SQUAT / PUSH PRESS",
-   "meta": "8 SETS (4 each) · 12:00 · odd sets squat, even sets push press · rest is what is left of the 90 s",
-   "format": "every 90 s, heavy-slow strength on a clock",
-   "workRest": "1 set per 90 s · 8 sets · 12:00",
+   "title": "BLOCK A \u00b7 LADDER 2-4-6-8 \u00b7 12:00 \u00b7 FLOOR PRESS / HAND-RELEASE PUSH-UP",
+   "meta": "12:00 clock \u00b7 climb 2, 4, 6, 8 then reset to 2 \u00b7 rest only as needed \u00b7 count rungs",
+   "format": "ascending ladder, grind + bodyweight push (Neupert #92 2KBB 3 scheme)",
+   "workRest": "ladder 2-4-6-8, repeat \u00b7 12:00",
    "items": [
     {
-     "name": "Double DB front squat 2x55 → 2x60 ×5",
-     "detail": "set 1 at 2x55, go to 2x60 if crisp; bells on the shoulders, 2-count down"
+     "name": "A1 \u00b7 Double DB floor press 2x55 \u2192 2x60",
+     "detail": "elbows 45 degrees, triceps touch the floor each rep, press and squeeze; start at 2x55, go to 2x60 for ladder 2 if crisp"
     },
     {
-     "name": "Double DB push press 2x45 → 2x50 ×6",
-     "detail": "bend the knees, drive, lock out; set 1 at 2x45"
+     "name": "A2 \u00b7 Hand-release push-up",
+     "detail": "chest to the floor, lift both hands off, then press; same reps as A1"
     }
    ],
-   "text": "Target: finish at 2x60 squat and 2x50 push press with 5 and 6 reps still crisp. Write the loads you settled on."
+   "text": "One ladder = 20 press reps + 20 push-ups. Target 2 full ladders plus the 2 and 4 of a third (GREEN: 3 full ladders). Write the press load you finished on and the rungs completed."
   },
   {
    "id": "b",
    "kind": "main",
-   "title": "BLOCK B · EVERY 90 S × 8 · DEADLIFT + JUMP / STEP-UP",
-   "meta": "8 SETS (4 each) · 12:00 · odd sets deadlift then jumps in the same 90 s, even sets step-ups",
-   "format": "every 90 s, heavy hinge + power on a clock",
-   "workRest": "1 set per 90 s · 8 sets · 12:00",
+   "title": "BLOCK B \u00b7 5 ROUNDS \u00b7 SWING / FLY-TO-PRESS / GORILLA ROW",
+   "meta": "5 ROUNDS \u00b7 ~10:00 \u00b7 rest only when the bells are down \u00b7 Neupert #94 swing + push pairing",
+   "format": "grind + ballistic superset, three stations",
+   "workRest": "5 rounds for quality \u00b7 ~10:00",
    "items": [
     {
-     "name": "Sumo DB deadlift 70 ×10 + box jump ×5",
-     "detail": "one 70 between the feet, flat back, stand hard; then straight to the box, step down. WILDCARD"
+     "name": "B1 \u00b7 Two-hand kettlebell swing x12",
+     "detail": "heaviest bell on the rack (24 kg or more if there is one; if nothing past 20 kg, swing the 70 lb dumbbell held by the head). Hips snap, arms stay loose"
     },
     {
-     "name": "Weighted box step-up 2x40 ×6/side",
-     "detail": "full foot on the box, drive through the heel, control the step down"
+     "name": "B2 \u00b7 Double DB floor fly-to-press 2x30 \u2192 2x35 x8",
+     "detail": "WILDCARD: lower in a wide fly, soft elbows, then turn it into a press at the bottom and drive up"
+    },
+    {
+     "name": "B3 \u00b7 Gorilla row 2x60 x8/side",
+     "detail": "both bells on the floor between the feet, hinge, row one while the other stays on the floor"
     }
    ],
-   "text": "Box jumps are five quiet landings, not a max height. If the 70 deadlift feels light by set 2, slow the lowering to a 3-count."
+   "text": "Swings are the only leg work today: hard hips, no squatting them. If the fly-to-press shoulders feel pinchy, shorten the fly and keep the press."
   },
   {
    "id": "c",
    "kind": "main",
-   "title": "BLOCK C · AMRAP 5:00 · THE BURNER",
-   "meta": "AMRAP 5:00 · target 4 ROUNDS (GREEN 5) · no rest",
-   "format": "AMRAP, short glycolytic burner",
-   "workRest": "5:00 continuous · count rounds",
+   "title": "BLOCK C \u00b7 CHEST BURNER \u00b7 5:00",
+   "meta": "5 ROUNDS of 1:00 \u00b7 30 s work / 30 s work, no rest \u00b7 push-up pyramid logic",
+   "format": "alternating 30 s stations, glycolytic chest finisher",
+   "workRest": "30 s / 30 s \u00b7 5:00",
    "items": [
     {
-     "name": "Cossack squat holding a 25 ×5/side",
-     "detail": "heel down, slide side to side"
+     "name": "C1 \u00b7 Close-grip DB floor press 2x45 \u00b7 30 s",
+     "detail": "bells touching over the sternum, elbows tucked, triceps and inner chest"
     },
     {
-     "name": "Burpee over the dumbbell ×5",
-     "detail": "chest to floor, jump over the bell"
-    },
-    {
-     "name": "Box jump ×5",
-     "detail": ""
-    },
-    {
-     "name": "Mountain climber ×20",
-     "detail": "hands on the dumbbells"
+     "name": "C2 \u00b7 Plyo push-up (hands leave the floor) \u00b7 30 s",
+     "detail": "drop to knees-up regular push-ups when the pop is gone, keep moving the whole 30 s"
     }
    ],
-   "text": "Count rounds. This is the only piece of the session you are allowed to be sloppy-breathing on."
+   "text": "Count total press reps and total push-ups across the 5 minutes. This is the piece you are allowed to be ugly on."
   },
   {
    "id": "core",
    "kind": "finisher",
-   "title": "MIDLINE CLOSE · 2 ROUNDS · 7 MIN",
-   "meta": "2 ROUNDS · rest 30 s between rounds",
+   "title": "MIDLINE CLOSE \u00b7 2 ROUNDS \u00b7 7 MIN",
+   "meta": "2 ROUNDS \u00b7 rest 30 s between rounds \u00b7 anti-rotation first",
    "items": [
     {
-     "name": "Suitcase carry 70 · 40 m/side",
-     "detail": "one bell, tall, shoulders level"
+     "name": "Renegade row 2x45 x6/side",
+     "detail": "feet wide, hips dead still, pull the bell to the ribs"
     },
     {
-     "name": "Kettlebell windmill ×5/side",
-     "detail": "light bell, arm locked, eyes on the bell"
+     "name": "DB pullover 50 x10",
+     "detail": "on the floor, slight knee bend, bell over the chest to behind the head, ribs down"
     },
     {
-     "name": "Weighted dead bug 20 ×10",
-     "detail": "dumbbell held over the chest, low back glued down"
+     "name": "Side plank with top-arm reach-under x8/side",
+     "detail": "rotate under, open back up, hips high"
     },
     {
-     "name": "Kettlebell around the world ×10 each way",
-     "detail": "hips still"
+     "name": "Hollow hold 30 s",
+     "detail": "low back glued down, arms by the ears if you can"
     }
    ],
-   "text": "Windmill: pick a bell you can hold overhead with a straight arm the whole set."
+   "text": "Pullover: stop where the ribs start to flare. Record which renegade row side was weaker."
   },
   {
    "id": "cooldown",
    "kind": "cooldown",
-   "title": "COOLDOWN · 3 MIN",
-   "meta": "walk 1:00, couch stretch 45 s/side, hang or doorway pec stretch 30 s",
-   "text": "Record: loads settled in A and B, rounds in the 5:00 burner, RPE. Also what you did yesterday."
+   "title": "COOLDOWN \u00b7 3 MIN",
+   "meta": "walk 1:00, doorway pec stretch 45 s/side, child's pose with reach 45 s",
+   "text": "Record: press load you finished on, rungs in the 12:00 ladder, swing bell used, burner totals, RPE. Also still owed: yesterday's ANVIL loads, burner rounds and RPE."
   }
  ],
  "timer": {
-  "emomUnit": "rounds in the 5:00 burner",
-  "emomGreen": "5",
-  "emomYellow": "4"
+  "emomUnit": "full ladders in the 12:00 press block",
+  "emomGreen": "3",
+  "emomYellow": "2"
  }
 }
